@@ -1,0 +1,16 @@
+build:
+    dependencies: {}
+    fileMapFile: meta/file_map.yaml
+    headersFile: meta/2010-sf1-columns.csv
+    packingFile: meta/packing.yaml
+    partitionsFile: meta/partitions.sql
+    rangeMapFile: build/range_map.yaml
+    releaseid: 3601
+    rootUrl: http://www2.census.gov/census_2010/04-Summary_File_1/
+    segMapFile: build/seg_map.yaml
+    statesFile: meta/states.yaml
+    urlsFile: meta/urls.yaml
+dependencies:
+    geo2010: census.gov-2010_population-geo-orig-geofile-all
+    states: census.gov-2010_population-geo-orig-geofile-40
+extract: {}

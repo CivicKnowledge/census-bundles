@@ -1,0 +1,61 @@
+about:
+    groups: []
+    license: null
+    rights: null
+    subject: null
+    summary: null
+    tags: []
+    title: null
+contact_bundle:
+    creator:
+        email: null
+        name: null
+        url: null
+    maintainer:
+        email: null
+        name: null
+        url: null
+contact_source:
+    creator:
+        email: null
+        name: null
+        url: null
+    maintainer:
+        email: null
+        name: null
+        url: null
+identity:
+    bspace: null
+    btime: null
+    dataset: 2010_population
+    id: d00d
+    revision: 6
+    source: census.gov
+    subset: geo
+    type: null
+    variation: orig
+    version: 0.1.6
+names:
+    fqname: census.gov-2010_population-geo-orig-0.1.6~d00d006
+    name: census.gov-2010_population-geo-orig
+    vid: d00d006
+    vname: census.gov-2010_population-geo-orig-0.1.6
+versions:
+    1:
+        description: null
+        version: null
+    2:
+        description: null
+        version: null
+    3:
+        description: null
+        version: null
+    4:
+        description: null
+        version: null
+    5:
+        description: null
+        version: null
+    6:
+        description: null
+        version: 0.1.6

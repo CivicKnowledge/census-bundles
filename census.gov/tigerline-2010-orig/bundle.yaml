@@ -1,0 +1,55 @@
+about:
+    groups: []
+    license: null
+    rights: null
+    subject: null
+    summary: null
+    tags: []
+    title: null
+contact_bundle:
+    creator:
+        email: null
+        name: null
+        url: null
+    maintainer:
+        email: null
+        name: null
+        url: null
+contact_source:
+    creator:
+        email: null
+        name: null
+        url: http://www.census.gov/cgi-bin/geo/shapefiles2010/layers.cgi
+    maintainer:
+        email: null
+        name: null
+        url: null
+identity:
+    bspace: null
+    btime: null
+    dataset: tigerline
+    id: d00j
+    revision: 4
+    source: census.gov
+    subset: '2010'
+    type: null
+    variation: orig
+    version: 0.1.4
+names:
+    fqname: census.gov-tigerline-2010-orig-0.1.4~d00j004
+    name: census.gov-tigerline-2010-orig
+    vid: d00j004
+    vname: census.gov-tigerline-2010-orig-0.1.4
+versions:
+    1:
+        description: null
+        version: null
+    2:
+        description: null
+        version: null
+    3:
+        description: null
+        version: null
+    4:
+        description: null
+        version: 0.1.4

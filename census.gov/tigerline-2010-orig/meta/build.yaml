@@ -1,0 +1,16 @@
+build:
+    dependencies: {}
+    schema_file: meta/schema.csv
+    types:
+        BG: blockgroups
+        COUNTY: counties
+        PLACE: places
+        TABBLOCK: blocks
+        TRACT: tracts
+        ZCTA5: zactas
+    url_template: http://www2.census.gov/geo/tiger/TIGER2010/{type}/{year4}/tl_{year4}_{state:02}_{typelc}{year2}.zip
+dependencies:
+    geofile: census.gov-2010_population-geo-orig-geofile-101
+    states: census.gov-2010_population-geo-orig-geofile-40
+extract: {}
+partitions: []

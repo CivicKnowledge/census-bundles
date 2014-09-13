@@ -1,0 +1,30 @@
+build:
+    dependencies: {}
+    sumlevels:
+        blockgroups: 150
+        blocks: 101
+        cosubs: 60
+        counties: 50
+        places: 160
+        states: 40
+        tracts: 140
+    tables:
+    - p1
+    - p2
+    - p3
+    - p13
+    - p17
+    - p18
+    - p35
+    - h1
+    - h2
+    - h3
+    - h4
+    - h6
+    - h13
+dependencies:
+    geodim: census.gov-geography-dim-orig
+    geofile: census.gov-2010_population-geo-orig-geofile-all
+    sf1: census.gov-2010_population-sf1-orig
+extract: {}
+partitions: []

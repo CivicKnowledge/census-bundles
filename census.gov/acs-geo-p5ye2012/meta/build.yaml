@@ -1,0 +1,14 @@
+build:
+    config: {}
+dependencies: {}
+extract: {}
+sources:
+    large:
+        description: Large geographies, excluding tracts and block groups.
+        url: '{state}/All_Geographies_Not_Tracts_Block_Groups/g{end_year}{span}{lc_utstab}.txt'
+    root:
+        description: Root URL for ACS files
+        url: http://www2.census.gov/acs{end_year}_{span}yr/summaryfile/{start_year}-{end_year}_ACSSF_By_State_By_Sequence_Table_Subset/
+    small:
+        description: Small geographies
+        url: '{state}/Tracts_Block_Groups_Only/g{end_year}{span}{lc_utstab}.txt'

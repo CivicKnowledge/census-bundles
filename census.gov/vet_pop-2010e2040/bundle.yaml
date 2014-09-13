@@ -1,0 +1,56 @@
+about:
+    groups: []
+    license: null
+    rights: null
+    subject: null
+    summary: null
+    tags: []
+    title: null
+contact_bundle:
+    creator:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
+    maintainer:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
+contact_source:
+    creator:
+        email: null
+        name: null
+        url: null
+    maintainer:
+        email: null
+        name: null
+        url: null
+external_documentation:
+    example:
+        description: description
+        source: source
+        title: title
+        url: http://example.com
+identity:
+    bspace: null
+    btime: 2010e2040
+    dataset: vet_pop
+    id: d02N
+    revision: 2
+    source: census.gov
+    subset: null
+    type: null
+    variation: null
+    version: 0.0.2
+names:
+    fqname: census.gov-vet_pop-2010e2040-0.0.2~d02N002
+    name: census.gov-vet_pop-2010e2040
+    vid: d02N002
+    vname: census.gov-vet_pop-2010e2040-0.0.2
+process: {}
+versions:
+    1:
+        description: null
+        version: 0.0.1
+    2:
+        description: null
+        version: 0.0.2

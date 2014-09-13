@@ -1,0 +1,13 @@
+build:
+    combined_types:
+        counties: http://www2.census.gov/geo/tiger/TIGER2012/COUNTY/tl_2012_us_county.zip
+    dependencies: {}
+    schema_file: meta/schema.csv
+    split_types:
+        BG: blockgroups
+        PLACE: places
+        TRACT: tracts
+    url_template: http://www2.census.gov/geo/tiger/TIGER2012/{type}/tl_{year4}_{state:02}_{typelc}.zip
+dependencies:
+    states: census.gov-2010_population-geo-orig-geofile-40
+extract: {}

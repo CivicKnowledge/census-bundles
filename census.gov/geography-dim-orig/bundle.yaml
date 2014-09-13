@@ -1,0 +1,65 @@
+about:
+    groups: []
+    license: null
+    rights: null
+    subject: null
+    summary: null
+    tags: []
+    title: null
+contact_bundle:
+    creator:
+        email: null
+        name: null
+        url: null
+    maintainer:
+        email: null
+        name: null
+        url: null
+contact_source:
+    creator:
+        email: null
+        name: null
+        url: null
+    maintainer:
+        email: null
+        name: null
+        url: null
+external_documentation:
+    geoids:
+        description: A Guide for creating GEOIDs. While the document is for the  redistricting
+            files, and the summary levels are different, it is illustrative.
+        title: GEOID specification
+        url: http://www.census.gov/rdo/pdf/0GEOID_Construction_for_Matching.pdf
+identity:
+    bspace: null
+    btime: null
+    dataset: geography
+    id: d00i
+    revision: 5
+    source: census.gov
+    subset: dim
+    type: null
+    variation: orig
+    version: 0.1.5
+names:
+    fqname: census.gov-geography-dim-orig-0.1.5~d00i005
+    name: census.gov-geography-dim-orig
+    vid: d00i005
+    vname: census.gov-geography-dim-orig-0.1.5
+
+versions:
+    1:
+        description: null
+        version: null
+    2:
+        description: null
+        version: null
+    3:
+        description: null
+        version: null
+    4:
+        description: null
+        version: null
+    5:
+        description: null
+        version: 0.1.5

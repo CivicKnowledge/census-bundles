@@ -1,0 +1,18 @@
+build:
+    dependencies: {}
+    geoschemaFile: meta/geoschema.csv
+    nationalFiles:
+        1: http://www2.census.gov/census_2000/datasets/Summary_File_1/0Final_National/usgeo_uf1.zip
+        2: http://www2.census.gov/census_2000/datasets/Summary_File_2/0Final_National/usgeo_uf2.zip
+        3: http://www2.census.gov/census_2000/datasets/Summary_File_3/0_National/usgeo_uf3.zip
+        4: http://www2.census.gov/census_2000/datasets/Summary_File_4/0_National/usgeo_uf4.zip
+    skipinstall:
+    - census.gov-2000_population-geo-orig-a7d9-geofile.all
+    - census.gov-2000_population-geo-orig-a7d9-geofile.101
+    statesFile: meta/states.yaml
+    urlTemplate: http://www2.census.gov/census_2000/datasets/Summary_File_{index}/{state}/{stateabr}geo_uf{index}.zip
+    urlsFile: meta/urls.yaml
+dependencies: {}
+extract: {}
+meta:
+    documentation: http://www.census.gov/prod/cen2000/doc/sf1.pdf

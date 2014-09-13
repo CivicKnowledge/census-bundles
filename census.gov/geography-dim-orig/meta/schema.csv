@@ -1,0 +1,182 @@
+table,seq,column,is_pk,is_fk,type,i1,i2,i3,ui1,ui2,size,description,d_in2000,d_in2010,d_join,d_geoidl,d_geoid,id
+regions,1,region_id,1,,INTEGER,,,,,,,,1,1,,,,d2sjWN01001
+regions,2,geoid,,,VARCHAR,,,,1,,,,1,1,,,,d2sjWN01002
+regions,3,region,,,INTEGER,,,,,1,,Region,1,1,1,,,d2sjWN01003
+regions,4,lsadc,,,VARCHAR,,,,,,,Legal/Statistical Area Description Code,1,1,,,,d2sjWN01004
+regions,5,intptlat,,,REAL,,1,,,,,,,1,,,,d2sjWN01005
+regions,6,intptlon,,,REAL,,1,,,,,,,1,,,,d2sjWN01006
+regions,7,hu100,,,INTEGER,,,,,,,Number of housing units,1,1,,,,d2sjWN01007
+regions,8,pop100,,,INTEGER,,,,,,,Population,1,1,,,,d2sjWN01008
+regions,9,arealand,,,REAL,,,,,,,Land area in m^2,1,1,,,,d2sjWN01009
+regions,10,areawatr,,,REAL,,,,,,,Water area in m^2,1,1,,,,d2sjWN0100a
+regions,11,name,,,VARCHAR,,,,,,,,1,1,,,,d2sjWN0100b
+,,,,,,,,,,,,,,,,,,
+divisions,1,divisions_id,1,,INTEGER,,,,,,,,1,1,,,,d2sjWN02001
+divisions,2,geoid,,,VARCHAR,,,,1,,,,1,1,,,,d2sjWN02002
+divisions,3,region,,,INTEGER,,,,,1,,Region,1,1,1,,,d2sjWN02003
+divisions,4,division,,,INTEGER,,,,,1,,Division,1,1,1,,,d2sjWN02004
+divisions,5,lsadc,,,VARCHAR,,,,,,,Legal/Statistical Area Description Code,1,1,,,,d2sjWN02005
+divisions,6,intptlat,,,REAL,,1,,,,,,,1,,,,d2sjWN02006
+divisions,7,intptlon,,,REAL,,1,,,,,,,1,,,,d2sjWN02007
+divisions,8,hu100,,,INTEGER,,,,,,,Number of housing units,1,1,,,,d2sjWN02008
+divisions,9,pop100,,,INTEGER,,,,,,,Population,1,1,,,,d2sjWN02009
+divisions,10,arealand,,,REAL,,,,,,,Land area in m^2,1,1,,,,d2sjWN0200a
+divisions,11,areawatr,,,REAL,,,,,,,Water area in m^2,1,1,,,,d2sjWN0200b
+divisions,12,name,,,VARCHAR,,,,,,,,1,1,,,,d2sjWN0200c
+,,,,,,,,,,,,,,,,,,
+states,1,states_id,1,,INTEGER,,,,,,,,1,1,,,,d2sjWN03001
+states,2,geoid,,,VARCHAR,,,,1,,2,,1,1,,,,d2sjWN03002
+states,3,region,,,INTEGER,,,,,,1,Region,1,1,,,,d2sjWN03003
+states,4,division,,,INTEGER,,,,,,1,Division,1,1,,,,d2sjWN03004
+states,5,state,,,INTEGER,,,,,1,2,State(FIPS),1,1,1,2,1,d2sjWN03005
+states,6,stusab,,,VARCHAR,,,,,1,2,State Abbreviation,1,1,,,,d2sjWN03006
+states,7,statece,,,INTEGER,,,,,1,2,State (Census),1,,,,,d2sjWN03007
+states,8,statens,,,INTEGER,,,,,1,7,State (ANSI),,1,,,,d2sjWN03008
+states,9,lsadc,,,VARCHAR,,,,,,2,Legal/Statistical Area Description Code,1,1,,,,d2sjWN03009
+states,10,intptlat,,,REAL,,1,,,,,,,1,,,,d2sjWN0300a
+states,11,intptlon,,,REAL,,1,,,,,,,1,,,,d2sjWN0300b
+states,12,hu100,,,INTEGER,,,,,,8,Number of housing units,1,1,,,,d2sjWN0300c
+states,13,pop100,,,INTEGER,,,,,,8,Population,1,1,,,,d2sjWN0300d
+states,14,arealand,,,REAL,,,,,,,Land area in m^2,1,1,,,,d2sjWN0300e
+states,15,areawatr,,,REAL,,,,,,,Water area in m^2,1,1,,,,d2sjWN0300f
+states,16,name,,,VARCHAR,,,,,,20,,1,1,,,,d2sjWN0300g
+,,,,,,,,,,,,,,,,,,
+counties,1,counties_id,1,,INTEGER,,,,,,,,1,1,,,,d2sjWN04001
+counties,2,geoid,,,VARCHAR,,,,1,,5,,1,1,,,,d2sjWN04002
+counties,3,region,,,INTEGER,,,,,,1,Region,1,1,,,,d2sjWN04003
+counties,4,division,,,INTEGER,,,,,,1,Division,1,1,,,,d2sjWN04004
+counties,5,state,,,INTEGER,,,,,1,2,State(FIPS),1,1,1,2,1,d2sjWN04005
+counties,6,statece,,,INTEGER,,,,,1,2,State  (Census),1,,,,,d2sjWN04006
+counties,7,statens,,,INTEGER,,,,,1,7,State (ANSI),,1,,,,d2sjWN04007
+counties,8,county,,,INTEGER,,,,,1,3,County,1,1,1,3,2,d2sjWN04008
+counties,9,countysc,,,INTEGER,,,,,,2,County Size Code,1,1,,,,d2sjWN04009
+counties,10,countyns,,,INTEGER,,,,,1,7,County (ANSI),,1,,,,d2sjWN0400a
+counties,11,countycc,,,VARCHAR,,,,,,2,,,1,,,,d2sjWN0400b
+counties,12,lsadc,,,VARCHAR,,,,,,2,Legal/Statistical Area Description Code,1,1,,,,d2sjWN0400c
+counties,13,intptlat,,,REAL,,1,,,,,,,1,,,,d2sjWN0400d
+counties,14,intptlon,,,REAL,,1,,,,,,,1,,,,d2sjWN0400e
+counties,15,hu100,,,INTEGER,,,,,,7,Number of housing units,1,1,,,,d2sjWN0400f
+counties,16,pop100,,,INTEGER,,,,,,7,Population,1,1,,,,d2sjWN0400g
+counties,17,arealand,,,REAL,,,,,,,Land area in m^2,1,1,,,,d2sjWN0400h
+counties,18,areawatr,,,REAL,,,,,,,Water area in m^2,1,1,,,,d2sjWN0400i
+counties,19,name,,,VARCHAR,,,,,,43,,1,1,,,,d2sjWN0400j
+,,,,,,,,,,,,,,,,,,
+cosubs,1,cosubs_id,1,,INTEGER,,,,,,,,1,1,,,,d2sjWN05001
+cosubs,2,geoid,,,VARCHAR,,,,1,,10,,1,1,,,,d2sjWN05002
+cosubs,3,region,,,INTEGER,,,,,,1,Region,1,1,,,,d2sjWN05003
+cosubs,4,division,,,INTEGER,,,,,,1,Division,1,1,,,,d2sjWN05004
+cosubs,5,state,,,INTEGER,,,,,1,2,State  (FIPS),1,1,1,2,1,d2sjWN05005
+cosubs,6,statece,,,INTEGER,,,,,1,2,State (Census),1,,,,,d2sjWN05006
+cosubs,7,statens,,,INTEGER,,,,,1,7,State (ANSI),,1,,,,d2sjWN05007
+cosubs,8,county,,,INTEGER,,,,,1,3,County,1,1,1,3,2,d2sjWN05008
+cosubs,9,countysc,,,INTEGER,,,,,,2,County Size Code,1,1,,,,d2sjWN05009
+cosubs,10,countyns,,,INTEGER,,,,,1,7,County(ANSI),,1,,,,d2sjWN0500a
+cosubs,11,countycc,,,VARCHAR,,,,,,2,,,1,,,,d2sjWN0500b
+cosubs,12,cousub,,,INTEGER,,,,,1,5,County Subdivision (FIPS),1,1,1,5,3,d2sjWN0500c
+cosubs,13,cousubcc,,,VARCHAR,,,,,,2,FIPS County Subdivision Class Code,1,1,,,,d2sjWN0500d
+cosubs,14,cousubsc,,,INTEGER,,,,,,2,County Subdivision Size Code,1,1,,,,d2sjWN0500e
+cosubs,15,lsadc,,,VARCHAR,,,,,,2,Legal/Statistical Area Description Code,1,1,,,,d2sjWN0500f
+cosubs,16,intptlat,,,REAL,,1,,,,,,,1,,,,d2sjWN0500g
+cosubs,17,intptlon,,,REAL,,1,,,,,,,1,,,,d2sjWN0500h
+cosubs,18,hu100,,,INTEGER,,,,,,7,Number of housing units,1,1,,,,d2sjWN0500i
+cosubs,19,pop100,,,INTEGER,,,,,,7,Population,1,1,,,,d2sjWN0500j
+cosubs,20,arealand,,,REAL,,,,,,,Land area in m^2,1,1,,,,d2sjWN0500k
+cosubs,21,areawatr,,,REAL,,,,,,,Water area in m^2,1,1,,,,d2sjWN0500l
+cosubs,22,name,,,VARCHAR,,,,,,42,,1,1,,,,d2sjWN0500m
+,,,,,,,,,,,,,,,,,,
+places,1,places_id,1,,INTEGER,,,,,,,,1,1,,,,d2sjWN06001
+places,2,geoid,,,VARCHAR,,,,1,,7,,1,1,,,,d2sjWN06002
+places,3,region,,,INTEGER,,,,,,1,Region,1,1,,,,d2sjWN06003
+places,4,division,,,INTEGER,,,,,,1,Division,1,1,,,,d2sjWN06004
+places,5,state,,,INTEGER,,,,,1,2,State (FIPS),1,1,1,2,1,d2sjWN06005
+places,6,statece,,,INTEGER,,,,,1,2,State (Census),1,,,,,d2sjWN06006
+places,7,statens,,,INTEGER,,,,,1,7,State (ANSI),,1,,,,d2sjWN06007
+places,8,place,,,INTEGER,,,,,1,5,Place (FIPS),1,1,1,5,2,d2sjWN06008
+places,9,placens,,,INTEGER,,,,,1,7,Place (ANSI),,1,,,,d2sjWN06009
+places,10,placecc,,,VARCHAR,,,,,,2,FIPS Place Class Code,1,1,,,,d2sjWN0600a
+places,11,placedc,,,VARCHAR,,,,,,1,Place Description Code,1,,,,,d2sjWN0600b
+places,12,placesc,,,INTEGER,,,,,,2,Place Size Code,1,1,,,,d2sjWN0600c
+places,13,lsadc,,,INTEGER,,,,,,2,Legal/Statistical Area Description Code,1,1,,,,d2sjWN0600d
+places,14,intptlat,,,REAL,,1,,,,,,,1,,,,d2sjWN0600e
+places,15,intptlon,,,REAL,,1,,,,,,,1,,,,d2sjWN0600f
+places,16,hu100,,,INTEGER,,,,,,7,Number of housing units,1,1,,,,d2sjWN0600g
+places,17,pop100,,,INTEGER,,,,,,7,Population,1,1,,,,d2sjWN0600h
+places,18,arealand,,,REAL,,,,,,,Land area in m^2,1,1,,,,d2sjWN0600i
+places,19,areawatr,,,REAL,,,,,,,Water area in m^2,1,1,,,,d2sjWN0600j
+places,20,name,,,VARCHAR,,,,,,39,,1,1,,,,d2sjWN0600k
+,,,,,,,,,,,,,,,,,,
+tracts,1,tracts_id,1,,INTEGER,,,,,,,,1,1,,,,d2sjWN07001
+tracts,2,geoid,,,VARCHAR,,,,1,,11,,1,1,,,,d2sjWN07002
+tracts,3,year,,,INTEGER,1,,,1,,4,,,,,,,d2sjWN07003
+tracts,4,region,,,INTEGER,,,,,,1,Region,1,1,,,,d2sjWN07004
+tracts,5,division,,,INTEGER,,,,,,1,Division,1,1,,,,d2sjWN07005
+tracts,6,state,,,INTEGER,,,,,1,2,State  (FIPS),1,1,1,2,1,d2sjWN07006
+tracts,7,statece,,,INTEGER,,,,,1,,State  (Census),1,,,,,d2sjWN07007
+tracts,8,statens,,,INTEGER,,,,,1,7,State (ANSI),,1,,,,d2sjWN07008
+tracts,9,county,,,INTEGER,,,,,1,3,County,1,1,1,3,2,d2sjWN07009
+tracts,10,countysc,,,INTEGER,,,,,,2,County Size Code,1,1,,,,d2sjWN0700a
+tracts,11,tract,,,INTEGER,,,,,1,6,Census Tract,1,1,,6,3,d2sjWN0700b
+tracts,12,placens,,,INTEGER,,,1,,,,Place (ANSI),,1,,,,d2sjWN0700c
+tracts,13,intptlat,,,REAL,,1,,,,,,,1,,,,d2sjWN0700d
+tracts,14,intptlon,,,REAL,,1,,,,,,,1,,,,d2sjWN0700e
+tracts,15,hu100,,,INTEGER,,,,,,5,Number of housing units,1,1,,,,d2sjWN0700f
+tracts,16,pop100,,,INTEGER,,,,,,5,Population,1,1,,,,d2sjWN0700g
+tracts,17,arealand,,,REAL,,,,,,,Land area in m^2,1,1,,,,d2sjWN0700h
+tracts,18,areawatr,,,REAL,,,,,,,Water area in m^2,1,1,,,,d2sjWN0700i
+tracts,19,lsadc,,,VARCHAR,,,,,,2,Legal/Statistical Area Description Code,1,1,,,,d2sjWN0700j
+,,,,,,,,,,,,,,,,,,
+blockgroups,1,blockgroups_id,1,,INTEGER,,,,,,,,1,1,,,,d2sjWN08001
+blockgroups,2,geoid,,,VARCHAR,,,,1,,12,,1,1,,,,d2sjWN08002
+blockgroups,3,year,,,INTEGER,1,,,1,,4,,,,,,,d2sjWN08003
+blockgroups,4,region,,,INTEGER,,,,,,1,Region,1,1,,,,d2sjWN08004
+blockgroups,5,division,,,INTEGER,,,,,,1,Division,1,1,,,,d2sjWN08005
+blockgroups,6,state,,,INTEGER,,,,,1,2,State (FIPS),1,1,,2,1,d2sjWN08006
+blockgroups,7,statece,,,INTEGER,,,,,1,,State (Census),1,,,,,d2sjWN08007
+blockgroups,8,statens,,,INTEGER,,,,,1,7,State (ANSI),,1,,,,d2sjWN08008
+blockgroups,9,county,,,INTEGER,,,,,1,3,County,1,1,,3,2,d2sjWN08009
+blockgroups,10,countysc,,,INTEGER,,,,,,2,County Size Code,1,1,,,,d2sjWN0800a
+blockgroups,11,tract,,,INTEGER,,,,,1,6,Census Tract,1,1,,6,3,d2sjWN0800b
+blockgroups,12,blkgrp,,,INTEGER,,,,,1,1,Block Group,1,1,,1,4,d2sjWN0800c
+blockgroups,13,placens,,,INTEGER,,,1,,,,Place (ANSI),,1,,,,d2sjWN0800d
+blockgroups,14,intptlat,,,REAL,,1,,,,,,,1,,,,d2sjWN0800e
+blockgroups,15,intptlon,,,REAL,,1,,,,,,,1,,,,d2sjWN0800f
+blockgroups,16,hu100,,,INTEGER,,,,,,5,Number of housing units,1,1,,,,d2sjWN0800g
+blockgroups,17,pop100,,,INTEGER,,,,,,5,Population,1,1,,,,d2sjWN0800h
+blockgroups,18,arealand,,,REAL,,,,,,,Land area in m^2,1,1,,,,d2sjWN0800i
+blockgroups,19,areawatr,,,REAL,,,,,,,Water area in m^2,1,1,,,,d2sjWN0800j
+blockgroups,20,lsadc,,,VARCHAR,,,,,,2,Legal/Statistical Area Description Code,1,1,,,,d2sjWN0800k
+,,,,,,,,,,,,,,,,,,
+blocks,1,blocks_id,1,,INTEGER,,,,,,,,1,1,,,,d2sjWN09001
+blocks,2,geoid,,,VARCHAR,,,,1,,15,,1,1,,,,d2sjWN09002
+blocks,3,year,,,INTEGER,1,,,1,,4,,,,,,,d2sjWN09003
+blocks,4,region,,,INTEGER,,,,,,1,Region,1,1,,,,d2sjWN09004
+blocks,5,division,,,INTEGER,,,,,,1,Division,1,1,,,,d2sjWN09005
+blocks,6,state,,,INTEGER,,,,,1,2,State,1,1,,2,1,d2sjWN09006
+blocks,7,statece,,,INTEGER,,,,,1,,State (FIPS),1,,,,,d2sjWN09007
+blocks,8,statens,,,INTEGER,,,,,1,7,State (ANSI),,1,,,,d2sjWN09008
+blocks,9,county,,,INTEGER,,,,,1,3,County,1,1,,3,2,d2sjWN09009
+blocks,10,countyns,,,INTEGER,,,,,,7,County(ANSI),,1,,,,d2sjWN0900a
+blocks,11,countysc,,,INTEGER,,,,,,2,County Size Code,1,1,,,,d2sjWN0900b
+blocks,12,tract,,,INTEGER,,,,,1,6,Census Tract,1,1,,6,3,d2sjWN0900c
+blocks,13,blkgrp,,,INTEGER,,,,,1,1,Block Group,1,1,,,,d2sjWN0900d
+blocks,14,block,,,INTEGER,,,,,1,4,Block,1,1,,4,4,d2sjWN0900e
+blocks,15,placens,,,INTEGER,,,1,,,8,Place (ANSI),,1,,,,d2sjWN0900f
+blocks,16,intptlat,,,REAL,,1,,,,,,,1,,,,d2sjWN0900g
+blocks,17,intptlon,,,REAL,,1,,,,,,,1,,,,d2sjWN0900h
+blocks,18,hu100,,,INTEGER,,,,,,4,Number of housing units,1,1,,,,d2sjWN0900i
+blocks,19,pop100,,,INTEGER,,,,,,5,Population,1,1,,,,d2sjWN0900j
+blocks,20,arealand,,,REAL,,,,,,,Land area in m^2,1,1,,,,d2sjWN0900k
+blocks,21,areawatr,,,REAL,,,,,,,Water area in m^2,1,1,,,,d2sjWN0900l
+blocks,22,lsadc,,,VARCHAR,,,,,,2,Legal/Statistical Area Description Code,1,1,,,,d2sjWN0900m
+,,,,,,,,,,,,,,,,,,
+polygons,1,geoid,1,,VARCHAR,,,,,,,,,,,,,d2sjWN0a001
+polygons,2,name,,,VARCHAR,,,,,,,Name of the region,,,,,,d2sjWN0a002
+polygons,3,type,,,VARCHAR,,,1,,,,Name of table that geometry is for,,,,,,d2sjWN0a003
+polygons,4,year,,,INTEGER,1,,,,,,Year the record is valid for,,,,,,d2sjWN0a004
+polygons,5,arealand,,,REAL,,,,,,,Land area in m^2,1,1,,,,d2sjWN0a005
+polygons,6,areawatr,,,REAL,,,,,,,Water area in m^2,1,1,,,,d2sjWN0a006
+polygons,7,intptlat,,,REAL,,1,,,,,,,1,,,,d2sjWN0a007
+polygons,8,intptlon,,,REAL,,1,,,,,,,1,,,,d2sjWN0a008
+polygons,9,hu100,,,INTEGER,,,,,,,Number of housing units,,,,,,d2sjWN0a009
+polygons,10,pop100,,,INTEGER,,,,,,,Population,,,,,,d2sjWN0a00a
+polygons,11,geometry,,,BLOB,,,,,,,Boundary shape in WKB format,,,,,,d2sjWN0a00b

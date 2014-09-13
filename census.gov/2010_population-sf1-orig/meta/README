@@ -1,0 +1,5 @@
+
+The data in this directory is extracted from the Access97 table defintion file 
+at:  http://www2.census.gov/census_2010/04-Summary_File_1/SF1_Access2003.mdb
+
+mdb-export SF1_Access2003.mdb DATA_FIELD_DESCRIPTORS > 2010-sf1-columns.csv

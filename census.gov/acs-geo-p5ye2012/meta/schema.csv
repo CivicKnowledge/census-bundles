@@ -1,0 +1,69 @@
+"table","seq","column","is_pk","is_fk","type","i1","i2","i3","i4","i5","i6","i7","i8","i9","i10","size","width","description","d_geo_levels","d_header","d_start","id"
+"geofile",1,"id",1,,"INTEGER",,,,,,,,,,,,,,,,,"c02G01001"
+"geofile",2,"fileid",,,"VARCHAR",,,,,,,,,,,5,6,"Always equal to ACS Summary 
+File identification",,"fileid",,"c02G01002"
+"geofile",3,"stusab",,,"VARCHAR",1,,,,,,,,,,2,2,"State Postal Abbreviation",,"stusab",,"c02G01003"
+"geofile",4,"sumlevel",,,"INTEGER",,,,,,,,,,1,3,3,"Summary Level",,"sumlevel",,"c02G01004"
+"geofile",5,"component",,,"INTEGER",,,,,,,,,,,2,2,"Geographic Component",,"component",,"c02G01005"
+"geofile",6,"logrecno",,,"INTEGER",1,,,,,,,,,,5,7,"Logical Record Number",,"logrecno",,"c02G01006"
+"geofile",7,"us",,,"INTEGER",,,,,,,,,,,,1,"US",,"us",,"c02G01007"
+"geofile",8,"region",,,"INTEGER",,,,,,,,,,,,1,"Census Region",,"region",,"c02G01008"
+"geofile",9,"division",,,"INTEGER",,,,,,,,,,,,1,"Census Division",,"division",,"c02G01009"
+"geofile",10,"statece",,,"INTEGER",,,,,,,,,,,,2,"State (Census Code)",,"statece",,"c02G0100a"
+"geofile",11,"state",,,"INTEGER",,1,1,1,1,1,1,,,,2,2,"State (FIPS Code)",,"state",,"c02G0100b"
+"geofile",12,"county",,,"INTEGER",,,1,,1,1,1,,,,3,3,"County of current residence",,"county",,"c02G0100c"
+"geofile",13,"cousub",,,"INTEGER",,,,,,,,,,,5,5,"County Subdivision (FIPS)",,"cousub",,"c02G0100d"
+"geofile",14,"place",,,"INTEGER",,,,1,1,,,,,,5,5,"Place (FIPS Code)",,"place",,"c02G0100e"
+"geofile",15,"tract",,,"INTEGER",,,,,,1,1,,,,6,6,"Census Tract",,"tract",,"c02G0100f"
+"geofile",16,"blkgrp",,,"INTEGER",,,,,,,1,,,,1,1,"Block Group",,"blkgrp",,"c02G0100g"
+"geofile",17,"concit",,,"INTEGER",,,,,,,,,,,5,5,"Consolidated City",,"concit",,"c02G0100h"
+"geofile",18,"aianhh",,,"VARCHAR",,,,,,,,,,,4,4,"American Indian Area/Alaska 
+Native Area/ Hawaiian Home Land 
+(Census)",,"aianhh",,"c02G0100i"
+"geofile",19,"aianhhfp",,,"INTEGER",,,,,,,,,,,,5,"American Indian Area/Alaska 
+Native Area/ Hawaiian Home Land 
+(FIPS)",,"aianhhfp",,"c02G0100j"
+"geofile",20,"aihhtli",,,"VARCHAR",,,,,,,,,,,1,1,"American Indian Trust Land/ 
+Hawaiian Home Land Indicator",,"aihhtli",,"c02G0100k"
+"geofile",21,"aitsce",,,"VARCHAR",,,,,,,,,,,3,3,"American Indian Tribal 
+Subdivision (Census)",,"aitsce",,"c02G0100l"
+"geofile",22,"aits",,,"INTEGER",,,,,,,,,,,,5,"American Indian Tribal 
+Subdivision (FIPS)",,"aits",,"c02G0100m"
+"geofile",23,"anrc",,,"INTEGER",,,,,,,,,,,5,5,"Alaska Native Regional 
+Corporation (FIPS)",,"anrc",,"c02G0100n"
+"geofile",24,"cbsa",,,"VARCHAR",,,,,,,,1,,,5,5,"Metropolitan and Micropolitan 
+Statistical Area",,"cbsa",,"c02G0100o"
+"geofile",25,"csa",,,"VARCHAR",,,,,,,,,,,3,3,"Combined Statistical Area",,"csa",,"c02G0100p"
+"geofile",26,"metdiv",,,"VARCHAR",,,,,,,,,,,5,5,"Metropolitan Statistical Area-
+Metropolitan Division",,"metdiv",,"c02G0100q"
+"geofile",27,"macc",,,"INTEGER",,,,,,,,,,,,1,"Metropolitan Area Central City",,"macc",,"c02G0100r"
+"geofile",28,"memi",,,"VARCHAR",,,,,,,,,,,1,1,"Metropolitan/Micropolitan 
+Indicator Flag",,"memi",,"c02G0100s"
+"geofile",29,"necta",,,"VARCHAR",,,,,,,,,,,5,5,"New England City and Town Area",,"necta",,"c02G0100t"
+"geofile",30,"cnecta",,,"VARCHAR",,,,,,,,,,,3,3,"New England City and Town 
+Combined Statistical Area",,"cnecta",,"c02G0100u"
+"geofile",31,"nectadiv",,,"VARCHAR",,,,,,,,,,,5,5,"New England City and Town Area 
+Division",,"nectadiv",,"c02G0100v"
+"geofile",32,"ua",,,"VARCHAR",,,,,,,,,,,5,5,"Urban Area",,"ua",,"c02G0100w"
+"geofile",33,"blank1",,,"INTEGER",,,,,,,,,,,,5,,,"blank",,"c02G0100x"
+"geofile",34,"cdcurr",,,"VARCHAR",,,,,,,,,,,2,2,"Current Congressional District ***",,"cdcurr",,"c02G0100y"
+"geofile",35,"sldu",,,"VARCHAR",,,,,,,,,,,3,3,"State Legislative District Upper",,"sldu",,"c02G0100z"
+"geofile",36,"sldl",,,"VARCHAR",,,,,,,,,,,3,3,"State Legislative District Lower",,"sldl",,"c02G0100A"
+"geofile",37,"blank2",,,"VARCHAR",,,,,,,,,,,,6,,,"blank",,"c02G0100B"
+"geofile",38,"blank3",,,"VARCHAR",,,,,,,,,,,,3,,,"blank",,"c02G0100C"
+"geofile",39,"zcta5",,,"INTEGER",,,,,,,,,,,3,5,"5-digit ZIP Code Tabulation Area",,"zcta5",,"c02G0100D"
+"geofile",40,"submcd",,,"INTEGER",,,,,,,,,,,5,5,"Subminor Civil Division (FIPS)",,"submcd",,"c02G0100E"
+"geofile",41,"sdelm",,,"INTEGER",,,,,,,,,,,5,5,"State-School District (Elementary)",,"sdelm",,"c02G0100F"
+"geofile",42,"sdsec",,,"VARCHAR",,,,,,,,,,,5,5,"State-School District (Secondary)",,"sdsec",,"c02G0100G"
+"geofile",43,"sduni",,,"VARCHAR",,,,,,,,,,,5,5,"State-School District (Unified)",,"sduni",,"c02G0100H"
+"geofile",44,"ur",,,"VARCHAR",,,,,,,,,,,1,1,"Urban/Rural",,"ur",,"c02G0100I"
+"geofile",45,"pci",,,"VARCHAR",,,,,,,,,,,1,1,"Principal City Indicator",,"pci",,"c02G0100J"
+"geofile",46,"blank4",,,"VARCHAR",,,,,,,,,,,,6,,,"blank",,"c02G0100K"
+"geofile",47,"blank5",,,"VARCHAR",,,,,,,,,,,,5,,,"blank",,"c02G0100L"
+"geofile",48,"puma5",,,"VARCHAR",,,,,,,,,,,5,5,"Public Use Microdata Area  5% 
+File",,"puma5",,"c02G0100M"
+"geofile",49,"blank6",,,"VARCHAR",,,,,,,,,,,,5,,,"filler",,"c02G0100N"
+"geofile",50,"geoid",,,"VARCHAR",,,,,,,,,1,,28,40,"Geographic Identifier",,"geoid",,"c02G0100O"
+"geofile",51,"name",,,"VARCHAR",,,,,,,,,,,184,1000,"Area Name",,"name",,"c02G0100P"
+"geofile",52,"bttr",,,"INTEGER",,,,,,,,,,,,6,"Tribal Tract",,"bttr",,"c02G0100Q"
+"geofile",53,"btbg",,,"INTEGER",,,,,,,,,,,,1,"Tribal Block Group",,"btbg",,"c02G0100R"

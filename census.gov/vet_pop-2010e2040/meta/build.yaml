@@ -1,0 +1,15 @@
+build:
+    requirements:
+        openpyxl: openpyxl
+        petl: petl
+        petlx: petlx
+dependencies: {}
+extract: {}
+sources:
+    vetpop:
+        description: Veteran population estimates, by county, 2010 to 2040. Converted
+            from CSV.
+        url: http://ds.civicknowledge.org.s3.amazonaws.com/voiceofsandiego.org/Veterans/9lVetPop11_County.csv
+    vetpop_orig:
+        description: Original URL for vetpop.
+        url: http://www.va.gov/vetdata/docs/Demographics/New_Vetpop_Model/9lVetPop11_County.xlsx

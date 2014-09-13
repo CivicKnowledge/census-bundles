@@ -1,0 +1,52 @@
+"table","column","is_pk","is_fk","i1","i2","i3","ui1","type","width","default","description","Reserved/Unused"
+"geofile","fileid",,,,,,,"TEXT",6,,"Always equal to ACS Summary File identification",
+"geofile","stusab",,,,,,,"TEXT",2,,"State Postal Abbreviation",
+"geofile","sumlevel",,,,,,,"INTEGER",3,,"Summary Level",
+"geofile","component",,,,,,,"TEXT",2,,"Geographic Component",
+"geofile","logrecno",,,,,,,"INTEGER",7,,"Logical Record Number",
+"geofile","us",,,,,,,"INTEGER",1,,"US",
+"geofile","region",,,,,,,"INTEGER",1,,"Census Region",
+"geofile","division",,,,,,,"INTEGER",1,,"Census Division",
+"geofile","statece",,,,,,,"INTEGER",2,,"State (Census Code)",
+"geofile","state",,,,,,,"INTEGER",2,,"State (FIPS Code)",
+"geofile","county",,,,,,,"INTEGER",3,,"County of current residence",
+"geofile","cousub",,,,,,,"INTEGER",5,,"County Subdivision (FIPS)",
+"geofile","place",,,,,,,"INTEGER",5,,"Place (FIPS Code)",
+"geofile","tract",,,,,,,"INTEGER",6,,"Census Tract","X"
+"geofile","blkgrp",,,,,,,"INTEGER",1,,"Block Group","X"
+"geofile","concit",,,,,,,"INTEGER",5,,"Consolidated City","X"
+"geofile","aianhh",,,,,,,"INTEGER",4,,"American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)",
+"geofile","aianhhfp",,,,,,,"INTEGER",5,,"American Indian Area/Alaska Native Area/ Hawaiian Home Land (FIPS)",
+"geofile","aihhtli",,,,,,,"TEXT",1,,"American Indian Trust Land/ Hawaiian Home Land Indicator","X"
+"geofile","aitsce",,,,,,,"INTEGER",3,,"American Indian Tribal Subdivision (Census)","X"
+"geofile","aits",,,,,,,"INTEGER",5,,"American Indian Tribal Subdivision (FIPS)","X"
+"geofile","anrc",,,,,,,"INTEGER",5,,"Alaska Native Regional Corporation (FIPS)",
+"geofile","cbsa",,,,,,,"INTEGER",5,,"Metropolitan and Micropolitan Statistical Area",
+"geofile","csa",,,,,,,"INTEGER",3,,"Combined Statistical Area",
+"geofile","metdiv",,,,,,,"INTEGER",5,,"Metropolitan Division",
+"geofile","macc",,,,,,,"INTEGER",1,,"Metropolitan Area Central City","X"
+"geofile","memi",,,,,,,"INTEGER",1,,"Metropolitan/Micropolitan Indicator Flag",
+"geofile","necta",,,,,,,"INTEGER",5,,"New England City and Town Area",
+"geofile","cnecta",,,,,,,"INTEGER",3,,"New England City and Town Combined Statistical Area",
+"geofile","nectadiv",,,,,,,"INTEGER",5,,"New England City and Town Area Division",
+"geofile","ua",,,,,,,"INTEGER",5,,"Urban Area",
+"geofile","uacp",,,,,,,"INTEGER",5,,"Urban Area Central Place","X"
+"geofile","cdcurr",,,,,,,"INTEGER",2,,"Current Congressional District ***",
+"geofile","sldu",,,,,,,"TEXT",3,,"State Legislative District Upper","X"
+"geofile","sldl",,,,,,,"TEXT",3,,"State Legislative District Lower","X"
+"geofile","vtd",,,,,,,"INTEGER",6,,"Voting District","X"
+"geofile","zcta3",,,,,,,"INTEGER",3,,"ZIP Code Tabulation Area (3-digit)","X"
+"geofile","zcta5",,,,,,,"INTEGER",5,,"ZIP Code Tabulation Area (5-digit)","X"
+"geofile","submcd",,,,,,,"INTEGER",2,,"Subbarrio (FIPS)","X"
+"geofile","sdelm",,,,,,,"INTEGER",5,," School District (Elementary)",
+"geofile","sdsec",,,,,,,"INTEGER",5,," School District (Secondary)",
+"geofile","sduni",,,,,,,"INTEGER",5,,"School District (Unified)",
+"geofile","ur",,,,,,,"TEXT",1,,"Urban/Rural",
+"geofile","pci",,,,,,,"TEXT",1,,"Principal City Indicator",
+"geofile","taz",,,,,,,"INTEGER",6,,"Traffic Analysis Zone","X"
+"geofile","uga",,,,,,,"INTEGER",5,,"Urban Growth Area","X"
+"geofile","puma5",,,,,,,"INTEGER",5,,"Public Use Microdata Area - 5% File",
+"geofile","puma1",,,,,,,"INTEGER",5,,"Public Use Microdata Area - 1% File","X"
+"geofile","geoid",,,,,,,"TEXT",40,,"Geographic Identifier",
+"geofile","name",,,,,,,"TEXT",200,,"Area Name","X"
+"geofile","reserved",,,,,,,"INTEGER",50,,"For Future needs",

@@ -1,0 +1,53 @@
+build:
+    dependencies: {}
+    geoschemaFile: meta/geoschema.csv
+    statesFile: meta/states.yaml
+    url_template: http://www2.census.gov/geo/tiger/TIGER2010/{type}/{year4}/tl_{year4}_{state:02}_{typelc}{year2}.zip
+dependencies:
+    geo2000: census.gov-2000_population-geo-orig
+    geo2010: census.gov-2010_population-geo-orig
+
+extract: {}
+partitions: []
+queries:
+    large_areas:
+    -   - 20
+        - regions
+        - Region
+        - ''
+    -   - 30
+        - divisions
+        - Division
+        - ''
+    -   - 40
+        - states
+        - ''
+        - (s1.stusab != 'US' AND s2.stusab != 'US' )
+    -   - 50
+        - counties
+        - County
+        - ''
+    -   - 60
+        - cosubs
+        - District
+        - ''
+    -   - 160
+        - places
+        - ''
+        - ''
+    small_areas:
+    -   - 140
+        - tracts
+    -   - 150
+        - blockgroups
+    -   - 101
+        - blocks
+    template: SELECT DISTINCT {fields} FROM ( SELECT DISTINCT {select1} FROM {s1}.geofile  WHERE  chariter
+        = 0 AND geocomp = 0)  as s1 LEFT JOIN (SELECT DISTINCT {select2} FROM {s2}.geofile
+        WHERE  chariter = 0 AND geocomp = '00') AS s2 ON {joins} {where}
+    tiger_types:
+    - COUNTY
+    - TRACT
+    - TABBLOCK
+    - BG
+    - PLACE

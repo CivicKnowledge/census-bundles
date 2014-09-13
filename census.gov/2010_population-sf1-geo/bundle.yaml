@@ -1,0 +1,48 @@
+about:
+    groups:
+    - null
+    license: other-open
+    rights: null
+    subject: null
+    summary: !include 'meta/about.description.md'
+    tags:
+    - null
+    title: Bundle title
+contact_bundle:
+    creator:
+        email: null
+        name: Eric Busboom <eric@sandiegodata.org>
+        url: null
+    maintainer:
+        email: null
+        name: Eric Busboom <eric@sandiegodata.org>
+        url: null
+contact_source:
+    creator:
+        email: null
+        name: null
+        url: https://civicknowledge.org
+    maintainer:
+        email: null
+        name: null
+        url: null
+identity:
+    bspace: null
+    btime: null
+    dataset: 2010_population
+    id: d00f
+    revision: 1
+    source: census.gov
+    subset: sf1
+    type: null
+    variation: geo
+    version: 0.1.1
+names:
+    fqname: census.gov-2010_population-sf1-geo-0.1.1~d00f001
+    name: census.gov-2010_population-sf1-geo
+    vid: d00f001
+    vname: census.gov-2010_population-sf1-geo-0.1.1
+versions:
+    1:
+        description: null
+        version: 0.1.1

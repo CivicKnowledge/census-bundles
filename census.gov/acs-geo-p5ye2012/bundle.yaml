@@ -1,0 +1,62 @@
+about:
+    groups: []
+    license: null
+    rights: null
+    subject: null
+    summary: null
+    tags: []
+    title: null
+contact_bundle:
+    creator:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
+    maintainer:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
+contact_source:
+    creator:
+        email: null
+        name: American Community Survey, US Census Bureau
+        url: https://www.census.gov/acs/www/
+    maintainer:
+        email: null
+        name: null
+        url: null
+external_documentation:
+    technical_docs:
+        description: Primary technical documentation.
+        source: null
+        title: American Community Survey 2008 - 2012 Technical Documentation
+        url: http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008_2012_SF_Tech_Doc.pdf
+identity:
+    bspace: null
+    btime: p5ye2012
+    dataset: acs
+    id: d02G
+    revision: 4
+    source: census.gov
+    subset: geo
+    type: null
+    variation: null
+    version: 0.0.4
+names:
+    fqname: census.gov-acs-geo-p5ye2012-0.0.4~d02G004
+    name: census.gov-acs-geo-p5ye2012
+    vid: d02G004
+    vname: census.gov-acs-geo-p5ye2012-0.0.4
+process: {}
+versions:
+    1:
+        description: Initial Version
+        version: 0.0.1
+    2:
+        description: Fixes a lot of datatypes in the schema, strip varchars.
+        version: 0.0.2
+    3:
+        description: Added more indexes
+        version: 0.0.3
+    4:
+        description: Added external documentation, sumlevel index
+        version: 0.0.4

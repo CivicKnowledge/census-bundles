@@ -1,0 +1,5 @@
+
+The data in this directory is extracted from the Access97 table defintion file 
+at:  http://www.census.gov/support/2000/SF2/Access97.zip
+
+mdb-export SF2.MDB TABLES > meta/2000-sf2-columns.csv

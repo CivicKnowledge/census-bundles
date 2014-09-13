@@ -1,0 +1,49 @@
+about:
+    groups: []
+    license: null
+    rights: null
+    subject: null
+    summary: null
+    tags: []
+    title: null
+contact_bundle:
+    creator:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
+    maintainer:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
+contact_source:
+    creator:
+        email: null
+        name: American Community Survey, US Census Bureau
+        url: https://www.census.gov/acs/www/
+    maintainer:
+        email: null
+        name: null
+        url: null
+identity:
+    bspace: null
+    btime: p5ye2010
+    dataset: acs
+    id: d00h
+    revision: 2
+    source: census.gov
+    subset: geo
+    type: null
+    variation: orig
+    version: 0.1.1
+names:
+    fqname: census.gov-acs-geo-orig-0.1.1~d00h001
+    name: census.gov-acs-geo-orig
+    vid: d00h001
+    vname: census.gov-acs-geo-orig-0.1.1
+versions:
+    1:
+        description: null
+        version: 0.1.1
+    1:
+        description: Changed name to include btime
+        version: 0.1.2

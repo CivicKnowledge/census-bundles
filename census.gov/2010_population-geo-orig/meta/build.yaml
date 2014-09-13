@@ -1,0 +1,12 @@
+build:
+    dependencies: {}
+    geoschemaFile: meta/schema.csv
+    nationalFiles:
+        3602: http://www2.census.gov/census_2010/04-Summary_File_1/National/us2010.sf1.zip
+    stateFileTemplates:
+        3601: http://www2.census.gov/census_2010/04-Summary_File_1/{state}/{stateabr}2010.sf1.zip
+        3604: http://www2.census.gov/census_2010/05-Summary_File_2/{state}/{stateabr}2010.sf2.zip
+    statesFile: meta/states.yaml
+    urlsFile: meta/urls.yaml
+dependencies: {}
+extract: {}

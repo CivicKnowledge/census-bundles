@@ -1,0 +1,59 @@
+about:
+    groups:
+    - group1
+    - group2
+    license: other-open
+    rights: null
+    subject: null
+    summary: !include 'meta/about.description.md'
+    tags:
+    - tag1
+    - tag2
+    title: Bundle title
+contact_bundle:
+    creator:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: null
+    maintainer:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: null
+contact_source:
+    creator:
+        email: null
+        name: null
+        url: https://civicknowledge.org
+    maintainer:
+        email: null
+        name: null
+        url: null
+identity:
+    bspace: null
+    btime: '2012'
+    dataset: tigerline
+    id: d025
+    revision: 4
+    source: census.gov
+    subset: null
+    type: null
+    variation: null
+    version: 0.0.4
+names:
+    fqname: census.gov-tigerline-2012-0.0.4~d025004
+    name: census.gov-tigerline-2012
+    vid: d025004
+    vname: census.gov-tigerline-2012-0.0.4
+versions:
+    1:
+        description: null
+        version: null
+    2:
+        description: null
+        version: null
+    3:
+        description: null
+        version: 0.0.3
+    4:
+        description: Added Tracts, more indexes, fixed bad column in block groups.
+        version: 0.0.4

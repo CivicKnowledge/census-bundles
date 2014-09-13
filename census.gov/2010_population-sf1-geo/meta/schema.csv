@@ -1,0 +1,1997 @@
+table,seq,column,is_pk,is_fk,type,ui1,size,description,id
+h1,1,id,1,,INTEGER64,,6,,d4d0RJ01001
+h1,2,geoid,,,VARCHAR,1,,,d4d0RJ01002
+h1,3,h00010001,,,INTEGER,,,Total,d4d0RJ01003
+,,,,,,,,,
+h10,1,id,1,,INTEGER64,,6,,d4d0RJ02001
+h10,2,geoid,,,VARCHAR,1,,,d4d0RJ02002
+h10,3,h0100001,,,INTEGER,,,Total,d4d0RJ02003
+,,,,,,,,,
+h11,1,id,1,,INTEGER64,,6,,d4d0RJ03001
+h11,2,geoid,,,VARCHAR,1,,,d4d0RJ03002
+h11,3,h0110001,,,INTEGER,,,Total population in occupied housing units:,d4d0RJ03003
+h11,4,h0110002,,,INTEGER,,,Owned with a mortgage or a loan,d4d0RJ03004
+h11,5,h0110003,,,INTEGER,,,Owned free and clear,d4d0RJ03005
+h11,6,h0110004,,,INTEGER,,,Renter occupied,d4d0RJ03006
+,,,,,,,,,
+h11a,1,id,1,,INTEGER64,,6,,d4d0RJ04001
+h11a,2,geoid,,,VARCHAR,1,,,d4d0RJ04002
+h11a,3,h011a0001,,,INTEGER,,,Population in occupied housing units:,d4d0RJ04003
+h11a,4,h011a0002,,,INTEGER,,,Owned with a mortgage or a loan,d4d0RJ04004
+h11a,5,h011a0003,,,INTEGER,,,Owned free and clear,d4d0RJ04005
+h11a,6,h011a0004,,,INTEGER,,,Renter occupied,d4d0RJ04006
+,,,,,,,,,
+h11b,1,id,1,,INTEGER64,,6,,d4d0RJ05001
+h11b,2,geoid,,,VARCHAR,1,,,d4d0RJ05002
+h11b,3,h011b0001,,,INTEGER,,,Population in occupied housing units:,d4d0RJ05003
+h11b,4,h011b0002,,,INTEGER,,,Owned with a mortgage or a loan,d4d0RJ05004
+h11b,5,h011b0003,,,INTEGER,,,Owned free and clear,d4d0RJ05005
+h11b,6,h011b0004,,,INTEGER,,,Renter occupied,d4d0RJ05006
+,,,,,,,,,
+h11c,1,id,1,,INTEGER64,,6,,d4d0RJ06001
+h11c,2,geoid,,,VARCHAR,1,,,d4d0RJ06002
+h11c,3,h011c0001,,,INTEGER,,,Population in occupied housing units:,d4d0RJ06003
+h11c,4,h011c0002,,,INTEGER,,,Owned with a mortgage or a loan,d4d0RJ06004
+h11c,5,h011c0003,,,INTEGER,,,Owned free and clear,d4d0RJ06005
+h11c,6,h011c0004,,,INTEGER,,,Renter occupied,d4d0RJ06006
+,,,,,,,,,
+h11d,1,id,1,,INTEGER64,,6,,d4d0RJ07001
+h11d,2,geoid,,,VARCHAR,1,,,d4d0RJ07002
+h11d,3,h011d0001,,,INTEGER,,,Population in occupied housing units:,d4d0RJ07003
+h11d,4,h011d0002,,,INTEGER,,,Owned with a mortgage or a loan,d4d0RJ07004
+h11d,5,h011d0003,,,INTEGER,,,Owned free and clear,d4d0RJ07005
+h11d,6,h011d0004,,,INTEGER,,,Renter occupied,d4d0RJ07006
+,,,,,,,,,
+h11e,1,id,1,,INTEGER64,,6,,d4d0RJ08001
+h11e,2,geoid,,,VARCHAR,1,,,d4d0RJ08002
+h11e,3,h011e0001,,,INTEGER,,,Population in occupied housing units:,d4d0RJ08003
+h11e,4,h011e0002,,,INTEGER,,,Owned with a mortgage or a loan,d4d0RJ08004
+h11e,5,h011e0003,,,INTEGER,,,Owned free and clear,d4d0RJ08005
+h11e,6,h011e0004,,,INTEGER,,,Renter occupied,d4d0RJ08006
+,,,,,,,,,
+h11f,1,id,1,,INTEGER64,,6,,d4d0RJ09001
+h11f,2,geoid,,,VARCHAR,1,,,d4d0RJ09002
+h11f,3,h011f0001,,,INTEGER,,,Population in occupied housing units:,d4d0RJ09003
+h11f,4,h011f0002,,,INTEGER,,,Owned with a mortgage or a loan,d4d0RJ09004
+h11f,5,h011f0003,,,INTEGER,,,Owned free and clear,d4d0RJ09005
+h11f,6,h011f0004,,,INTEGER,,,Renter occupied,d4d0RJ09006
+,,,,,,,,,
+h12,1,id,1,,INTEGER64,,6,,d4d0RJ0a001
+h12,2,geoid,,,VARCHAR,1,,,d4d0RJ0a002
+h12,3,h0120001,,,REAL,,,Total,d4d0RJ0a003
+h12,4,h0120002,,,REAL,,,Owner occupied,d4d0RJ0a004
+h12,5,h0120003,,,REAL,,,Renter occupied,d4d0RJ0a005
+,,,,,,,,,
+h13,1,id,1,,INTEGER64,,6,,d4d0RJ0b001
+h13,2,geoid,,,VARCHAR,1,,,d4d0RJ0b002
+h13,3,h0130001,,,INTEGER,,,Total:,d4d0RJ0b003
+h13,4,h0130002,,,INTEGER,,,1-person household,d4d0RJ0b004
+h13,5,h0130003,,,INTEGER,,,2-person household,d4d0RJ0b005
+h13,6,h0130004,,,INTEGER,,,3-person household,d4d0RJ0b006
+h13,7,h0130005,,,INTEGER,,,4-person household,d4d0RJ0b007
+h13,8,h0130006,,,INTEGER,,,5-person household,d4d0RJ0b008
+h13,9,h0130007,,,INTEGER,,,6-person household,d4d0RJ0b009
+h13,10,h0130008,,,INTEGER,,,7-or-more-person household,d4d0RJ0b00a
+,,,,,,,,,
+h14,1,id,1,,INTEGER64,,6,,d4d0RJ0c001
+h14,2,geoid,,,VARCHAR,1,,,d4d0RJ0c002
+h14,3,h0140001,,,INTEGER,,,Total:,d4d0RJ0c003
+h14,4,h0140002,,,INTEGER,,,Owner occupied:,d4d0RJ0c004
+h14,5,h0140003,,,INTEGER,,,Householder who is White alone,d4d0RJ0c005
+h14,6,h0140004,,,INTEGER,,,Householder who is Black or African American alone,d4d0RJ0c006
+h14,7,h0140005,,,INTEGER,,,Householder who is American Indian and Alaska Native alone,d4d0RJ0c007
+h14,8,h0140006,,,INTEGER,,,Householder who is Asian alone,d4d0RJ0c008
+h14,9,h0140007,,,INTEGER,,,Householder who is Native Hawaiian and Other Pacific Islander alone,d4d0RJ0c009
+h14,10,h0140008,,,INTEGER,,,Householder who is Some Other Race alone,d4d0RJ0c00a
+h14,11,h0140009,,,INTEGER,,,Householder who is Two or More Races,d4d0RJ0c00b
+h14,12,h0140010,,,INTEGER,,,Renter occupied:,d4d0RJ0c00c
+h14,13,h0140011,,,INTEGER,,,Householder who is White alone,d4d0RJ0c00d
+h14,14,h0140012,,,INTEGER,,,Householder who is Black or African American alone,d4d0RJ0c00e
+h14,15,h0140013,,,INTEGER,,,Householder who is American Indian and Alaska Native alone,d4d0RJ0c00f
+h14,16,h0140014,,,INTEGER,,,Householder who is Asian alone,d4d0RJ0c00g
+h14,17,h0140015,,,INTEGER,,,Householder who is Native Hawaiian and Other Pacific Islander alone,d4d0RJ0c00h
+h14,18,h0140016,,,INTEGER,,,Householder who is Some Other Race alone,d4d0RJ0c00i
+h14,19,h0140017,,,INTEGER,,,Householder who is Two or More Races,d4d0RJ0c00j
+,,,,,,,,,
+h15,1,id,1,,INTEGER64,,6,,d4d0RJ0d001
+h15,2,geoid,,,VARCHAR,1,,,d4d0RJ0d002
+h15,3,h0150001,,,INTEGER,,,Total:,d4d0RJ0d003
+h15,4,h0150002,,,INTEGER,,,Owner occupied:,d4d0RJ0d004
+h15,5,h0150003,,,INTEGER,,,Not Hispanic or Latino householder,d4d0RJ0d005
+h15,6,h0150004,,,INTEGER,,,Hispanic or Latino householder,d4d0RJ0d006
+h15,7,h0150005,,,INTEGER,,,Renter occupied:,d4d0RJ0d007
+h15,8,h0150006,,,INTEGER,,,Not Hispanic or Latino householder,d4d0RJ0d008
+h15,9,h0150007,,,INTEGER,,,Hispanic or Latino householder,d4d0RJ0d009
+,,,,,,,,,
+h16,1,id,1,,INTEGER64,,6,,d4d0RJ0e001
+h16,2,geoid,,,VARCHAR,1,,,d4d0RJ0e002
+h16,3,h0160001,,,INTEGER,,,Total:,d4d0RJ0e003
+h16,4,h0160002,,,INTEGER,,,Owner occupied:,d4d0RJ0e004
+h16,5,h0160003,,,INTEGER,,,1-person household,d4d0RJ0e005
+h16,6,h0160004,,,INTEGER,,,2-person household,d4d0RJ0e006
+h16,7,h0160005,,,INTEGER,,,3-person household,d4d0RJ0e007
+h16,8,h0160006,,,INTEGER,,,4-person household,d4d0RJ0e008
+h16,9,h0160007,,,INTEGER,,,5-person household,d4d0RJ0e009
+h16,10,h0160008,,,INTEGER,,,6-person household,d4d0RJ0e00a
+h16,11,h0160009,,,INTEGER,,,7-or-more-person household,d4d0RJ0e00b
+h16,12,h0160010,,,INTEGER,,,Renter occupied:,d4d0RJ0e00c
+h16,13,h0160011,,,INTEGER,,,1-person household,d4d0RJ0e00d
+h16,14,h0160012,,,INTEGER,,,2-person household,d4d0RJ0e00e
+h16,15,h0160013,,,INTEGER,,,3-person household,d4d0RJ0e00f
+h16,16,h0160014,,,INTEGER,,,4-person household,d4d0RJ0e00g
+h16,17,h0160015,,,INTEGER,,,5-person household,d4d0RJ0e00h
+h16,18,h0160016,,,INTEGER,,,6-person household,d4d0RJ0e00i
+h16,19,h0160017,,,INTEGER,,,7-or-more-person household,d4d0RJ0e00j
+,,,,,,,,,
+h17,1,id,1,,INTEGER64,,6,,d4d0RJ0f001
+h17,2,geoid,,,VARCHAR,1,,,d4d0RJ0f002
+h17,3,h0170001,,,INTEGER,,,Total:,d4d0RJ0f003
+h17,4,h0170002,,,INTEGER,,,Owner occupied:,d4d0RJ0f004
+h17,5,h0170003,,,INTEGER,,,Householder 15 to 24 years,d4d0RJ0f005
+h17,6,h0170004,,,INTEGER,,,Householder 25 to 34 years,d4d0RJ0f006
+h17,7,h0170005,,,INTEGER,,,Householder 35 to 44 years,d4d0RJ0f007
+h17,8,h0170006,,,INTEGER,,,Householder 45 to 54 years,d4d0RJ0f008
+h17,9,h0170007,,,INTEGER,,,Householder 55 to 59 years,d4d0RJ0f009
+h17,10,h0170008,,,INTEGER,,,Householder 60 to 64 years,d4d0RJ0f00a
+h17,11,h0170009,,,INTEGER,,,Householder 65 to 74 years,d4d0RJ0f00b
+h17,12,h0170010,,,INTEGER,,,Householder 75 to 84 years,d4d0RJ0f00c
+h17,13,h0170011,,,INTEGER,,,Householder 85 years and over,d4d0RJ0f00d
+h17,14,h0170012,,,INTEGER,,,Renter occupied:,d4d0RJ0f00e
+h17,15,h0170013,,,INTEGER,,,Householder 15 to 24 years,d4d0RJ0f00f
+h17,16,h0170014,,,INTEGER,,,Householder 25 to 34 years,d4d0RJ0f00g
+h17,17,h0170015,,,INTEGER,,,Householder 35 to 44 years,d4d0RJ0f00h
+h17,18,h0170016,,,INTEGER,,,Householder 45 to 54 years,d4d0RJ0f00i
+h17,19,h0170017,,,INTEGER,,,Householder 55 to 59 years,d4d0RJ0f00j
+h17,20,h0170018,,,INTEGER,,,Householder 60 to 64 years,d4d0RJ0f00k
+h17,21,h0170019,,,INTEGER,,,Householder 65 to 74 years,d4d0RJ0f00l
+h17,22,h0170020,,,INTEGER,,,Householder 75 to 84 years,d4d0RJ0f00m
+h17,23,h0170021,,,INTEGER,,,Householder 85 years and over,d4d0RJ0f00n
+,,,,,,,,,
+h18,1,id,1,,INTEGER64,,6,,d4d0RJ0g001
+h18,2,geoid,,,VARCHAR,1,,,d4d0RJ0g002
+h18,3,h0180001,,,INTEGER,,,Total:,d4d0RJ0g003
+h18,4,h0180002,,,INTEGER,,,Owner occupied:,d4d0RJ0g004
+h18,5,h0180003,,,INTEGER,,,Family households:,d4d0RJ0g005
+h18,6,h0180004,,,INTEGER,,,Husband-wife family:,d4d0RJ0g006
+h18,7,h0180005,,,INTEGER,,,Householder 15 to 34 years,d4d0RJ0g007
+h18,8,h0180006,,,INTEGER,,,Householder 35 to 64 years,d4d0RJ0g008
+h18,9,h0180007,,,INTEGER,,,Householder 65 years and over,d4d0RJ0g009
+h18,10,h0180008,,,INTEGER,,,Other family:,d4d0RJ0g00a
+h18,11,h0180009,,,INTEGER,,,"Male householder, no wife present:",d4d0RJ0g00b
+h18,12,h0180010,,,INTEGER,,,Householder 15 to 34 years,d4d0RJ0g00c
+h18,13,h0180011,,,INTEGER,,,Householder 35 to 64 years,d4d0RJ0g00d
+h18,14,h0180012,,,INTEGER,,,Householder 65 years and over,d4d0RJ0g00e
+h18,15,h0180013,,,INTEGER,,,"Female householder, no husband present:",d4d0RJ0g00f
+h18,16,h0180014,,,INTEGER,,,Householder 15 to 34 years,d4d0RJ0g00g
+h18,17,h0180015,,,INTEGER,,,Householder 35 to 64 years,d4d0RJ0g00h
+h18,18,h0180016,,,INTEGER,,,Householder 65 years and over,d4d0RJ0g00i
+h18,19,h0180017,,,INTEGER,,,Nonfamily households:,d4d0RJ0g00j
+h18,20,h0180018,,,INTEGER,,,Male householder:,d4d0RJ0g00k
+h18,21,h0180019,,,INTEGER,,,Living alone:,d4d0RJ0g00l
+h18,22,h0180020,,,INTEGER,,,Householder 15 to 34 years,d4d0RJ0g00m
+h18,23,h0180021,,,INTEGER,,,Householder 35 to 64 years,d4d0RJ0g00n
+h18,24,h0180022,,,INTEGER,,,Householder 65 years and over,d4d0RJ0g00o
+h18,25,h0180023,,,INTEGER,,,Not living alone:,d4d0RJ0g00p
+h18,26,h0180024,,,INTEGER,,,Householder 15 to 34 years,d4d0RJ0g00q
+h18,27,h0180025,,,INTEGER,,,Householder 35 to 64 years,d4d0RJ0g00r
+h18,28,h0180026,,,INTEGER,,,Householder 65 years and over,d4d0RJ0g00s
+h18,29,h0180027,,,INTEGER,,,Female householder:,d4d0RJ0g00t
+h18,30,h0180028,,,INTEGER,,,Living alone:,d4d0RJ0g00u
+h18,31,h0180029,,,INTEGER,,,Householder 15 to 34 years,d4d0RJ0g00v
+h18,32,h0180030,,,INTEGER,,,Householder 35 to 64 years,d4d0RJ0g00w
+h18,33,h0180031,,,INTEGER,,,Householder 65 years and over,d4d0RJ0g00x
+h18,34,h0180032,,,INTEGER,,,Not living alone:,d4d0RJ0g00y
+h18,35,h0180033,,,INTEGER,,,Householder 15 to 34 years,d4d0RJ0g00z
+h18,36,h0180034,,,INTEGER,,,Householder 35 to 64 years,d4d0RJ0g00A
+h18,37,h0180035,,,INTEGER,,,Householder 65 years and over,d4d0RJ0g00B
+h18,38,h0180036,,,INTEGER,,,Renter occupied:,d4d0RJ0g00C
+h18,39,h0180037,,,INTEGER,,,Family households:,d4d0RJ0g00D
+h18,40,h0180038,,,INTEGER,,,Husband-wife family:,d4d0RJ0g00E
+h18,41,h0180039,,,INTEGER,,,Householder 15 to 34 years,d4d0RJ0g00F
+h18,42,h0180040,,,INTEGER,,,Householder 35 to 64 years,d4d0RJ0g00G
+h18,43,h0180041,,,INTEGER,,,Householder 65 years and over,d4d0RJ0g00H
+h18,44,h0180042,,,INTEGER,,,Other family:,d4d0RJ0g00I
+h18,45,h0180043,,,INTEGER,,,"Male householder, no wife present:",d4d0RJ0g00J
+h18,46,h0180044,,,INTEGER,,,Householder 15 to 34 years,d4d0RJ0g00K
+h18,47,h0180045,,,INTEGER,,,Householder 35 to 64 years,d4d0RJ0g00L
+h18,48,h0180046,,,INTEGER,,,Householder 65 years and over,d4d0RJ0g00M
+h18,49,h0180047,,,INTEGER,,,"Female householder, no husband present:",d4d0RJ0g00N
+h18,50,h0180048,,,INTEGER,,,Householder 15 to 34 years,d4d0RJ0g00O
+h18,51,h0180049,,,INTEGER,,,Householder 35 to 64 years,d4d0RJ0g00P
+h18,52,h0180050,,,INTEGER,,,Householder 65 years and over,d4d0RJ0g00Q
+h18,53,h0180051,,,INTEGER,,,Nonfamily households:,d4d0RJ0g00R
+h18,54,h0180052,,,INTEGER,,,Male householder:,d4d0RJ0g00S
+h18,55,h0180053,,,INTEGER,,,Living alone:,d4d0RJ0g00T
+h18,56,h0180054,,,INTEGER,,,Householder 15 to 34 years,d4d0RJ0g00U
+h18,57,h0180055,,,INTEGER,,,Householder 35 to 64 years,d4d0RJ0g00V
+h18,58,h0180056,,,INTEGER,,,Householder 65 years and over,d4d0RJ0g00W
+h18,59,h0180057,,,INTEGER,,,Not living alone:,d4d0RJ0g00X
+h18,60,h0180058,,,INTEGER,,,Householder 15 to 34 years,d4d0RJ0g00Y
+h18,61,h0180059,,,INTEGER,,,Householder 35 to 64 years,d4d0RJ0g00Z
+h18,62,h0180060,,,INTEGER,,,Householder 65 years and over,d4d0RJ0g010
+h18,63,h0180061,,,INTEGER,,,Female householder:,d4d0RJ0g011
+h18,64,h0180062,,,INTEGER,,,Living alone:,d4d0RJ0g012
+h18,65,h0180063,,,INTEGER,,,Householder 15 to 34 years,d4d0RJ0g013
+h18,66,h0180064,,,INTEGER,,,Householder 35 to 64 years,d4d0RJ0g014
+h18,67,h0180065,,,INTEGER,,,Householder 65 years and over,d4d0RJ0g015
+h18,68,h0180066,,,INTEGER,,,Not living alone:,d4d0RJ0g016
+h18,69,h0180067,,,INTEGER,,,Householder 15 to 34 years,d4d0RJ0g017
+h18,70,h0180068,,,INTEGER,,,Householder 35 to 64 years,d4d0RJ0g018
+h18,71,h0180069,,,INTEGER,,,Householder 65 years and over,d4d0RJ0g019
+,,,,,,,,,
+h19,1,id,1,,INTEGER64,,6,,d4d0RJ0h001
+h19,2,geoid,,,VARCHAR,1,,,d4d0RJ0h002
+h19,3,h0190001,,,INTEGER,,,Total:,d4d0RJ0h003
+h19,4,h0190002,,,INTEGER,,,Owner-occupied:,d4d0RJ0h004
+h19,5,h0190003,,,INTEGER,,,With children under 18 years,d4d0RJ0h005
+h19,6,h0190004,,,INTEGER,,,No children under 18 years,d4d0RJ0h006
+h19,7,h0190005,,,INTEGER,,,Renter-occupied:,d4d0RJ0h007
+h19,8,h0190006,,,INTEGER,,,With children under 18 years,d4d0RJ0h008
+h19,9,h0190007,,,INTEGER,,,No children under 18 years,d4d0RJ0h009
+,,,,,,,,,
+h2,1,id,1,,INTEGER64,,6,,d4d0RJ0i001
+h2,2,geoid,,,VARCHAR,1,,,d4d0RJ0i002
+h2,3,h0020001,,,INTEGER,,,Total:,d4d0RJ0i003
+h2,4,h0020002,,,INTEGER,,,Urban:,d4d0RJ0i004
+h2,5,h0020003,,,INTEGER,,,Inside urbanized areas,d4d0RJ0i005
+h2,6,h0020004,,,INTEGER,,,Inside urban clusters,d4d0RJ0i006
+h2,7,h0020005,,,INTEGER,,,Rural,d4d0RJ0i007
+h2,8,h0020006,,,INTEGER,,,Not defined for this file,d4d0RJ0i008
+,,,,,,,,,
+h20,1,id,1,,INTEGER64,,6,,d4d0RJ0j001
+h20,2,geoid,,,VARCHAR,1,,,d4d0RJ0j002
+h20,3,h0200001,,,INTEGER,,,Total:,d4d0RJ0j003
+h20,4,h0200002,,,INTEGER,,,Substituted,d4d0RJ0j004
+h20,5,h0200003,,,INTEGER,,,Not substituted,d4d0RJ0j005
+,,,,,,,,,
+h21,1,id,1,,INTEGER64,,6,,d4d0RJ0k001
+h21,2,geoid,,,VARCHAR,1,,,d4d0RJ0k002
+h21,3,h0210001,,,INTEGER,,,Total:,d4d0RJ0k003
+h21,4,h0210002,,,INTEGER,,,Allocated,d4d0RJ0k004
+h21,5,h0210003,,,INTEGER,,,Not allocated,d4d0RJ0k005
+,,,,,,,,,
+h22,1,id,1,,INTEGER64,,6,,d4d0RJ0l001
+h22,2,geoid,,,VARCHAR,1,,,d4d0RJ0l002
+h22,3,h0220001,,,INTEGER,,,Total:,d4d0RJ0l003
+h22,4,h0220002,,,INTEGER,,,Allocated,d4d0RJ0l004
+h22,5,h0220003,,,INTEGER,,,Not allocated,d4d0RJ0l005
+,,,,,,,,,
+h3,1,id,1,,INTEGER64,,6,,d4d0RJ0m001
+h3,2,geoid,,,VARCHAR,1,,,d4d0RJ0m002
+h3,3,h0030001,,,INTEGER,,,Total:,d4d0RJ0m003
+h3,4,h0030002,,,INTEGER,,,Occupied,d4d0RJ0m004
+h3,5,h0030003,,,INTEGER,,,Vacant,d4d0RJ0m005
+,,,,,,,,,
+h4,1,id,1,,INTEGER64,,6,,d4d0RJ0n001
+h4,2,geoid,,,VARCHAR,1,,,d4d0RJ0n002
+h4,3,h0040001,,,INTEGER,,,Total:,d4d0RJ0n003
+h4,4,h0040002,,,INTEGER,,,Owned with a mortgage or a loan,d4d0RJ0n004
+h4,5,h0040003,,,INTEGER,,,Owned free and clear,d4d0RJ0n005
+h4,6,h0040004,,,INTEGER,,,Renter occupied,d4d0RJ0n006
+,,,,,,,,,
+h5,1,id,1,,INTEGER64,,6,,d4d0RJ0o001
+h5,2,geoid,,,VARCHAR,1,,,d4d0RJ0o002
+h5,3,h0050001,,,INTEGER,,,Total:,d4d0RJ0o003
+h5,4,h0050002,,,INTEGER,,,For rent,d4d0RJ0o004
+h5,5,h0050003,,,INTEGER,,,"Rented, not occupied",d4d0RJ0o005
+h5,6,h0050004,,,INTEGER,,,For sale only,d4d0RJ0o006
+h5,7,h0050005,,,INTEGER,,,"Sold, not occupied",d4d0RJ0o007
+h5,8,h0050006,,,INTEGER,,,"For seasonal, recreational, or occasional use",d4d0RJ0o008
+h5,9,h0050007,,,INTEGER,,,For migrant workers,d4d0RJ0o009
+h5,10,h0050008,,,INTEGER,,,Other vacant,d4d0RJ0o00a
+,,,,,,,,,
+h6,1,id,1,,INTEGER64,,6,,d4d0RJ0p001
+h6,2,geoid,,,VARCHAR,1,,,d4d0RJ0p002
+h6,3,h0060001,,,INTEGER,,,Total:,d4d0RJ0p003
+h6,4,h0060002,,,INTEGER,,,Householder who is White alone,d4d0RJ0p004
+h6,5,h0060003,,,INTEGER,,,Householder who is Black or African American alone,d4d0RJ0p005
+h6,6,h0060004,,,INTEGER,,,Householder who is American Indian and Alaska Native alone,d4d0RJ0p006
+h6,7,h0060005,,,INTEGER,,,Householder who is Asian alone,d4d0RJ0p007
+h6,8,h0060006,,,INTEGER,,,Householder who is Native Hawaiian and Other Pacific Islander alone,d4d0RJ0p008
+h6,9,h0060007,,,INTEGER,,,Householder who is Some Other Race alone,d4d0RJ0p009
+h6,10,h0060008,,,INTEGER,,,Householder who is Two or More Races,d4d0RJ0p00a
+,,,,,,,,,
+h7,1,id,1,,INTEGER64,,6,,d4d0RJ0q001
+h7,2,geoid,,,VARCHAR,1,,,d4d0RJ0q002
+h7,3,h0070001,,,INTEGER,,,Total:,d4d0RJ0q003
+h7,4,h0070002,,,INTEGER,,,Not Hispanic or Latino householder:,d4d0RJ0q004
+h7,5,h0070003,,,INTEGER,,,Householder who is White alone,d4d0RJ0q005
+h7,6,h0070004,,,INTEGER,,,Householder who is Black or African American alone,d4d0RJ0q006
+h7,7,h0070005,,,INTEGER,,,Householder who is American Indian and Alaska Native alone,d4d0RJ0q007
+h7,8,h0070006,,,INTEGER,,,Householder who is Asian alone,d4d0RJ0q008
+h7,9,h0070007,,,INTEGER,,,Householder who is Native Hawaiian and Other Pacific Islander alone,d4d0RJ0q009
+h7,10,h0070008,,,INTEGER,,,Householder who is Some Other Race alone,d4d0RJ0q00a
+h7,11,h0070009,,,INTEGER,,,Householder who is Two or More Races,d4d0RJ0q00b
+h7,12,h0070010,,,INTEGER,,,Hispanic or Latino householder:,d4d0RJ0q00c
+h7,13,h0070011,,,INTEGER,,,Householder who is White alone,d4d0RJ0q00d
+h7,14,h0070012,,,INTEGER,,,Householder who is Black or African American alone,d4d0RJ0q00e
+h7,15,h0070013,,,INTEGER,,,Householder who is American Indian and Alaska Native alone,d4d0RJ0q00f
+h7,16,h0070014,,,INTEGER,,,Householder who is Asian alone,d4d0RJ0q00g
+h7,17,h0070015,,,INTEGER,,,Householder who is Native Hawaiian and Other Pacific Islander alone,d4d0RJ0q00h
+h7,18,h0070016,,,INTEGER,,,Householder who is Some Other Race alone,d4d0RJ0q00i
+h7,19,h0070017,,,INTEGER,,,Householder who is Two or More Races,d4d0RJ0q00j
+,,,,,,,,,
+h8,1,id,1,,INTEGER64,,6,,d4d0RJ0r001
+h8,2,geoid,,,VARCHAR,1,,,d4d0RJ0r002
+h8,3,h0080001,,,INTEGER,,,Total races tallied for householders:,d4d0RJ0r003
+h8,4,h0080002,,,INTEGER,,,White alone or in combination with one or more other races,d4d0RJ0r004
+h8,5,h0080003,,,INTEGER,,,Black or African American alone or in combination with one or more other races,d4d0RJ0r005
+h8,6,h0080004,,,INTEGER,,,American Indian and Alaska Native alone or in combination with one or more other races,d4d0RJ0r006
+h8,7,h0080005,,,INTEGER,,,Asian alone or in combination with one or more other races,d4d0RJ0r007
+h8,8,h0080006,,,INTEGER,,,Native Hawaiian and Other Pacific Islander alone or in combination with one or more other races,d4d0RJ0r008
+h8,9,h0080007,,,INTEGER,,,Some Other Race alone or in combination with one or more other races,d4d0RJ0r009
+,,,,,,,,,
+h9,1,id,1,,INTEGER64,,6,,d4d0RJ0s001
+h9,2,geoid,,,VARCHAR,1,,,d4d0RJ0s002
+h9,3,h0090001,,,INTEGER,,,Total races tallied for householders:,d4d0RJ0s003
+h9,4,h0090002,,,INTEGER,,,Total races tallied for Not Hispanic or Latino householders:,d4d0RJ0s004
+h9,5,h0090003,,,INTEGER,,,White alone or in combination with one or more other races,d4d0RJ0s005
+h9,6,h0090004,,,INTEGER,,,Black or African American alone or in combination with one or more other races,d4d0RJ0s006
+h9,7,h0090005,,,INTEGER,,,American Indian and Alaska Native alone or in combination with one or more other races,d4d0RJ0s007
+h9,8,h0090006,,,INTEGER,,,Asian alone or in combination with one or more other races,d4d0RJ0s008
+h9,9,h0090007,,,INTEGER,,,Native Hawaiian and Other Pacific Islander alone or in combination with one or more other races,d4d0RJ0s009
+h9,10,h0090008,,,INTEGER,,,Some Other Race alone or in combination with one or more other races,d4d0RJ0s00a
+h9,11,h0090009,,,INTEGER,,,Total races tallied for Hispanic or Latino householders:,d4d0RJ0s00b
+h9,12,h0090010,,,INTEGER,,,White alone or in combination with one or more other races,d4d0RJ0s00c
+h9,13,h0090011,,,INTEGER,,,Black or African American alone or in combination with one or more other races,d4d0RJ0s00d
+h9,14,h0090012,,,INTEGER,,,American Indian and Alaska Native alone or in combination with one or more other races,d4d0RJ0s00e
+h9,15,h0090013,,,INTEGER,,,Asian alone or in combination with one or more other races,d4d0RJ0s00f
+h9,16,h0090014,,,INTEGER,,,Native Hawaiian and Other Pacific Islander alone or in combination with one or more other races,d4d0RJ0s00g
+h9,17,h0090015,,,INTEGER,,,Some Other Race alone or in combination with one or more other races,d4d0RJ0s00h
+,,,,,,,,,
+p1,1,id,1,,INTEGER64,,6,,d4d0RJ0t001
+p1,2,geoid,,,VARCHAR,1,,,d4d0RJ0t002
+p1,3,p0010001,,,INTEGER,,,Total,d4d0RJ0t003
+,,,,,,,,,
+p10,1,id,1,,INTEGER64,,6,,d4d0RJ0u001
+p10,2,geoid,,,VARCHAR,1,,,d4d0RJ0u002
+p10,3,p0100001,,,INTEGER,,,Total:,d4d0RJ0u003
+p10,4,p0100002,,,INTEGER,,,Population of one race:,d4d0RJ0u004
+p10,5,p0100003,,,INTEGER,,,White alone,d4d0RJ0u005
+p10,6,p0100004,,,INTEGER,,,Black or African American alone,d4d0RJ0u006
+p10,7,p0100005,,,INTEGER,,,American Indian and Alaska Native alone,d4d0RJ0u007
+p10,8,p0100006,,,INTEGER,,,Asian alone,d4d0RJ0u008
+p10,9,p0100007,,,INTEGER,,,Native Hawaiian and Other Pacific Islander alone,d4d0RJ0u009
+p10,10,p0100008,,,INTEGER,,,Some Other Race alone,d4d0RJ0u00a
+p10,11,p0100009,,,INTEGER,,,Two or More Races:,d4d0RJ0u00b
+p10,12,p0100010,,,INTEGER,,,Population of two races:,d4d0RJ0u00c
+p10,13,p0100011,,,INTEGER,,,White; Black or African American,d4d0RJ0u00d
+p10,14,p0100012,,,INTEGER,,,White; American Indian and Alaska Native,d4d0RJ0u00e
+p10,15,p0100013,,,INTEGER,,,White; Asian,d4d0RJ0u00f
+p10,16,p0100014,,,INTEGER,,,White; Native Hawaiian and Other Pacific Islander,d4d0RJ0u00g
+p10,17,p0100015,,,INTEGER,,,White; Some Other Race,d4d0RJ0u00h
+p10,18,p0100016,,,INTEGER,,,Black or African American; American Indian and Alaska Native,d4d0RJ0u00i
+p10,19,p0100017,,,INTEGER,,,Black or African American; Asian,d4d0RJ0u00j
+p10,20,p0100018,,,INTEGER,,,Black or African American; Native Hawaiian and Other Pacific Islander,d4d0RJ0u00k
+p10,21,p0100019,,,INTEGER,,,Black or African American; Some Other Race,d4d0RJ0u00l
+p10,22,p0100020,,,INTEGER,,,American Indian and Alaska Native; Asian,d4d0RJ0u00m
+p10,23,p0100021,,,INTEGER,,,American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ0u00n
+p10,24,p0100022,,,INTEGER,,,American Indian and Alaska Native; Some Other Race,d4d0RJ0u00o
+p10,25,p0100023,,,INTEGER,,,Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0u00p
+p10,26,p0100024,,,INTEGER,,,Asian; Some Other Race,d4d0RJ0u00q
+p10,27,p0100025,,,INTEGER,,,Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u00r
+p10,28,p0100026,,,INTEGER,,,Population of three races:,d4d0RJ0u00s
+p10,29,p0100027,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native,d4d0RJ0u00t
+p10,30,p0100028,,,INTEGER,,,White; Black or African American; Asian,d4d0RJ0u00u
+p10,31,p0100029,,,INTEGER,,,White; Black or African American; Native Hawaiian and Other Pacific Islander,d4d0RJ0u00v
+p10,32,p0100030,,,INTEGER,,,White; Black or African American; Some Other Race,d4d0RJ0u00w
+p10,33,p0100031,,,INTEGER,,,White; American Indian and Alaska Native; Asian,d4d0RJ0u00x
+p10,34,p0100032,,,INTEGER,,,White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ0u00y
+p10,35,p0100033,,,INTEGER,,,White; American Indian and Alaska Native; Some Other Race,d4d0RJ0u00z
+p10,36,p0100034,,,INTEGER,,,White; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0u00A
+p10,37,p0100035,,,INTEGER,,,White; Asian; Some Other Race,d4d0RJ0u00B
+p10,38,p0100036,,,INTEGER,,,White; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u00C
+p10,39,p0100037,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian,d4d0RJ0u00D
+p10,40,p0100038,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ0u00E
+p10,41,p0100039,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Some Other Race,d4d0RJ0u00F
+p10,42,p0100040,,,INTEGER,,,Black or African American; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0u00G
+p10,43,p0100041,,,INTEGER,,,Black or African American; Asian; Some Other Race,d4d0RJ0u00H
+p10,44,p0100042,,,INTEGER,,,Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u00I
+p10,45,p0100043,,,INTEGER,,,American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0u00J
+p10,46,p0100044,,,INTEGER,,,American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ0u00K
+p10,47,p0100045,,,INTEGER,,,American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u00L
+p10,48,p0100046,,,INTEGER,,,Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u00M
+p10,49,p0100047,,,INTEGER,,,Population of four races:,d4d0RJ0u00N
+p10,50,p0100048,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian,d4d0RJ0u00O
+p10,51,p0100049,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ0u00P
+p10,52,p0100050,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Some Other Race,d4d0RJ0u00Q
+p10,53,p0100051,,,INTEGER,,,White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0u00R
+p10,54,p0100052,,,INTEGER,,,White; Black or African American; Asian; Some Other Race,d4d0RJ0u00S
+p10,55,p0100053,,,INTEGER,,,White; Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u00T
+p10,56,p0100054,,,INTEGER,,,White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0u00U
+p10,57,p0100055,,,INTEGER,,,White; American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ0u00V
+p10,58,p0100056,,,INTEGER,,,White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u00W
+p10,59,p0100057,,,INTEGER,,,White; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u00X
+p10,60,p0100058,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0u00Y
+p10,61,p0100059,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ0u00Z
+p10,62,p0100060,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u010
+p10,63,p0100061,,,INTEGER,,,Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u011
+p10,64,p0100062,,,INTEGER,,,American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u012
+p10,65,p0100063,,,INTEGER,,,Population of five races:,d4d0RJ0u013
+p10,66,p0100064,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0u014
+p10,67,p0100065,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ0u015
+p10,68,p0100066,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u016
+p10,69,p0100067,,,INTEGER,,,White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u017
+p10,70,p0100068,,,INTEGER,,,White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u018
+p10,71,p0100069,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u019
+p10,72,p0100070,,,INTEGER,,,Population of six races:,d4d0RJ0u01a
+p10,73,p0100071,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0u01b
+,,,,,,,,,
+p11,1,id,1,,INTEGER64,,6,,d4d0RJ0v001
+p11,2,geoid,,,VARCHAR,1,,,d4d0RJ0v002
+p11,3,p0110001,,,INTEGER,,,Total:,d4d0RJ0v003
+p11,4,p0110002,,,INTEGER,,,Hispanic or Latino,d4d0RJ0v004
+p11,5,p0110003,,,INTEGER,,,Not Hispanic or Latino:,d4d0RJ0v005
+p11,6,p0110004,,,INTEGER,,,Population of one race:,d4d0RJ0v006
+p11,7,p0110005,,,INTEGER,,,White alone,d4d0RJ0v007
+p11,8,p0110006,,,INTEGER,,,Black or African American alone,d4d0RJ0v008
+p11,9,p0110007,,,INTEGER,,,American Indian and Alaska Native alone,d4d0RJ0v009
+p11,10,p0110008,,,INTEGER,,,Asian alone,d4d0RJ0v00a
+p11,11,p0110009,,,INTEGER,,,Native Hawaiian and Other Pacific Islander alone,d4d0RJ0v00b
+p11,12,p0110010,,,INTEGER,,,Some Other Race alone,d4d0RJ0v00c
+p11,13,p0110011,,,INTEGER,,,Two or More Races:,d4d0RJ0v00d
+p11,14,p0110012,,,INTEGER,,,Population of two races:,d4d0RJ0v00e
+p11,15,p0110013,,,INTEGER,,,White; Black or African American,d4d0RJ0v00f
+p11,16,p0110014,,,INTEGER,,,White; American Indian and Alaska Native,d4d0RJ0v00g
+p11,17,p0110015,,,INTEGER,,,White; Asian,d4d0RJ0v00h
+p11,18,p0110016,,,INTEGER,,,White; Native Hawaiian and Other Pacific Islander,d4d0RJ0v00i
+p11,19,p0110017,,,INTEGER,,,White; Some Other Race,d4d0RJ0v00j
+p11,20,p0110018,,,INTEGER,,,Black or African American; American Indian and Alaska Native,d4d0RJ0v00k
+p11,21,p0110019,,,INTEGER,,,Black or African American; Asian,d4d0RJ0v00l
+p11,22,p0110020,,,INTEGER,,,Black or African American; Native Hawaiian and Other Pacific Islander,d4d0RJ0v00m
+p11,23,p0110021,,,INTEGER,,,Black or African American; Some Other Race,d4d0RJ0v00n
+p11,24,p0110022,,,INTEGER,,,American Indian and Alaska Native; Asian,d4d0RJ0v00o
+p11,25,p0110023,,,INTEGER,,,American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ0v00p
+p11,26,p0110024,,,INTEGER,,,American Indian and Alaska Native; Some Other Race,d4d0RJ0v00q
+p11,27,p0110025,,,INTEGER,,,Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0v00r
+p11,28,p0110026,,,INTEGER,,,Asian; Some Other Race,d4d0RJ0v00s
+p11,29,p0110027,,,INTEGER,,,Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v00t
+p11,30,p0110028,,,INTEGER,,,Population of three races:,d4d0RJ0v00u
+p11,31,p0110029,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native,d4d0RJ0v00v
+p11,32,p0110030,,,INTEGER,,,White; Black or African American; Asian,d4d0RJ0v00w
+p11,33,p0110031,,,INTEGER,,,White; Black or African American; Native Hawaiian and Other Pacific Islander,d4d0RJ0v00x
+p11,34,p0110032,,,INTEGER,,,White; Black or African American; Some Other Race,d4d0RJ0v00y
+p11,35,p0110033,,,INTEGER,,,White; American Indian and Alaska Native; Asian,d4d0RJ0v00z
+p11,36,p0110034,,,INTEGER,,,White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ0v00A
+p11,37,p0110035,,,INTEGER,,,White; American Indian and Alaska Native; Some Other Race,d4d0RJ0v00B
+p11,38,p0110036,,,INTEGER,,,White; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0v00C
+p11,39,p0110037,,,INTEGER,,,White; Asian; Some Other Race,d4d0RJ0v00D
+p11,40,p0110038,,,INTEGER,,,White; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v00E
+p11,41,p0110039,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian,d4d0RJ0v00F
+p11,42,p0110040,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ0v00G
+p11,43,p0110041,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Some Other Race,d4d0RJ0v00H
+p11,44,p0110042,,,INTEGER,,,Black or African American; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0v00I
+p11,45,p0110043,,,INTEGER,,,Black or African American; Asian; Some Other Race,d4d0RJ0v00J
+p11,46,p0110044,,,INTEGER,,,Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v00K
+p11,47,p0110045,,,INTEGER,,,American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0v00L
+p11,48,p0110046,,,INTEGER,,,American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ0v00M
+p11,49,p0110047,,,INTEGER,,,American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v00N
+p11,50,p0110048,,,INTEGER,,,Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v00O
+p11,51,p0110049,,,INTEGER,,,Population of four races:,d4d0RJ0v00P
+p11,52,p0110050,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian,d4d0RJ0v00Q
+p11,53,p0110051,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ0v00R
+p11,54,p0110052,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Some Other Race,d4d0RJ0v00S
+p11,55,p0110053,,,INTEGER,,,White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0v00T
+p11,56,p0110054,,,INTEGER,,,White; Black or African American; Asian; Some Other Race,d4d0RJ0v00U
+p11,57,p0110055,,,INTEGER,,,White; Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v00V
+p11,58,p0110056,,,INTEGER,,,White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0v00W
+p11,59,p0110057,,,INTEGER,,,White; American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ0v00X
+p11,60,p0110058,,,INTEGER,,,White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v00Y
+p11,61,p0110059,,,INTEGER,,,White; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v00Z
+p11,62,p0110060,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0v010
+p11,63,p0110061,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ0v011
+p11,64,p0110062,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v012
+p11,65,p0110063,,,INTEGER,,,Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v013
+p11,66,p0110064,,,INTEGER,,,American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v014
+p11,67,p0110065,,,INTEGER,,,Population of five races:,d4d0RJ0v015
+p11,68,p0110066,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ0v016
+p11,69,p0110067,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ0v017
+p11,70,p0110068,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v018
+p11,71,p0110069,,,INTEGER,,,White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v019
+p11,72,p0110070,,,INTEGER,,,White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v01a
+p11,73,p0110071,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v01b
+p11,74,p0110072,,,INTEGER,,,Population of six races:,d4d0RJ0v01c
+p11,75,p0110073,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ0v01d
+,,,,,,,,,
+p12,1,id,1,,INTEGER64,,6,,d4d0RJ0w001
+p12,2,geoid,,,VARCHAR,1,,,d4d0RJ0w002
+p12,3,p0120001,,,INTEGER,,,Total:,d4d0RJ0w003
+p12,4,p0120002,,,INTEGER,,,Male:,d4d0RJ0w004
+p12,5,p0120003,,,INTEGER,,,Under 5 years,d4d0RJ0w005
+p12,6,p0120004,,,INTEGER,,,5 to 9 years,d4d0RJ0w006
+p12,7,p0120005,,,INTEGER,,,10 to 14 years,d4d0RJ0w007
+p12,8,p0120006,,,INTEGER,,,15 to 17 years,d4d0RJ0w008
+p12,9,p0120007,,,INTEGER,,,18 and 19 years,d4d0RJ0w009
+p12,10,p0120008,,,INTEGER,,,20 years,d4d0RJ0w00a
+p12,11,p0120009,,,INTEGER,,,21 years,d4d0RJ0w00b
+p12,12,p0120010,,,INTEGER,,,22 to 24 years,d4d0RJ0w00c
+p12,13,p0120011,,,INTEGER,,,25 to 29 years,d4d0RJ0w00d
+p12,14,p0120012,,,INTEGER,,,30 to 34 years,d4d0RJ0w00e
+p12,15,p0120013,,,INTEGER,,,35 to 39 years,d4d0RJ0w00f
+p12,16,p0120014,,,INTEGER,,,40 to 44 years,d4d0RJ0w00g
+p12,17,p0120015,,,INTEGER,,,45 to 49 years,d4d0RJ0w00h
+p12,18,p0120016,,,INTEGER,,,50 to 54 years,d4d0RJ0w00i
+p12,19,p0120017,,,INTEGER,,,55 to 59 years,d4d0RJ0w00j
+p12,20,p0120018,,,INTEGER,,,60 and 61 years,d4d0RJ0w00k
+p12,21,p0120019,,,INTEGER,,,62 to 64 years,d4d0RJ0w00l
+p12,22,p0120020,,,INTEGER,,,65 and 66 years,d4d0RJ0w00m
+p12,23,p0120021,,,INTEGER,,,67 to 69 years,d4d0RJ0w00n
+p12,24,p0120022,,,INTEGER,,,70 to 74 years,d4d0RJ0w00o
+p12,25,p0120023,,,INTEGER,,,75 to 79 years,d4d0RJ0w00p
+p12,26,p0120024,,,INTEGER,,,80 to 84 years,d4d0RJ0w00q
+p12,27,p0120025,,,INTEGER,,,85 years and over,d4d0RJ0w00r
+p12,28,p0120026,,,INTEGER,,,Female:,d4d0RJ0w00s
+p12,29,p0120027,,,INTEGER,,,Under 5 years,d4d0RJ0w00t
+p12,30,p0120028,,,INTEGER,,,5 to 9 years,d4d0RJ0w00u
+p12,31,p0120029,,,INTEGER,,,10 to 14 years,d4d0RJ0w00v
+p12,32,p0120030,,,INTEGER,,,15 to 17 years,d4d0RJ0w00w
+p12,33,p0120031,,,INTEGER,,,18 and 19 years,d4d0RJ0w00x
+p12,34,p0120032,,,INTEGER,,,20 years,d4d0RJ0w00y
+p12,35,p0120033,,,INTEGER,,,21 years,d4d0RJ0w00z
+p12,36,p0120034,,,INTEGER,,,22 to 24 years,d4d0RJ0w00A
+p12,37,p0120035,,,INTEGER,,,25 to 29 years,d4d0RJ0w00B
+p12,38,p0120036,,,INTEGER,,,30 to 34 years,d4d0RJ0w00C
+p12,39,p0120037,,,INTEGER,,,35 to 39 years,d4d0RJ0w00D
+p12,40,p0120038,,,INTEGER,,,40 to 44 years,d4d0RJ0w00E
+p12,41,p0120039,,,INTEGER,,,45 to 49 years,d4d0RJ0w00F
+p12,42,p0120040,,,INTEGER,,,50 to 54 years,d4d0RJ0w00G
+p12,43,p0120041,,,INTEGER,,,55 to 59 years,d4d0RJ0w00H
+p12,44,p0120042,,,INTEGER,,,60 and 61 years,d4d0RJ0w00I
+p12,45,p0120043,,,INTEGER,,,62 to 64 years,d4d0RJ0w00J
+p12,46,p0120044,,,INTEGER,,,65 and 66 years,d4d0RJ0w00K
+p12,47,p0120045,,,INTEGER,,,67 to 69 years,d4d0RJ0w00L
+p12,48,p0120046,,,INTEGER,,,70 to 74 years,d4d0RJ0w00M
+p12,49,p0120047,,,INTEGER,,,75 to 79 years,d4d0RJ0w00N
+p12,50,p0120048,,,INTEGER,,,80 to 84 years,d4d0RJ0w00O
+p12,51,p0120049,,,INTEGER,,,85 years and over,d4d0RJ0w00P
+,,,,,,,,,
+p13,1,id,1,,INTEGER64,,6,,d4d0RJ0x001
+p13,2,geoid,,,VARCHAR,1,,,d4d0RJ0x002
+p13,3,p0130001,,,REAL,,,Both sexes,d4d0RJ0x003
+p13,4,p0130002,,,REAL,,,Male,d4d0RJ0x004
+p13,5,p0130003,,,REAL,,,Female,d4d0RJ0x005
+,,,,,,,,,
+p14,1,id,1,,INTEGER64,,6,,d4d0RJ0y001
+p14,2,geoid,,,VARCHAR,1,,,d4d0RJ0y002
+p14,3,p0140001,,,INTEGER,,,Total:,d4d0RJ0y003
+p14,4,p0140002,,,INTEGER,,,Male:,d4d0RJ0y004
+p14,5,p0140003,,,INTEGER,,,Under 1 year,d4d0RJ0y005
+p14,6,p0140004,,,INTEGER,,,1 year,d4d0RJ0y006
+p14,7,p0140005,,,INTEGER,,,2 years,d4d0RJ0y007
+p14,8,p0140006,,,INTEGER,,,3 years,d4d0RJ0y008
+p14,9,p0140007,,,INTEGER,,,4 years,d4d0RJ0y009
+p14,10,p0140008,,,INTEGER,,,5 years,d4d0RJ0y00a
+p14,11,p0140009,,,INTEGER,,,6 years,d4d0RJ0y00b
+p14,12,p0140010,,,INTEGER,,,7 years,d4d0RJ0y00c
+p14,13,p0140011,,,INTEGER,,,8 years,d4d0RJ0y00d
+p14,14,p0140012,,,INTEGER,,,9 years,d4d0RJ0y00e
+p14,15,p0140013,,,INTEGER,,,10 years,d4d0RJ0y00f
+p14,16,p0140014,,,INTEGER,,,11 years,d4d0RJ0y00g
+p14,17,p0140015,,,INTEGER,,,12 years,d4d0RJ0y00h
+p14,18,p0140016,,,INTEGER,,,13 years,d4d0RJ0y00i
+p14,19,p0140017,,,INTEGER,,,14 years,d4d0RJ0y00j
+p14,20,p0140018,,,INTEGER,,,15 years,d4d0RJ0y00k
+p14,21,p0140019,,,INTEGER,,,16 years,d4d0RJ0y00l
+p14,22,p0140020,,,INTEGER,,,17 years,d4d0RJ0y00m
+p14,23,p0140021,,,INTEGER,,,18 years,d4d0RJ0y00n
+p14,24,p0140022,,,INTEGER,,,19 years,d4d0RJ0y00o
+p14,25,p0140023,,,INTEGER,,,Female:,d4d0RJ0y00p
+p14,26,p0140024,,,INTEGER,,,Under 1 year,d4d0RJ0y00q
+p14,27,p0140025,,,INTEGER,,,1 year,d4d0RJ0y00r
+p14,28,p0140026,,,INTEGER,,,2 years,d4d0RJ0y00s
+p14,29,p0140027,,,INTEGER,,,3 years,d4d0RJ0y00t
+p14,30,p0140028,,,INTEGER,,,4 years,d4d0RJ0y00u
+p14,31,p0140029,,,INTEGER,,,5 years,d4d0RJ0y00v
+p14,32,p0140030,,,INTEGER,,,6 years,d4d0RJ0y00w
+p14,33,p0140031,,,INTEGER,,,7 years,d4d0RJ0y00x
+p14,34,p0140032,,,INTEGER,,,8 years,d4d0RJ0y00y
+p14,35,p0140033,,,INTEGER,,,9 years,d4d0RJ0y00z
+p14,36,p0140034,,,INTEGER,,,10 years,d4d0RJ0y00A
+p14,37,p0140035,,,INTEGER,,,11 years,d4d0RJ0y00B
+p14,38,p0140036,,,INTEGER,,,12 years,d4d0RJ0y00C
+p14,39,p0140037,,,INTEGER,,,13 years,d4d0RJ0y00D
+p14,40,p0140038,,,INTEGER,,,14 years,d4d0RJ0y00E
+p14,41,p0140039,,,INTEGER,,,15 years,d4d0RJ0y00F
+p14,42,p0140040,,,INTEGER,,,16 years,d4d0RJ0y00G
+p14,43,p0140041,,,INTEGER,,,17 years,d4d0RJ0y00H
+p14,44,p0140042,,,INTEGER,,,18 years,d4d0RJ0y00I
+p14,45,p0140043,,,INTEGER,,,19 years,d4d0RJ0y00J
+,,,,,,,,,
+p15,1,id,1,,INTEGER64,,6,,d4d0RJ0z001
+p15,2,geoid,,,VARCHAR,1,,,d4d0RJ0z002
+p15,3,p0150001,,,INTEGER,,,Total:,d4d0RJ0z003
+p15,4,p0150002,,,INTEGER,,,Not Hispanic or Latino householder:,d4d0RJ0z004
+p15,5,p0150003,,,INTEGER,,,Householder who is White alone,d4d0RJ0z005
+p15,6,p0150004,,,INTEGER,,,Householder who is Black or African American alone,d4d0RJ0z006
+p15,7,p0150005,,,INTEGER,,,Householder who is American Indian and Alaska Native alone,d4d0RJ0z007
+p15,8,p0150006,,,INTEGER,,,Householder who is Asian alone,d4d0RJ0z008
+p15,9,p0150007,,,INTEGER,,,Householder who is Native Hawaiian and Other Pacific Islander alone,d4d0RJ0z009
+p15,10,p0150008,,,INTEGER,,,Householder who is Some Other Race alone,d4d0RJ0z00a
+p15,11,p0150009,,,INTEGER,,,Householder who is Two or More Races,d4d0RJ0z00b
+p15,12,p0150010,,,INTEGER,,,Hispanic or Latino householder:,d4d0RJ0z00c
+p15,13,p0150011,,,INTEGER,,,Householder who is White alone,d4d0RJ0z00d
+p15,14,p0150012,,,INTEGER,,,Householder who is Black or African American alone,d4d0RJ0z00e
+p15,15,p0150013,,,INTEGER,,,Householder who is American Indian and Alaska Native alone,d4d0RJ0z00f
+p15,16,p0150014,,,INTEGER,,,Householder who is Asian alone,d4d0RJ0z00g
+p15,17,p0150015,,,INTEGER,,,Householder who is Native Hawaiian and Other Pacific Islander alone,d4d0RJ0z00h
+p15,18,p0150016,,,INTEGER,,,Householder who is Some Other Race alone,d4d0RJ0z00i
+p15,19,p0150017,,,INTEGER,,,Householder who is Two or More Races,d4d0RJ0z00j
+,,,,,,,,,
+p16,1,id,1,,INTEGER64,,6,,d4d0RJ0A001
+p16,2,geoid,,,VARCHAR,1,,,d4d0RJ0A002
+p16,3,p0160001,,,INTEGER,,,Total:,d4d0RJ0A003
+p16,4,p0160002,,,INTEGER,,,Under 18 years,d4d0RJ0A004
+p16,5,p0160003,,,INTEGER,,,18 years and over,d4d0RJ0A005
+,,,,,,,,,
+p17,1,id,1,,INTEGER64,,6,,d4d0RJ0B001
+p17,2,geoid,,,VARCHAR,1,,,d4d0RJ0B002
+p17,3,p0170001,,,REAL,,,Total:,d4d0RJ0B003
+p17,4,p0170002,,,REAL,,,Under 18 years,d4d0RJ0B004
+p17,5,p0170003,,,REAL,,,18 years and over,d4d0RJ0B005
+,,,,,,,,,
+p18,1,id,1,,INTEGER64,,6,,d4d0RJ0C001
+p18,2,geoid,,,VARCHAR,1,,,d4d0RJ0C002
+p18,3,p0180001,,,INTEGER,,,Total:,d4d0RJ0C003
+p18,4,p0180002,,,INTEGER,,,Family households:,d4d0RJ0C004
+p18,5,p0180003,,,INTEGER,,,Husband-wife family,d4d0RJ0C005
+p18,6,p0180004,,,INTEGER,,,Other family:,d4d0RJ0C006
+p18,7,p0180005,,,INTEGER,,,"Male householder, no wife present",d4d0RJ0C007
+p18,8,p0180006,,,INTEGER,,,"Female householder, no husband present",d4d0RJ0C008
+p18,9,p0180007,,,INTEGER,,,Nonfamily households:,d4d0RJ0C009
+p18,10,p0180008,,,INTEGER,,,Householder living alone,d4d0RJ0C00a
+p18,11,p0180009,,,INTEGER,,,Householder not living alone,d4d0RJ0C00b
+,,,,,,,,,
+p19,1,id,1,,INTEGER64,,6,,d4d0RJ0D001
+p19,2,geoid,,,VARCHAR,1,,,d4d0RJ0D002
+p19,3,p0190001,,,INTEGER,,,Total:,d4d0RJ0D003
+p19,4,p0190002,,,INTEGER,,,1-person household:,d4d0RJ0D004
+p19,5,p0190003,,,INTEGER,,,Male householder,d4d0RJ0D005
+p19,6,p0190004,,,INTEGER,,,Female householder,d4d0RJ0D006
+p19,7,p0190005,,,INTEGER,,,2-or-more-person household:,d4d0RJ0D007
+p19,8,p0190006,,,INTEGER,,,Family households:,d4d0RJ0D008
+p19,9,p0190007,,,INTEGER,,,Husband-wife family:,d4d0RJ0D009
+p19,10,p0190008,,,INTEGER,,,With own children under 18 years,d4d0RJ0D00a
+p19,11,p0190009,,,INTEGER,,,No own children under 18 years,d4d0RJ0D00b
+p19,12,p0190010,,,INTEGER,,,Other family:,d4d0RJ0D00c
+p19,13,p0190011,,,INTEGER,,,"Male householder, no wife present:",d4d0RJ0D00d
+p19,14,p0190012,,,INTEGER,,,With own children under 18 years,d4d0RJ0D00e
+p19,15,p0190013,,,INTEGER,,,No own children under 18 years,d4d0RJ0D00f
+p19,16,p0190014,,,INTEGER,,,"Female householder, no husband present:",d4d0RJ0D00g
+p19,17,p0190015,,,INTEGER,,,With own children under 18 years,d4d0RJ0D00h
+p19,18,p0190016,,,INTEGER,,,No own children under 18 years,d4d0RJ0D00i
+p19,19,p0190017,,,INTEGER,,,Nonfamily households:,d4d0RJ0D00j
+p19,20,p0190018,,,INTEGER,,,Male householder,d4d0RJ0D00k
+p19,21,p0190019,,,INTEGER,,,Female householder,d4d0RJ0D00l
+,,,,,,,,,
+p2,1,id,1,,INTEGER64,,6,,d4d0RJ0E001
+p2,2,geoid,,,VARCHAR,1,,,d4d0RJ0E002
+p2,3,p0020001,,,INTEGER,,,Total:,d4d0RJ0E003
+p2,4,p0020002,,,INTEGER,,,Urban:,d4d0RJ0E004
+p2,5,p0020003,,,INTEGER,,,Inside urbanized areas,d4d0RJ0E005
+p2,6,p0020004,,,INTEGER,,,Inside urban clusters,d4d0RJ0E006
+p2,7,p0020005,,,INTEGER,,,Rural,d4d0RJ0E007
+p2,8,p0020006,,,INTEGER,,,Not defined for this file,d4d0RJ0E008
+,,,,,,,,,
+p20,1,id,1,,INTEGER64,,6,,d4d0RJ0F001
+p20,2,geoid,,,VARCHAR,1,,,d4d0RJ0F002
+p20,3,p0200001,,,INTEGER,,,Total:,d4d0RJ0F003
+p20,4,p0200002,,,INTEGER,,,Households with one or more people under 18 years:,d4d0RJ0F004
+p20,5,p0200003,,,INTEGER,,,Family households:,d4d0RJ0F005
+p20,6,p0200004,,,INTEGER,,,Husband-wife family:,d4d0RJ0F006
+p20,7,p0200005,,,INTEGER,,,Under 6 years only,d4d0RJ0F007
+p20,8,p0200006,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ0F008
+p20,9,p0200007,,,INTEGER,,,6 to 17 years only,d4d0RJ0F009
+p20,10,p0200008,,,INTEGER,,,Other family:,d4d0RJ0F00a
+p20,11,p0200009,,,INTEGER,,,"Male householder, no wife present:",d4d0RJ0F00b
+p20,12,p0200010,,,INTEGER,,,Under 6 years only,d4d0RJ0F00c
+p20,13,p0200011,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ0F00d
+p20,14,p0200012,,,INTEGER,,,6 to 17 years only,d4d0RJ0F00e
+p20,15,p0200013,,,INTEGER,,,"Female householder, no husband present:",d4d0RJ0F00f
+p20,16,p0200014,,,INTEGER,,,Under 6 years only,d4d0RJ0F00g
+p20,17,p0200015,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ0F00h
+p20,18,p0200016,,,INTEGER,,,6 to 17 years only,d4d0RJ0F00i
+p20,19,p0200017,,,INTEGER,,,Nonfamily households:,d4d0RJ0F00j
+p20,20,p0200018,,,INTEGER,,,Male householder:,d4d0RJ0F00k
+p20,21,p0200019,,,INTEGER,,,Under 6 years only,d4d0RJ0F00l
+p20,22,p0200020,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ0F00m
+p20,23,p0200021,,,INTEGER,,,6 to 17 years only,d4d0RJ0F00n
+p20,24,p0200022,,,INTEGER,,,Female householder:,d4d0RJ0F00o
+p20,25,p0200023,,,INTEGER,,,Under 6 years only,d4d0RJ0F00p
+p20,26,p0200024,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ0F00q
+p20,27,p0200025,,,INTEGER,,,6 to 17 years only,d4d0RJ0F00r
+p20,28,p0200026,,,INTEGER,,,Households with no people under 18 years:,d4d0RJ0F00s
+p20,29,p0200027,,,INTEGER,,,Family households:,d4d0RJ0F00t
+p20,30,p0200028,,,INTEGER,,,Husband-wife family,d4d0RJ0F00u
+p20,31,p0200029,,,INTEGER,,,Other family:,d4d0RJ0F00v
+p20,32,p0200030,,,INTEGER,,,"Male householder, no wife present",d4d0RJ0F00w
+p20,33,p0200031,,,INTEGER,,,"Female householder, no husband present",d4d0RJ0F00x
+p20,34,p0200032,,,INTEGER,,,Nonfamily households:,d4d0RJ0F00y
+p20,35,p0200033,,,INTEGER,,,Male householder,d4d0RJ0F00z
+p20,36,p0200034,,,INTEGER,,,Female householder,d4d0RJ0F00A
+,,,,,,,,,
+p21,1,id,1,,INTEGER64,,6,,d4d0RJ0G001
+p21,2,geoid,,,VARCHAR,1,,,d4d0RJ0G002
+p21,3,p0210001,,,INTEGER,,,Total:,d4d0RJ0G003
+p21,4,p0210002,,,INTEGER,,,Householder 15 to 64 years:,d4d0RJ0G004
+p21,5,p0210003,,,INTEGER,,,Family households:,d4d0RJ0G005
+p21,6,p0210004,,,INTEGER,,,Husband-wife family:,d4d0RJ0G006
+p21,7,p0210005,,,INTEGER,,,With related children under 18 years,d4d0RJ0G007
+p21,8,p0210006,,,INTEGER,,,No related children under 18 years,d4d0RJ0G008
+p21,9,p0210007,,,INTEGER,,,Other family:,d4d0RJ0G009
+p21,10,p0210008,,,INTEGER,,,"Male householder, no wife present:",d4d0RJ0G00a
+p21,11,p0210009,,,INTEGER,,,With related children under 18 years,d4d0RJ0G00b
+p21,12,p0210010,,,INTEGER,,,No related children under 18 years,d4d0RJ0G00c
+p21,13,p0210011,,,INTEGER,,,"Female householder, no husband present:",d4d0RJ0G00d
+p21,14,p0210012,,,INTEGER,,,With related children under 18 years,d4d0RJ0G00e
+p21,15,p0210013,,,INTEGER,,,No related children under 18 years,d4d0RJ0G00f
+p21,16,p0210014,,,INTEGER,,,Nonfamily households:,d4d0RJ0G00g
+p21,17,p0210015,,,INTEGER,,,Householder living alone,d4d0RJ0G00h
+p21,18,p0210016,,,INTEGER,,,Householder not living alone,d4d0RJ0G00i
+p21,19,p0210017,,,INTEGER,,,Householder 65 years and over:,d4d0RJ0G00j
+p21,20,p0210018,,,INTEGER,,,Family households:,d4d0RJ0G00k
+p21,21,p0210019,,,INTEGER,,,Husband-wife family:,d4d0RJ0G00l
+p21,22,p0210020,,,INTEGER,,,With related children under 18 years,d4d0RJ0G00m
+p21,23,p0210021,,,INTEGER,,,No related children under 18 years,d4d0RJ0G00n
+p21,24,p0210022,,,INTEGER,,,Other family:,d4d0RJ0G00o
+p21,25,p0210023,,,INTEGER,,,"Male householder, no wife present:",d4d0RJ0G00p
+p21,26,p0210024,,,INTEGER,,,With related children under 18 years,d4d0RJ0G00q
+p21,27,p0210025,,,INTEGER,,,No related children under 18 years,d4d0RJ0G00r
+p21,28,p0210026,,,INTEGER,,,"Female householder, no husband present:",d4d0RJ0G00s
+p21,29,p0210027,,,INTEGER,,,With related children under 18 years,d4d0RJ0G00t
+p21,30,p0210028,,,INTEGER,,,No related children under 18 years,d4d0RJ0G00u
+p21,31,p0210029,,,INTEGER,,,Nonfamily households:,d4d0RJ0G00v
+p21,32,p0210030,,,INTEGER,,,Householder living alone,d4d0RJ0G00w
+p21,33,p0210031,,,INTEGER,,,Householder not living alone,d4d0RJ0G00x
+,,,,,,,,,
+p22,1,id,1,,INTEGER64,,6,,d4d0RJ0H001
+p22,2,geoid,,,VARCHAR,1,,,d4d0RJ0H002
+p22,3,p0220001,,,INTEGER,,,Total:,d4d0RJ0H003
+p22,4,p0220002,,,INTEGER,,,Family households:,d4d0RJ0H004
+p22,5,p0220003,,,INTEGER,,,Householder 15 to 24 years,d4d0RJ0H005
+p22,6,p0220004,,,INTEGER,,,Householder 25 to 34 years,d4d0RJ0H006
+p22,7,p0220005,,,INTEGER,,,Householder 35 to 44 years,d4d0RJ0H007
+p22,8,p0220006,,,INTEGER,,,Householder 45 to 54 years,d4d0RJ0H008
+p22,9,p0220007,,,INTEGER,,,Householder 55 to 59 years,d4d0RJ0H009
+p22,10,p0220008,,,INTEGER,,,Householder 60 to 64 years,d4d0RJ0H00a
+p22,11,p0220009,,,INTEGER,,,Householder 65 to 74 years,d4d0RJ0H00b
+p22,12,p0220010,,,INTEGER,,,Householder 75 to 84 years,d4d0RJ0H00c
+p22,13,p0220011,,,INTEGER,,,Householder 85 years and over,d4d0RJ0H00d
+p22,14,p0220012,,,INTEGER,,,Nonfamily households:,d4d0RJ0H00e
+p22,15,p0220013,,,INTEGER,,,Householder 15 to 24 years,d4d0RJ0H00f
+p22,16,p0220014,,,INTEGER,,,Householder 25 to 34 years,d4d0RJ0H00g
+p22,17,p0220015,,,INTEGER,,,Householder 35 to 44 years,d4d0RJ0H00h
+p22,18,p0220016,,,INTEGER,,,Householder 45 to 54 years,d4d0RJ0H00i
+p22,19,p0220017,,,INTEGER,,,Householder 55 to 59 years,d4d0RJ0H00j
+p22,20,p0220018,,,INTEGER,,,Householder 60 to 64 years,d4d0RJ0H00k
+p22,21,p0220019,,,INTEGER,,,Householder 65 to 74 years,d4d0RJ0H00l
+p22,22,p0220020,,,INTEGER,,,Householder 75 to 84 years,d4d0RJ0H00m
+p22,23,p0220021,,,INTEGER,,,Householder 85 years and over,d4d0RJ0H00n
+,,,,,,,,,
+p23,1,id,1,,INTEGER64,,6,,d4d0RJ0I001
+p23,2,geoid,,,VARCHAR,1,,,d4d0RJ0I002
+p23,3,p0230001,,,INTEGER,,,Total:,d4d0RJ0I003
+p23,4,p0230002,,,INTEGER,,,Households with one or more people 60 years and over:,d4d0RJ0I004
+p23,5,p0230003,,,INTEGER,,,Family households:,d4d0RJ0I005
+p23,6,p0230004,,,INTEGER,,,Husband-wife family,d4d0RJ0I006
+p23,7,p0230005,,,INTEGER,,,Other family:,d4d0RJ0I007
+p23,8,p0230006,,,INTEGER,,,"Male householder, no wife present",d4d0RJ0I008
+p23,9,p0230007,,,INTEGER,,,"Female householder, no husband present",d4d0RJ0I009
+p23,10,p0230008,,,INTEGER,,,Nonfamily households,d4d0RJ0I00a
+p23,11,p0230009,,,INTEGER,,,Households with no people 60 years and over:,d4d0RJ0I00b
+p23,12,p0230010,,,INTEGER,,,Family households:,d4d0RJ0I00c
+p23,13,p0230011,,,INTEGER,,,Husband-wife family,d4d0RJ0I00d
+p23,14,p0230012,,,INTEGER,,,Other family:,d4d0RJ0I00e
+p23,15,p0230013,,,INTEGER,,,"Male householder, no wife present",d4d0RJ0I00f
+p23,16,p0230014,,,INTEGER,,,"Female householder, no husband present",d4d0RJ0I00g
+p23,17,p0230015,,,INTEGER,,,Nonfamily households,d4d0RJ0I00h
+,,,,,,,,,
+p24,1,id,1,,INTEGER64,,6,,d4d0RJ0J001
+p24,2,geoid,,,VARCHAR,1,,,d4d0RJ0J002
+p24,3,p0240001,,,INTEGER,,,Total:,d4d0RJ0J003
+p24,4,p0240002,,,INTEGER,,,Households with one or more people 60 years and over:,d4d0RJ0J004
+p24,5,p0240003,,,INTEGER,,,1-person household,d4d0RJ0J005
+p24,6,p0240004,,,INTEGER,,,2-or-more-person household:,d4d0RJ0J006
+p24,7,p0240005,,,INTEGER,,,Family households,d4d0RJ0J007
+p24,8,p0240006,,,INTEGER,,,Nonfamily households,d4d0RJ0J008
+p24,9,p0240007,,,INTEGER,,,Households with no people 60 years and over:,d4d0RJ0J009
+p24,10,p0240008,,,INTEGER,,,1-person household,d4d0RJ0J00a
+p24,11,p0240009,,,INTEGER,,,2-or-more-person household:,d4d0RJ0J00b
+p24,12,p0240010,,,INTEGER,,,Family households,d4d0RJ0J00c
+p24,13,p0240011,,,INTEGER,,,Nonfamily households,d4d0RJ0J00d
+,,,,,,,,,
+p25,1,id,1,,INTEGER64,,6,,d4d0RJ0K001
+p25,2,geoid,,,VARCHAR,1,,,d4d0RJ0K002
+p25,3,p0250001,,,INTEGER,,,Total:,d4d0RJ0K003
+p25,4,p0250002,,,INTEGER,,,Households with one or more people 65 years and over:,d4d0RJ0K004
+p25,5,p0250003,,,INTEGER,,,1-person household,d4d0RJ0K005
+p25,6,p0250004,,,INTEGER,,,2-or-more-person household:,d4d0RJ0K006
+p25,7,p0250005,,,INTEGER,,,Family households,d4d0RJ0K007
+p25,8,p0250006,,,INTEGER,,,Nonfamily households,d4d0RJ0K008
+p25,9,p0250007,,,INTEGER,,,Households with no people 65 years and over:,d4d0RJ0K009
+p25,10,p0250008,,,INTEGER,,,1-person household,d4d0RJ0K00a
+p25,11,p0250009,,,INTEGER,,,2-or-more-person household:,d4d0RJ0K00b
+p25,12,p0250010,,,INTEGER,,,Family households,d4d0RJ0K00c
+p25,13,p0250011,,,INTEGER,,,Nonfamily households,d4d0RJ0K00d
+,,,,,,,,,
+p26,1,id,1,,INTEGER64,,6,,d4d0RJ0L001
+p26,2,geoid,,,VARCHAR,1,,,d4d0RJ0L002
+p26,3,p0260001,,,INTEGER,,,Total:,d4d0RJ0L003
+p26,4,p0260002,,,INTEGER,,,Households with one or more people 75 years and over:,d4d0RJ0L004
+p26,5,p0260003,,,INTEGER,,,1-person household,d4d0RJ0L005
+p26,6,p0260004,,,INTEGER,,,2-or-more-person household:,d4d0RJ0L006
+p26,7,p0260005,,,INTEGER,,,Family households,d4d0RJ0L007
+p26,8,p0260006,,,INTEGER,,,Nonfamily households,d4d0RJ0L008
+p26,9,p0260007,,,INTEGER,,,Households with no people 75 years and over:,d4d0RJ0L009
+p26,10,p0260008,,,INTEGER,,,1-person household,d4d0RJ0L00a
+p26,11,p0260009,,,INTEGER,,,2-or-more-person household:,d4d0RJ0L00b
+p26,12,p0260010,,,INTEGER,,,Family households,d4d0RJ0L00c
+p26,13,p0260011,,,INTEGER,,,Nonfamily households,d4d0RJ0L00d
+,,,,,,,,,
+p27,1,id,1,,INTEGER64,,6,,d4d0RJ0M001
+p27,2,geoid,,,VARCHAR,1,,,d4d0RJ0M002
+p27,3,p0270001,,,INTEGER,,,Total:,d4d0RJ0M003
+p27,4,p0270002,,,INTEGER,,,Households with one or more nonrelatives,d4d0RJ0M004
+p27,5,p0270003,,,INTEGER,,,Households with no nonrelatives,d4d0RJ0M005
+,,,,,,,,,
+p28,1,id,1,,INTEGER64,,6,,d4d0RJ0N001
+p28,2,geoid,,,VARCHAR,1,,,d4d0RJ0N002
+p28,3,p0280001,,,INTEGER,,,Total:,d4d0RJ0N003
+p28,4,p0280002,,,INTEGER,,,Family households:,d4d0RJ0N004
+p28,5,p0280003,,,INTEGER,,,2-person household,d4d0RJ0N005
+p28,6,p0280004,,,INTEGER,,,3-person household,d4d0RJ0N006
+p28,7,p0280005,,,INTEGER,,,4-person household,d4d0RJ0N007
+p28,8,p0280006,,,INTEGER,,,5-person household,d4d0RJ0N008
+p28,9,p0280007,,,INTEGER,,,6-person household,d4d0RJ0N009
+p28,10,p0280008,,,INTEGER,,,7-or-more-person household,d4d0RJ0N00a
+p28,11,p0280009,,,INTEGER,,,Nonfamily households:,d4d0RJ0N00b
+p28,12,p0280010,,,INTEGER,,,1-person household,d4d0RJ0N00c
+p28,13,p0280011,,,INTEGER,,,2-person household,d4d0RJ0N00d
+p28,14,p0280012,,,INTEGER,,,3-person household,d4d0RJ0N00e
+p28,15,p0280013,,,INTEGER,,,4-person household,d4d0RJ0N00f
+p28,16,p0280014,,,INTEGER,,,5-person household,d4d0RJ0N00g
+p28,17,p0280015,,,INTEGER,,,6-person household,d4d0RJ0N00h
+p28,18,p0280016,,,INTEGER,,,7-or-more-person household,d4d0RJ0N00i
+,,,,,,,,,
+p29,1,id,1,,INTEGER64,,6,,d4d0RJ0O001
+p29,2,geoid,,,VARCHAR,1,,,d4d0RJ0O002
+p29,3,p0290001,,,INTEGER,,,Total:,d4d0RJ0O003
+p29,4,p0290002,,,INTEGER,,,In households:,d4d0RJ0O004
+p29,5,p0290003,,,INTEGER,,,In family households:,d4d0RJ0O005
+p29,6,p0290004,,,INTEGER,,,Householder:,d4d0RJ0O006
+p29,7,p0290005,,,INTEGER,,,Male,d4d0RJ0O007
+p29,8,p0290006,,,INTEGER,,,Female,d4d0RJ0O008
+p29,9,p0290007,,,INTEGER,,,Spouse,d4d0RJ0O009
+p29,10,p0290008,,,INTEGER,,,Biological child,d4d0RJ0O00a
+p29,11,p0290009,,,INTEGER,,,Adopted child,d4d0RJ0O00b
+p29,12,p0290010,,,INTEGER,,,Stepchild,d4d0RJ0O00c
+p29,13,p0290011,,,INTEGER,,,Grandchild,d4d0RJ0O00d
+p29,14,p0290012,,,INTEGER,,,Brother or sister,d4d0RJ0O00e
+p29,15,p0290013,,,INTEGER,,,Parent,d4d0RJ0O00f
+p29,16,p0290014,,,INTEGER,,,Parent-in-law,d4d0RJ0O00g
+p29,17,p0290015,,,INTEGER,,,Son-in-law or daughter-in-law,d4d0RJ0O00h
+p29,18,p0290016,,,INTEGER,,,Other relatives,d4d0RJ0O00i
+p29,19,p0290017,,,INTEGER,,,Nonrelatives,d4d0RJ0O00j
+p29,20,p0290018,,,INTEGER,,,In nonfamily households:,d4d0RJ0O00k
+p29,21,p0290019,,,INTEGER,,,Male householder:,d4d0RJ0O00l
+p29,22,p0290020,,,INTEGER,,,Living alone,d4d0RJ0O00m
+p29,23,p0290021,,,INTEGER,,,Not living alone,d4d0RJ0O00n
+p29,24,p0290022,,,INTEGER,,,Female householder:,d4d0RJ0O00o
+p29,25,p0290023,,,INTEGER,,,Living alone,d4d0RJ0O00p
+p29,26,p0290024,,,INTEGER,,,Not living alone,d4d0RJ0O00q
+p29,27,p0290025,,,INTEGER,,,Nonrelatives,d4d0RJ0O00r
+p29,28,p0290026,,,INTEGER,,,In group quarters:,d4d0RJ0O00s
+p29,29,p0290027,,,INTEGER,,,Institutionalized population,d4d0RJ0O00t
+p29,30,p0290028,,,INTEGER,,,Noninstitutionalized population,d4d0RJ0O00u
+,,,,,,,,,
+p3,1,id,1,,INTEGER64,,6,,d4d0RJ0P001
+p3,2,geoid,,,VARCHAR,1,,,d4d0RJ0P002
+p3,3,p0030001,,,INTEGER,,,Total:,d4d0RJ0P003
+p3,4,p0030002,,,INTEGER,,,White alone,d4d0RJ0P004
+p3,5,p0030003,,,INTEGER,,,Black or African American alone,d4d0RJ0P005
+p3,6,p0030004,,,INTEGER,,,American Indian and Alaska Native alone,d4d0RJ0P006
+p3,7,p0030005,,,INTEGER,,,Asian alone,d4d0RJ0P007
+p3,8,p0030006,,,INTEGER,,,Native Hawaiian and Other Pacific Islander alone,d4d0RJ0P008
+p3,9,p0030007,,,INTEGER,,,Some Other Race alone,d4d0RJ0P009
+p3,10,p0030008,,,INTEGER,,,Two or More Races,d4d0RJ0P00a
+,,,,,,,,,
+p30,1,id,1,,INTEGER64,,6,,d4d0RJ0Q001
+p30,2,geoid,,,VARCHAR,1,,,d4d0RJ0Q002
+p30,3,p0300001,,,INTEGER,,,Total:,d4d0RJ0Q003
+p30,4,p0300002,,,INTEGER,,,In family households:,d4d0RJ0Q004
+p30,5,p0300003,,,INTEGER,,,In husband-wife family,d4d0RJ0Q005
+p30,6,p0300004,,,INTEGER,,,In other family:,d4d0RJ0Q006
+p30,7,p0300005,,,INTEGER,,,"In male householder, no wife present family",d4d0RJ0Q007
+p30,8,p0300006,,,INTEGER,,,"In female householder, no husband present family",d4d0RJ0Q008
+p30,9,p0300007,,,INTEGER,,,In nonfamily households:,d4d0RJ0Q009
+p30,10,p0300008,,,INTEGER,,,In households with a male householder:,d4d0RJ0Q00a
+p30,11,p0300009,,,INTEGER,,,In 1-person household,d4d0RJ0Q00b
+p30,12,p0300010,,,INTEGER,,,In 2-or-more-person household,d4d0RJ0Q00c
+p30,13,p0300011,,,INTEGER,,,In households with a female householder:,d4d0RJ0Q00d
+p30,14,p0300012,,,INTEGER,,,In 1-person household,d4d0RJ0Q00e
+p30,15,p0300013,,,INTEGER,,,In 2-or-more-person household,d4d0RJ0Q00f
+,,,,,,,,,
+p31,1,id,1,,INTEGER64,,6,,d4d0RJ0R001
+p31,2,geoid,,,VARCHAR,1,,,d4d0RJ0R002
+p31,3,p0310001,,,INTEGER,,,Total:,d4d0RJ0R003
+p31,4,p0310002,,,INTEGER,,,In households:,d4d0RJ0R004
+p31,5,p0310003,,,INTEGER,,,Householder or spouse,d4d0RJ0R005
+p31,6,p0310004,,,INTEGER,,,Related child:,d4d0RJ0R006
+p31,7,p0310005,,,INTEGER,,,Own child:,d4d0RJ0R007
+p31,8,p0310006,,,INTEGER,,,In husband-wife family,d4d0RJ0R008
+p31,9,p0310007,,,INTEGER,,,In other family:,d4d0RJ0R009
+p31,10,p0310008,,,INTEGER,,,"In male householder, no wife present family",d4d0RJ0R00a
+p31,11,p0310009,,,INTEGER,,,"In female householder, no husband present family",d4d0RJ0R00b
+p31,12,p0310010,,,INTEGER,,,Other relatives:,d4d0RJ0R00c
+p31,13,p0310011,,,INTEGER,,,Grandchild,d4d0RJ0R00d
+p31,14,p0310012,,,INTEGER,,,Other relatives,d4d0RJ0R00e
+p31,15,p0310013,,,INTEGER,,,Nonrelatives,d4d0RJ0R00f
+p31,16,p0310014,,,INTEGER,,,In group quarters:,d4d0RJ0R00g
+p31,17,p0310015,,,INTEGER,,,Institutionalized population,d4d0RJ0R00h
+p31,18,p0310016,,,INTEGER,,,Noninstitutionalized population,d4d0RJ0R00i
+,,,,,,,,,
+p32,1,id,1,,INTEGER64,,6,,d4d0RJ0S001
+p32,2,geoid,,,VARCHAR,1,,,d4d0RJ0S002
+p32,3,p0320001,,,INTEGER,,,Total:,d4d0RJ0S003
+p32,4,p0320002,,,INTEGER,,,In households:,d4d0RJ0S004
+p32,5,p0320003,,,INTEGER,,,Householder or spouse,d4d0RJ0S005
+p32,6,p0320004,,,INTEGER,,,Related child:,d4d0RJ0S006
+p32,7,p0320005,,,INTEGER,,,Own child:,d4d0RJ0S007
+p32,8,p0320006,,,INTEGER,,,Under 3 years,d4d0RJ0S008
+p32,9,p0320007,,,INTEGER,,,3 and 4 years,d4d0RJ0S009
+p32,10,p0320008,,,INTEGER,,,5 years,d4d0RJ0S00a
+p32,11,p0320009,,,INTEGER,,,6 to 11 years,d4d0RJ0S00b
+p32,12,p0320010,,,INTEGER,,,12 and 13 years,d4d0RJ0S00c
+p32,13,p0320011,,,INTEGER,,,14 years,d4d0RJ0S00d
+p32,14,p0320012,,,INTEGER,,,15 to 17 years,d4d0RJ0S00e
+p32,15,p0320013,,,INTEGER,,,Other relatives:,d4d0RJ0S00f
+p32,16,p0320014,,,INTEGER,,,Under 3 years,d4d0RJ0S00g
+p32,17,p0320015,,,INTEGER,,,3 and 4 years,d4d0RJ0S00h
+p32,18,p0320016,,,INTEGER,,,5 years,d4d0RJ0S00i
+p32,19,p0320017,,,INTEGER,,,6 to 11 years,d4d0RJ0S00j
+p32,20,p0320018,,,INTEGER,,,12 and 13 years,d4d0RJ0S00k
+p32,21,p0320019,,,INTEGER,,,14 years,d4d0RJ0S00l
+p32,22,p0320020,,,INTEGER,,,15 to 17 years,d4d0RJ0S00m
+p32,23,p0320021,,,INTEGER,,,Nonrelatives:,d4d0RJ0S00n
+p32,24,p0320022,,,INTEGER,,,Under 3 years,d4d0RJ0S00o
+p32,25,p0320023,,,INTEGER,,,3 and 4 years,d4d0RJ0S00p
+p32,26,p0320024,,,INTEGER,,,5 years,d4d0RJ0S00q
+p32,27,p0320025,,,INTEGER,,,6 to 11 years,d4d0RJ0S00r
+p32,28,p0320026,,,INTEGER,,,12 and 13 years,d4d0RJ0S00s
+p32,29,p0320027,,,INTEGER,,,14 years,d4d0RJ0S00t
+p32,30,p0320028,,,INTEGER,,,15 to 17 years,d4d0RJ0S00u
+p32,31,p0320029,,,INTEGER,,,In group quarters:,d4d0RJ0S00v
+p32,32,p0320030,,,INTEGER,,,Institutionalized population:,d4d0RJ0S00w
+p32,33,p0320031,,,INTEGER,,,Under 3 years,d4d0RJ0S00x
+p32,34,p0320032,,,INTEGER,,,3 and 4 years,d4d0RJ0S00y
+p32,35,p0320033,,,INTEGER,,,5 years,d4d0RJ0S00z
+p32,36,p0320034,,,INTEGER,,,6 to 11 years,d4d0RJ0S00A
+p32,37,p0320035,,,INTEGER,,,12 and 13 years,d4d0RJ0S00B
+p32,38,p0320036,,,INTEGER,,,14 years,d4d0RJ0S00C
+p32,39,p0320037,,,INTEGER,,,15 to 17 years,d4d0RJ0S00D
+p32,40,p0320038,,,INTEGER,,,Noninstitutionalized population:,d4d0RJ0S00E
+p32,41,p0320039,,,INTEGER,,,Under 3 years,d4d0RJ0S00F
+p32,42,p0320040,,,INTEGER,,,3 and 4 years,d4d0RJ0S00G
+p32,43,p0320041,,,INTEGER,,,5 years,d4d0RJ0S00H
+p32,44,p0320042,,,INTEGER,,,6 to 11 years,d4d0RJ0S00I
+p32,45,p0320043,,,INTEGER,,,12 and 13 years,d4d0RJ0S00J
+p32,46,p0320044,,,INTEGER,,,14 years,d4d0RJ0S00K
+p32,47,p0320045,,,INTEGER,,,15 to 17 years,d4d0RJ0S00L
+,,,,,,,,,
+p33,1,id,1,,INTEGER64,,6,,d4d0RJ0T001
+p33,2,geoid,,,VARCHAR,1,,,d4d0RJ0T002
+p33,3,p0330001,,,INTEGER,,,Total:,d4d0RJ0T003
+p33,4,p0330002,,,INTEGER,,,In family households:,d4d0RJ0T004
+p33,5,p0330003,,,INTEGER,,,In husband-wife family,d4d0RJ0T005
+p33,6,p0330004,,,INTEGER,,,In other family:,d4d0RJ0T006
+p33,7,p0330005,,,INTEGER,,,"In male householder, no wife present family",d4d0RJ0T007
+p33,8,p0330006,,,INTEGER,,,"In female householder, no husband present family",d4d0RJ0T008
+p33,9,p0330007,,,INTEGER,,,In nonfamily households,d4d0RJ0T009
+,,,,,,,,,
+p34,1,id,1,,INTEGER64,,6,,d4d0RJ0U001
+p34,2,geoid,,,VARCHAR,1,,,d4d0RJ0U002
+p34,3,p0340001,,,INTEGER,,,Total:,d4d0RJ0U003
+p34,4,p0340002,,,INTEGER,,,In households:,d4d0RJ0U004
+p34,5,p0340003,,,INTEGER,,,In family households:,d4d0RJ0U005
+p34,6,p0340004,,,INTEGER,,,Householder:,d4d0RJ0U006
+p34,7,p0340005,,,INTEGER,,,Male,d4d0RJ0U007
+p34,8,p0340006,,,INTEGER,,,Female,d4d0RJ0U008
+p34,9,p0340007,,,INTEGER,,,Spouse,d4d0RJ0U009
+p34,10,p0340008,,,INTEGER,,,Parent,d4d0RJ0U00a
+p34,11,p0340009,,,INTEGER,,,Parent-in-law,d4d0RJ0U00b
+p34,12,p0340010,,,INTEGER,,,Other relatives,d4d0RJ0U00c
+p34,13,p0340011,,,INTEGER,,,Nonrelatives,d4d0RJ0U00d
+p34,14,p0340012,,,INTEGER,,,In nonfamily households:,d4d0RJ0U00e
+p34,15,p0340013,,,INTEGER,,,Male householder:,d4d0RJ0U00f
+p34,16,p0340014,,,INTEGER,,,Living alone,d4d0RJ0U00g
+p34,17,p0340015,,,INTEGER,,,Not living alone,d4d0RJ0U00h
+p34,18,p0340016,,,INTEGER,,,Female householder:,d4d0RJ0U00i
+p34,19,p0340017,,,INTEGER,,,Living alone,d4d0RJ0U00j
+p34,20,p0340018,,,INTEGER,,,Not living alone,d4d0RJ0U00k
+p34,21,p0340019,,,INTEGER,,,Nonrelatives,d4d0RJ0U00l
+p34,22,p0340020,,,INTEGER,,,In group quarters:,d4d0RJ0U00m
+p34,23,p0340021,,,INTEGER,,,Institutionalized population,d4d0RJ0U00n
+p34,24,p0340022,,,INTEGER,,,Noninstitutionalized population,d4d0RJ0U00o
+,,,,,,,,,
+p34f,1,id,1,,INTEGER64,,6,,d4d0RJ0V001
+p34f,2,geoid,,,VARCHAR,1,,,d4d0RJ0V002
+p34f,3,p034f001,,,INTEGER,,,Total:,d4d0RJ0V003
+p34f,4,p034f002,,,INTEGER,,,In households:,d4d0RJ0V004
+p34f,5,p034f003,,,INTEGER,,,In family households:,d4d0RJ0V005
+p34f,6,p034f004,,,INTEGER,,,Householder:,d4d0RJ0V006
+p34f,7,p034f005,,,INTEGER,,,Male,d4d0RJ0V007
+p34f,8,p034f006,,,INTEGER,,,Female,d4d0RJ0V008
+p34f,9,p034f007,,,INTEGER,,,Spouse,d4d0RJ0V009
+p34f,10,p034f008,,,INTEGER,,,Parent,d4d0RJ0V00a
+p34f,11,p034f009,,,INTEGER,,,Parent-in-law,d4d0RJ0V00b
+p34f,12,p034f010,,,INTEGER,,,Other relatives,d4d0RJ0V00c
+p34f,13,p034f011,,,INTEGER,,,Nonrelatives,d4d0RJ0V00d
+p34f,14,p034f012,,,INTEGER,,,In nonfamily households:,d4d0RJ0V00e
+p34f,15,p034f013,,,INTEGER,,,Male householder:,d4d0RJ0V00f
+p34f,16,p034f014,,,INTEGER,,,Living alone,d4d0RJ0V00g
+p34f,17,p034f015,,,INTEGER,,,Not living alone,d4d0RJ0V00h
+p34f,18,p034f016,,,INTEGER,,,Female householder:,d4d0RJ0V00i
+p34f,19,p034f017,,,INTEGER,,,Living alone,d4d0RJ0V00j
+p34f,20,p034f018,,,INTEGER,,,Not living alone,d4d0RJ0V00k
+p34f,21,p034f019,,,INTEGER,,,Nonrelatives,d4d0RJ0V00l
+p34f,22,p034f020,,,INTEGER,,,In group quarters:,d4d0RJ0V00m
+p34f,23,p034f021,,,INTEGER,,,Institutionalized population,d4d0RJ0V00n
+p34f,24,p034f022,,,INTEGER,,,Noninstitutionalized population,d4d0RJ0V00o
+,,,,,,,,,
+p34g,1,id,1,,INTEGER64,,6,,d4d0RJ0W001
+p34g,2,geoid,,,VARCHAR,1,,,d4d0RJ0W002
+p34g,3,p034g001,,,INTEGER,,,Total:,d4d0RJ0W003
+p34g,4,p034g002,,,INTEGER,,,In households:,d4d0RJ0W004
+p34g,5,p034g003,,,INTEGER,,,In family households:,d4d0RJ0W005
+p34g,6,p034g004,,,INTEGER,,,Householder:,d4d0RJ0W006
+p34g,7,p034g005,,,INTEGER,,,Male,d4d0RJ0W007
+p34g,8,p034g006,,,INTEGER,,,Female,d4d0RJ0W008
+p34g,9,p034g007,,,INTEGER,,,Spouse,d4d0RJ0W009
+p34g,10,p034g008,,,INTEGER,,,Parent,d4d0RJ0W00a
+p34g,11,p034g009,,,INTEGER,,,Parent-in-law,d4d0RJ0W00b
+p34g,12,p034g010,,,INTEGER,,,Other relatives,d4d0RJ0W00c
+p34g,13,p034g011,,,INTEGER,,,Nonrelatives,d4d0RJ0W00d
+p34g,14,p034g012,,,INTEGER,,,In nonfamily households:,d4d0RJ0W00e
+p34g,15,p034g013,,,INTEGER,,,Male householder:,d4d0RJ0W00f
+p34g,16,p034g014,,,INTEGER,,,Living alone,d4d0RJ0W00g
+p34g,17,p034g015,,,INTEGER,,,Not living alone,d4d0RJ0W00h
+p34g,18,p034g016,,,INTEGER,,,Female householder:,d4d0RJ0W00i
+p34g,19,p034g017,,,INTEGER,,,Living alone,d4d0RJ0W00j
+p34g,20,p034g018,,,INTEGER,,,Not living alone,d4d0RJ0W00k
+p34g,21,p034g019,,,INTEGER,,,Nonrelatives,d4d0RJ0W00l
+p34g,22,p034g020,,,INTEGER,,,In group quarters:,d4d0RJ0W00m
+p34g,23,p034g021,,,INTEGER,,,Institutionalized population,d4d0RJ0W00n
+p34g,24,p034g022,,,INTEGER,,,Noninstitutionalized population,d4d0RJ0W00o
+,,,,,,,,,
+p34h,1,id,1,,INTEGER64,,6,,d4d0RJ0X001
+p34h,2,geoid,,,VARCHAR,1,,,d4d0RJ0X002
+p34h,3,p034h001,,,INTEGER,,,Total:,d4d0RJ0X003
+p34h,4,p034h002,,,INTEGER,,,In households:,d4d0RJ0X004
+p34h,5,p034h003,,,INTEGER,,,In family households:,d4d0RJ0X005
+p34h,6,p034h004,,,INTEGER,,,Householder:,d4d0RJ0X006
+p34h,7,p034h005,,,INTEGER,,,Male,d4d0RJ0X007
+p34h,8,p034h006,,,INTEGER,,,Female,d4d0RJ0X008
+p34h,9,p034h007,,,INTEGER,,,Spouse,d4d0RJ0X009
+p34h,10,p034h008,,,INTEGER,,,Parent,d4d0RJ0X00a
+p34h,11,p034h009,,,INTEGER,,,Parent-in-law,d4d0RJ0X00b
+p34h,12,p034h010,,,INTEGER,,,Other relatives,d4d0RJ0X00c
+p34h,13,p034h011,,,INTEGER,,,Nonrelatives,d4d0RJ0X00d
+p34h,14,p034h012,,,INTEGER,,,In nonfamily households:,d4d0RJ0X00e
+p34h,15,p034h013,,,INTEGER,,,Male householder:,d4d0RJ0X00f
+p34h,16,p034h014,,,INTEGER,,,Living alone,d4d0RJ0X00g
+p34h,17,p034h015,,,INTEGER,,,Not living alone,d4d0RJ0X00h
+p34h,18,p034h016,,,INTEGER,,,Female householder:,d4d0RJ0X00i
+p34h,19,p034h017,,,INTEGER,,,Living alone,d4d0RJ0X00j
+p34h,20,p034h018,,,INTEGER,,,Not living alone,d4d0RJ0X00k
+p34h,21,p034h019,,,INTEGER,,,Nonrelatives,d4d0RJ0X00l
+p34h,22,p034h020,,,INTEGER,,,In group quarters:,d4d0RJ0X00m
+p34h,23,p034h021,,,INTEGER,,,Institutionalized population,d4d0RJ0X00n
+p34h,24,p034h022,,,INTEGER,,,Noninstitutionalized population,d4d0RJ0X00o
+,,,,,,,,,
+p34i,1,id,1,,INTEGER64,,6,,d4d0RJ0Y001
+p34i,2,geoid,,,VARCHAR,1,,,d4d0RJ0Y002
+p34i,3,p034i001,,,INTEGER,,,Total:,d4d0RJ0Y003
+p34i,4,p034i002,,,INTEGER,,,In households:,d4d0RJ0Y004
+p34i,5,p034i003,,,INTEGER,,,In family households:,d4d0RJ0Y005
+p34i,6,p034i004,,,INTEGER,,,Householder:,d4d0RJ0Y006
+p34i,7,p034i005,,,INTEGER,,,Male,d4d0RJ0Y007
+p34i,8,p034i006,,,INTEGER,,,Female,d4d0RJ0Y008
+p34i,9,p034i007,,,INTEGER,,,Spouse,d4d0RJ0Y009
+p34i,10,p034i008,,,INTEGER,,,Parent,d4d0RJ0Y00a
+p34i,11,p034i009,,,INTEGER,,,Parent-in-law,d4d0RJ0Y00b
+p34i,12,p034i010,,,INTEGER,,,Other relatives,d4d0RJ0Y00c
+p34i,13,p034i011,,,INTEGER,,,Nonrelatives,d4d0RJ0Y00d
+p34i,14,p034i012,,,INTEGER,,,In nonfamily households:,d4d0RJ0Y00e
+p34i,15,p034i013,,,INTEGER,,,Male householder:,d4d0RJ0Y00f
+p34i,16,p034i014,,,INTEGER,,,Living alone,d4d0RJ0Y00g
+p34i,17,p034i015,,,INTEGER,,,Not living alone,d4d0RJ0Y00h
+p34i,18,p034i016,,,INTEGER,,,Female householder:,d4d0RJ0Y00i
+p34i,19,p034i017,,,INTEGER,,,Living alone,d4d0RJ0Y00j
+p34i,20,p034i018,,,INTEGER,,,Not living alone,d4d0RJ0Y00k
+p34i,21,p034i019,,,INTEGER,,,Nonrelatives,d4d0RJ0Y00l
+p34i,22,p034i020,,,INTEGER,,,In group quarters:,d4d0RJ0Y00m
+p34i,23,p034i021,,,INTEGER,,,Institutionalized population,d4d0RJ0Y00n
+p34i,24,p034i022,,,INTEGER,,,Noninstitutionalized population,d4d0RJ0Y00o
+,,,,,,,,,
+p35,1,id,1,,INTEGER64,,6,,d4d0RJ0Z001
+p35,2,geoid,,,VARCHAR,1,,,d4d0RJ0Z002
+p35,3,p0350001,,,INTEGER,,,Total,d4d0RJ0Z003
+,,,,,,,,,
+p35a,1,id,1,,INTEGER64,,6,,d4d0RJ10001
+p35a,2,geoid,,,VARCHAR,1,,,d4d0RJ10002
+p35a,3,p035a001,,,INTEGER,,,Total,d4d0RJ10003
+,,,,,,,,,
+p35b,1,id,1,,INTEGER64,,6,,d4d0RJ11001
+p35b,2,geoid,,,VARCHAR,1,,,d4d0RJ11002
+p35b,3,p035b001,,,INTEGER,,,Total,d4d0RJ11003
+,,,,,,,,,
+p35c,1,id,1,,INTEGER64,,6,,d4d0RJ12001
+p35c,2,geoid,,,VARCHAR,1,,,d4d0RJ12002
+p35c,3,p035c001,,,INTEGER,,,Total,d4d0RJ12003
+,,,,,,,,,
+p35d,1,id,1,,INTEGER64,,6,,d4d0RJ13001
+p35d,2,geoid,,,VARCHAR,1,,,d4d0RJ13002
+p35d,3,p035d001,,,INTEGER,,,Total,d4d0RJ13003
+,,,,,,,,,
+p35e,1,id,1,,INTEGER64,,6,,d4d0RJ14001
+p35e,2,geoid,,,VARCHAR,1,,,d4d0RJ14002
+p35e,3,p035e001,,,INTEGER,,,Total,d4d0RJ14003
+,,,,,,,,,
+p35f,1,id,1,,INTEGER64,,6,,d4d0RJ15001
+p35f,2,geoid,,,VARCHAR,1,,,d4d0RJ15002
+p35f,3,p035f001,,,INTEGER,,,Total,d4d0RJ15003
+,,,,,,,,,
+p35g,1,id,1,,INTEGER64,,6,,d4d0RJ16001
+p35g,2,geoid,,,VARCHAR,1,,,d4d0RJ16002
+p35g,3,p035g001,,,INTEGER,,,Total,d4d0RJ16003
+,,,,,,,,,
+p35h,1,id,1,,INTEGER64,,6,,d4d0RJ17001
+p35h,2,geoid,,,VARCHAR,1,,,d4d0RJ17002
+p35h,3,p035h001,,,INTEGER,,,Total,d4d0RJ17003
+,,,,,,,,,
+p35i,1,id,1,,INTEGER64,,6,,d4d0RJ18001
+p35i,2,geoid,,,VARCHAR,1,,,d4d0RJ18002
+p35i,3,p035i001,,,INTEGER,,,Total,d4d0RJ18003
+,,,,,,,,,
+p36,1,id,1,,INTEGER64,,6,,d4d0RJ19001
+p36,2,geoid,,,VARCHAR,1,,,d4d0RJ19002
+p36,3,p0360001,,,INTEGER,,,Total:,d4d0RJ19003
+p36,4,p0360002,,,INTEGER,,,Under 18 years,d4d0RJ19004
+p36,5,p0360003,,,INTEGER,,,18 years and over,d4d0RJ19005
+,,,,,,,,,
+p36a,1,id,1,,INTEGER64,,6,,d4d0RJ1a001
+p36a,2,geoid,,,VARCHAR,1,,,d4d0RJ1a002
+p36a,3,p036a001,,,INTEGER,,,Total:,d4d0RJ1a003
+p36a,4,p036a002,,,INTEGER,,,Under 18 years,d4d0RJ1a004
+p36a,5,p036a003,,,INTEGER,,,18 years and over,d4d0RJ1a005
+,,,,,,,,,
+p36b,1,id,1,,INTEGER64,,6,,d4d0RJ1b001
+p36b,2,geoid,,,VARCHAR,1,,,d4d0RJ1b002
+p36b,3,p036b001,,,INTEGER,,,Total:,d4d0RJ1b003
+p36b,4,p036b002,,,INTEGER,,,Under 18 years,d4d0RJ1b004
+p36b,5,p036b003,,,INTEGER,,,18 years and over,d4d0RJ1b005
+,,,,,,,,,
+p36c,1,id,1,,INTEGER64,,6,,d4d0RJ1c001
+p36c,2,geoid,,,VARCHAR,1,,,d4d0RJ1c002
+p36c,3,p036c001,,,INTEGER,,,Total:,d4d0RJ1c003
+p36c,4,p036c002,,,INTEGER,,,Under 18 years,d4d0RJ1c004
+p36c,5,p036c003,,,INTEGER,,,18 years and over,d4d0RJ1c005
+,,,,,,,,,
+p36d,1,id,1,,INTEGER64,,6,,d4d0RJ1d001
+p36d,2,geoid,,,VARCHAR,1,,,d4d0RJ1d002
+p36d,3,p036d001,,,INTEGER,,,Total:,d4d0RJ1d003
+p36d,4,p036d002,,,INTEGER,,,Under 18 years,d4d0RJ1d004
+p36d,5,p036d003,,,INTEGER,,,18 years and over,d4d0RJ1d005
+,,,,,,,,,
+p36e,1,id,1,,INTEGER64,,6,,d4d0RJ1e001
+p36e,2,geoid,,,VARCHAR,1,,,d4d0RJ1e002
+p36e,3,p036e001,,,INTEGER,,,Total:,d4d0RJ1e003
+p36e,4,p036e002,,,INTEGER,,,Under 18 years,d4d0RJ1e004
+p36e,5,p036e003,,,INTEGER,,,18 years and over,d4d0RJ1e005
+,,,,,,,,,
+p36f,1,id,1,,INTEGER64,,6,,d4d0RJ1f001
+p36f,2,geoid,,,VARCHAR,1,,,d4d0RJ1f002
+p36f,3,p036f001,,,INTEGER,,,Total:,d4d0RJ1f003
+p36f,4,p036f002,,,INTEGER,,,Under 18 years,d4d0RJ1f004
+p36f,5,p036f003,,,INTEGER,,,18 years and over,d4d0RJ1f005
+,,,,,,,,,
+p36g,1,id,1,,INTEGER64,,6,,d4d0RJ1g001
+p36g,2,geoid,,,VARCHAR,1,,,d4d0RJ1g002
+p36g,3,p036g001,,,INTEGER,,,Total:,d4d0RJ1g003
+p36g,4,p036g002,,,INTEGER,,,Under 18 years,d4d0RJ1g004
+p36g,5,p036g003,,,INTEGER,,,18 years and over,d4d0RJ1g005
+,,,,,,,,,
+p36h,1,id,1,,INTEGER64,,6,,d4d0RJ1h001
+p36h,2,geoid,,,VARCHAR,1,,,d4d0RJ1h002
+p36h,3,p036h001,,,INTEGER,,,Total:,d4d0RJ1h003
+p36h,4,p036h002,,,INTEGER,,,Under 18 years,d4d0RJ1h004
+p36h,5,p036h003,,,INTEGER,,,18 years and over,d4d0RJ1h005
+,,,,,,,,,
+p36i,1,id,1,,INTEGER64,,6,,d4d0RJ1i001
+p36i,2,geoid,,,VARCHAR,1,,,d4d0RJ1i002
+p36i,3,p036i001,,,INTEGER,,,Total:,d4d0RJ1i003
+p36i,4,p036i002,,,INTEGER,,,Under 18 years,d4d0RJ1i004
+p36i,5,p036i003,,,INTEGER,,,18 years and over,d4d0RJ1i005
+,,,,,,,,,
+p37,1,id,1,,INTEGER64,,6,,d4d0RJ1j001
+p37,2,geoid,,,VARCHAR,1,,,d4d0RJ1j002
+p37,3,p0370001,,,REAL,,,Total:,d4d0RJ1j003
+p37,4,p0370002,,,REAL,,,Under 18 years,d4d0RJ1j004
+p37,5,p0370003,,,REAL,,,18 years and over,d4d0RJ1j005
+,,,,,,,,,
+p37a,1,id,1,,INTEGER64,,6,,d4d0RJ1k001
+p37a,2,geoid,,,VARCHAR,1,,,d4d0RJ1k002
+p37a,3,p037a001,,,REAL,,,Total:,d4d0RJ1k003
+p37a,4,p037a002,,,REAL,,,Under 18 years,d4d0RJ1k004
+p37a,5,p037a003,,,REAL,,,18 years and over,d4d0RJ1k005
+,,,,,,,,,
+p37b,1,id,1,,INTEGER64,,6,,d4d0RJ1l001
+p37b,2,geoid,,,VARCHAR,1,,,d4d0RJ1l002
+p37b,3,p037b001,,,REAL,,,Total:,d4d0RJ1l003
+p37b,4,p037b002,,,REAL,,,Under 18 years,d4d0RJ1l004
+p37b,5,p037b003,,,REAL,,,18 years and over,d4d0RJ1l005
+,,,,,,,,,
+p37c,1,id,1,,INTEGER64,,6,,d4d0RJ1m001
+p37c,2,geoid,,,VARCHAR,1,,,d4d0RJ1m002
+p37c,3,p037c001,,,REAL,,,Total:,d4d0RJ1m003
+p37c,4,p037c002,,,REAL,,,Under 18 years,d4d0RJ1m004
+p37c,5,p037c003,,,REAL,,,18 years and over,d4d0RJ1m005
+,,,,,,,,,
+p37d,1,id,1,,INTEGER64,,6,,d4d0RJ1n001
+p37d,2,geoid,,,VARCHAR,1,,,d4d0RJ1n002
+p37d,3,p037d001,,,REAL,,,Total:,d4d0RJ1n003
+p37d,4,p037d002,,,REAL,,,Under 18 years,d4d0RJ1n004
+p37d,5,p037d003,,,REAL,,,18 years and over,d4d0RJ1n005
+,,,,,,,,,
+p37e,1,id,1,,INTEGER64,,6,,d4d0RJ1o001
+p37e,2,geoid,,,VARCHAR,1,,,d4d0RJ1o002
+p37e,3,p037e001,,,REAL,,,Total:,d4d0RJ1o003
+p37e,4,p037e002,,,REAL,,,Under 18 years,d4d0RJ1o004
+p37e,5,p037e003,,,REAL,,,18 years and over,d4d0RJ1o005
+,,,,,,,,,
+p37f,1,id,1,,INTEGER64,,6,,d4d0RJ1p001
+p37f,2,geoid,,,VARCHAR,1,,,d4d0RJ1p002
+p37f,3,p037f001,,,REAL,,,Total:,d4d0RJ1p003
+p37f,4,p037f002,,,REAL,,,Under 18 years,d4d0RJ1p004
+p37f,5,p037f003,,,REAL,,,18 years and over,d4d0RJ1p005
+,,,,,,,,,
+p37g,1,id,1,,INTEGER64,,6,,d4d0RJ1q001
+p37g,2,geoid,,,VARCHAR,1,,,d4d0RJ1q002
+p37g,3,p037g001,,,REAL,,,Total:,d4d0RJ1q003
+p37g,4,p037g002,,,REAL,,,Under 18 years,d4d0RJ1q004
+p37g,5,p037g003,,,REAL,,,18 years and over,d4d0RJ1q005
+,,,,,,,,,
+p37h,1,id,1,,INTEGER64,,6,,d4d0RJ1r001
+p37h,2,geoid,,,VARCHAR,1,,,d4d0RJ1r002
+p37h,3,p037h001,,,REAL,,,Total:,d4d0RJ1r003
+p37h,4,p037h002,,,REAL,,,Under 18 years,d4d0RJ1r004
+p37h,5,p037h003,,,REAL,,,18 years and over,d4d0RJ1r005
+,,,,,,,,,
+p37i,1,id,1,,INTEGER64,,6,,d4d0RJ1s001
+p37i,2,geoid,,,VARCHAR,1,,,d4d0RJ1s002
+p37i,3,p037i001,,,REAL,,,Total:,d4d0RJ1s003
+p37i,4,p037i002,,,REAL,,,Under 18 years,d4d0RJ1s004
+p37i,5,p037i003,,,REAL,,,18 years and over,d4d0RJ1s005
+,,,,,,,,,
+p38,1,id,1,,INTEGER64,,6,,d4d0RJ1t001
+p38,2,geoid,,,VARCHAR,1,,,d4d0RJ1t002
+p38,3,p0380001,,,INTEGER,,,Total:,d4d0RJ1t003
+p38,4,p0380002,,,INTEGER,,,Husband-wife family:,d4d0RJ1t004
+p38,5,p0380003,,,INTEGER,,,With own children under 18 years:,d4d0RJ1t005
+p38,6,p0380004,,,INTEGER,,,Under 6 years only,d4d0RJ1t006
+p38,7,p0380005,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1t007
+p38,8,p0380006,,,INTEGER,,,6 to 17 years only,d4d0RJ1t008
+p38,9,p0380007,,,INTEGER,,,No own children under 18 years,d4d0RJ1t009
+p38,10,p0380008,,,INTEGER,,,Other family:,d4d0RJ1t00a
+p38,11,p0380009,,,INTEGER,,,"Male householder, no wife present:",d4d0RJ1t00b
+p38,12,p0380010,,,INTEGER,,,With own children under 18 years:,d4d0RJ1t00c
+p38,13,p0380011,,,INTEGER,,,Under 6 years only,d4d0RJ1t00d
+p38,14,p0380012,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1t00e
+p38,15,p0380013,,,INTEGER,,,6 to 17 years only,d4d0RJ1t00f
+p38,16,p0380014,,,INTEGER,,,No own children under 18 years,d4d0RJ1t00g
+p38,17,p0380015,,,INTEGER,,,"Female householder, no husband present:",d4d0RJ1t00h
+p38,18,p0380016,,,INTEGER,,,With own children under 18 years:,d4d0RJ1t00i
+p38,19,p0380017,,,INTEGER,,,Under 6 years only,d4d0RJ1t00j
+p38,20,p0380018,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1t00k
+p38,21,p0380019,,,INTEGER,,,6 to 17 years only,d4d0RJ1t00l
+p38,22,p0380020,,,INTEGER,,,No own children under 18 years,d4d0RJ1t00m
+,,,,,,,,,
+p38a,1,id,1,,INTEGER64,,6,,d4d0RJ1u001
+p38a,2,geoid,,,VARCHAR,1,,,d4d0RJ1u002
+p38a,3,p038a001,,,INTEGER,,,Total:,d4d0RJ1u003
+p38a,4,p038a002,,,INTEGER,,,Husband-wife family:,d4d0RJ1u004
+p38a,5,p038a003,,,INTEGER,,,With own children under 18 years:,d4d0RJ1u005
+p38a,6,p038a004,,,INTEGER,,,Under 6 years only,d4d0RJ1u006
+p38a,7,p038a005,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1u007
+p38a,8,p038a006,,,INTEGER,,,6 to 17 years only,d4d0RJ1u008
+p38a,9,p038a007,,,INTEGER,,,No own children under 18 years,d4d0RJ1u009
+p38a,10,p038a008,,,INTEGER,,,Other family:,d4d0RJ1u00a
+p38a,11,p038a009,,,INTEGER,,,"Male householder, no wife present:",d4d0RJ1u00b
+p38a,12,p038a010,,,INTEGER,,,With own children under 18 years:,d4d0RJ1u00c
+p38a,13,p038a011,,,INTEGER,,,Under 6 years only,d4d0RJ1u00d
+p38a,14,p038a012,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1u00e
+p38a,15,p038a013,,,INTEGER,,,6 to 17 years only,d4d0RJ1u00f
+p38a,16,p038a014,,,INTEGER,,,No own children under 18 years,d4d0RJ1u00g
+p38a,17,p038a015,,,INTEGER,,,"Female householder, no husband present:",d4d0RJ1u00h
+p38a,18,p038a016,,,INTEGER,,,With own children under 18 years:,d4d0RJ1u00i
+p38a,19,p038a017,,,INTEGER,,,Under 6 years only,d4d0RJ1u00j
+p38a,20,p038a018,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1u00k
+p38a,21,p038a019,,,INTEGER,,,6 to 17 years only,d4d0RJ1u00l
+p38a,22,p038a020,,,INTEGER,,,No own children under 18 years,d4d0RJ1u00m
+,,,,,,,,,
+p38b,1,id,1,,INTEGER64,,6,,d4d0RJ1v001
+p38b,2,geoid,,,VARCHAR,1,,,d4d0RJ1v002
+p38b,3,p038b001,,,INTEGER,,,Total:,d4d0RJ1v003
+p38b,4,p038b002,,,INTEGER,,,Husband-wife family:,d4d0RJ1v004
+p38b,5,p038b003,,,INTEGER,,,With own children under 18 years:,d4d0RJ1v005
+p38b,6,p038b004,,,INTEGER,,,Under 6 years only,d4d0RJ1v006
+p38b,7,p038b005,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1v007
+p38b,8,p038b006,,,INTEGER,,,6 to 17 years only,d4d0RJ1v008
+p38b,9,p038b007,,,INTEGER,,,No own children under 18 years,d4d0RJ1v009
+p38b,10,p038b008,,,INTEGER,,,Other family:,d4d0RJ1v00a
+p38b,11,p038b009,,,INTEGER,,,"Male householder, no wife present:",d4d0RJ1v00b
+p38b,12,p038b010,,,INTEGER,,,With own children under 18 years:,d4d0RJ1v00c
+p38b,13,p038b011,,,INTEGER,,,Under 6 years only,d4d0RJ1v00d
+p38b,14,p038b012,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1v00e
+p38b,15,p038b013,,,INTEGER,,,6 to 17 years only,d4d0RJ1v00f
+p38b,16,p038b014,,,INTEGER,,,No own children under 18 years,d4d0RJ1v00g
+p38b,17,p038b015,,,INTEGER,,,"Female householder, no husband present:",d4d0RJ1v00h
+p38b,18,p038b016,,,INTEGER,,,With own children under 18 years:,d4d0RJ1v00i
+p38b,19,p038b017,,,INTEGER,,,Under 6 years only,d4d0RJ1v00j
+p38b,20,p038b018,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1v00k
+p38b,21,p038b019,,,INTEGER,,,6 to 17 years only,d4d0RJ1v00l
+p38b,22,p038b020,,,INTEGER,,,No own children under 18 years,d4d0RJ1v00m
+,,,,,,,,,
+p38c,1,id,1,,INTEGER64,,6,,d4d0RJ1w001
+p38c,2,geoid,,,VARCHAR,1,,,d4d0RJ1w002
+p38c,3,p038c001,,,INTEGER,,,Total:,d4d0RJ1w003
+p38c,4,p038c002,,,INTEGER,,,Husband-wife family:,d4d0RJ1w004
+p38c,5,p038c003,,,INTEGER,,,With own children under 18 years:,d4d0RJ1w005
+p38c,6,p038c004,,,INTEGER,,,Under 6 years only,d4d0RJ1w006
+p38c,7,p038c005,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1w007
+p38c,8,p038c006,,,INTEGER,,,6 to 17 years only,d4d0RJ1w008
+p38c,9,p038c007,,,INTEGER,,,No own children under 18 years,d4d0RJ1w009
+p38c,10,p038c008,,,INTEGER,,,Other family:,d4d0RJ1w00a
+p38c,11,p038c009,,,INTEGER,,,"Male householder, no wife present:",d4d0RJ1w00b
+p38c,12,p038c010,,,INTEGER,,,With own children under 18 years:,d4d0RJ1w00c
+p38c,13,p038c011,,,INTEGER,,,Under 6 years only,d4d0RJ1w00d
+p38c,14,p038c012,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1w00e
+p38c,15,p038c013,,,INTEGER,,,6 to 17 years only,d4d0RJ1w00f
+p38c,16,p038c014,,,INTEGER,,,No own children under 18 years,d4d0RJ1w00g
+p38c,17,p038c015,,,INTEGER,,,"Female householder, no husband present:",d4d0RJ1w00h
+p38c,18,p038c016,,,INTEGER,,,With own children under 18 years:,d4d0RJ1w00i
+p38c,19,p038c017,,,INTEGER,,,Under 6 years only,d4d0RJ1w00j
+p38c,20,p038c018,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1w00k
+p38c,21,p038c019,,,INTEGER,,,6 to 17 years only,d4d0RJ1w00l
+p38c,22,p038c020,,,INTEGER,,,No own children under 18 years,d4d0RJ1w00m
+,,,,,,,,,
+p38d,1,id,1,,INTEGER64,,6,,d4d0RJ1x001
+p38d,2,geoid,,,VARCHAR,1,,,d4d0RJ1x002
+p38d,3,p038d001,,,INTEGER,,,Total:,d4d0RJ1x003
+p38d,4,p038d002,,,INTEGER,,,Husband-wife family:,d4d0RJ1x004
+p38d,5,p038d003,,,INTEGER,,,With own children under 18 years:,d4d0RJ1x005
+p38d,6,p038d004,,,INTEGER,,,Under 6 years only,d4d0RJ1x006
+p38d,7,p038d005,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1x007
+p38d,8,p038d006,,,INTEGER,,,6 to 17 years only,d4d0RJ1x008
+p38d,9,p038d007,,,INTEGER,,,No own children under 18 years,d4d0RJ1x009
+p38d,10,p038d008,,,INTEGER,,,Other family:,d4d0RJ1x00a
+p38d,11,p038d009,,,INTEGER,,,"Male householder, no wife present:",d4d0RJ1x00b
+p38d,12,p038d010,,,INTEGER,,,With own children under 18 years:,d4d0RJ1x00c
+p38d,13,p038d011,,,INTEGER,,,Under 6 years only,d4d0RJ1x00d
+p38d,14,p038d012,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1x00e
+p38d,15,p038d013,,,INTEGER,,,6 to 17 years only,d4d0RJ1x00f
+p38d,16,p038d014,,,INTEGER,,,No own children under 18 years,d4d0RJ1x00g
+p38d,17,p038d015,,,INTEGER,,,"Female householder, no husband present:",d4d0RJ1x00h
+p38d,18,p038d016,,,INTEGER,,,With own children under 18 years:,d4d0RJ1x00i
+p38d,19,p038d017,,,INTEGER,,,Under 6 years only,d4d0RJ1x00j
+p38d,20,p038d018,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1x00k
+p38d,21,p038d019,,,INTEGER,,,6 to 17 years only,d4d0RJ1x00l
+p38d,22,p038d020,,,INTEGER,,,No own children under 18 years,d4d0RJ1x00m
+,,,,,,,,,
+p38e,1,id,1,,INTEGER64,,6,,d4d0RJ1y001
+p38e,2,geoid,,,VARCHAR,1,,,d4d0RJ1y002
+p38e,3,p038e001,,,INTEGER,,,Total:,d4d0RJ1y003
+p38e,4,p038e002,,,INTEGER,,,Husband-wife family:,d4d0RJ1y004
+p38e,5,p038e003,,,INTEGER,,,With own children under 18 years:,d4d0RJ1y005
+p38e,6,p038e004,,,INTEGER,,,Under 6 years only,d4d0RJ1y006
+p38e,7,p038e005,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1y007
+p38e,8,p038e006,,,INTEGER,,,6 to 17 years only,d4d0RJ1y008
+p38e,9,p038e007,,,INTEGER,,,No own children under 18 years,d4d0RJ1y009
+p38e,10,p038e008,,,INTEGER,,,Other family:,d4d0RJ1y00a
+p38e,11,p038e009,,,INTEGER,,,"Male householder, no wife present:",d4d0RJ1y00b
+p38e,12,p038e010,,,INTEGER,,,With own children under 18 years:,d4d0RJ1y00c
+p38e,13,p038e011,,,INTEGER,,,Under 6 years only,d4d0RJ1y00d
+p38e,14,p038e012,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1y00e
+p38e,15,p038e013,,,INTEGER,,,6 to 17 years only,d4d0RJ1y00f
+p38e,16,p038e014,,,INTEGER,,,No own children under 18 years,d4d0RJ1y00g
+p38e,17,p038e015,,,INTEGER,,,"Female householder, no husband present:",d4d0RJ1y00h
+p38e,18,p038e016,,,INTEGER,,,With own children under 18 years:,d4d0RJ1y00i
+p38e,19,p038e017,,,INTEGER,,,Under 6 years only,d4d0RJ1y00j
+p38e,20,p038e018,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1y00k
+p38e,21,p038e019,,,INTEGER,,,6 to 17 years only,d4d0RJ1y00l
+p38e,22,p038e020,,,INTEGER,,,No own children under 18 years,d4d0RJ1y00m
+,,,,,,,,,
+p39,1,id,1,,INTEGER64,,6,,d4d0RJ1z001
+p39,2,geoid,,,VARCHAR,1,,,d4d0RJ1z002
+p39,3,p0390001,,,INTEGER,,,Total:,d4d0RJ1z003
+p39,4,p0390002,,,INTEGER,,,Husband-wife family:,d4d0RJ1z004
+p39,5,p0390003,,,INTEGER,,,With related children under 18 years:,d4d0RJ1z005
+p39,6,p0390004,,,INTEGER,,,Under 6 years only,d4d0RJ1z006
+p39,7,p0390005,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1z007
+p39,8,p0390006,,,INTEGER,,,6 to 17 years only,d4d0RJ1z008
+p39,9,p0390007,,,INTEGER,,,No related children under 18 years,d4d0RJ1z009
+p39,10,p0390008,,,INTEGER,,,Other family:,d4d0RJ1z00a
+p39,11,p0390009,,,INTEGER,,,"Male householder, no wife present:",d4d0RJ1z00b
+p39,12,p0390010,,,INTEGER,,,With related children under 18 years:,d4d0RJ1z00c
+p39,13,p0390011,,,INTEGER,,,Under 6 years only,d4d0RJ1z00d
+p39,14,p0390012,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1z00e
+p39,15,p0390013,,,INTEGER,,,6 to 17 years only,d4d0RJ1z00f
+p39,16,p0390014,,,INTEGER,,,No related children under 18 years,d4d0RJ1z00g
+p39,17,p0390015,,,INTEGER,,,"Female householder, no husband present:",d4d0RJ1z00h
+p39,18,p0390016,,,INTEGER,,,With related children under 18 years:,d4d0RJ1z00i
+p39,19,p0390017,,,INTEGER,,,Under 6 years only,d4d0RJ1z00j
+p39,20,p0390018,,,INTEGER,,,Under 6 years and 6 to 17 years,d4d0RJ1z00k
+p39,21,p0390019,,,INTEGER,,,6 to 17 years only,d4d0RJ1z00l
+p39,22,p0390020,,,INTEGER,,,No related children under 18 years,d4d0RJ1z00m
+,,,,,,,,,
+p4,1,id,1,,INTEGER64,,6,,d4d0RJ1A001
+p4,2,geoid,,,VARCHAR,1,,,d4d0RJ1A002
+p4,3,p0040001,,,INTEGER,,,Total:,d4d0RJ1A003
+p4,4,p0040002,,,INTEGER,,,Not Hispanic or Latino,d4d0RJ1A004
+p4,5,p0040003,,,INTEGER,,,Hispanic or Latino,d4d0RJ1A005
+,,,,,,,,,
+p40,1,id,1,,INTEGER64,,6,,d4d0RJ1B001
+p40,2,geoid,,,VARCHAR,1,,,d4d0RJ1B002
+p40,3,p0400001,,,INTEGER,,,Total:,d4d0RJ1B003
+p40,4,p0400002,,,INTEGER,,,In husband-wife families:,d4d0RJ1B004
+p40,5,p0400003,,,INTEGER,,,Under 3 years,d4d0RJ1B005
+p40,6,p0400004,,,INTEGER,,,3 and 4 years,d4d0RJ1B006
+p40,7,p0400005,,,INTEGER,,,5 years,d4d0RJ1B007
+p40,8,p0400006,,,INTEGER,,,6 to 11 years,d4d0RJ1B008
+p40,9,p0400007,,,INTEGER,,,12 to 17 years,d4d0RJ1B009
+p40,10,p0400008,,,INTEGER,,,In other families:,d4d0RJ1B00a
+p40,11,p0400009,,,INTEGER,,,"In male householder, no wife present family",d4d0RJ1B00b
+p40,12,p0400010,,,INTEGER,,,Under 3 years,d4d0RJ1B00c
+p40,13,p0400011,,,INTEGER,,,3 and 4 years,d4d0RJ1B00d
+p40,14,p0400012,,,INTEGER,,,5 years,d4d0RJ1B00e
+p40,15,p0400013,,,INTEGER,,,6 to 11 years,d4d0RJ1B00f
+p40,16,p0400014,,,INTEGER,,,12 to 17 years,d4d0RJ1B00g
+p40,17,p0400015,,,INTEGER,,,"In female householder, no husband present family",d4d0RJ1B00h
+p40,18,p0400016,,,INTEGER,,,Under 3 years,d4d0RJ1B00i
+p40,19,p0400017,,,INTEGER,,,3 and 4 years,d4d0RJ1B00j
+p40,20,p0400018,,,INTEGER,,,5 years,d4d0RJ1B00k
+p40,21,p0400019,,,INTEGER,,,6 to 11 years,d4d0RJ1B00l
+p40,22,p0400020,,,INTEGER,,,12 to 17 years,d4d0RJ1B00m
+,,,,,,,,,
+p41,1,id,1,,INTEGER64,,6,,d4d0RJ1C001
+p41,2,geoid,,,VARCHAR,1,,,d4d0RJ1C002
+p41,3,p0410001,,,INTEGER,,,Total:,d4d0RJ1C003
+p41,4,p0410002,,,INTEGER,,,Under 3 years,d4d0RJ1C004
+p41,5,p0410003,,,INTEGER,,,3 and 4 years,d4d0RJ1C005
+p41,6,p0410004,,,INTEGER,,,5 years,d4d0RJ1C006
+p41,7,p0410005,,,INTEGER,,,6 to 11 years,d4d0RJ1C007
+p41,8,p0410006,,,INTEGER,,,12 to 17 years,d4d0RJ1C008
+,,,,,,,,,
+p42,1,id,1,,INTEGER64,,6,,d4d0RJ1D001
+p42,2,geoid,,,VARCHAR,1,,,d4d0RJ1D002
+p42,3,p0420001,,,INTEGER,,,Total:,d4d0RJ1D003
+p42,4,p0420002,,,INTEGER,,,"Institutionalized population (101-106, 201-203, 301, 401-405):",d4d0RJ1D004
+p42,5,p0420003,,,INTEGER,,,Correctional facilities for adults (101-106),d4d0RJ1D005
+p42,6,p0420004,,,INTEGER,,,Juvenile facilities (201-203),d4d0RJ1D006
+p42,7,p0420005,,,INTEGER,,,Nursing facilities/Skilled-nursing facilities (301),d4d0RJ1D007
+p42,8,p0420006,,,INTEGER,,,Other institutional facilities (401-405),d4d0RJ1D008
+p42,9,p0420007,,,INTEGER,,,"Noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904):",d4d0RJ1D009
+p42,10,p0420008,,,INTEGER,,,College/University student housing (501),d4d0RJ1D00a
+p42,11,p0420009,,,INTEGER,,,Military quarters (601-602),d4d0RJ1D00b
+p42,12,p0420010,,,INTEGER,,,"Other noninstitutional facilities (701-702, 704, 706,   801-802, 900-901, 903-904)",d4d0RJ1D00c
+,,,,,,,,,
+p43,1,id,1,,INTEGER64,,6,,d4d0RJ1E001
+p43,2,geoid,,,VARCHAR,1,,,d4d0RJ1E002
+p43,3,p0430001,,,INTEGER,,,Total:,d4d0RJ1E003
+p43,4,p0430002,,,INTEGER,,,Male:,d4d0RJ1E004
+p43,5,p0430003,,,INTEGER,,,Under 18 years:,d4d0RJ1E005
+p43,6,p0430004,,,INTEGER,,,"Institutionalized population (101-106, 201-203, 301, 401-405):",d4d0RJ1E006
+p43,7,p0430005,,,INTEGER,,,Correctional facilities for adults (101-106),d4d0RJ1E007
+p43,8,p0430006,,,INTEGER,,,Juvenile facilities (201-203),d4d0RJ1E008
+p43,9,p0430007,,,INTEGER,,,Nursing facilities/Skilled-nursing facilities (301),d4d0RJ1E009
+p43,10,p0430008,,,INTEGER,,,Other institutional facilities (401-405),d4d0RJ1E00a
+p43,11,p0430009,,,INTEGER,,,"Noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904):",d4d0RJ1E00b
+p43,12,p0430010,,,INTEGER,,,College/University student housing (501),d4d0RJ1E00c
+p43,13,p0430011,,,INTEGER,,,Military quarters (601-602),d4d0RJ1E00d
+p43,14,p0430012,,,INTEGER,,,"Other noninstitutional facilities (701-702, 704, 706,   801-802, 900-901, 903-904)",d4d0RJ1E00e
+p43,15,p0430013,,,INTEGER,,,18 to 64 years:,d4d0RJ1E00f
+p43,16,p0430014,,,INTEGER,,,"Institutionalized population (101-106, 201-203, 301, 401-405):",d4d0RJ1E00g
+p43,17,p0430015,,,INTEGER,,,Correctional facilities for adults (101-106),d4d0RJ1E00h
+p43,18,p0430016,,,INTEGER,,,Juvenile facilities (201-203),d4d0RJ1E00i
+p43,19,p0430017,,,INTEGER,,,Nursing facilities/Skilled-nursing facilities (301),d4d0RJ1E00j
+p43,20,p0430018,,,INTEGER,,,Other institutional facilities (401-405),d4d0RJ1E00k
+p43,21,p0430019,,,INTEGER,,,"Noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904):",d4d0RJ1E00l
+p43,22,p0430020,,,INTEGER,,,College/University student housing (501),d4d0RJ1E00m
+p43,23,p0430021,,,INTEGER,,,Military quarters (601-602),d4d0RJ1E00n
+p43,24,p0430022,,,INTEGER,,,"Other noninstitutional facilities (701-702, 704, 706,   801-802, 900-901, 903-904)",d4d0RJ1E00o
+p43,25,p0430023,,,INTEGER,,,65 years and over:,d4d0RJ1E00p
+p43,26,p0430024,,,INTEGER,,,"Institutionalized population (101-106, 201-203, 301, 401-405):",d4d0RJ1E00q
+p43,27,p0430025,,,INTEGER,,,Correctional facilities for adults (101-106),d4d0RJ1E00r
+p43,28,p0430026,,,INTEGER,,,Juvenile facilities (201-203),d4d0RJ1E00s
+p43,29,p0430027,,,INTEGER,,,Nursing facilities/Skilled-nursing facilities (301),d4d0RJ1E00t
+p43,30,p0430028,,,INTEGER,,,Other institutional facilities (401-405),d4d0RJ1E00u
+p43,31,p0430029,,,INTEGER,,,"Noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904):",d4d0RJ1E00v
+p43,32,p0430030,,,INTEGER,,,College/University student housing (501),d4d0RJ1E00w
+p43,33,p0430031,,,INTEGER,,,Military quarters (601-602),d4d0RJ1E00x
+p43,34,p0430032,,,INTEGER,,,"Other noninstitutional facilities (701-702, 704, 706,   801-802, 900-901, 903-904)",d4d0RJ1E00y
+p43,35,p0430033,,,INTEGER,,,Female:,d4d0RJ1E00z
+p43,36,p0430034,,,INTEGER,,,Under 18 years:,d4d0RJ1E00A
+p43,37,p0430035,,,INTEGER,,,"Institutionalized population (101-106, 201-203, 301, 401-405):",d4d0RJ1E00B
+p43,38,p0430036,,,INTEGER,,,Correctional facilities for adults (101-106),d4d0RJ1E00C
+p43,39,p0430037,,,INTEGER,,,Juvenile facilities (201-203),d4d0RJ1E00D
+p43,40,p0430038,,,INTEGER,,,Nursing facilities/Skilled-nursing facilities (301),d4d0RJ1E00E
+p43,41,p0430039,,,INTEGER,,,Other institutional facilities (401-405),d4d0RJ1E00F
+p43,42,p0430040,,,INTEGER,,,"Noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904):",d4d0RJ1E00G
+p43,43,p0430041,,,INTEGER,,,College/University student housing (501),d4d0RJ1E00H
+p43,44,p0430042,,,INTEGER,,,Military quarters (601-602),d4d0RJ1E00I
+p43,45,p0430043,,,INTEGER,,,"Other noninstitutional facilities (701-702, 704, 706,   801-802, 900-901, 903-904)",d4d0RJ1E00J
+p43,46,p0430044,,,INTEGER,,,18 to 64 years:,d4d0RJ1E00K
+p43,47,p0430045,,,INTEGER,,,"Institutionalized population (101-106, 201-203, 301, 401-405):",d4d0RJ1E00L
+p43,48,p0430046,,,INTEGER,,,Correctional facilities for adults (101-106),d4d0RJ1E00M
+p43,49,p0430047,,,INTEGER,,,Juvenile facilities (201-203),d4d0RJ1E00N
+p43,50,p0430048,,,INTEGER,,,Nursing facilities/Skilled-nursing facilities (301),d4d0RJ1E00O
+p43,51,p0430049,,,INTEGER,,,Other institutional facilities (401-405),d4d0RJ1E00P
+p43,52,p0430050,,,INTEGER,,,"Noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904):",d4d0RJ1E00Q
+p43,53,p0430051,,,INTEGER,,,College/University student housing (501),d4d0RJ1E00R
+p43,54,p0430052,,,INTEGER,,,Military quarters (601-602),d4d0RJ1E00S
+p43,55,p0430053,,,INTEGER,,,"Other noninstitutional facilities (701-702, 704, 706,   801-802, 900-901, 903-904)",d4d0RJ1E00T
+p43,56,p0430054,,,INTEGER,,,65 years and over:,d4d0RJ1E00U
+p43,57,p0430055,,,INTEGER,,,"Institutionalized population (101-106, 201-203, 301, 401-405):",d4d0RJ1E00V
+p43,58,p0430056,,,INTEGER,,,Correctional facilities for adults (101-106),d4d0RJ1E00W
+p43,59,p0430057,,,INTEGER,,,Juvenile facilities (201-203),d4d0RJ1E00X
+p43,60,p0430058,,,INTEGER,,,Nursing facilities/Skilled-nursing facilities (301),d4d0RJ1E00Y
+p43,61,p0430059,,,INTEGER,,,Other institutional facilities (401-405),d4d0RJ1E00Z
+p43,62,p0430060,,,INTEGER,,,"Noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904):",d4d0RJ1E010
+p43,63,p0430061,,,INTEGER,,,College/University student housing (501),d4d0RJ1E011
+p43,64,p0430062,,,INTEGER,,,Military quarters (601-602),d4d0RJ1E012
+p43,65,p0430063,,,INTEGER,,,"Other noninstitutional facilities (701-702, 704, 706,   801-802, 900-901, 903-904)",d4d0RJ1E013
+,,,,,,,,,
+p44,1,id,1,,INTEGER64,,6,,d4d0RJ1F001
+p44,2,geoid,,,VARCHAR,1,,,d4d0RJ1F002
+p44,3,p0440001,,,INTEGER,,,Total:,d4d0RJ1F003
+p44,4,p0440002,,,INTEGER,,,Not substituted,d4d0RJ1F004
+p44,5,p0440003,,,INTEGER,,,Substituted,d4d0RJ1F005
+,,,,,,,,,
+p45,1,id,1,,INTEGER64,,6,,d4d0RJ1G001
+p45,2,geoid,,,VARCHAR,1,,,d4d0RJ1G002
+p45,3,p0450001,,,INTEGER,,,Total:,d4d0RJ1G003
+p45,4,p0450002,,,INTEGER,,,No items allocated,d4d0RJ1G004
+p45,5,p0450003,,,INTEGER,,,One or more items allocated,d4d0RJ1G005
+,,,,,,,,,
+p46,1,id,1,,INTEGER64,,6,,d4d0RJ1H001
+p46,2,geoid,,,VARCHAR,1,,,d4d0RJ1H002
+p46,3,p0460001,,,INTEGER,,,Total:,d4d0RJ1H003
+p46,4,p0460002,,,INTEGER,,,Allocated,d4d0RJ1H004
+p46,5,p0460003,,,INTEGER,,,Not allocated,d4d0RJ1H005
+,,,,,,,,,
+p47,1,id,1,,INTEGER64,,6,,d4d0RJ1I001
+p47,2,geoid,,,VARCHAR,1,,,d4d0RJ1I002
+p47,3,p0470001,,,INTEGER,,,Total:,d4d0RJ1I003
+p47,4,p0470002,,,INTEGER,,,Allocated,d4d0RJ1I004
+p47,5,p0470003,,,INTEGER,,,Not allocated,d4d0RJ1I005
+,,,,,,,,,
+p48,1,id,1,,INTEGER64,,6,,d4d0RJ1J001
+p48,2,geoid,,,VARCHAR,1,,,d4d0RJ1J002
+p48,3,p0480001,,,INTEGER,,,Total:,d4d0RJ1J003
+p48,4,p0480002,,,INTEGER,,,Allocated,d4d0RJ1J004
+p48,5,p0480003,,,INTEGER,,,Not allocated,d4d0RJ1J005
+,,,,,,,,,
+p49,1,id,1,,INTEGER64,,6,,d4d0RJ1K001
+p49,2,geoid,,,VARCHAR,1,,,d4d0RJ1K002
+p49,3,p0490001,,,INTEGER,,,Total:,d4d0RJ1K003
+p49,4,p0490002,,,INTEGER,,,Allocated,d4d0RJ1K004
+p49,5,p0490003,,,INTEGER,,,Not allocated,d4d0RJ1K005
+,,,,,,,,,
+p5,1,id,1,,INTEGER64,,6,,d4d0RJ1L001
+p5,2,geoid,,,VARCHAR,1,,,d4d0RJ1L002
+p5,3,p0050001,,,INTEGER,,,Total:,d4d0RJ1L003
+p5,4,p0050002,,,INTEGER,,,Not Hispanic or Latino:,d4d0RJ1L004
+p5,5,p0050003,,,INTEGER,,,White alone,d4d0RJ1L005
+p5,6,p0050004,,,INTEGER,,,Black or African American alone,d4d0RJ1L006
+p5,7,p0050005,,,INTEGER,,,American Indian and Alaska Native alone,d4d0RJ1L007
+p5,8,p0050006,,,INTEGER,,,Asian alone,d4d0RJ1L008
+p5,9,p0050007,,,INTEGER,,,Native Hawaiian and Other Pacific Islander alone,d4d0RJ1L009
+p5,10,p0050008,,,INTEGER,,,Some Other Race alone,d4d0RJ1L00a
+p5,11,p0050009,,,INTEGER,,,Two or More Races,d4d0RJ1L00b
+p5,12,p0050010,,,INTEGER,,,Hispanic or Latino:,d4d0RJ1L00c
+p5,13,p0050011,,,INTEGER,,,White alone,d4d0RJ1L00d
+p5,14,p0050012,,,INTEGER,,,Black or African American alone,d4d0RJ1L00e
+p5,15,p0050013,,,INTEGER,,,American Indian and Alaska Native alone,d4d0RJ1L00f
+p5,16,p0050014,,,INTEGER,,,Asian alone,d4d0RJ1L00g
+p5,17,p0050015,,,INTEGER,,,Native Hawaiian and Other Pacific Islander alone,d4d0RJ1L00h
+p5,18,p0050016,,,INTEGER,,,Some Other Race alone,d4d0RJ1L00i
+p5,19,p0050017,,,INTEGER,,,Two or More Races,d4d0RJ1L00j
+,,,,,,,,,
+p6,1,id,1,,INTEGER64,,6,,d4d0RJ1M001
+p6,2,geoid,,,VARCHAR,1,,,d4d0RJ1M002
+p6,3,p0060001,,,INTEGER,,,Total races tallied:,d4d0RJ1M003
+p6,4,p0060002,,,INTEGER,,,White alone or in combination with one or more other races,d4d0RJ1M004
+p6,5,p0060003,,,INTEGER,,,Black or African American alone or in combination with one or more other races,d4d0RJ1M005
+p6,6,p0060004,,,INTEGER,,,American Indian and Alaska Native alone or in combination with one or more other races,d4d0RJ1M006
+p6,7,p0060005,,,INTEGER,,,Asian alone or in combination with one or more other races,d4d0RJ1M007
+p6,8,p0060006,,,INTEGER,,,Native Hawaiian and Other Pacific Islander alone or in combination with one or more other races,d4d0RJ1M008
+p6,9,p0060007,,,INTEGER,,,Some Other Race alone or in combination with one or more other races,d4d0RJ1M009
+,,,,,,,,,
+p7,1,id,1,,INTEGER64,,6,,d4d0RJ1N001
+p7,2,geoid,,,VARCHAR,1,,,d4d0RJ1N002
+p7,3,p0070001,,,INTEGER,,,Total races tallied:,d4d0RJ1N003
+p7,4,p0070002,,,INTEGER,,,Not Hispanic or Latino:,d4d0RJ1N004
+p7,5,p0070003,,,INTEGER,,,White alone or in combination with one or more other races,d4d0RJ1N005
+p7,6,p0070004,,,INTEGER,,,Black or African American alone or in combination with one or more other races,d4d0RJ1N006
+p7,7,p0070005,,,INTEGER,,,American Indian and Alaska Native alone or in combination with one or more other races,d4d0RJ1N007
+p7,8,p0070006,,,INTEGER,,,Asian alone or in combination with one or more other races,d4d0RJ1N008
+p7,9,p0070007,,,INTEGER,,,Native Hawaiian and Other Pacific Islander alone or in combination with one or more other races,d4d0RJ1N009
+p7,10,p0070008,,,INTEGER,,,Some Other Race alone or in combination with one or more other races,d4d0RJ1N00a
+p7,11,p0070009,,,INTEGER,,,Hispanic or Latino:,d4d0RJ1N00b
+p7,12,p0070010,,,INTEGER,,,White alone or in combination with one or more other races,d4d0RJ1N00c
+p7,13,p0070011,,,INTEGER,,,Black or African American alone or in combination with one or more other races,d4d0RJ1N00d
+p7,14,p0070012,,,INTEGER,,,American Indian and Alaska Native alone or in combination with one or more other races,d4d0RJ1N00e
+p7,15,p0070013,,,INTEGER,,,Asian alone or in combination with one or more other races,d4d0RJ1N00f
+p7,16,p0070014,,,INTEGER,,,Native Hawaiian and Other Pacific Islander alone or in combination with one or more other races,d4d0RJ1N00g
+p7,17,p0070015,,,INTEGER,,,Some Other Race alone or in combination with one or more other races,d4d0RJ1N00h
+,,,,,,,,,
+p8,1,id,1,,INTEGER64,,6,,d4d0RJ1O001
+p8,2,geoid,,,VARCHAR,1,,,d4d0RJ1O002
+p8,3,p0080001,,,INTEGER,,,Total:,d4d0RJ1O003
+p8,4,p0080002,,,INTEGER,,,Population of one race:,d4d0RJ1O004
+p8,5,p0080003,,,INTEGER,,,White alone,d4d0RJ1O005
+p8,6,p0080004,,,INTEGER,,,Black or African American alone,d4d0RJ1O006
+p8,7,p0080005,,,INTEGER,,,American Indian and Alaska Native alone,d4d0RJ1O007
+p8,8,p0080006,,,INTEGER,,,Asian alone,d4d0RJ1O008
+p8,9,p0080007,,,INTEGER,,,Native Hawaiian and Other Pacific Islander alone,d4d0RJ1O009
+p8,10,p0080008,,,INTEGER,,,Some Other Race alone,d4d0RJ1O00a
+p8,11,p0080009,,,INTEGER,,,Two or More Races:,d4d0RJ1O00b
+p8,12,p0080010,,,INTEGER,,,Population of two races:,d4d0RJ1O00c
+p8,13,p0080011,,,INTEGER,,,White; Black or African American,d4d0RJ1O00d
+p8,14,p0080012,,,INTEGER,,,White; American Indian and Alaska Native,d4d0RJ1O00e
+p8,15,p0080013,,,INTEGER,,,White; Asian,d4d0RJ1O00f
+p8,16,p0080014,,,INTEGER,,,White; Native Hawaiian and Other Pacific Islander,d4d0RJ1O00g
+p8,17,p0080015,,,INTEGER,,,White; Some Other Race,d4d0RJ1O00h
+p8,18,p0080016,,,INTEGER,,,Black or African American; American Indian and Alaska Native,d4d0RJ1O00i
+p8,19,p0080017,,,INTEGER,,,Black or African American; Asian,d4d0RJ1O00j
+p8,20,p0080018,,,INTEGER,,,Black or African American; Native Hawaiian and Other Pacific Islander,d4d0RJ1O00k
+p8,21,p0080019,,,INTEGER,,,Black or African American; Some Other Race,d4d0RJ1O00l
+p8,22,p0080020,,,INTEGER,,,American Indian and Alaska Native; Asian,d4d0RJ1O00m
+p8,23,p0080021,,,INTEGER,,,American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ1O00n
+p8,24,p0080022,,,INTEGER,,,American Indian and Alaska Native; Some Other Race,d4d0RJ1O00o
+p8,25,p0080023,,,INTEGER,,,Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1O00p
+p8,26,p0080024,,,INTEGER,,,Asian; Some Other Race,d4d0RJ1O00q
+p8,27,p0080025,,,INTEGER,,,Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O00r
+p8,28,p0080026,,,INTEGER,,,Population of three races:,d4d0RJ1O00s
+p8,29,p0080027,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native,d4d0RJ1O00t
+p8,30,p0080028,,,INTEGER,,,White; Black or African American; Asian,d4d0RJ1O00u
+p8,31,p0080029,,,INTEGER,,,White; Black or African American; Native Hawaiian and Other Pacific Islander,d4d0RJ1O00v
+p8,32,p0080030,,,INTEGER,,,White; Black or African American; Some Other Race,d4d0RJ1O00w
+p8,33,p0080031,,,INTEGER,,,White; American Indian and Alaska Native; Asian,d4d0RJ1O00x
+p8,34,p0080032,,,INTEGER,,,White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ1O00y
+p8,35,p0080033,,,INTEGER,,,White; American Indian and Alaska Native; Some Other Race,d4d0RJ1O00z
+p8,36,p0080034,,,INTEGER,,,White; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1O00A
+p8,37,p0080035,,,INTEGER,,,White; Asian; Some Other Race,d4d0RJ1O00B
+p8,38,p0080036,,,INTEGER,,,White; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O00C
+p8,39,p0080037,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian,d4d0RJ1O00D
+p8,40,p0080038,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ1O00E
+p8,41,p0080039,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Some Other Race,d4d0RJ1O00F
+p8,42,p0080040,,,INTEGER,,,Black or African American; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1O00G
+p8,43,p0080041,,,INTEGER,,,Black or African American; Asian; Some Other Race,d4d0RJ1O00H
+p8,44,p0080042,,,INTEGER,,,Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O00I
+p8,45,p0080043,,,INTEGER,,,American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1O00J
+p8,46,p0080044,,,INTEGER,,,American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ1O00K
+p8,47,p0080045,,,INTEGER,,,American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O00L
+p8,48,p0080046,,,INTEGER,,,Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O00M
+p8,49,p0080047,,,INTEGER,,,Population of four races:,d4d0RJ1O00N
+p8,50,p0080048,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian,d4d0RJ1O00O
+p8,51,p0080049,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ1O00P
+p8,52,p0080050,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Some Other Race,d4d0RJ1O00Q
+p8,53,p0080051,,,INTEGER,,,White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1O00R
+p8,54,p0080052,,,INTEGER,,,White; Black or African American; Asian; Some Other Race,d4d0RJ1O00S
+p8,55,p0080053,,,INTEGER,,,White; Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O00T
+p8,56,p0080054,,,INTEGER,,,White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1O00U
+p8,57,p0080055,,,INTEGER,,,White; American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ1O00V
+p8,58,p0080056,,,INTEGER,,,White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O00W
+p8,59,p0080057,,,INTEGER,,,White; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O00X
+p8,60,p0080058,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1O00Y
+p8,61,p0080059,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ1O00Z
+p8,62,p0080060,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O010
+p8,63,p0080061,,,INTEGER,,,Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O011
+p8,64,p0080062,,,INTEGER,,,American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O012
+p8,65,p0080063,,,INTEGER,,,Population of five races:,d4d0RJ1O013
+p8,66,p0080064,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1O014
+p8,67,p0080065,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ1O015
+p8,68,p0080066,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O016
+p8,69,p0080067,,,INTEGER,,,White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O017
+p8,70,p0080068,,,INTEGER,,,White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O018
+p8,71,p0080069,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O019
+p8,72,p0080070,,,INTEGER,,,Population of six races:,d4d0RJ1O01a
+p8,73,p0080071,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1O01b
+,,,,,,,,,
+p9,1,id,1,,INTEGER64,,6,,d4d0RJ1P001
+p9,2,geoid,,,VARCHAR,1,,,d4d0RJ1P002
+p9,3,p0090001,,,INTEGER,,,Total:,d4d0RJ1P003
+p9,4,p0090002,,,INTEGER,,,Hispanic or Latino,d4d0RJ1P004
+p9,5,p0090003,,,INTEGER,,,Not Hispanic or Latino:,d4d0RJ1P005
+p9,6,p0090004,,,INTEGER,,,Population of one race:,d4d0RJ1P006
+p9,7,p0090005,,,INTEGER,,,White alone,d4d0RJ1P007
+p9,8,p0090006,,,INTEGER,,,Black or African American alone,d4d0RJ1P008
+p9,9,p0090007,,,INTEGER,,,American Indian and Alaska Native alone,d4d0RJ1P009
+p9,10,p0090008,,,INTEGER,,,Asian alone,d4d0RJ1P00a
+p9,11,p0090009,,,INTEGER,,,Native Hawaiian and Other Pacific Islander alone,d4d0RJ1P00b
+p9,12,p0090010,,,INTEGER,,,Some Other Race alone,d4d0RJ1P00c
+p9,13,p0090011,,,INTEGER,,,Two or More Races:,d4d0RJ1P00d
+p9,14,p0090012,,,INTEGER,,,Population of two races:,d4d0RJ1P00e
+p9,15,p0090013,,,INTEGER,,,White; Black or African American,d4d0RJ1P00f
+p9,16,p0090014,,,INTEGER,,,White; American Indian and Alaska Native,d4d0RJ1P00g
+p9,17,p0090015,,,INTEGER,,,White; Asian,d4d0RJ1P00h
+p9,18,p0090016,,,INTEGER,,,White; Native Hawaiian and Other Pacific Islander,d4d0RJ1P00i
+p9,19,p0090017,,,INTEGER,,,White; Some Other Race,d4d0RJ1P00j
+p9,20,p0090018,,,INTEGER,,,Black or African American; American Indian and Alaska Native,d4d0RJ1P00k
+p9,21,p0090019,,,INTEGER,,,Black or African American; Asian,d4d0RJ1P00l
+p9,22,p0090020,,,INTEGER,,,Black or African American; Native Hawaiian and Other Pacific Islander,d4d0RJ1P00m
+p9,23,p0090021,,,INTEGER,,,Black or African American; Some Other Race,d4d0RJ1P00n
+p9,24,p0090022,,,INTEGER,,,American Indian and Alaska Native; Asian,d4d0RJ1P00o
+p9,25,p0090023,,,INTEGER,,,American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ1P00p
+p9,26,p0090024,,,INTEGER,,,American Indian and Alaska Native; Some Other Race,d4d0RJ1P00q
+p9,27,p0090025,,,INTEGER,,,Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1P00r
+p9,28,p0090026,,,INTEGER,,,Asian; Some Other Race,d4d0RJ1P00s
+p9,29,p0090027,,,INTEGER,,,Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P00t
+p9,30,p0090028,,,INTEGER,,,Population of three races:,d4d0RJ1P00u
+p9,31,p0090029,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native,d4d0RJ1P00v
+p9,32,p0090030,,,INTEGER,,,White; Black or African American; Asian,d4d0RJ1P00w
+p9,33,p0090031,,,INTEGER,,,White; Black or African American; Native Hawaiian and Other Pacific Islander,d4d0RJ1P00x
+p9,34,p0090032,,,INTEGER,,,White; Black or African American; Some Other Race,d4d0RJ1P00y
+p9,35,p0090033,,,INTEGER,,,White; American Indian and Alaska Native; Asian,d4d0RJ1P00z
+p9,36,p0090034,,,INTEGER,,,White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ1P00A
+p9,37,p0090035,,,INTEGER,,,White; American Indian and Alaska Native; Some Other Race,d4d0RJ1P00B
+p9,38,p0090036,,,INTEGER,,,White; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1P00C
+p9,39,p0090037,,,INTEGER,,,White; Asian; Some Other Race,d4d0RJ1P00D
+p9,40,p0090038,,,INTEGER,,,White; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P00E
+p9,41,p0090039,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian,d4d0RJ1P00F
+p9,42,p0090040,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ1P00G
+p9,43,p0090041,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Some Other Race,d4d0RJ1P00H
+p9,44,p0090042,,,INTEGER,,,Black or African American; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1P00I
+p9,45,p0090043,,,INTEGER,,,Black or African American; Asian; Some Other Race,d4d0RJ1P00J
+p9,46,p0090044,,,INTEGER,,,Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P00K
+p9,47,p0090045,,,INTEGER,,,American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1P00L
+p9,48,p0090046,,,INTEGER,,,American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ1P00M
+p9,49,p0090047,,,INTEGER,,,American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P00N
+p9,50,p0090048,,,INTEGER,,,Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P00O
+p9,51,p0090049,,,INTEGER,,,Population of four races:,d4d0RJ1P00P
+p9,52,p0090050,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian,d4d0RJ1P00Q
+p9,53,p0090051,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,d4d0RJ1P00R
+p9,54,p0090052,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Some Other Race,d4d0RJ1P00S
+p9,55,p0090053,,,INTEGER,,,White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1P00T
+p9,56,p0090054,,,INTEGER,,,White; Black or African American; Asian; Some Other Race,d4d0RJ1P00U
+p9,57,p0090055,,,INTEGER,,,White; Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P00V
+p9,58,p0090056,,,INTEGER,,,White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1P00W
+p9,59,p0090057,,,INTEGER,,,White; American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ1P00X
+p9,60,p0090058,,,INTEGER,,,White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P00Y
+p9,61,p0090059,,,INTEGER,,,White; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P00Z
+p9,62,p0090060,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1P010
+p9,63,p0090061,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ1P011
+p9,64,p0090062,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P012
+p9,65,p0090063,,,INTEGER,,,Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P013
+p9,66,p0090064,,,INTEGER,,,American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P014
+p9,67,p0090065,,,INTEGER,,,Population of five races:,d4d0RJ1P015
+p9,68,p0090066,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,d4d0RJ1P016
+p9,69,p0090067,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian; Some Other Race,d4d0RJ1P017
+p9,70,p0090068,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P018
+p9,71,p0090069,,,INTEGER,,,White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P019
+p9,72,p0090070,,,INTEGER,,,White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P01a
+p9,73,p0090071,,,INTEGER,,,Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P01b
+p9,74,p0090072,,,INTEGER,,,Population of six races:,d4d0RJ1P01c
+p9,75,p0090073,,,INTEGER,,,White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race,d4d0RJ1P01d
+,,,,,,,,,
+pct12,1,id,1,,INTEGER64,,6,,d4d0RJ1Q001
+pct12,2,geoid,,,VARCHAR,1,,,d4d0RJ1Q002
+pct12,3,pct0120001,,,INTEGER,,,Total:,d4d0RJ1Q003
+pct12,4,pct0120002,,,INTEGER,,,Male:,d4d0RJ1Q004
+pct12,5,pct0120003,,,INTEGER,,,Under 1 year,d4d0RJ1Q005
+pct12,6,pct0120004,,,INTEGER,,,1 year,d4d0RJ1Q006
+pct12,7,pct0120005,,,INTEGER,,,2 years,d4d0RJ1Q007
+pct12,8,pct0120006,,,INTEGER,,,3 years,d4d0RJ1Q008
+pct12,9,pct0120007,,,INTEGER,,,4 years,d4d0RJ1Q009
+pct12,10,pct0120008,,,INTEGER,,,5 years,d4d0RJ1Q00a
+pct12,11,pct0120009,,,INTEGER,,,6 years,d4d0RJ1Q00b
+pct12,12,pct0120010,,,INTEGER,,,7 years,d4d0RJ1Q00c
+pct12,13,pct0120011,,,INTEGER,,,8 years,d4d0RJ1Q00d
+pct12,14,pct0120012,,,INTEGER,,,9 years,d4d0RJ1Q00e
+pct12,15,pct0120013,,,INTEGER,,,10 years,d4d0RJ1Q00f
+pct12,16,pct0120014,,,INTEGER,,,11 years,d4d0RJ1Q00g
+pct12,17,pct0120015,,,INTEGER,,,12 years,d4d0RJ1Q00h
+pct12,18,pct0120016,,,INTEGER,,,13 years,d4d0RJ1Q00i
+pct12,19,pct0120017,,,INTEGER,,,14 years,d4d0RJ1Q00j
+pct12,20,pct0120018,,,INTEGER,,,15 years,d4d0RJ1Q00k
+pct12,21,pct0120019,,,INTEGER,,,16 years,d4d0RJ1Q00l
+pct12,22,pct0120020,,,INTEGER,,,17 years,d4d0RJ1Q00m
+pct12,23,pct0120021,,,INTEGER,,,18 years,d4d0RJ1Q00n
+pct12,24,pct0120022,,,INTEGER,,,19 years,d4d0RJ1Q00o
+pct12,25,pct0120023,,,INTEGER,,,20 years,d4d0RJ1Q00p
+pct12,26,pct0120024,,,INTEGER,,,21 years,d4d0RJ1Q00q
+pct12,27,pct0120025,,,INTEGER,,,22 years,d4d0RJ1Q00r
+pct12,28,pct0120026,,,INTEGER,,,23 years,d4d0RJ1Q00s
+pct12,29,pct0120027,,,INTEGER,,,24 years,d4d0RJ1Q00t
+pct12,30,pct0120028,,,INTEGER,,,25 years,d4d0RJ1Q00u
+pct12,31,pct0120029,,,INTEGER,,,26 years,d4d0RJ1Q00v
+pct12,32,pct0120030,,,INTEGER,,,27 years,d4d0RJ1Q00w
+pct12,33,pct0120031,,,INTEGER,,,28 years,d4d0RJ1Q00x
+pct12,34,pct0120032,,,INTEGER,,,29 years,d4d0RJ1Q00y
+pct12,35,pct0120033,,,INTEGER,,,30 years,d4d0RJ1Q00z
+pct12,36,pct0120034,,,INTEGER,,,31 years,d4d0RJ1Q00A
+pct12,37,pct0120035,,,INTEGER,,,32 years,d4d0RJ1Q00B
+pct12,38,pct0120036,,,INTEGER,,,33 years,d4d0RJ1Q00C
+pct12,39,pct0120037,,,INTEGER,,,34 years,d4d0RJ1Q00D
+pct12,40,pct0120038,,,INTEGER,,,35 years,d4d0RJ1Q00E
+pct12,41,pct0120039,,,INTEGER,,,36 years,d4d0RJ1Q00F
+pct12,42,pct0120040,,,INTEGER,,,37 years,d4d0RJ1Q00G
+pct12,43,pct0120041,,,INTEGER,,,38 years,d4d0RJ1Q00H
+pct12,44,pct0120042,,,INTEGER,,,39 years,d4d0RJ1Q00I
+pct12,45,pct0120043,,,INTEGER,,,40 years,d4d0RJ1Q00J
+pct12,46,pct0120044,,,INTEGER,,,41 years,d4d0RJ1Q00K
+pct12,47,pct0120045,,,INTEGER,,,42 years,d4d0RJ1Q00L
+pct12,48,pct0120046,,,INTEGER,,,43 years,d4d0RJ1Q00M
+pct12,49,pct0120047,,,INTEGER,,,44 years,d4d0RJ1Q00N
+pct12,50,pct0120048,,,INTEGER,,,45 years,d4d0RJ1Q00O
+pct12,51,pct0120049,,,INTEGER,,,46 years,d4d0RJ1Q00P
+pct12,52,pct0120050,,,INTEGER,,,47 years,d4d0RJ1Q00Q
+pct12,53,pct0120051,,,INTEGER,,,48 years,d4d0RJ1Q00R
+pct12,54,pct0120052,,,INTEGER,,,49 years,d4d0RJ1Q00S
+pct12,55,pct0120053,,,INTEGER,,,50 years,d4d0RJ1Q00T
+pct12,56,pct0120054,,,INTEGER,,,51 years,d4d0RJ1Q00U
+pct12,57,pct0120055,,,INTEGER,,,52 years,d4d0RJ1Q00V
+pct12,58,pct0120056,,,INTEGER,,,53 years,d4d0RJ1Q00W
+pct12,59,pct0120057,,,INTEGER,,,54 years,d4d0RJ1Q00X
+pct12,60,pct0120058,,,INTEGER,,,55 years,d4d0RJ1Q00Y
+pct12,61,pct0120059,,,INTEGER,,,56 years,d4d0RJ1Q00Z
+pct12,62,pct0120060,,,INTEGER,,,57 years,d4d0RJ1Q010
+pct12,63,pct0120061,,,INTEGER,,,58 years,d4d0RJ1Q011
+pct12,64,pct0120062,,,INTEGER,,,59 years,d4d0RJ1Q012
+pct12,65,pct0120063,,,INTEGER,,,60 years,d4d0RJ1Q013
+pct12,66,pct0120064,,,INTEGER,,,61 years,d4d0RJ1Q014
+pct12,67,pct0120065,,,INTEGER,,,62 years,d4d0RJ1Q015
+pct12,68,pct0120066,,,INTEGER,,,63 years,d4d0RJ1Q016
+pct12,69,pct0120067,,,INTEGER,,,64 years,d4d0RJ1Q017
+pct12,70,pct0120068,,,INTEGER,,,65 years,d4d0RJ1Q018
+pct12,71,pct0120069,,,INTEGER,,,66 years,d4d0RJ1Q019
+pct12,72,pct0120070,,,INTEGER,,,67 years,d4d0RJ1Q01a
+pct12,73,pct0120071,,,INTEGER,,,68 years,d4d0RJ1Q01b
+pct12,74,pct0120072,,,INTEGER,,,69 years,d4d0RJ1Q01c
+pct12,75,pct0120073,,,INTEGER,,,70 years,d4d0RJ1Q01d
+pct12,76,pct0120074,,,INTEGER,,,71 years,d4d0RJ1Q01e
+pct12,77,pct0120075,,,INTEGER,,,72 years,d4d0RJ1Q01f
+pct12,78,pct0120076,,,INTEGER,,,73 years,d4d0RJ1Q01g
+pct12,79,pct0120077,,,INTEGER,,,74 years,d4d0RJ1Q01h
+pct12,80,pct0120078,,,INTEGER,,,75 years,d4d0RJ1Q01i
+pct12,81,pct0120079,,,INTEGER,,,76 years,d4d0RJ1Q01j
+pct12,82,pct0120080,,,INTEGER,,,77 years,d4d0RJ1Q01k
+pct12,83,pct0120081,,,INTEGER,,,78 years,d4d0RJ1Q01l
+pct12,84,pct0120082,,,INTEGER,,,79 years,d4d0RJ1Q01m
+pct12,85,pct0120083,,,INTEGER,,,80 years,d4d0RJ1Q01n
+pct12,86,pct0120084,,,INTEGER,,,81 years,d4d0RJ1Q01o
+pct12,87,pct0120085,,,INTEGER,,,82 years,d4d0RJ1Q01p
+pct12,88,pct0120086,,,INTEGER,,,83 years,d4d0RJ1Q01q
+pct12,89,pct0120087,,,INTEGER,,,84 years,d4d0RJ1Q01r
+pct12,90,pct0120088,,,INTEGER,,,85 years,d4d0RJ1Q01s
+pct12,91,pct0120089,,,INTEGER,,,86 years,d4d0RJ1Q01t
+pct12,92,pct0120090,,,INTEGER,,,87 years,d4d0RJ1Q01u
+pct12,93,pct0120091,,,INTEGER,,,88 years,d4d0RJ1Q01v
+pct12,94,pct0120092,,,INTEGER,,,89 years,d4d0RJ1Q01w
+pct12,95,pct0120093,,,INTEGER,,,90 years,d4d0RJ1Q01x
+pct12,96,pct0120094,,,INTEGER,,,91 years,d4d0RJ1Q01y
+pct12,97,pct0120095,,,INTEGER,,,92 years,d4d0RJ1Q01z
+pct12,98,pct0120096,,,INTEGER,,,93 years,d4d0RJ1Q01A
+pct12,99,pct0120097,,,INTEGER,,,94 years,d4d0RJ1Q01B
+pct12,100,pct0120098,,,INTEGER,,,95 years,d4d0RJ1Q01C
+pct12,101,pct0120099,,,INTEGER,,,96 years,d4d0RJ1Q01D
+pct12,102,pct0120100,,,INTEGER,,,97 years,d4d0RJ1Q01E
+pct12,103,pct0120101,,,INTEGER,,,98 years,d4d0RJ1Q01F
+pct12,104,pct0120102,,,INTEGER,,,99 years,d4d0RJ1Q01G
+pct12,105,pct0120103,,,INTEGER,,,100 to 104 years,d4d0RJ1Q01H
+pct12,106,pct0120104,,,INTEGER,,,105 to 109 years,d4d0RJ1Q01I
+pct12,107,pct0120105,,,INTEGER,,,110 years and over,d4d0RJ1Q01J
+pct12,108,pct0120106,,,INTEGER,,,Female:,d4d0RJ1Q01K
+pct12,109,pct0120107,,,INTEGER,,,Under 1 year,d4d0RJ1Q01L
+pct12,110,pct0120108,,,INTEGER,,,1 year,d4d0RJ1Q01M
+pct12,111,pct0120109,,,INTEGER,,,2 years,d4d0RJ1Q01N
+pct12,112,pct0120110,,,INTEGER,,,3 years,d4d0RJ1Q01O
+pct12,113,pct0120111,,,INTEGER,,,4 years,d4d0RJ1Q01P
+pct12,114,pct0120112,,,INTEGER,,,5 years,d4d0RJ1Q01Q
+pct12,115,pct0120113,,,INTEGER,,,6 years,d4d0RJ1Q01R
+pct12,116,pct0120114,,,INTEGER,,,7 years,d4d0RJ1Q01S
+pct12,117,pct0120115,,,INTEGER,,,8 years,d4d0RJ1Q01T
+pct12,118,pct0120116,,,INTEGER,,,9 years,d4d0RJ1Q01U
+pct12,119,pct0120117,,,INTEGER,,,10 years,d4d0RJ1Q01V
+pct12,120,pct0120118,,,INTEGER,,,11 years,d4d0RJ1Q01W
+pct12,121,pct0120119,,,INTEGER,,,12 years,d4d0RJ1Q01X
+pct12,122,pct0120120,,,INTEGER,,,13 years,d4d0RJ1Q01Y
+pct12,123,pct0120121,,,INTEGER,,,14 years,d4d0RJ1Q01Z
+pct12,124,pct0120122,,,INTEGER,,,15 years,d4d0RJ1Q020
+pct12,125,pct0120123,,,INTEGER,,,16 years,d4d0RJ1Q021
+pct12,126,pct0120124,,,INTEGER,,,17 years,d4d0RJ1Q022
+pct12,127,pct0120125,,,INTEGER,,,18 years,d4d0RJ1Q023
+pct12,128,pct0120126,,,INTEGER,,,19 years,d4d0RJ1Q024
+pct12,129,pct0120127,,,INTEGER,,,20 years,d4d0RJ1Q025
+pct12,130,pct0120128,,,INTEGER,,,21 years,d4d0RJ1Q026
+pct12,131,pct0120129,,,INTEGER,,,22 years,d4d0RJ1Q027
+pct12,132,pct0120130,,,INTEGER,,,23 years,d4d0RJ1Q028
+pct12,133,pct0120131,,,INTEGER,,,24 years,d4d0RJ1Q029
+pct12,134,pct0120132,,,INTEGER,,,25 years,d4d0RJ1Q02a
+pct12,135,pct0120133,,,INTEGER,,,26 years,d4d0RJ1Q02b
+pct12,136,pct0120134,,,INTEGER,,,27 years,d4d0RJ1Q02c
+pct12,137,pct0120135,,,INTEGER,,,28 years,d4d0RJ1Q02d
+pct12,138,pct0120136,,,INTEGER,,,29 years,d4d0RJ1Q02e
+pct12,139,pct0120137,,,INTEGER,,,30 years,d4d0RJ1Q02f
+pct12,140,pct0120138,,,INTEGER,,,31 years,d4d0RJ1Q02g
+pct12,141,pct0120139,,,INTEGER,,,32 years,d4d0RJ1Q02h
+pct12,142,pct0120140,,,INTEGER,,,33 years,d4d0RJ1Q02i
+pct12,143,pct0120141,,,INTEGER,,,34 years,d4d0RJ1Q02j
+pct12,144,pct0120142,,,INTEGER,,,35 years,d4d0RJ1Q02k
+pct12,145,pct0120143,,,INTEGER,,,36 years,d4d0RJ1Q02l
+pct12,146,pct0120144,,,INTEGER,,,37 years,d4d0RJ1Q02m
+pct12,147,pct0120145,,,INTEGER,,,38 years,d4d0RJ1Q02n
+pct12,148,pct0120146,,,INTEGER,,,39 years,d4d0RJ1Q02o
+pct12,149,pct0120147,,,INTEGER,,,40 years,d4d0RJ1Q02p
+pct12,150,pct0120148,,,INTEGER,,,41 years,d4d0RJ1Q02q
+pct12,151,pct0120149,,,INTEGER,,,42 years,d4d0RJ1Q02r
+pct12,152,pct0120150,,,INTEGER,,,43 years,d4d0RJ1Q02s
+pct12,153,pct0120151,,,INTEGER,,,44 years,d4d0RJ1Q02t
+pct12,154,pct0120152,,,INTEGER,,,45 years,d4d0RJ1Q02u
+pct12,155,pct0120153,,,INTEGER,,,46 years,d4d0RJ1Q02v
+pct12,156,pct0120154,,,INTEGER,,,47 years,d4d0RJ1Q02w
+pct12,157,pct0120155,,,INTEGER,,,48 years,d4d0RJ1Q02x
+pct12,158,pct0120156,,,INTEGER,,,49 years,d4d0RJ1Q02y
+pct12,159,pct0120157,,,INTEGER,,,50 years,d4d0RJ1Q02z
+pct12,160,pct0120158,,,INTEGER,,,51 years,d4d0RJ1Q02A
+pct12,161,pct0120159,,,INTEGER,,,52 years,d4d0RJ1Q02B
+pct12,162,pct0120160,,,INTEGER,,,53 years,d4d0RJ1Q02C
+pct12,163,pct0120161,,,INTEGER,,,54 years,d4d0RJ1Q02D
+pct12,164,pct0120162,,,INTEGER,,,55 years,d4d0RJ1Q02E
+pct12,165,pct0120163,,,INTEGER,,,56 years,d4d0RJ1Q02F
+pct12,166,pct0120164,,,INTEGER,,,57 years,d4d0RJ1Q02G
+pct12,167,pct0120165,,,INTEGER,,,58 years,d4d0RJ1Q02H
+pct12,168,pct0120166,,,INTEGER,,,59 years,d4d0RJ1Q02I
+pct12,169,pct0120167,,,INTEGER,,,60 years,d4d0RJ1Q02J
+pct12,170,pct0120168,,,INTEGER,,,61 years,d4d0RJ1Q02K
+pct12,171,pct0120169,,,INTEGER,,,62 years,d4d0RJ1Q02L
+pct12,172,pct0120170,,,INTEGER,,,63 years,d4d0RJ1Q02M
+pct12,173,pct0120171,,,INTEGER,,,64 years,d4d0RJ1Q02N
+pct12,174,pct0120172,,,INTEGER,,,65 years,d4d0RJ1Q02O
+pct12,175,pct0120173,,,INTEGER,,,66 years,d4d0RJ1Q02P
+pct12,176,pct0120174,,,INTEGER,,,67 years,d4d0RJ1Q02Q
+pct12,177,pct0120175,,,INTEGER,,,68 years,d4d0RJ1Q02R
+pct12,178,pct0120176,,,INTEGER,,,69 years,d4d0RJ1Q02S
+pct12,179,pct0120177,,,INTEGER,,,70 years,d4d0RJ1Q02T
+pct12,180,pct0120178,,,INTEGER,,,71 years,d4d0RJ1Q02U
+pct12,181,pct0120179,,,INTEGER,,,72 years,d4d0RJ1Q02V
+pct12,182,pct0120180,,,INTEGER,,,73 years,d4d0RJ1Q02W
+pct12,183,pct0120181,,,INTEGER,,,74 years,d4d0RJ1Q02X
+pct12,184,pct0120182,,,INTEGER,,,75 years,d4d0RJ1Q02Y
+pct12,185,pct0120183,,,INTEGER,,,76 years,d4d0RJ1Q02Z
+pct12,186,pct0120184,,,INTEGER,,,77 years,d4d0RJ1Q030
+pct12,187,pct0120185,,,INTEGER,,,78 years,d4d0RJ1Q031
+pct12,188,pct0120186,,,INTEGER,,,79 years,d4d0RJ1Q032
+pct12,189,pct0120187,,,INTEGER,,,80 years,d4d0RJ1Q033
+pct12,190,pct0120188,,,INTEGER,,,81 years,d4d0RJ1Q034
+pct12,191,pct0120189,,,INTEGER,,,82 years,d4d0RJ1Q035
+pct12,192,pct0120190,,,INTEGER,,,83 years,d4d0RJ1Q036
+pct12,193,pct0120191,,,INTEGER,,,84 years,d4d0RJ1Q037
+pct12,194,pct0120192,,,INTEGER,,,85 years,d4d0RJ1Q038
+pct12,195,pct0120193,,,INTEGER,,,86 years,d4d0RJ1Q039
+pct12,196,pct0120194,,,INTEGER,,,87 years,d4d0RJ1Q03a
+pct12,197,pct0120195,,,INTEGER,,,88 years,d4d0RJ1Q03b
+pct12,198,pct0120196,,,INTEGER,,,89 years,d4d0RJ1Q03c
+pct12,199,pct0120197,,,INTEGER,,,90 years,d4d0RJ1Q03d
+pct12,200,pct0120198,,,INTEGER,,,91 years,d4d0RJ1Q03e
+pct12,201,pct0120199,,,INTEGER,,,92 years,d4d0RJ1Q03f
+pct12,202,pct0120200,,,INTEGER,,,93 years,d4d0RJ1Q03g
+pct12,203,pct0120201,,,INTEGER,,,94 years,d4d0RJ1Q03h
+pct12,204,pct0120202,,,INTEGER,,,95 years,d4d0RJ1Q03i
+pct12,205,pct0120203,,,INTEGER,,,96 years,d4d0RJ1Q03j
+pct12,206,pct0120204,,,INTEGER,,,97 years,d4d0RJ1Q03k
+pct12,207,pct0120205,,,INTEGER,,,98 years,d4d0RJ1Q03l
+pct12,208,pct0120206,,,INTEGER,,,99 years,d4d0RJ1Q03m
+pct12,209,pct0120207,,,INTEGER,,,100 to 104 years,d4d0RJ1Q03n
+pct12,210,pct0120208,,,INTEGER,,,105 to 109 years,d4d0RJ1Q03o
+pct12,211,pct0120209,,,INTEGER,,,110 years and over,d4d0RJ1Q03p

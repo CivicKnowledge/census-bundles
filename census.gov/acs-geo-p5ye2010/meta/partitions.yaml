@@ -1,0 +1,3 @@
+-   name: census.gov-acs-geo-orig-geofile-20105
+    table: geofile
+    time: '20105'
