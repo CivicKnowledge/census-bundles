@@ -24,6 +24,15 @@ contact_source:
         email: null
         name: null
         url: null
+external_documentation:
+    geography:
+        description: The Geographic Areas Reference Manual (GARM) describes in great detail the basic geographic 
+            entities the Census Bureau used in its various data tabulations for the 1990 Census and documents 
+            the purposes, definitions, standards, criteria, and procedures used to select, define, delineate, 
+            and revise those geographic entities.
+        source: null
+        title: Geographic Areas Reference Manual
+        url: https://www.census.gov/geo/reference/garm.html
 identity:
     bspace: null
     btime: p5ye2010

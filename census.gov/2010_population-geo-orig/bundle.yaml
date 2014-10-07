@@ -40,6 +40,20 @@ names:
     name: census.gov-2010_population-geo-orig
     vid: d00d006
     vname: census.gov-2010_population-geo-orig-0.1.6
+external_documentation:
+    geography:
+        description: The Geographic Areas Reference Manual (GARM) describes in great detail the basic geographic 
+            entities the Census Bureau used in its various data tabulations for the 1990 Census and documents 
+            the purposes, definitions, standards, criteria, and procedures used to select, define, delineate, 
+            and revise those geographic entities.
+        source: null
+        title: Geographic Areas Reference Manual
+        url: https://www.census.gov/geo/reference/garm.html
+    technical_docs:
+        description: Primary technical documentation.
+        source: null
+        title: A2010 Census Summary File 1 Technical Documentation
+        url: http://www.census.gov/prod/cen2010/doc/sf1.pdf
 versions:
     1:
         description: null
