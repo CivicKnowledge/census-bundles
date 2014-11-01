@@ -2,7 +2,7 @@ build:
     config: {}
 dependencies: {}
 extract: {}
-requirement:
+requirements:
     geoid: https://github.com/CivicKnowledge/geoid.git
 sources:
     large:
