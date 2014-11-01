@@ -1,7 +1,7 @@
 build:
     config: {}
     requirements:
-        geoid: https://github.com/CivicKnowledge/geoid.git
+        geoid: git+https://github.com/CivicKnowledge/geoid.git
 dependencies: {}
 extract: {}
 
