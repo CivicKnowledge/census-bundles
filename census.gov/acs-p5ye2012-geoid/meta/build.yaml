@@ -1,5 +1,13 @@
-build: 
-    summary_levels: [20,30, 40,50,60,160,140,150 ]
+build:
+    summary_levels:
+    - 20
+    - 30
+    - 40
+    - 50
+    - 60
+    - 160
+    - 140
+    - 150
 dependencies:
     acs: census.gov-acs-p5ye2012
     acs_geofile: census.gov-acs-geo-p5ye2012-geofile

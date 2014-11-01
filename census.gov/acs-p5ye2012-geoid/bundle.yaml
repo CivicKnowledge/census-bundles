@@ -25,16 +25,16 @@ identity:
     dataset: acs
     id: d03b
     revision: 1
-    source: source.gov
+    source: census.gov
     subset: null
     type: null
     variation: geoid
     version: 0.0.1
 names:
-    fqname: source.gov-acs-p5ye2012-geoid-0.0.1~d03b001
-    name: source.gov-acs-p5ye2012-geoid
+    fqname: census.gov-acs-p5ye2012-geoid-0.0.1~d03b001
+    name: census.gov-acs-p5ye2012-geoid
     vid: d03b001
-    vname: source.gov-acs-p5ye2012-geoid-0.0.1
+    vname: census.gov-acs-p5ye2012-geoid-0.0.1
 process: {}
 versions:
     1:
