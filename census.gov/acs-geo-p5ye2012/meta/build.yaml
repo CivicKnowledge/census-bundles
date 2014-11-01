@@ -2,6 +2,8 @@ build:
     config: {}
 dependencies: {}
 extract: {}
+requirement:
+    geoid: https://github.com/CivicKnowledge/geoid.git
 sources:
     large:
         description: Large geographies, excluding tracts and block groups.
@@ -12,3 +14,4 @@ sources:
     small:
         description: Small geographies
         url: '{state}/Tracts_Block_Groups_Only/g{end_year}{span}{lc_utstab}.txt'
+views: {}

@@ -6,9 +6,7 @@ build:
 dependencies:
     geo2000: census.gov-2000_population-geo-orig
     geo2010: census.gov-2010_population-geo-orig
-
 extract: {}
-partitions: []
 queries:
     large_areas:
     -   - 20
@@ -51,3 +49,4 @@ queries:
     - TABBLOCK
     - BG
     - PLACE
+views: {}

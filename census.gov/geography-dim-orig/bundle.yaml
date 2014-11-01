@@ -28,6 +28,7 @@ external_documentation:
     geoids:
         description: A Guide for creating GEOIDs. While the document is for the  redistricting
             files, and the summary levels are different, it is illustrative.
+        source: null
         title: GEOID specification
         url: http://www.census.gov/rdo/pdf/0GEOID_Construction_for_Matching.pdf
 identity:
@@ -35,18 +36,18 @@ identity:
     btime: null
     dataset: geography
     id: d00i
-    revision: 5
+    revision: 6
     source: census.gov
     subset: dim
     type: null
     variation: orig
-    version: 0.1.5
+    version: 2.0.6
 names:
-    fqname: census.gov-geography-dim-orig-0.1.5~d00i005
+    fqname: census.gov-geography-dim-orig-0.1.6~d00i006
     name: census.gov-geography-dim-orig
-    vid: d00i005
-    vname: census.gov-geography-dim-orig-0.1.5
-
+    vid: d00i006
+    vname: census.gov-geography-dim-orig-0.1.6
+process: {}
 versions:
     1:
         description: null
@@ -63,3 +64,6 @@ versions:
     5:
         description: null
         version: 0.1.5
+    6:
+        description: New interface, using prototype tables. 
+        version: 2.0.6

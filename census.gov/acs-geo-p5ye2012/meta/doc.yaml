@@ -1,8 +1,33 @@
 documentation:
-    main: "\n# Bundle Documentation\n\nThe contents of this file should be written\
-        \ in  \n[Markdown](http://daringfireball.net/projects/markdown/syntax). It\
-        \ will\nbe included in the about.description entry in the bundle configuration.\n\
-        \n"
+    main: '
+
+        # None
+
+
+        None
+
+
+        This bundle adds two extra fields, both versions of the geoid. The Tigerline
+        geoid, in the format used in Tigerline files, and a Civic Knowledge format,
+        which uses base 62 to be more compact. These geoids are only defined for a
+        limited set of the summary levels:
+
+
+        * 20 Region
+
+        * 30 Division
+
+        * 40 State
+
+        * 50 County
+
+        * 60 County subdivision
+
+        * 160 Place
+
+        * 140 Tract
+
+        * 150 Blockgroup'
     readme: "\n# ACS 2008 2012 Geo Files\n\nGeographic data for the 2012 5 year ACS.\
         \ \n\nThe schema for the file was scraped from the geo file schema in the\
         \ Technical Documentation. \n\n"

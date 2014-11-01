@@ -1,0 +1,42 @@
+about:
+    groups: []
+    license: null
+    rights: null
+    subject: demographics
+    summary: Based on census.gov-acs-p5ye2012, but replaces the state and logrecno
+        link values with a geoid
+    tags: []
+    title: American Community Survey, 2008 - 2012, Geoid Linked
+contact_bundle:
+    creator:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
+    maintainer:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
+contact_source:
+    creator: {}
+    maintainer: {}
+identity:
+    bspace: null
+    btime: p5ye2012
+    dataset: acs
+    id: d03b
+    revision: 1
+    source: source.gov
+    subset: null
+    type: null
+    variation: geoid
+    version: 0.0.1
+names:
+    fqname: source.gov-acs-p5ye2012-geoid-0.0.1~d03b001
+    name: source.gov-acs-p5ye2012-geoid
+    vid: d03b001
+    vname: source.gov-acs-p5ye2012-geoid-0.0.1
+process: {}
+versions:
+    1:
+        description: Initial Version
+        version: 0.0.1
