@@ -1,9 +1,10 @@
 build:
     config: {}
+    requirements:
+        geoid: https://github.com/CivicKnowledge/geoid.git
 dependencies: {}
 extract: {}
-requirements:
-    geoid: https://github.com/CivicKnowledge/geoid.git
+
 sources:
     large:
         description: Large geographies, excluding tracts and block groups.
