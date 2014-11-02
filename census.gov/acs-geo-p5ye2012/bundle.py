@@ -98,18 +98,14 @@ class Bundle(BuildBundle):
         
     def build_segment(self, lr, geo, stusab):
         import os
-        from geoid.civick import GVid
-        from geoid.tiger import TigerGeoid
-        from geoid.acs import AcsGeoid
+        from geoid  import generate_all
+
         
         self.error("Segment: {} {} ".format(stusab, geo))
-        
-       
         
         p = self.partitions.find_or_new(table='geofile') #, grain=geo)
         
         header, cregex, regex = p.table.get_fixed_regex()
-
 
         url = self.get_url(geo,stusab)
         file = self.filesystem.download(url)
@@ -127,32 +123,17 @@ class Bundle(BuildBundle):
 
                     row = dict(zip(header, [ x.strip() for x in g.groups()]))
                     
-                    
-                    
                     row['stusab'] = row['stusab'].lower()
                     lr("Segment: {} {} ".format(stusab, geo))
-                    
-                    grow = dict(row.items())
-                    
-                    
-                    grow['cosub'] = row['cousub']
-                    grow['blockgroup'] = row['blkgrp']  
+                   
                     
                     sumlevel = int(row['sumlevel'])
-                    gvid_class =  GVid.resolve_summary_level(sumlevel)
-                    if gvid_class:
-                        geoidt_class =  TigerGeoid.resolve_summary_level(sumlevel)
-                        geoid_class =  AcsGeoid.resolve_summary_level(sumlevel)
-
-                        geoid = geoid_class(**grow)
                     
-                        if row['geoid'] !=  str(geoid) and sumlevel != 40 : #
-                            pass
-                            # States have geographic component
-                            #self.error("Geoid mismatch: {} != {} ".format(row['geoid'], str(geoid)))
-                        else:
-                            row['gvid']  = str(gvid_class(**grow))  
-                            row['geoidt'] =  str(geoidt_class(**grow))
+                    geoids = generate_all(row['sumlevel'], row)
+                    
+                    if geodids:
+                        row.update(geoids)
+                    
               
                     if 'cosub' in row:
                         raise Exception()

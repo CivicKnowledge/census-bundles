@@ -3,7 +3,7 @@
 
 {about_summary}
 
-This bundle has a subset of the records, only the ones with that have summary levels of: 
+The tables in this version of the census data includes only records that have these summary levels.
 
 * 20 Region
 * 30 Division

@@ -122,23 +122,32 @@ class Bundle(BuildBundle):
             
     def build_partition(self, p_vid):
 
+
         p = self.library.dep('acs').partitions.get(p_vid)
-        p.get() # Load from remote
-        
-        
-        self.log("Load geoid cache")
-        gf = self.load_geofile()
-        self.log("Fetching: {}".format(str(p)))
-        
-        self.log("Copying: {}".format(str(p)))
-        
         
         out_p = self.partitions.find_or_new(table = p.table.name, grain = p.grain)
+
+        if out_p.is_finalized():
+            self.log("Partition is finalized. Skipping. '{}' ".format(out_p.identity.name))
+            p.close()
+            out_p.close()
+            return 
+        else:
+            self.log("Building: {}".format(out_p.identity.name))
+        
         out_p.clean()
+        
+        if not p.has():
+            self.log("Fetching: {}".format(str(p)))
+            p.get() # Load from remote
+        
+
+        gf = self.load_geofile()
+
     
         lr = self.init_log_rate(5000)
         with out_p.inserter() as ins:
-            for row in p.rows:
+            for i, row in enumerate(p.rows):
                 row = dict(row)
                 lr()
                 
@@ -152,7 +161,12 @@ class Bundle(BuildBundle):
                 
                 ins.insert(row)
                 
+                if self.run_args.test and i > 10000:
+                    break
+                
+        
         p.close()
+        out_p.finalize()
         out_p.close()
                 
                 

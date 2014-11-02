@@ -33,17 +33,18 @@ identity:
     btime: '2012'
     dataset: tigerline
     id: d025
-    revision: 4
+    revision: 5
     source: census.gov
     subset: null
     type: null
     variation: null
-    version: 0.0.4
+    version: 1.0.5
 names:
-    fqname: census.gov-tigerline-2012-0.0.4~d025004
+    fqname: census.gov-tigerline-2012-1.0.5~d025005
     name: census.gov-tigerline-2012
-    vid: d025004
-    vname: census.gov-tigerline-2012-0.0.4
+    vid: d025005
+    vname: census.gov-tigerline-2012-1.0.5
+process: {}
 versions:
     1:
         description: null
@@ -57,3 +58,6 @@ versions:
     4:
         description: Added Tracts, more indexes, fixed bad column in block groups.
         version: 0.0.4
+    5:
+        description: Using prototypes, gvid. Removed most other data from tables.
+        version: 1.0.5

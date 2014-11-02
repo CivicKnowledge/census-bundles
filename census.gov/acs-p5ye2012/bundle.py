@@ -202,17 +202,13 @@ class Bundle(BuildBundle):
         elif int(self.run_args.get('multi')) > 1:
         
             segs = [seg for seg in range(1,self.metadata.build.config.segments)]
-          
-            
             self.run_mp(self.build_segment, segs)
             
         else:
             
             for seg in range(1,self.metadata.build.config.segments):
-
                 self.build_segment(seg)
             
-       
         return True
        
 
@@ -269,6 +265,7 @@ class Bundle(BuildBundle):
         import csv
         import yaml
         from ambry.partitions import Partitions
+        from geoid  import generate_all
         
         tables = self.table_map[seg_no]
 
@@ -359,6 +356,11 @@ class Bundle(BuildBundle):
 
                                     #print d
                                     d['id'] = row_num
+
+                                    geoids = generate_all(row['sumlevel'], row)
+                    
+                                    if geodids:
+                                        row.update(geoids)
 
                                     errors =  ins.insert(d)
 
