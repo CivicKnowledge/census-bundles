@@ -20,6 +20,8 @@ class Bundle(BuildBundle):
             else:
                 self.build_partition(2012, url_code,table_name)
         
+        return True
+        
     def build_us_partition(self,year, url_code,table_name):
 
         self._load_state_features(None, None, 'us', year, url_code, table_name, 
@@ -59,34 +61,6 @@ class Bundle(BuildBundle):
         return  states
 
 
-    def load_split_features(self):
-        from multiprocessing import Pool
-
-        states = [ (s['name'], s['stusab'], s['state']) for s in self._states() ]
-             
-        num_procs = self.run_args.multi if self.run_args.multi else 1
-                 
-        
-        if self.run_args.test:
-            if num_procs == 1:
-                states = [ e for e in states if e[1] == 'RI']
-            else:
-                states = states[:num_procs]
-
-        year = int(self.identity.btime)
-
-        for type_, table_name in self.metadata.build.split_types.items():    
-            
-            if num_procs == 1:
-                for name, stusab, state in states:
-                    self._load_state_features(state, name.strip(), stusab, 
-                                             year, type_, table_name)
-            else:
-                self.run_mp(self._load_state_features,
-                            [( state, name.strip(), stusab, year, type_, table_name) 
-                            for name, stusab, state in states ] )
-
-
     def _load_state_features(self, state, name, stusab, year, type_, table_name, template):
         
 
@@ -102,12 +76,14 @@ class Bundle(BuildBundle):
         p = self.partitions.find_or_new_geo(table=table_name,
                                             space=stusab.lower())
 
-        self._load_partition(p, table_name, shape_file, state)
+        if not p.is_finalized():
+            self._load_partition(p, table_name, shape_file, state, year)
         
         p.close()
+        p.finalize()
         
         
-    def _load_partition(self, p, table_name, shape_file, state):
+    def _load_partition(self, p, table_name, shape_file, state, year):
         import osgeo.ogr as ogr
         import osgeo.gdal as gdal
         from geoid import generate_all

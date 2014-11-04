@@ -1,4 +1,6 @@
 build:
+    requirements:
+        geoid: git+https://github.com/CivicKnowledge/geoid.git
     combined_types:
         counties: null
     dependencies: {}

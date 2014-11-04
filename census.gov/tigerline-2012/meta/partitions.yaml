@@ -1,4 +1,12 @@
 -   format: geo
+    name: census.gov-tigerline-2012-counties-us-geo
+    space: us
+    table: counties
+-   format: geo
+    name: census.gov-tigerline-2012-states-us-geo
+    space: us
+    table: states
+-   format: geo
     name: census.gov-tigerline-2012-blockgroups-al-geo
     space: al
     table: blockgroups
@@ -27,12 +35,12 @@
     space: ct
     table: blockgroups
 -   format: geo
-    name: census.gov-tigerline-2012-blockgroups-de-geo
-    space: de
+    name: census.gov-tigerline-2012-blockgroups-nc-geo
+    space: nc
     table: blockgroups
 -   format: geo
-    name: census.gov-tigerline-2012-blockgroups-dc-geo
-    space: dc
+    name: census.gov-tigerline-2012-blockgroups-nd-geo
+    space: nd
     table: blockgroups
 -   format: geo
     name: census.gov-tigerline-2012-blockgroups-oh-geo
@@ -131,13 +139,13 @@
     space: ct
     table: places
 -   format: geo
-    name: census.gov-tigerline-2012-places-de-geo
+    name: census.gov-tigerline-2012-blockgroups-de-geo
     space: de
-    table: places
+    table: blockgroups
 -   format: geo
-    name: census.gov-tigerline-2012-places-dc-geo
+    name: census.gov-tigerline-2012-blockgroups-dc-geo
     space: dc
-    table: places
+    table: blockgroups
 -   format: geo
     name: census.gov-tigerline-2012-blockgroups-fl-geo
     space: fl
@@ -235,13 +243,13 @@
     space: ny
     table: blockgroups
 -   format: geo
-    name: census.gov-tigerline-2012-blockgroups-nc-geo
-    space: nc
-    table: blockgroups
+    name: census.gov-tigerline-2012-places-de-geo
+    space: de
+    table: places
 -   format: geo
-    name: census.gov-tigerline-2012-blockgroups-nd-geo
-    space: nd
-    table: blockgroups
+    name: census.gov-tigerline-2012-places-dc-geo
+    space: dc
+    table: places
 -   format: geo
     name: census.gov-tigerline-2012-places-fl-geo
     space: fl
@@ -275,12 +283,12 @@
     space: ks
     table: places
 -   format: geo
-    name: census.gov-tigerline-2012-places-ky-geo
-    space: ky
+    name: census.gov-tigerline-2012-places-tx-geo
+    space: tx
     table: places
 -   format: geo
-    name: census.gov-tigerline-2012-places-la-geo
-    space: la
+    name: census.gov-tigerline-2012-places-ut-geo
+    space: ut
     table: places
 -   format: geo
     name: census.gov-tigerline-2012-places-vt-geo
@@ -379,13 +387,13 @@
     space: ks
     table: tracts
 -   format: geo
-    name: census.gov-tigerline-2012-tracts-ky-geo
+    name: census.gov-tigerline-2012-places-ky-geo
     space: ky
-    table: tracts
+    table: places
 -   format: geo
-    name: census.gov-tigerline-2012-tracts-la-geo
+    name: census.gov-tigerline-2012-places-la-geo
     space: la
-    table: tracts
+    table: places
 -   format: geo
     name: census.gov-tigerline-2012-places-me-geo
     space: me
@@ -483,13 +491,13 @@
     space: tn
     table: places
 -   format: geo
-    name: census.gov-tigerline-2012-places-tx-geo
-    space: tx
-    table: places
+    name: census.gov-tigerline-2012-tracts-ky-geo
+    space: ky
+    table: tracts
 -   format: geo
-    name: census.gov-tigerline-2012-places-ut-geo
-    space: ut
-    table: places
+    name: census.gov-tigerline-2012-tracts-la-geo
+    space: la
+    table: tracts
 -   format: geo
     name: census.gov-tigerline-2012-tracts-me-geo
     space: me
@@ -622,6 +630,3 @@
     name: census.gov-tigerline-2012-tracts-pr-geo
     space: pr
     table: tracts
--   format: geo
-    name: census.gov-tigerline-2012-counties-geo
-    table: counties
