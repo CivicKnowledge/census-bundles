@@ -1,9 +1,9 @@
 build:
-    requirements:
-        geoid: git+https://github.com/CivicKnowledge/geoid.git
     combined_types:
         counties: null
     dependencies: {}
+    requirements:
+        geoid: git+https://github.com/CivicKnowledge/geoid.git
     state_url_template: http://www2.census.gov/geo/tiger/TIGER2012/{type}/tl_{year4}_{state:02}_{typelc}.zip
     url_codes:
         BG: blockgroups

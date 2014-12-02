@@ -46,8 +46,8 @@ class Bundle(BuildBundle):
                     if c.name == 'id':
                         d['proto_vid'] = None
                         columns.append(d)
-                        columns.append(dict(name='geoid',datatype='varchar', description='ACS Geoid'))
-                        columns.append(dict(name='gvid',datatype='varchar', description='Civic Knowledge Geoid'))
+                        columns.append(dict(name='gvid',datatype='varchar',  proto_vid = 'c00104002',
+                                            description='Civic Knowledge Geoid'))
                     else:
                         columns.append(d)
                         
@@ -170,6 +170,15 @@ class Bundle(BuildBundle):
         out_p.close()
                 
                 
+    def update(self):
+        """Create references from the prevous version. Like the bundle default version of update(), but
+        doesn't copy the schema -- instead use the one createed here"""
+
+         self.prepare()
+         self.update_copy_partitions()
+
+         return True
+        
                 
             
             

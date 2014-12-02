@@ -1,9 +1,34 @@
 documentation:
-    main: "\n# American Community Survey, 2008 - 2012, Geoid Linked\n\nBased on census.gov-acs-p5ye2012,\
-        \ but replaces the state and logrecno link values with a geoid\n\nThis bundle\
-        \ has a subset of the records, only the ones with that have summary levels\
-        \ of: \n\n* 20 Region\n* 30 Division\n* 40 State\n* 50 County\n* 60 County\
-        \ subdivision\n* 160 Place\n* 140 Tract\n* 150 Blockgroup\n"
+    main: '
+
+        # American Community Survey, 2008 - 2012, Geoid Linked
+
+
+        Based on census.gov-acs-p5ye2012, but replaces the state and logrecno link
+        values with a geoid
+
+
+        The tables in this version of the census data includes only records that have
+        these summary levels.
+
+
+        * 20 Region
+
+        * 30 Division
+
+        * 40 State
+
+        * 50 County
+
+        * 60 County subdivision
+
+        * 160 Place
+
+        * 140 Tract
+
+        * 150 Blockgroup
+
+        '
     readme: '# American Community Survey, 2008 - 2012, Geoid Linked
 
 
