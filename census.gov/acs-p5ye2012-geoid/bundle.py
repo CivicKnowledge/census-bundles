@@ -64,6 +64,8 @@ class Bundle(BuildBundle):
         return True
         
     def load_geofile(self):
+        """Load and pickle the whole geofile as a dict indexed on stusab and logrecno, 
+        so it can be quickly reloaded in each sub-process on mp runs.  """
         import cPickle as pickle
         import os
         
@@ -111,15 +113,13 @@ class Bundle(BuildBundle):
         if int(self.run_args.get('multi')) > 1:
             self.database.close()
             self.run_mp(self.build_partition, [ (p.vid,) for p in b.partitions] )
-
-            
+   
         else:
             for in_p in b.partitions:
                 self.build_partition(in_p.vid)
             
         return True
- 
-            
+   
     def build_partition(self, p_vid):
 
 
@@ -144,7 +144,6 @@ class Bundle(BuildBundle):
 
         gf = self.load_geofile()
 
-    
         lr = self.init_log_rate(5000)
         with out_p.inserter() as ins:
             for i, row in enumerate(p.rows):
@@ -164,7 +163,6 @@ class Bundle(BuildBundle):
                 if self.run_args.test and i > 10000:
                     break
                 
-        
         p.close()
         out_p.finalize()
         out_p.close()
@@ -174,19 +172,7 @@ class Bundle(BuildBundle):
         """Create references from the prevous version. Like the bundle default version of update(), but
         doesn't copy the schema -- instead use the one createed here"""
 
-         self.prepare()
-         self.update_copy_partitions()
+        self.update_copy_partitions()
 
-         return True
-        
-                
-            
-            
-    
-    
-        
-    
-            
-        
-        
+        return True
         
