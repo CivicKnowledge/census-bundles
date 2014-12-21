@@ -1,63 +1,77 @@
 about:
     groups:
-    - group1
-    - group2
-    license: other-open
-    rights: null
-    subject: null
-    summary: !include 'meta/about.description.md'
-    tags:
-    - tag1
-    - tag2
-    title: Bundle title
+    - census
+    - geography
+    license: public
+    rights: public
+    subject: geographic boundaries
+    summary: Geographic area boundary shapes for 2012, for blockgroups, places, tracts,
+        counties and states.
+    tags: []
+    title: Tigerline ACS Area Boundaries, 2012
 contact_bundle:
     creator:
         email: eric@sandiegodata.org
         name: Eric Busboom
-        url: null
+        url: http://www.sandiegodata.org
     maintainer:
         email: eric@sandiegodata.org
         name: Eric Busboom
-        url: null
+        url: http://www.sandiegodata.org
 contact_source:
     creator:
         email: null
-        name: null
-        url: https://civicknowledge.org
+        name: US Census Bureau
+        url: http://www.census.gov/cgi-bin/geo/shapefiles2010/layers.cgi
     maintainer:
         email: null
         name: null
         url: null
+external_documentation:
+    download:
+        description: Web page that links to the source files.
+        source: null
+        title: Download Page
+        url: https://www.census.gov/geo/maps-data/data/tiger-line.html
 identity:
     bspace: null
     btime: '2012'
     dataset: tigerline
     id: d025
-    revision: 5
+    revision: 6
     source: census.gov
     subset: null
     type: null
     variation: null
-    version: 1.0.5
+    version: 1.0.6
 names:
-    fqname: census.gov-tigerline-2012-1.0.5~d025005
+    fqname: census.gov-tigerline-2012-1.0.6~d025006
     name: census.gov-tigerline-2012
-    vid: d025005
-    vname: census.gov-tigerline-2012-1.0.5
+    vid: d025006
+    vname: census.gov-tigerline-2012-1.0.6
 process: {}
 versions:
     1:
+        date: null
         description: null
         version: null
     2:
+        date: null
         description: null
         version: null
     3:
+        date: null
         description: null
         version: 0.0.3
     4:
+        date: null
         description: Added Tracts, more indexes, fixed bad column in block groups.
         version: 0.0.4
     5:
+        date: null
         description: Using prototypes, gvid. Removed most other data from tables.
         version: 1.0.5
+    6:
+        date: '2014-12-21T10:55:48.484594'
+        description: Updated documentation
+        version: 1.0.6

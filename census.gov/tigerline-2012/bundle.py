@@ -76,7 +76,7 @@ class Bundle(BuildBundle):
         p = self.partitions.find_or_new_geo(table=table_name,
                                             space=stusab.lower())
 
-        if not p.is_finalized():
+        if not p.is_finalized:
             self._load_partition(p, table_name, shape_file, state, year)
         
         p.close()

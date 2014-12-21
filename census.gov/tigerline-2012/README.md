@@ -1,5 +1,3 @@
+# Tigerline ACS Area Boundaries, 2012
 
-# Bundle README
-
-This readme file should be written in [Markdown](http://daringfireball.net/projects/markdown/syntax),
-with text that explains to developers how to use the bundle, or lists particular issues or caveats. 
+Geographic area boundary shapes for 2012, for blockgroups, places, tracts, counties and states.

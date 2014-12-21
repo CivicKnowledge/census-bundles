@@ -1,29 +1,37 @@
 about:
-    groups: []
-    license: null
-    rights: null
-    subject: null
-    summary: null
+    groups:
+    - census
+    - geography
+    license: public
+    rights: public
+    subject: geographic boundaries
+    summary: Geographic area boundary shapes for 2010, for blockgroups, places, tracts, counties and states.
     tags: []
-    title: null
+    title: Tigerline ACS Area Boundaries, 2010
 contact_bundle:
     creator:
-        email: null
-        name: null
-        url: null
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
     maintainer:
-        email: null
-        name: null
-        url: null
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
 contact_source:
     creator:
         email: null
-        name: null
+        name: US Census Bureau
         url: http://www.census.gov/cgi-bin/geo/shapefiles2010/layers.cgi
     maintainer:
         email: null
         name: null
         url: null
+external_documentation:
+    download:
+        description: Web page that links to the source files.
+        source: null
+        title: Download Page
+        url: https://www.census.gov/geo/maps-data/data/tiger-line.html
 identity:
     bspace: null
     btime: null
