@@ -1,0 +1,5 @@
+table,seq,column,is_pk,is_fk,type,description,id
+proto,1,id,1,,INTEGER,,t000census01
+proto,2,gvid,,,VARCHAR,Civic Knowledge defined gvid,c000census01002
+proto,3,geoid,,,VARCHAR,ACS Geoid,c000census01003
+proto,4,geoidt,,,VARCHAR,TigerLine geoid,c000census01004

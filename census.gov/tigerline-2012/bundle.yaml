@@ -38,17 +38,17 @@ identity:
     btime: '2012'
     dataset: tigerline
     id: d025
-    revision: 6
+    revision: 7
     source: census.gov
     subset: null
     type: null
     variation: null
-    version: 1.0.6
+    version: 1.0.7
 names:
-    fqname: census.gov-tigerline-2012-1.0.6~d025006
+    fqname: census.gov-tigerline-2012-1.0.7~d025007
     name: census.gov-tigerline-2012
-    vid: d025006
-    vname: census.gov-tigerline-2012-1.0.6
+    vid: d025007
+    vname: census.gov-tigerline-2012-1.0.7
 process: {}
 versions:
     1:
@@ -75,3 +75,7 @@ versions:
         date: '2014-12-21T10:55:48.484594'
         description: Updated documentation
         version: 1.0.6
+    7:
+        date: '2014-12-27T19:55:00.668188'
+        description: fixing id values
+        version: 1.0.7

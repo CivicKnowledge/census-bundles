@@ -6,11 +6,6 @@ class Bundle(BuildBundle):
     '''Load Tigerline data for blocks'''
 
 
-    def xbuild(self):
-        self.load_split_features()
-        self.load_combined_features()
-        
-        return True
 
     def build(self):
         
@@ -19,6 +14,9 @@ class Bundle(BuildBundle):
                 self.build_us_partition(2012,url_code,table_name)
             else:
                 self.build_partition(2012, url_code,table_name)
+                
+            if self.run_args.test:
+                break
         
         return True
         
@@ -35,7 +33,6 @@ class Bundle(BuildBundle):
                                          self.metadata.build.state_url_template)
             
             
-
     def _states(self):
         '''Get a list of states, names and abbreviations from the 2010 census'''
         import cPickle as pickle
@@ -73,8 +70,7 @@ class Bundle(BuildBundle):
 
         shape_file = self.filesystem.download_shapefile(url)
 
-        p = self.partitions.find_or_new_geo(table=table_name,
-                                            space=stusab.lower())
+        p = self.partitions.find_or_new_geo(table=table_name, space=stusab.lower())
 
         if not p.is_finalized:
             self._load_partition(p, table_name, shape_file, state, year)
@@ -92,12 +88,12 @@ class Bundle(BuildBundle):
         
         shapefile = ogr.Open(shape_file)
         layer = shapefile.GetLayer(0)
-        lr = self.init_log_rate()
+        lr = self.init_log_rate(1000)
         columns = [c.name for c in p.table.columns] + ['state','county','blkgrp','tract','place']
 
         sumlevel =  p.table.data['sumlevel']
         
-        with p.database.inserter(layer_name=table_name) as ins:
+        with p.database.inserter() as ins:
 
             i = 0
             while True:
@@ -105,9 +101,10 @@ class Bundle(BuildBundle):
                 if not feature:
                     break
                 row = self.make_block_row(columns, state, feature)
+                row['year'] = year
                 #print i, row['geoid'], feature.geometry().Centroid()
                 lr(p.identity.sname)
-                
+             
                 geoids = generate_all(sumlevel, row)
                 row.update(geoids)
 
@@ -116,7 +113,6 @@ class Bundle(BuildBundle):
                     raise Exception("Geoid mismatch! '{}' != '{}' ".format(geoids['geoidt'], row['geoid']))
                 
                 ins.insert(row)
-                
                 
                 i += 1
                 
@@ -128,6 +124,10 @@ class Bundle(BuildBundle):
     @staticmethod
     def gf(key,vname,type_, columns, feature):
         '''GetField, from an OGR feature'''
+        from osgeo import gdal
+        
+        gdal.UseExceptions()  
+        
         if key not in columns:
             return None
         elif type_ is int:
@@ -145,7 +145,6 @@ class Bundle(BuildBundle):
         import ogr
         gf  = clz.gf
 
-        #feature.GetGeometryRef().TransformTo(aa.srs)
         return {
                 'name': gf('name','NAME',str,columns,feature),
                 'zacta': gf('zacta','ZCTA5CE',str,columns,feature), 
@@ -167,4 +166,21 @@ class Bundle(BuildBundle):
                 # Spatialite
                 'geometry': ogr.ForceToMultiPolygon(feature.geometry()).ExportToWkt()
                 }
+                
+    def test_query(self):
+        
+        p = self.partitions.find(table='counties', space='us')
+        
+        for i, row in enumerate(p.rows):
+            
+            if i > 10:
+                break
+                
+            print row 
+            
+            
+            
+            
+        
+        
                 

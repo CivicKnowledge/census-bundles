@@ -4,7 +4,6 @@ build:
         geoid: git+https://github.com/CivicKnowledge/geoid.git
 dependencies: {}
 extract: {}
-
 sources:
     large:
         description: Large geographies, excluding tracts and block groups.

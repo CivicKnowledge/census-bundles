@@ -26,7 +26,7 @@ class Bundle(BuildBundle):
         
         with self.session as s:
             for i, t in enumerate(acs.schema.tables):
-                print t.name
+                self.log("Adding table: {}".format(t.name))
 
                 nt = self.schema.add_table(t.name)
             
@@ -37,7 +37,7 @@ class Bundle(BuildBundle):
                         continue
 
                     d = c.dict
-                    d['proto_vid'] = d['vid']
+                    d['derivedfrom'] = d['vid']
                     del d['t_vid']
                     del d['vid']
                     del d['id_']
@@ -46,7 +46,10 @@ class Bundle(BuildBundle):
                     if c.name == 'id':
                         d['proto_vid'] = None
                         columns.append(d)
-                        columns.append(dict(name='gvid',datatype='varchar',  proto_vid = 'c00104002',
+                        columns.append(dict(name='gvid',
+                                            datatype='varchar',  
+                                            proto_vid = 'c00104002',
+                                            fk_vid = 'c02G0100S', # geoid in census.gov-acs-geo-p5ye2012
                                             description='Civic Knowledge Geoid'))
                     else:
                         columns.append(d)

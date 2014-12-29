@@ -44,28 +44,36 @@ identity:
     btime: p5ye2012
     dataset: acs
     id: d02G
-    revision: 4
+    revision: 5
     source: census.gov
     subset: geo
     type: null
     variation: null
-    version: 0.0.4
+    version: 0.0.5
 names:
-    fqname: census.gov-acs-geo-p5ye2012-0.0.4~d02G004
+    fqname: census.gov-acs-geo-p5ye2012-0.0.5~d02G005
     name: census.gov-acs-geo-p5ye2012
-    vid: d02G004
-    vname: census.gov-acs-geo-p5ye2012-0.0.4
+    vid: d02G005
+    vname: census.gov-acs-geo-p5ye2012-0.0.5
 process: {}
 versions:
     1:
+        date: null
         description: Initial Version
         version: 0.0.1
     2:
+        date: null
         description: Fixes a lot of datatypes in the schema, strip varchars.
         version: 0.0.2
     3:
+        date: null
         description: Added more indexes
         version: 0.0.3
     4:
-        description: Added external documentation, sumlevel index, and extra geoids. 
+        date: null
+        description: Added external documentation, sumlevel index, and extra geoids.
         version: 0.0.4
+    5:
+        date: '2014-12-29T07:25:49.555464'
+        description: Updating foreign keys
+        version: 0.0.5
