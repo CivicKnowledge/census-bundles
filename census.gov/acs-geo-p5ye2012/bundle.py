@@ -131,7 +131,7 @@ class Bundle(BuildBundle):
                     
                     geoids = generate_all(row['sumlevel'], row)
                     
-                    if geodids:
+                    if geoids:
                         row.update(geoids)
                     
               
