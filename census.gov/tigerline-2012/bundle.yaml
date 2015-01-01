@@ -38,17 +38,17 @@ identity:
     btime: '2012'
     dataset: tigerline
     id: d025
-    revision: 8
+    revision: 9
     source: census.gov
     subset: null
     type: null
     variation: null
-    version: 1.0.8
+    version: 1.0.9
 names:
-    fqname: census.gov-tigerline-2012-1.0.8~d025008
+    fqname: census.gov-tigerline-2012-1.0.9~d025009
     name: census.gov-tigerline-2012
-    vid: d025008
-    vname: census.gov-tigerline-2012-1.0.8
+    vid: d025009
+    vname: census.gov-tigerline-2012-1.0.9
 process: {}
 versions:
     1:
@@ -83,3 +83,7 @@ versions:
         date: '2014-12-31T15:19:47.918581'
         description: Another attempt at the new shapefile import.
         version: 1.0.8
+    9:
+        date: '2015-01-01T07:50:01.916554'
+        description: FIxing altnames again
+        version: 1.0.9
