@@ -47,7 +47,7 @@ external_documentation:
         url: http://www2.census.gov/acs2013_5yr/summaryfile/ACS_2013_SF_Tech_Doc.pdf
 identity:
     bspace: null
-    btime: p5ye2012
+    btime: p5ye2013
     dataset: acs
     id: d03q
     revision: 1
