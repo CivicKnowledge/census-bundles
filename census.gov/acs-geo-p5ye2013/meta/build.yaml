@@ -1,0 +1,26 @@
+build:
+    config: {}
+    end_year: 2013
+    requirements:
+        geoid: git+https://github.com/CivicKnowledge/geoid.git
+        xlrd: xlrd
+    start_year: 2009
+dependencies:
+    protos: civicknowledge.com-proto
+extract: {}
+sources:
+    geofile_header_2012:
+        description: Spreadsheet header file for excel. Using the 2012 version be
+            cause the 2013 version is missing.
+        file: 2012_SFGeoFileTemplate\.xls
+        url: http://www2.census.gov/acs2012_5yr/summaryfile/UserTools/2012_Summary_FileTemplates.zip
+    large:
+        description: Large geographies, excluding tracts and block groups.
+        url: '{state}/All_Geographies_Not_Tracts_Block_Groups/g{end_year}{span}{lc_utstab}.csv'
+    root:
+        description: Root URL for ACS files
+        url: http://www2.census.gov/acs{end_year}_{span}yr/summaryfile/{start_year}-{end_year}_ACSSF_By_State_By_Sequence_Table_Subset/
+    small:
+        description: Small geographies
+        url: '{state}/Tracts_Block_Groups_Only/g{end_year}{span}{lc_utstab}.csv'
+views: {}

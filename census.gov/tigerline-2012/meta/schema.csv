@@ -2,34 +2,34 @@ table,seq,column,is_pk,is_fk,type,geometry_i2,geometry_i4,description,proto_vid,
 blockgroups,1,id,1,,INTEGER,,,Area Geometry,t00105,150,t02501
 blockgroups,2,gvid,,,VARCHAR,1,,"Geo version id, Civic Knowledge defined",c00105002,,c02501002
 blockgroups,3,year,,,INTEGER,,1,Year boundaries were established,c00105003,,c02501003
-blockgroups,4,geometry,,,BLOB,,,Geometry in WKT or Spatialite format,c00105004,,c02501004
+blockgroups,4,geometry,,,GEOMETRY,,,Geometry in WKT or Spatialite format,c00105004,,c02501004
 blockgroups,8,intptlat,,,REAL,,,Internal point latitude,c00105005,,c02501008
 blockgroups,9,intptlon,,,REAL,,,Internal point longitude,c00105006,,c02501009
 ,,,,,,,,,,,
 tracts,1,id,1,,INTEGER,,,Area Geometry,t00105,140,t02502
 tracts,2,gvid,,,VARCHAR,1,,"Geo version id, Civic Knowledge defined",c00105002,,c02502002
 tracts,3,year,,,INTEGER,,1,Year boundaries were established,c00105003,,c02502003
-tracts,4,geometry,,,BLOB,,,Geometry in WKT or Spatialite format,c00105004,,c02502004
+tracts,4,geometry,,,GEOMETRY,,,Geometry in WKT or Spatialite format,c00105004,,c02502004
 tracts,8,intptlat,,,REAL,,,Internal point latitude,c00105005,,c02502008
 tracts,9,intptlon,,,REAL,,,Internal point longitude,c00105006,,c02502009
 ,,,,,,,,,,,
 places,1,id,1,,INTEGER,,,Area Geometry,t00105,160,t02503
 places,2,gvid,,,VARCHAR,1,,"Geo version id, Civic Knowledge defined",c00105002,,c02503002
 places,3,year,,,INTEGER,,1,Year boundaries were established,c00105003,,c02503003
-places,4,geometry,,,BLOB,,,Geometry in WKT or Spatialite format,c00105004,,c02503004
+places,4,geometry,,,GEOMETRY,,,Geometry in WKT or Spatialite format,c00105004,,c02503004
 places,8,intptlat,,,REAL,,,Internal point latitude,c00105005,,c02503008
 places,9,intptlon,,,REAL,,,Internal point longitude,c00105006,,c02503009
 ,,,,,,,,,,,
 counties,1,id,1,,INTEGER,,,Area Geometry,t00105,50,t02504
 counties,2,gvid,,,VARCHAR,1,,"Geo version id, Civic Knowledge defined",c00105002,,c02504002
 counties,3,year,,,INTEGER,,1,Year boundaries were established,c00105003,,c02504003
-counties,4,geometry,,,BLOB,,,Geometry in WKT or Spatialite format,c00105004,,c02504004
+counties,4,geometry,,,GEOMETRY,,,Geometry in WKT or Spatialite format,c00105004,,c02504004
 counties,8,intptlat,,,REAL,,,Internal point latitude,c00105005,,c02504008
 counties,9,intptlon,,,REAL,,,Internal point longitude,c00105006,,c02504009
 ,,,,,,,,,,,
 states,1,id,1,,INTEGER,,,Area Geometry,t00105,40,t02505
 states,2,gvid,,,VARCHAR,1,,"Geo version id, Civic Knowledge defined",c00105002,,c02505002
 states,3,year,,,INTEGER,,1,Year boundaries were established,c00105003,,c02505003
-states,4,geometry,,,BLOB,,,Geometry in WKT or Spatialite format,c00105004,,c02505004
+states,4,geometry,,,GEOMETRY,,,Geometry in WKT or Spatialite format,c00105004,,c02505004
 states,8,intptlat,,,REAL,,,Internal point latitude,c00105005,,c02505008
 states,9,intptlon,,,REAL,,,Internal point longitude,c00105006,,c02505009

@@ -3,28 +3,34 @@ about:
     license: null
     rights: null
     subject: null
-    summary: null
+    summary: The American Community Survey (ACS) is a mandatory, ongoing statistical
+        survey that samples a small percentage of the population every year -- giving
+        communities the information they need to plan investments and services.
     tags: []
-    title: Geofile for ACS 2008 - 2012
+    title: Geofile for ACS 2009 - 2013
 contact_bundle:
     creator:
         email: eric@sandiegodata.org
         name: Eric Busboom
         url: http://www.sandiegodata.org
-    maintainer:
-        email: eric@sandiegodata.org
-        name: Eric Busboom
-        url: http://www.sandiegodata.org
+    maintainer: {}
 contact_source:
     creator:
         email: null
         name: American Community Survey, US Census Bureau
         url: https://www.census.gov/acs/www/
-    maintainer:
-        email: null
-        name: null
-        url: null
+    maintainer: {}
 external_documentation:
+    dataset:
+        description: null
+        source: null
+        title: Dataset main web page.
+        url: http://www.census.gov/acs/www/data_documentation/2013_release/
+    download:
+        description: null
+        source: null
+        title: Webpage where files can be downloaded.
+        url: http://www2.census.gov/acs2013_5yr/summaryfile/
     geography:
         description: The Geographic Areas Reference Manual (GARM) describes in great
             detail the basic geographic entities the Census Bureau used in its various
@@ -37,47 +43,27 @@ external_documentation:
     technical_docs:
         description: Primary technical documentation.
         source: null
-        title: American Community Survey 2008 - 2012 Technical Documentation
-        url: http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008_2012_SF_Tech_Doc.pdf
+        title: American Community Survey 2009 - 2013 Technical Documentation
+        url: http://www2.census.gov/acs2013_5yr/summaryfile/ACS_2013_SF_Tech_Doc.pdf
 identity:
     bspace: null
     btime: p5ye2012
     dataset: acs
-    id: d02G
-    revision: 6
+    id: d03q
+    revision: 1
     source: census.gov
     subset: geo
     type: null
     variation: null
-    version: 0.0.6
+    version: 0.0.1
 names:
-    fqname: census.gov-acs-geo-p5ye2012-0.0.6~d02G006
+    fqname: census.gov-acs-geo-p5ye2012-0.0.1~d03q001
     name: census.gov-acs-geo-p5ye2012
-    vid: d02G006
-    vname: census.gov-acs-geo-p5ye2012-0.0.6
+    vid: d03q001
+    vname: census.gov-acs-geo-p5ye2012-0.0.1
 process: {}
 versions:
     1:
         date: null
         description: Initial Version
         version: 0.0.1
-    2:
-        date: null
-        description: Fixes a lot of datatypes in the schema, strip varchars.
-        version: 0.0.2
-    3:
-        date: null
-        description: Added more indexes
-        version: 0.0.3
-    4:
-        date: null
-        description: Added external documentation, sumlevel index, and extra geoids.
-        version: 0.0.4
-    5:
-        date: '2014-12-29T07:25:49.555464'
-        description: Updating foreign keys
-        version: 0.0.5
-    6:
-        date: '2015-01-19T09:28:21.160898'
-        description: Improved protovids
-        version: 0.0.6
