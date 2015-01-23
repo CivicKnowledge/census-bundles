@@ -1,0 +1,21 @@
+build:
+    config:
+        end_year: 2013
+        segments: 120
+        span: 5
+        start_year: 2009
+    dependencies: {}
+    sources:
+        table_map: http://www2.census.gov/acs{end_year}_{span}yr/summaryfile/Sequence_Number_and_Table_Number_Lookup.txt
+    templates:
+        large: '{state}/All_Geographies_Not_Tracts_Block_Groups/{end_year}{span}{lc_utstab}{seg_4}000.zip'
+        root: http://www2.census.gov/acs{end_year}_{span}yr/summaryfile/{start_year}-{end_year}_ACSSF_By_State_By_Sequence_Table_Subset/
+        small: '{state}/Tracts_Block_Groups_Only/{end_year}{span}{lc_utstab}{seg_4}000.zip'
+dependencies:
+    geo-p5ye2013: census.gov-acs-geo-p5ye2013-geofile
+extract: {}
+sources:
+    table_map:
+        description: null
+        url: http://www2.census.gov/acs{end_year}_{span}yr/summaryfile/Sequence_Number_and_Table_Number_Lookup.txt
+views: {}
