@@ -292,7 +292,6 @@ class Bundle(BuildBundle):
                 
             return id_map
 
-
         else:
             with open(idm_path) as f:
                 return pickle.load(f)
@@ -346,6 +345,8 @@ class Bundle(BuildBundle):
             
             p.clean()
 
+            ins = p.inserter()
+
             table_header = [ c.name for c in table.columns ]
 
         row_num = 1
@@ -371,50 +372,51 @@ class Bundle(BuildBundle):
                         m_reader = csv.reader(mf)  
                         e_reader = csv.reader(ef)                    
         
-                        with p.inserter() as ins:
                             
-                            for e_line, m_line in izip(e_reader, m_reader):
-                                
-                                stusab, logrecno = e_line[2], e_line[5]
-                                
-                                assert len(e_line) == len(m_line)
-                                assert e_line[2] == m_line[2] # stusab
-                                assert e_line[5] == m_line[5] # logrecno
-                                
-                                fk_id, gvid = id_map.get( (stusab.lower(), int(logrecno)), (None, None) )
-                                
-                                s = start_pos
-                                e = start_pos+col_length
-                                
-                                row = ([None]*5) + [ val for pair in  zip(e_line[s:e], m_line[s:e])  for val in pair]
+                        for e_line, m_line in izip(e_reader, m_reader):
+                            
+                            stusab, logrecno = e_line[2], e_line[5]
+                            
+                            assert len(e_line) == len(m_line)
+                            assert e_line[2] == m_line[2] # stusab
+                            assert e_line[5] == m_line[5] # logrecno
+                            
+                            fk_id, gvid = id_map.get( (stusab.lower(), int(logrecno)), (None, None) )
+                            
+                            s = start_pos
+                            e = start_pos+col_length
+                            
+                            row = ([None]*5) + [ val for pair in  zip(e_line[s:e], m_line[s:e])  for val in pair]
 
-                                assert len(row) == len(table_header), " {} != {}".format(row, table_header)
-                                assert len(row) == col_length*2+5
-                         
-                                lr("{} {} {} {}".format(table_name, stusab, geo, p.identity))
-                          
-                                # Just the records for this row. 
-                                d = dict(zip(table_header, row))
+                            assert len(row) == len(table_header), " {} != {}".format(row, table_header)
+                            assert len(row) == col_length*2+5
+                     
+                            lr("{} {} {} {}".format(table_name, stusab, geo, p.identity))
+                      
+                            # Just the records for this row. 
+                            d = dict(zip(table_header, row))
 
-                                #print d
-                                d['id'] = row_num
+                            #print d
+                            d['id'] = row_num
 
-                                d['geofile_id'] = fk_id
-                                d['gvid'] = gvid
-                                d['stusab'] = stusab
-                                d['logrecno'] = logrecno
-                                
+                            d['geofile_id'] = fk_id
+                            d['gvid'] = gvid
+                            d['stusab'] = stusab
+                            d['logrecno'] = logrecno
+                            
 
-                                row_num += 1
+                            row_num += 1
 
-                                errors =  ins.insert(d)
-                        
-                                if errors:
-                                    raw_codes.append(( (stusab.lower(), int(logrecno)), errors, geo, table_name))
-                                                          
-        p.close()
-        p.finalize()
-
+                            errors =  ins.insert(d)
+                    
+                            if errors:
+                                raw_codes.append(( (stusab.lower(), int(logrecno)), errors, geo, table_name))
+             
+        with self.session: 
+            ins.close()                                               
+            p.close()
+            p.finalize()
+            
         # Write out the coumn names in each table, segment, that the Caster
         # could not translate. These should get processed into meta information
         # that will add 'code' columns into tables to hold the orig values of
