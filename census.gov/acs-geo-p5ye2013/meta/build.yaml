@@ -12,8 +12,8 @@ sources:
     geofile_header_2012:
         description: Spreadsheet header file for excel. Using the 2012 version be
             cause the 2013 version is missing.
-        file: 2012_SFGeoFileTemplate\.xls
-        url: http://www2.census.gov/acs2012_5yr/summaryfile/UserTools/2012_Summary_FileTemplates.zip
+        file: 2013_SFGeoFileTemplate\.xls
+        url: http://www2.census.gov/acs2012_3yr/summaryfile/UserTools/2013_Summary_FileTemplates.zip
     large:
         description: Large geographies, excluding tracts and block groups.
         url: '{state}/All_Geographies_Not_Tracts_Block_Groups/g{end_year}{span}{lc_utstab}.csv'

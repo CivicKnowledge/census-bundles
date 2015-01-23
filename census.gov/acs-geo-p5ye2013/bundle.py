@@ -69,12 +69,12 @@ class Bundle(BuildBundle):
 
     def meta_schema(self):
         """Load the schema from the geofile header from 2012. The file is intended to be the first two rows
-        of an excep spreadsheet. It's missing from 2013, so we are using the one from 2012. """
+        of an excel spreadsheet. It's missing from 2013 5 year, so we are using the one from 2013 3 year. """
         from xlrd import open_workbook
         
         self.prepare()
         
-        fn  =  self.source('geofile_header_2012')
+        fn  =  self.source('geofile_header_2013')
         
         wb = open_workbook(fn)
         
