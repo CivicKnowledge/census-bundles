@@ -339,6 +339,11 @@ class Bundle(BuildBundle):
                     segment_header.append(c.name) 
 
             p = self.partitions.find_or_new(table=table_name)
+            
+            if p.is_finalized:
+                self.log("Partition is already finalized: {}".format(p.identity))
+                return 
+            
             p.clean()
 
             table_header = [ c.name for c in table.columns ]
@@ -408,6 +413,7 @@ class Bundle(BuildBundle):
                                     raw_codes.append(( (stusab.lower(), int(logrecno)), errors, geo, table_name))
                                                           
         p.close()
+        p.finalize()
 
         # Write out the coumn names in each table, segment, that the Caster
         # could not translate. These should get processed into meta information
