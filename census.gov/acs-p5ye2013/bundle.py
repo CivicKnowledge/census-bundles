@@ -207,6 +207,8 @@ class Bundle(BuildBundle):
     def build(self):
      
 
+        self.id_map() # Make sure it exists before going MP
+
         if self.run_args.test:
             segments = [2,5,8]
         else:
