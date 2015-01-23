@@ -212,21 +212,20 @@ class Bundle(BuildBundle):
         if self.run_args.test:
             segments = [2,5,8]
         else:
-            no_segs = self.metadata.build.config.segments
-
-            segments = range(1,no_segs)
-            
-        seg_tables = [ (seg, table) for seg in segments for table in self.table_map[seg]] 
-
-        if self.run_args.test:
-            seg_tables = [ (22, 'B07411') ]
+            segments = range(1,self.metadata.build.config.segments)
+        
 
         if int(self.run_args.get('multi')) > 1: 
-            self.run_mp(self.build_segment, seg_tables)
+            self.run_mp(self.build_segment,segments)
     
         else:
+            if self.run_args.test:
+                seg_tables = [ (22, 'B07411') ]
+            else:
+                seg_tables = [ (seg, table) for seg in segments for table in self.table_map[seg]] 
+            
             for seg, table in seg_tables:
-                self.build_segment(seg, table)
+                self.build_segment_tables(seg, table)
     
         return True
        
@@ -298,7 +297,13 @@ class Bundle(BuildBundle):
             with open(idm_path) as f:
                 return pickle.load(f)
 
-    def build_segment(self, seg_no, table_name):
+    def build_segment(self, seg_no):
+        
+        for table in self.table_map[seg_no]:
+            self.build_segment_tables(seg_no, table)
+        
+
+    def build_segment_tables(self, seg_no, table_name):
         '''Create all of the tables for a segment. This will load both 
         geographies ( large and small ) and all of the states or one segment'''
         import csv
