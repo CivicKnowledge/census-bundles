@@ -32,7 +32,7 @@ class Bundle(BuildBundle):
         
         # We're using the CensusReporter metadata because it is hard to load the TableShell
         # excell files. I think it requires a later version of xlrd to read the indent level.
-        # see https://github.com/censusreporter/census-table-metadata/blob/master/process_merge.py, line 85 or so. 
+        # See https://github.com/censusreporter/census-table-metadata/blob/master/process_merge.py, line 85 or so. 
         col_meta = self.filesystem.read_csv(self.source('column_meta'), 'column_id')
       
         table_meta = self.filesystem.read_csv(self.source('table_meta'), 'table_id')
@@ -231,23 +231,13 @@ class Bundle(BuildBundle):
 
     def build(self):
      
-
         self.id_map() # Make sure it exists before going MP
-
-        if self.run_args.test:
-            segments = [2,5,8]
-        else:
-            segments = range(1,self.metadata.build.config.segments)
-        
 
         if int(self.run_args.get('multi')) > 1: 
             self.run_mp(self.build_segment,segments)
     
         else:
-            if self.run_args.test:
-                seg_tables = [ (22, 'B07411') ]
-            else:
-                seg_tables = [ (seg, table) for seg in segments for table in self.table_map[seg]] 
+            seg_tables = [ (seg, table) for seg in segments for table in self.table_map[seg]] 
             
             for seg, table in seg_tables:
                 self.build_segment_tables(seg, table)
