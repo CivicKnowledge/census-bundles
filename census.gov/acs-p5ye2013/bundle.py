@@ -231,7 +231,14 @@ class Bundle(BuildBundle):
 
     def build(self):
      
+
         self.id_map() # Make sure it exists before going MP
+
+        if self.run_args.test:
+            segments = [2,5,8]
+        else:
+            segments = range(1,self.metadata.build.config.segments)
+        
 
         if int(self.run_args.get('multi')) > 1: 
             self.run_mp(self.build_segment,segments)
