@@ -22,11 +22,20 @@ class Bundle(BuildBundle):
         self.meta_states()
         
         return True
+       
 
     def meta_schema(self):
         from csv import DictReader
         from collections import defaultdict
         import yaml
+ 
+        
+        # We're using the CensusReporter metadata because it is hard to load the TableShell
+        # excell files. I think it requires a later version of xlrd to read the indent level.
+        # see https://github.com/censusreporter/census-table-metadata/blob/master/process_merge.py, line 85 or so. 
+        col_meta = self.filesystem.read_csv(self.source('column_meta'), 'column_id')
+      
+        table_meta = self.filesystem.read_csv(self.source('table_meta'), 'table_id')
         
         self.database.create()
         
@@ -49,12 +58,12 @@ class Bundle(BuildBundle):
         table_segments = defaultdict(list)
         
         lr = self.init_log_rate(1000)
-        
+        indent = 0
         with self.session, open(tn) as f:
             reader = DictReader(f)
         
             for i, row in enumerate(reader):
-        
+
                 if self.run_args.test and i > 500:
                     break
         
@@ -79,27 +88,35 @@ class Bundle(BuildBundle):
                     current_table = row['Table ID']
 
                     # The row after the table is the universe
+                    # Not using this right now -- gettting it from the table_meta
                     universe = reader.next()['Table Title']
+                    
                     if not universe.startswith('Universe:'):
                         raise Exception("Universe fail")
                     else:
                         parts = universe.split(':')
                         universe = parts[1].strip()
-                
-            
+
+                    try:
+                        keywords = ','.join(yaml.load(table_meta.get(current_table.upper(),{}).get('topics',None)))
+                    except:
+                        keywords = None
+
                     t = self.schema.add_table(
                         current_table,
                         description=row['Table Title'].title(),
-                        universe = universe,
-                        keywords = row['Subject Area'],
+                        universe = table_meta.get(current_table.upper(),{}).get('universe',None),
+                        keywords = keywords,
                         data = {
                             'segment':int(row['Sequence Number']),
                             'start': int(row['Start Position']),
-                            'length': int(row['Total Cells in Table'].split(' ')[0])
+                            'length': int(row['Total Cells in Table'].split(' ')[0]),
+                            'denominator': table_meta.get(current_table.upper(),{}).get('denominator_column_id',None),
+                            'subject': row['Subject Area']
                         },
                         fast = self.run_args.get('fast', False)
                     )
- 
+                
                     if not current_table in table_segments[row['Sequence Number']]:
                         (table_segments[int(row['Sequence Number'])]
                                         .append(current_table))
@@ -125,6 +142,8 @@ class Bundle(BuildBundle):
                     ac(t,'geofile_id',datatype='integer', data=link_data, indexes = 'i2', fk_vid = 't03q01')
                     ac(t,'gvid',datatype='varchar', data=link_data, indexes = 'i3', proto_vid = 'c00104002')
   
+                    indent = 0
+  
                 else:
                     #
                     # A row for an existing table. 
@@ -137,16 +156,22 @@ class Bundle(BuildBundle):
                         
                     name = "{}{:03d}".format(current_table,int(row['Line Number']))
             
+                    title = row['Table Title'].decode('latin1')
+                
+            
                     # The estimate value
                     c = self.schema.add_column(t, name, datatype = 'integer',
-                        description = (row['Table Title'].decode('latin1')),
-                        data = {'is_estimate':1},
+                        description = title,
+                        data = {'is_estimate':1,
+                                'parent': col_meta.get(name.upper(),{}).get('parent_column_id',None),
+                                'indent': col_meta.get(name.upper(),{}).get('indent',None)
+                                },
                         fast = self.run_args.get('fast', False)
                     )
                     
                     # Then the margin
                     self.schema.add_column(t, name+"_m", datatype = 'integer',
-                        description = ("Margins for: "+row['Table Title'].decode('latin1')),
+                        description = ("Margins for: "+title),
                         data = {'margin_for': c.id_},
                         fast = self.run_args.get('fast', False)
                     )
@@ -310,7 +335,8 @@ class Bundle(BuildBundle):
         from itertools import izip
         from ambry.partitions import Partitions
         
-        lr = self.init_log_rate(20000)
+        if int(self.run_args.get('multi')) > 1: 
+            lr = self.init_log_rate(20000)
         
         raw_codes = []
         
@@ -345,6 +371,8 @@ class Bundle(BuildBundle):
             
             p.clean()
 
+            # Entering the intserter sets the build state of the partition in the dataset, 
+            # and the dataset is shared, so this needs to be in the session to be safe. 
             ins = p.inserter()
 
             table_header = [ c.name for c in table.columns ]
@@ -359,7 +387,7 @@ class Bundle(BuildBundle):
                 
                 url = self.build_get_url(geo,stusab, seg_no)
          
-                self.log("=== Building: seg={} {} {} {} {}->{}".format(seg_no, state, geo, table_name, start_pos, start_pos+col_length))
+                #self.log("=== Building: seg={} {} {} {} {}->{}".format(seg_no, state, geo, table_name, start_pos, start_pos+col_length))
                 #self.log("       URL: {}".format(url))
                 
                 mfn, efn = self.download(url)
@@ -369,48 +397,47 @@ class Bundle(BuildBundle):
             
                 
                 with open(mfn) as mf, open(efn) as ef:
-                        m_reader = csv.reader(mf)  
-                        e_reader = csv.reader(ef)                    
-        
-                            
-                        for e_line, m_line in izip(e_reader, m_reader):
-                            
-                            stusab, logrecno = e_line[2], e_line[5]
-                            
-                            assert len(e_line) == len(m_line)
-                            assert e_line[2] == m_line[2] # stusab
-                            assert e_line[5] == m_line[5] # logrecno
-                            
-                            fk_id, gvid = id_map.get( (stusab.lower(), int(logrecno)), (None, None) )
-                            
-                            s = start_pos
-                            e = start_pos+col_length
-                            
-                            row = ([None]*5) + [ val for pair in  zip(e_line[s:e], m_line[s:e])  for val in pair]
+                    m_reader = csv.reader(mf)  
+                    e_reader = csv.reader(ef)                    
+    
+                    for e_line, m_line in izip(e_reader, m_reader):
+    
+                        stusab, logrecno = e_line[2], e_line[5]
+    
+                        assert len(e_line) == len(m_line)
+                        assert e_line[2] == m_line[2] # stusab
+                        assert e_line[5] == m_line[5] # logrecno
+    
+                        fk_id, gvid = id_map.get( (stusab.lower(), int(logrecno)), (None, None) )
+    
+                        s = start_pos
+                        e = start_pos+col_length
+    
+                        row = ([None]*5) + [ val for pair in  zip(e_line[s:e], m_line[s:e])  for val in pair]
 
-                            assert len(row) == len(table_header), " {} != {}".format(row, table_header)
-                            assert len(row) == col_length*2+5
-                     
-                            lr("{} {} {} {}".format(table_name, stusab, geo, p.identity))
-                      
-                            # Just the records for this row. 
-                            d = dict(zip(table_header, row))
+                        assert len(row) == len(table_header), " {} != {}".format(row, table_header)
+                        assert len(row) == col_length*2+5
 
-                            #print d
-                            d['id'] = row_num
+                        lr("{} {} {} {}".format(table_name, stusab, geo, p.identity))
 
-                            d['geofile_id'] = fk_id
-                            d['gvid'] = gvid
-                            d['stusab'] = stusab
-                            d['logrecno'] = logrecno
-                            
+                        # Just the records for this row. 
+                        d = dict(zip(table_header, row))
 
-                            row_num += 1
+                        #print d
+                        d['id'] = row_num
 
-                            errors =  ins.insert(d)
-                    
-                            if errors:
-                                raw_codes.append(( (stusab.lower(), int(logrecno)), errors, geo, table_name))
+                        d['geofile_id'] = fk_id
+                        d['gvid'] = gvid
+                        d['stusab'] = stusab
+                        d['logrecno'] = logrecno
+    
+
+                        row_num += 1
+
+                        errors =  ins.insert(d)
+
+                        if errors:
+                            raw_codes.append(( (stusab.lower(), int(logrecno)), errors, geo, table_name))
              
         with self.session: 
             ins.close()                                               

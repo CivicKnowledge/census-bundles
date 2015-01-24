@@ -15,7 +15,13 @@ dependencies:
     geo-p5ye2013: census.gov-acs-geo-p5ye2013-geofile
 extract: {}
 sources:
+    table_meta:
+        description: Table metadata, from CensusReporter
+        url: https://raw.githubusercontent.com/censusreporter/census-table-metadata/master/precomputed/acs2013_5yr/census_table_metadata.csv
+    column_meta:
+        description: Column metadata, from CensusReporter
+        url: https://raw.githubusercontent.com/censusreporter/census-table-metadata/master/precomputed/acs2013_5yr/census_column_metadata.csv
     table_map:
-        description: null
+        description: CSV file of columns and offsets
         url: http://www2.census.gov/acs{end_year}_{span}yr/summaryfile/Sequence_Number_and_Table_Number_Lookup.txt
 views: {}
