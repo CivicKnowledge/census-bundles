@@ -99,7 +99,8 @@ class Bundle(BuildBundle):
 
                     try:
                         keywords = ','.join(yaml.load(table_meta.get(current_table.upper(),{}).get('topics',None)))
-                    except:
+                    except Exception as e:
+                        print e, current_table.upper(), table_meta.get(current_table.upper(),{})
                         keywords = None
 
                     t = self.schema.add_table(
@@ -116,6 +117,8 @@ class Bundle(BuildBundle):
                         },
                         fast = self.run_args.get('fast', False)
                     )
+                
+                    print t.dict
                 
                     if not current_table in table_segments[row['Sequence Number']]:
                         (table_segments[int(row['Sequence Number'])]
@@ -181,6 +184,9 @@ class Bundle(BuildBundle):
                 last_table =  row['Table ID']
                 new_table = False
                 
+
+                if i > 100: 
+                    break
 
         with open(self.filesystem.path('meta','tables.yaml'), 'w') as f:
             f.write(yaml.dump(dict(table_segments), indent=4, default_flow_style=False))
