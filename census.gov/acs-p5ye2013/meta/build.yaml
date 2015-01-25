@@ -1,7 +1,6 @@
 build:
     config:
         end_year: 2013
-        segments: 120
         span: 5
         start_year: 2009
     dependencies: {}

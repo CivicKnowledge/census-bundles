@@ -200,6 +200,8 @@ class Bundle(BuildBundle):
                             
             d[row['stusab'].encode('utf-8')] = row['name'].encode('utf-8')
         
+        d['us'] = 'United States'
+        
         with open(self.filesystem.path('meta','states.yaml'), 'w') as f:
             f.write(yaml.dump(d, indent=4, default_flow_style=False))
             
@@ -223,11 +225,10 @@ class Bundle(BuildBundle):
         
         
     @property
+    @memoize
     def num_segments(self):
-        '''Compute the number of segments. It is more efficiently retrieved from 
-        self.metadata.build.config.segments'''
-        return max([ c.data.get('segment',0) 
-                     for t in self.schema.tables for c in t.columns  ])
+        '''Compute the number of segments. '''
+        return max([ c.data.get('segment',0) for t in self.schema.tables for c in t.columns  ])
 
     def build(self):
      
@@ -237,7 +238,7 @@ class Bundle(BuildBundle):
         if self.run_args.test:
             segments = [2,5,8]
         else:
-            segments = range(1,self.metadata.build.config.segments)
+            segments = range(1,self.num_segments+1)
         
 
         if int(self.run_args.get('multi')) > 1: 
