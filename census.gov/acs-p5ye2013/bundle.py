@@ -230,7 +230,7 @@ class Bundle(BuildBundle):
     @memoize
     def num_segments(self):
         '''Compute the number of segments. '''
-        return max([ c.data.get('segment',0) for t in self.schema.tables for c in t.columns  ])
+        return max([ int(c.data.get('segment',0)) for t in self.schema.tables for c in t.columns  ])
 
     def build(self):
      
