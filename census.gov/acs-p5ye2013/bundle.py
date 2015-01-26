@@ -226,6 +226,8 @@ class Bundle(BuildBundle):
             return yaml.load(f)
         
 
+    @property
+    @memoize
     def num_segments(self):
         '''Compute the number of segments. '''
         return max([ int(c.data.get('segment',0) if c.data.get('segment',0) else 0) 
