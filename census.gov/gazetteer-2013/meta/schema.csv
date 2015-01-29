@@ -1,0 +1,92 @@
+table,seq,column,is_pk,is_fk,type,i1,size,description,d_foreign_key,d_has_codes,d_summary_level,id
+places,1,id,1,,INTEGER,,,"Places gazeteer data, areas and codes",c03x06003,,160,t03y01
+places,2,usps,,,VARCHAR,,2,USPS,,,,c03y01002
+places,3,geoid,,,VARCHAR,,7,GEOID,,,,c03y01003
+places,4,ansicode,,,VARCHAR,,8,ANSICODE,,,,c03y01004
+places,5,name,,,VARCHAR,,57,NAME,,,,c03y01005
+places,6,lsad,,,INTEGER,,2,LSAD,,,,c03y01006
+places,7,funcstat,,,VARCHAR,,1,FUNCSTAT,,,,c03y01007
+places,8,aland,,,INTEGER64,,10,ALAND,,,,c03y01008
+places,9,awater,,,VARCHAR,,10,AWATER,,,,c03y01009
+places,10,aland_sqmi,,,REAL,,,ALAND_SQMI,,1,,c03y0100a
+places,11,awater_sqmi,,,VARCHAR,,12,AWATER_SQMI,,,,c03y0100b
+places,12,intptlat,,,REAL,,,INTPTLAT,,,,c03y0100c
+places,13,intptlong,,,REAL,,,INTPTLONG,,,,c03y0100d
+places,14,gvid,,c03x06003,VARCHAR,1,8,Civic Knowledge geographic id,,,,c03y0100e
+,,,,,,,,,,,,
+sdunis,1,id,1,,INTEGER,,,"Unified school district gazeteer data, areas and codes",,,,t03y02
+sdunis,2,usps,,,VARCHAR,,2,USPS,,,,c03y02002
+sdunis,3,geoid,,,VARCHAR,,7,GEOID,,,,c03y02003
+sdunis,4,name,,,VARCHAR,,69,NAME,,,,c03y02004
+sdunis,5,lograde,,,VARCHAR,,2,LOGRADE,,,,c03y02005
+sdunis,6,higrade,,,INTEGER,,2,HIGRADE,,,,c03y02006
+sdunis,7,aland,,,INTEGER64,,12,ALAND,,,,c03y02007
+sdunis,8,awater,,,INTEGER64,,11,AWATER,,1,,c03y02008
+sdunis,9,aland_sqmi,,,REAL,,,ALAND_SQMI,,1,,c03y02009
+sdunis,10,awater_sqmi,,,VARCHAR,,12,AWATER_SQMI,,,,c03y0200a
+sdunis,11,intptlat,,,REAL,,,INTPTLAT,,,,c03y0200b
+sdunis,12,intptlong,,,REAL,,,INTPTLONG,,,,c03y0200c
+sdunis,13,gvid,,,VARCHAR,1,,Civic Knowledge geographic id,,,,c03y0200d
+,,,,,,,,,,,,
+uas,1,id,1,,INTEGER,,,"Urban Area gazeteer data, areas and codes",c03x07003,,400,t03y03
+uas,2,geoid,,,VARCHAR,,5,GEOID,,,,c03y03002
+uas,3,name,,,VARCHAR,,71,NAME,,,,c03y03003
+uas,4,uatype,,,VARCHAR,,1,UATYPE,,,,c03y03004
+uas,5,aland,,,INTEGER64,,10,ALAND,,,,c03y03005
+uas,6,awater,,,VARCHAR,,9,AWATER,,,,c03y03006
+uas,7,aland_sqmi,,,REAL,,,ALAND_SQMI,,1,,c03y03007
+uas,8,awater_sqmi,,,VARCHAR,,12,AWATER_SQMI,,,,c03y03008
+uas,9,intptlat,,,REAL,,,INTPTLAT,,,,c03y03009
+uas,10,intptlong,,,REAL,,,INTPTLONG,,,,c03y0300a
+uas,11,gvid,,c03x07003,VARCHAR,1,6,Civic Knowledge geographic id,,,,c03y0300b
+,,,,,,,,,,,,
+counties,1,id,1,,INTEGER,,,"Counties gazeteer data, areas and codes",c03x04003,,50,t03y04
+counties,2,usps,,,VARCHAR,,2,USPS,,,,c03y04002
+counties,3,geoid,,,VARCHAR,,5,GEOID,,,,c03y04003
+counties,4,ansicode,,,VARCHAR,,8,ANSICODE,,,,c03y04004
+counties,5,name,,,VARCHAR,,33,NAME,,,,c03y04005
+counties,6,aland,,,INTEGER64,,12,ALAND,,,,c03y04006
+counties,7,awater,,,INTEGER64,,11,AWATER,,1,,c03y04007
+counties,8,aland_sqmi,,,REAL,,,ALAND_SQMI,,,,c03y04008
+counties,9,awater_sqmi,,,REAL,,,AWATER_SQMI,,1,,c03y04009
+counties,10,intptlat,,,REAL,,,INTPTLAT,,,,c03y0400a
+counties,11,intptlong,,,REAL,,,INTPTLONG,,,,c03y0400b
+counties,12,gvid,,c03x04003,VARCHAR,1,6,Civic Knowledge geographic id,,,,c03y0400c
+,,,,,,,,,,,,
+sdelms,1,id,1,,INTEGER,,,"Elementary school district gazeteer data, areas and codes",,,,t03y05
+sdelms,2,usps,,,VARCHAR,,2,USPS,,,,c03y05002
+sdelms,3,geoid,,,VARCHAR,,7,GEOID,,,,c03y05003
+sdelms,4,name,,,VARCHAR,,61,NAME,,,,c03y05004
+sdelms,5,lograde,,,VARCHAR,,2,LOGRADE,,,,c03y05005
+sdelms,6,higrade,,,VARCHAR,,2,HIGRADE,,,,c03y05006
+sdelms,7,aland,,,INTEGER64,,10,ALAND,,,,c03y05007
+sdelms,8,awater,,,INTEGER64,,10,AWATER,,1,,c03y05008
+sdelms,9,aland_sqmi,,,REAL,,,ALAND_SQMI,,1,,c03y05009
+sdelms,10,awater_sqmi,,,VARCHAR,,12,AWATER_SQMI,,,,c03y0500a
+sdelms,11,intptlat,,,REAL,,,INTPTLAT,,,,c03y0500b
+sdelms,12,intptlong,,,REAL,,,INTPTLONG,,,,c03y0500c
+sdelms,13,gvid,,,VARCHAR,1,,Civic Knowledge geographic id,,,,c03y0500d
+,,,,,,,,,,,,
+sdsecs,1,id,1,,INTEGER,,,"Secondary school district gazeteer data, areas and codes",,,,t03y06
+sdsecs,2,usps,,,VARCHAR,,2,USPS,,,,c03y06002
+sdsecs,3,geoid,,,VARCHAR,,7,GEOID,,,,c03y06003
+sdsecs,4,name,,,VARCHAR,,72,NAME,,,,c03y06004
+sdsecs,5,lograde,,,VARCHAR,,2,LOGRADE,,,,c03y06005
+sdsecs,6,higrade,,,INTEGER,,2,HIGRADE,,,,c03y06006
+sdsecs,7,aland,,,INTEGER64,,11,ALAND,,,,c03y06007
+sdsecs,8,awater,,,INTEGER,,9,AWATER,,1,,c03y06008
+sdsecs,9,aland_sqmi,,,REAL,,,ALAND_SQMI,,1,,c03y06009
+sdsecs,10,awater_sqmi,,,VARCHAR,,12,AWATER_SQMI,,,,c03y0600a
+sdsecs,11,intptlat,,,REAL,,,INTPTLAT,,,,c03y0600b
+sdsecs,12,intptlong,,,REAL,,,INTPTLONG,,,,c03y0600c
+sdsecs,13,gvid,,,VARCHAR,1,,Civic Knowledge geographic id,,,,c03y0600d
+,,,,,,,,,,,,
+zctas,1,id,1,,INTEGER,,,"ZCTA gazeteer data, areas and codes",,,,t03y07
+zctas,2,geoid,,,VARCHAR,,5,GEOID,,,,c03y07002
+zctas,3,aland,,,INTEGER64,,11,ALAND,,,,c03y07003
+zctas,4,awater,,,INTEGER64,,10,AWATER,,1,,c03y07004
+zctas,5,aland_sqmi,,,REAL,,,ALAND_SQMI,,1,,c03y07005
+zctas,6,awater_sqmi,,,VARCHAR,,12,AWATER_SQMI,,,,c03y07006
+zctas,7,intptlat,,,REAL,,,INTPTLAT,,,,c03y07007
+zctas,8,intptlong,,,REAL,,,INTPTLONG,,,,c03y07008
+zctas,9,gvid,,,VARCHAR,1,,Civic Knowledge geographic id,,,,c03y07009

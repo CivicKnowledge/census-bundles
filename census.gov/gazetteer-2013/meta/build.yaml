@@ -1,0 +1,29 @@
+build: {}
+dependencies:
+    proto: civicknowledge.com-proto->=0.0.4
+sources:
+    counties:
+        description: Counties gazeteer data, areas and codes
+        foreign_key: c03x04003
+        url: http://www2.census.gov/geo/gazetteer/2013_Gazetteer/2013_Gaz_counties_national.zip
+    places:
+        description: Places gazeteer data, areas and codes
+        foreign_key: c03x06003
+        url: http://www2.census.gov/geo/gazetteer/2013_Gazetteer/2013_Gaz_place_national.zip
+    sdelms:
+        description: Elementary school district gazeteer data, areas and codes
+        url: http://www2.census.gov/geo/gazetteer/2013_Gazetteer/2013_Gaz_elsd_national.zip
+    sdsecs:
+        description: Secondary school district gazeteer data, areas and codes
+        url: http://www2.census.gov/geo/gazetteer/2013_Gazetteer/2013_Gaz_scsd_national.zip
+    sdunis:
+        description: Unified school district gazeteer data, areas and codes
+        url: http://www2.census.gov/geo/gazetteer/2013_Gazetteer/2013_Gaz_unsd_national.zip
+    uas:
+        description: Urban Area gazeteer data, areas and codes
+        foreign_key: c03x07003
+        url: http://www2.census.gov/geo/gazetteer/2013_Gazetteer/2013_Gaz_ua_national.zip
+    zctas:
+        description: ZCTA gazeteer data, areas and codes
+        url: http://www2.census.gov/geo/gazetteer/2013_Gazetteer/2013_Gaz_zcta_national.zip
+views: {}

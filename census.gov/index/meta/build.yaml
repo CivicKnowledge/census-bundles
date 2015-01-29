@@ -1,0 +1,11 @@
+build:
+    requirements:
+        xlrd: xlrd
+dependencies:
+    geofile: census.gov-acs-geo-p5ye2013-geofile->=0.0.2
+    proto: civicknowledge.com-proto->=0.0.4
+sources:
+    example:
+        description: Summary Levels
+        url: http://www2.census.gov/acs2013_5yr/summaryfile/ACS_2013_SF_5YR_Appendices.xls
+views: {}

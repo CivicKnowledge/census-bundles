@@ -1,12 +1,16 @@
 about:
+    access: null
+    grain: null
     groups: []
     license: null
     rights: null
+    space: null
     subject: null
     summary: The American Community Survey (ACS) is a mandatory, ongoing statistical
         survey that samples a small percentage of the population every year -- giving
         communities the information they need to plan investments and services.
     tags: []
+    time: null
     title: Geofile for ACS 2009 - 2013
 contact_bundle:
     creator:
@@ -50,20 +54,24 @@ identity:
     btime: p5ye2013
     dataset: acs
     id: d03q
-    revision: 1
+    revision: 2
     source: census.gov
     subset: geo
     type: null
     variation: null
-    version: 0.0.1
+    version: 0.0.2
 names:
-    fqname: census.gov-acs-geo-p5ye2012-0.0.1~d03q001
-    name: census.gov-acs-geo-p5ye2012
-    vid: d03q001
-    vname: census.gov-acs-geo-p5ye2012-0.0.1
+    fqname: census.gov-acs-geo-p5ye2013-0.0.2~d03q002
+    name: census.gov-acs-geo-p5ye2013
+    vid: d03q002
+    vname: census.gov-acs-geo-p5ye2013-0.0.2
 process: {}
 versions:
     1:
         date: null
         description: Initial Version
         version: 0.0.1
+    2:
+        date: '2015-01-27T14:22:48.700162'
+        description: Added US file
+        version: 0.0.2

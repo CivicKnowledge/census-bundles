@@ -1,0 +1,14 @@
+-   name: census.gov-gazetteer-2013-places
+    table: places
+-   name: census.gov-gazetteer-2013-sdunis
+    table: sdunis
+-   name: census.gov-gazetteer-2013-uas
+    table: uas
+-   name: census.gov-gazetteer-2013-counties
+    table: counties
+-   name: census.gov-gazetteer-2013-sdelms
+    table: sdelms
+-   name: census.gov-gazetteer-2013-sdsecs
+    table: sdsecs
+-   name: census.gov-gazetteer-2013-zctas
+    table: zctas

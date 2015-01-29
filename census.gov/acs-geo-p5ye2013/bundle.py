@@ -48,6 +48,8 @@ class Bundle(BuildBundle):
         prefix, header = full_header[:3], full_header[3:]
         
         for stusab, state in self.states.items():
+
+            
             # Only using the 'large' geofiels, since they aere the same as the smalls
             url = self.get_url('large',stusab)
             file = self.filesystem.download(url)
@@ -59,7 +61,11 @@ class Bundle(BuildBundle):
                 for row in r:
                     
                     drow =  dict(zip(header, row))
-                    geoids = generate_all(drow['sumlevel'], drow)
+                    try:
+                        geoids = generate_all(drow['sumlevel'], drow)
+                    except Exception as e:
+                        self.error("Failed to create geoids for: {}: {}".format(drow['sumlevel'], e))
+                        geoids = {}
                  
                     if as_dict:
                         yield dict(zip(header, row)+geoids.items())

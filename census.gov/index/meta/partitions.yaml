@@ -1,0 +1,16 @@
+-   name: census.gov-index-states
+    table: states
+-   name: census.gov-index-counties
+    table: counties
+-   name: census.gov-index-cosubs
+    table: cosubs
+-   name: census.gov-index-places
+    table: places
+-   name: census.gov-index-uas
+    table: uas
+-   name: census.gov-index-tracts
+    table: tracts
+-   name: census.gov-index-blockgroups
+    table: blockgroups
+-   name: census.gov-index-blocks
+    table: blocks

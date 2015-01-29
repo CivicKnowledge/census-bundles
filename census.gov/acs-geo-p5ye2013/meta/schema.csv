@@ -7,9 +7,9 @@ geofile,5,stusab,,,VARCHAR,2,stusab,c00108007,,c03q01005
 geofile,6,sumlevel,,,INTEGER,3,sumlevel,c00104004,1,c03q01006
 geofile,7,component,,,VARCHAR,2,component,,,c03q01007
 geofile,8,logrecno,,,INTEGER,7,logrecno,,,c03q01008
-geofile,9,us,,,VARCHAR,0,us,,,c03q01009
-geofile,10,region,,,VARCHAR,0,region,c00106002,,c03q0100a
-geofile,11,division,,,VARCHAR,0,division,c00107004,,c03q0100b
+geofile,9,us,,,VARCHAR,1,us,,,c03q01009
+geofile,10,region,,,VARCHAR,1,region,c00106002,,c03q0100a
+geofile,11,division,,,VARCHAR,1,division,c00107004,,c03q0100b
 geofile,12,statece,,,VARCHAR,0,statece,,,c03q0100c
 geofile,13,state,,,INTEGER,2,state,c00108006,,c03q0100d
 geofile,14,county,,,VARCHAR,3,county,c00109005,,c03q0100e
@@ -51,7 +51,7 @@ geofile,49,blank45,,,VARCHAR,0,blank45,,,c03q0100N
 geofile,50,puma5,,,VARCHAR,5,puma5,,,c03q0100O
 geofile,51,blank47,,,VARCHAR,0,blank47,,,c03q0100P
 geofile,52,geoid,,,VARCHAR,27,geoid,c00104005,,c03q0100Q
-geofile,53,name,,,VARCHAR,184,name,c0010400e,,c03q0100R
-geofile,54,bttr,,,VARCHAR,0,bttr,,,c03q0100S
-geofile,55,btbg,,,VARCHAR,0,btbg,,,c03q0100T
+geofile,53,name,,,VARCHAR,204,name,c0010400e,,c03q0100R
+geofile,54,bttr,,,VARCHAR,6,bttr,,,c03q0100S
+geofile,55,btbg,,,VARCHAR,1,btbg,,,c03q0100T
 geofile,56,blank52,,,VARCHAR,0,blank52,,,c03q0100U

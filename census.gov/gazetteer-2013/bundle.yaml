@@ -1,0 +1,47 @@
+about:
+    access: public
+    grain: null
+    groups: []
+    license: null
+    rights: null
+    space: null
+    subject: null
+    summary: Geographic information to match the 2013 ACS
+    tags: []
+    time: 2013
+    title: 2013 U.S. Gazetteer Files
+contact_bundle:
+    creator:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
+    maintainer:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
+contact_source:
+    creator: {}
+    maintainer: {}
+external_documentation:
+    download:
+        description: Web page that links to the source files.
+        source: null
+        title: Download Page
+        url: http://www.census.gov/geo/maps-data/data/gazetteer2013.html
+identity:
+    bspace: null
+    btime: 2013
+    dataset: gazetteer
+    id: d03y
+    revision: 1
+    source: census.gov
+    subset: null
+    type: null
+    variation: null
+    version: 0.0.1
+names:
+    fqname: census.gov-gazetteer-2013-0.0.1~d03y001
+    name: census.gov-gazetteer-2013
+    vid: d03y001
+    vname: census.gov-gazetteer-2013-0.0.1
+process: {}
