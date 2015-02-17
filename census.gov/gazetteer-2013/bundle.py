@@ -11,6 +11,7 @@ class Bundle(CsvBundle):
 
     def meta(self):
         from sqlalchemy.orm.exc import NoResultFound
+        
         super(Bundle, self).meta()
         
         proto = self.library.dep('proto')
