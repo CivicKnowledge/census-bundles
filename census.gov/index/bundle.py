@@ -40,6 +40,8 @@ class Bundle(BuildBundle):
 
     def build(self):
 
+        year = self.metadata.build.year
+
         geofile = self.library.dep('geofile').partition
 
         lr = self.init_log_rate(10000)
@@ -51,10 +53,12 @@ class Bundle(BuildBundle):
             
             with p.inserter() as ins:
                 for row in geofile.query("SELECT * FROM geofile WHERE sumlevel = ? AND component = '00' ",level['sl']):
+                    row = dict(row)
                     lr(str(level['name']))
+                    assert bool(row['gvid'])
+                    row['year'] = year
                     ins.insert(row)
             
-        
         
         return True
 

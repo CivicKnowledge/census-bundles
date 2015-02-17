@@ -34,20 +34,24 @@ identity:
     btime: null
     dataset: index
     id: d03x
-    revision: 2
+    revision: 3
     source: census.gov
     subset: null
     type: null
     variation: null
-    version: 0.0.2
+    version: 0.0.3
 names:
-    fqname: census.gov-index-0.0.2~d03x002
+    fqname: census.gov-index-0.0.3~d03x003
     name: census.gov-index
-    vid: d03x002
-    vname: census.gov-index-0.0.2
+    vid: d03x003
+    vname: census.gov-index-0.0.3
 process: {}
 versions:
     2:
         date: '2015-02-16T21:47:12.216573'
         description: Fixing problems with gvid
         version: 0.0.2
+    3:
+        date: '2015-02-17T09:16:16.913416'
+        description: 'Added year. '
+        version: 0.0.3

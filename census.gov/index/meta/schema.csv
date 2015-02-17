@@ -11,7 +11,7 @@ divisions,4,division,,,INTEGER,,,,1,,Division,,,c03x02004
 divisions,5,name,,,VARCHAR,,,,,,Name of area,,,c03x02005
 ,,,,,,,,,,,,,,
 states,1,id,1,,INTEGER,,,,,6,States,,40,t03x03
-states,2,year,,,INTEGER,,,,,,Year boundaries were established,c00102003,,c03x03002
+states,2,year,,,INTEGER,,,,,4,Year boundaries were established,c00102003,,c03x03002
 states,3,gvid,,,VARCHAR,,1,,,4,"Geo version id, Civic Knowledge defined",c00104002,,c03x03003
 states,4,region,,,INTEGER,,,,,,Region,c00106002,,c03x03004
 states,5,division,,,INTEGER,,,,,,Division,c00107004,,c03x03005
@@ -21,14 +21,14 @@ states,8,statens,,,INTEGER,,,,1,,State (ANSI),,,c03x03008
 states,9,name,,,VARCHAR,,,,,20,Name of area,,,c03x03009
 ,,,,,,,,,,,,,,
 counties,1,id,1,,INTEGER,,,,,6,Counties,,50,t03x04
-counties,2,year,,,INTEGER,,,,,,Year boundaries were established,c00102003,,c03x04002
+counties,2,year,,,INTEGER,,,,,4,Year boundaries were established,c00102003,,c03x04002
 counties,3,gvid,,,VARCHAR,,1,,,6,"Geo version id, Civic Knowledge defined",c00104002,,c03x04003
 counties,4,state,,,INTEGER,,,,1,2,State (FIPS),c00108006,,c03x04004
 counties,5,county,,,INTEGER,,,,1,3,County (FIPS),,,c03x04005
 counties,6,name,,,VARCHAR,,,,,42,Name of area,,,c03x04006
 ,,,,,,,,,,,,,,
 cosubs,1,id,1,,INTEGER,,,,,6,County subdivisions,,60,t03x05
-cosubs,2,year,,,INTEGER,,,,,,Year boundaries were established,c00102003,,c03x05002
+cosubs,2,year,,,INTEGER,,,,,4,Year boundaries were established,c00102003,,c03x05002
 cosubs,3,gvid,,,VARCHAR,,1,,,9,"Geo version id, Civic Knowledge defined",c00104002,,c03x05003
 cosubs,4,state,,,INTEGER,,,,1,2,State  (FIPS),c00108006,,c03x05004
 cosubs,5,county,,,INTEGER,,,,1,3,County (FIPS),c00109005,,c03x05005
@@ -36,7 +36,7 @@ cosubs,6,cousub,,,INTEGER,,,,1,5,County Subdivision (FIPS),,,c03x05006
 cosubs,7,name,,,VARCHAR,,,,,85,Name of area,,,c03x05007
 ,,,,,,,,,,,,,,
 places,1,id,1,,INTEGER,,,,,6,Census defined places,,160,t03x06
-places,2,year,,,INTEGER,,,,,,Year boundaries were established,c00102003,,c03x06002
+places,2,year,,,INTEGER,,,,,4,Year boundaries were established,c00102003,,c03x06002
 places,3,gvid,,,VARCHAR,,1,,,8,"Geo version id, Civic Knowledge defined",c00104002,,c03x06003
 places,4,state,,,INTEGER,,,,1,2,State (FIPS),c00108006,,c03x06004
 places,5,place,,,INTEGER,,,,1,5,Place (FIPS),,,c03x06005
@@ -44,13 +44,13 @@ places,6,placens,,,INTEGER,,,,1,,Place (ANSI),,,c03x06006
 places,7,name,,,VARCHAR,,,,,66,Name of area,,,c03x06007
 ,,,,,,,,,,,,,,
 uas,1,id,1,,INTEGER,,,,,6,Census defined urban areas,,400,t03x07
-uas,2,year,,,INTEGER,,,,,,Year boundaries were established,c00102003,,c03x07002
+uas,2,year,,,INTEGER,,,,,4,Year boundaries were established,c00102003,,c03x07002
 uas,3,gvid,,,VARCHAR,,1,,,6,"Geo version id, Civic Knowledge defined",c00104002,,c03x07003
 uas,4,ua,,,INTEGER,,,,1,5,Urban Area ID (FIPS),c00108006,,c03x07004
 uas,5,name,,,VARCHAR,,,,,78,Name of area,,,c03x07005
 ,,,,,,,,,,,,,,
 tracts,1,id,1,,INTEGER,,,,,6,Census tracts,,140,t03x08
-tracts,2,year,,,INTEGER,1,,,,,Year boundaries were established,c00102003,,c03x08002
+tracts,2,year,,,INTEGER,1,,,,4,Year boundaries were established,c00102003,,c03x08002
 tracts,3,gvid,,,VARCHAR,,1,,,11,"Geo version id, Civic Knowledge defined",c00104002,,c03x08003
 tracts,4,state,,,INTEGER,,,,1,2,State  (FIPS),c00108006,,c03x08004
 tracts,5,county,,,INTEGER,,,,1,3,County (FIPS),c00109005,,c03x08005
@@ -60,7 +60,7 @@ tracts,8,ua,,,INTEGER,,,,,,Urban Area,,,c03x08008
 tracts,9,name,,,VARCHAR,,,,,62,Name of area,,,c03x08009
 ,,,,,,,,,,,,,,
 blockgroups,1,id,1,,INTEGER,,,,,6,Census blockgroups,,150,t03x09
-blockgroups,2,year,,,INTEGER,1,,,,,Year boundaries were established,c00102003,,c03x09002
+blockgroups,2,year,,,INTEGER,1,,,,4,Year boundaries were established,c00102003,,c03x09002
 blockgroups,3,gvid,,,VARCHAR,,1,,,12,"Geo version id, Civic Knowledge defined",c00104002,,c03x09003
 blockgroups,4,state,,,INTEGER,,,,1,2,State (FIPS),c00108006,,c03x09004
 blockgroups,5,county,,,INTEGER,,,,1,3,County (FIPS),c00109005,,c03x09005

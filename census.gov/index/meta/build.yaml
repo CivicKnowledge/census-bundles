@@ -1,6 +1,7 @@
 build:
     requirements:
         xlrd: xlrd
+    year: 2011
 dependencies:
     geofile: census.gov-acs-geo-p5ye2013-geofile->=0.0.2
     proto: civicknowledge.com-proto->=0.0.4
