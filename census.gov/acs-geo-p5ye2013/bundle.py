@@ -41,11 +41,14 @@ class Bundle(BuildBundle):
 
     def gen_rows(self, as_dict = False ):
         import csv
-        from geoid  import generate_all
+        from geoid  import generate_all, summary_levels
         
         full_header = [ c.name for c in self.schema.table('geofile').columns ]
         
         prefix, header = full_header[:3], full_header[3:]
+        
+        #Summary levels that will produce gvids
+        sls = [ e[0] for e in summary_levels]
         
         for stusab, state in self.states.items():
 
@@ -61,11 +64,19 @@ class Bundle(BuildBundle):
                 for row in r:
                     
                     drow =  dict(zip(header, row))
+                    
                     try:
                         geoids = generate_all(drow['sumlevel'], drow)
+
                     except Exception as e:
                         self.error("Failed to create geoids for: {}: {}".format(drow['sumlevel'], e))
                         geoids = {}
+                        print drow
+                        raise
+                 
+                    if bool(drow['sumlevel'] in sls) and not bool(geoids.get('gvid',False)): # Sort of an xor
+                        self.error("Got no givd for sl = {}. Row = {}".format(drow['sumlevel'], drow))
+                 
                  
                     if as_dict:
                         yield dict(zip(header, row)+geoids.items())
@@ -166,14 +177,15 @@ class Bundle(BuildBundle):
     
         lr = self.init_log_rate(print_rate = 10)
         
+        
+        
         with p.inserter() as ins:
             
             for row in self.gen_rows(as_dict = True):
                 row['stusab'] = row['stusab'].lower()
                 row['name'] = row['name'].decode('latin1')
                 lr(row['stusab'])
-                
-                assert(bool(row['gvid']))
+               
                 
                 e = ins.insert(row)
                 

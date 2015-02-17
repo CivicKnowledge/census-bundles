@@ -54,17 +54,17 @@ identity:
     btime: p5ye2013
     dataset: acs
     id: d03q
-    revision: 2
+    revision: 3
     source: census.gov
     subset: geo
     type: null
     variation: null
-    version: 0.0.2
+    version: 0.0.3
 names:
-    fqname: census.gov-acs-geo-p5ye2013-0.0.2~d03q002
+    fqname: census.gov-acs-geo-p5ye2013-0.0.3~d03q003
     name: census.gov-acs-geo-p5ye2013
-    vid: d03q002
-    vname: census.gov-acs-geo-p5ye2013-0.0.2
+    vid: d03q003
+    vname: census.gov-acs-geo-p5ye2013-0.0.3
 process: {}
 versions:
     1:
@@ -75,3 +75,7 @@ versions:
         date: '2015-01-27T14:22:48.700162'
         description: Added US file
         version: 0.0.2
+    3:
+        date: '2015-02-17T09:23:38.653453'
+        description: Fixing gvids
+        version: 0.0.3
