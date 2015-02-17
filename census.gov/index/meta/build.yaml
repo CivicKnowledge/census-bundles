@@ -3,7 +3,7 @@ build:
         xlrd: xlrd
     year: 2011
 dependencies:
-    geofile: census.gov-acs-geo-p5ye2013-geofile->=0.0.2
+    geofile: census.gov-acs-geo-p5ye2013-geofile->=0.0.3
     proto: civicknowledge.com-proto->=0.0.4
 sources:
     example:

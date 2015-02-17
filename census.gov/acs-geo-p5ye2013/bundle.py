@@ -172,6 +172,9 @@ class Bundle(BuildBundle):
                 row['stusab'] = row['stusab'].lower()
                 row['name'] = row['name'].decode('latin1')
                 lr(row['stusab'])
+                
+                assert(bool(row['gvid']))
+                
                 e = ins.insert(row)
                 
                 if e:
