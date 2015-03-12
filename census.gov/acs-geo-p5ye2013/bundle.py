@@ -178,7 +178,6 @@ class Bundle(BuildBundle):
         lr = self.init_log_rate(print_rate = 10)
         
         
-        
         with p.inserter() as ins:
             
             for row in self.gen_rows(as_dict = True):
@@ -193,4 +192,11 @@ class Bundle(BuildBundle):
                     self.error(e)
                     
         return True
+        
+    def test(self):
+        
+        for p in self.partitions.all:
+            print p
+        
+        
                 

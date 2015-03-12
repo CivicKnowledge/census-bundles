@@ -1,0 +1,51 @@
+about:
+    access: null
+    grain: null
+    groups: []
+    license: null
+    rights: null
+    space: null
+    subject: null
+    summary: The source is an extract of the Current Population Survey focued on food security, which this bundle 
+        breaks out by state and county.  
+    tags: []
+    time: 
+    title: Current Population Survey, December 2013 Food Security File
+contact_bundle:
+    creator:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
+    maintainer:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
+contact_source:
+    creator: {}
+    maintainer: {}
+external_documentation:
+    download:
+        title: Download Page
+        url: 'http://thedataweb.rm.census.gov/ftp/cps_ftp.html#cpssupps'
+    documentation:
+        description: Main documentation for the Food Security Suppliment
+        source: null
+        title: Technical Documentation
+        url: http://www.census.gov/prod/techdoc/cps/cpsdec13.pdf
+identity:
+    bspace: null
+    btime: '201312'
+    dataset: cps
+    id: d03J
+    revision: 1
+    source: census.gov
+    subset: food_insecurity
+    type: null
+    variation: null
+    version: 0.0.1
+names:
+    fqname: census.gov-cps-food_insecurity-201312-0.0.1~d03J001
+    name: census.gov-cps-food_insecurity-201312
+    vid: d03J001
+    vname: census.gov-cps-food_insecurity-201312-0.0.1
+process: {}
