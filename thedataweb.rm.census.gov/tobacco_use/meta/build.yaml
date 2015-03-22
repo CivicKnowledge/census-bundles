@@ -1,0 +1,9 @@
+build:
+    requirements:
+        sas7bdat: sas7bdat
+dependencies: {}
+extract: {}
+sources:
+    tuscps-201101:
+        description: January 2011 Tobacco Use Data File
+        url: http://thedataweb.rm.census.gov/pub/cps/supps/jan11pub.zip

@@ -1,0 +1,53 @@
+about:
+    groups: []
+    license: null
+    rights: null
+    subject: null
+    summary: null
+    tags: []
+    title: null
+contact_bundle:
+    creator:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
+    maintainer:
+        email: eric@sandiegodata.org
+        name: Eric Busboom
+        url: http://www.sandiegodata.org
+contact_source:
+    creator:
+        email: null
+        name: null
+        url: null
+    maintainer:
+        email: null
+        name: null
+        url: null
+external_documentation:
+    example:
+        description: description
+        source: source
+        title: title
+        url: http://example.com
+identity:
+    bspace: null
+    btime: null
+    dataset: tobacco_use
+    id: d02B
+    revision: 1
+    source: thedataweb.rm.census.gov
+    subset: null
+    type: null
+    variation: null
+    version: 0.0.1
+names:
+    fqname: thedataweb.rm.census.gov-tobacco_use-0.0.1~d02B001
+    name: thedataweb.rm.census.gov-tobacco_use
+    vid: d02B001
+    vname: thedataweb.rm.census.gov-tobacco_use-0.0.1
+process: {}
+versions:
+    1:
+        description: null
+        version: 0.0.1
