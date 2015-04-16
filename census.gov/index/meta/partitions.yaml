@@ -2,8 +2,6 @@
     table: states
 -   name: census.gov-index-counties
     table: counties
--   name: census.gov-index-cosubs
-    table: cosubs
 -   name: census.gov-index-places
     table: places
 -   name: census.gov-index-uas

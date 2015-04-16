@@ -31,7 +31,9 @@ class Bundle(BuildBundle):
 
     def levels(self):
         for table in  self.library.dep('proto').schema.tables:
-            if 'summary_level' in table.data and table.data['summary_level'] and int(table.data['summary_level']) >= 40:
+            if ('summary_level' in table.data and table.data['summary_level'] 
+                 and int(table.data['summary_level']) >= 40
+                 and int(table.data['summary_level']) != 60): # Ignore cosubs
                 yield dict(
                     sl=table.data['summary_level'],
                     name=table.name,

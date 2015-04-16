@@ -34,17 +34,17 @@ identity:
     btime: null
     dataset: index
     id: d03x
-    revision: 3
+    revision: 4
     source: census.gov
     subset: null
     type: null
     variation: null
-    version: 0.0.3
+    version: 0.0.4
 names:
-    fqname: census.gov-index-0.0.3~d03x003
+    fqname: census.gov-index-0.0.4~d03x004
     name: census.gov-index
-    vid: d03x003
-    vname: census.gov-index-0.0.3
+    vid: d03x004
+    vname: census.gov-index-0.0.4
 process: {}
 versions:
     2:
@@ -55,3 +55,7 @@ versions:
         date: '2015-02-17T09:16:16.913416'
         description: 'Added year. '
         version: 0.0.3
+    4:
+        date: '2015-04-14T21:05:41.588340'
+        description: Adding coverage
+        version: 0.0.4
