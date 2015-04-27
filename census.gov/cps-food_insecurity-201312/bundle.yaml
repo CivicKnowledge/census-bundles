@@ -1,15 +1,15 @@
 about:
-    access: null
+    access: census
     grain: null
     groups: []
-    license: null
-    rights: null
-    space: null
+    license: ckdbl
+    rights: public
+    space: US
     subject: null
-    summary: The source is an extract of the Current Population Survey focued on food security, which this bundle 
-        breaks out by state and county.  
+    summary: The source is an extract of the Current Population Survey focued on food
+        security, which this bundle breaks out by state and county.
     tags: []
-    time: 
+    time: null
     title: Current Population Survey, December 2013 Food Security File
 contact_bundle:
     creator:
@@ -24,14 +24,16 @@ contact_source:
     creator: {}
     maintainer: {}
 external_documentation:
-    download:
-        title: Download Page
-        url: 'http://thedataweb.rm.census.gov/ftp/cps_ftp.html#cpssupps'
     documentation:
         description: Main documentation for the Food Security Suppliment
         source: null
         title: Technical Documentation
         url: http://www.census.gov/prod/techdoc/cps/cpsdec13.pdf
+    download:
+        description: null
+        source: null
+        title: Download Page
+        url: http://thedataweb.rm.census.gov/ftp/cps_ftp.html#cpssupps
 identity:
     bspace: null
     btime: '201312'

@@ -1,14 +1,18 @@
 about:
+    access: census
+    grain: null
     groups:
     - group1
     - group2
-    license: other-open
-    rights: null
+    license: ckdbl
+    rights: public
+    space: US
     subject: null
     summary: !include 'meta/about.description.md'
     tags:
     - tag1
     - tag2
+    time: null
     title: American Community Survey, 2008 - 2012
 contact_bundle:
     creator:
@@ -29,30 +33,36 @@ contact_source:
         name: null
         url: null
 external_documentation:
+    design_methodology:
+        description: This document describes the basic ACS design and methodology
+            as of the 2007 data collection year, athough most of it applies to all
+            ACS years. It discusses sample weighting, variance, and other important
+            technical topics.
+        source: null
+        title: Design and Methodology
+        url: http://www.census.gov/acs/www/Downloads/survey_methodology/acs_design_methodology.pdf
+    table_schema:
+        description: An XLS file that lists all of the tables and columns. Good for
+            searching for a table.
+        source: null
+        title: Table Shell
+        url: http://www2.census.gov/acs2012_5yr/summaryfile/ACS2012_5-Year_TableShells.xls
     technical_docs:
         description: Primary technical documentation.
         source: null
         title: American Community Survey 2008 - 2012 Technical Documentation
         url: http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008_2012_SF_Tech_Doc.pdf
-    table_schema:
-        url: http://www2.census.gov/acs2012_5yr/summaryfile/ACS2012_5-Year_TableShells.xls
-        title: Table Shell
-        description: An XLS file that lists all of the tables and columns. Good for searching for a table. 
-    design_methodology:
-        title: Design and Methodology
-        description: This document describes the basic ACS design and methodology as of the 2007 
-            data collection year, athough most of it applies to all ACS years. It discusses sample weighting,
-            variance, and other important technical topics. 
-        url: http://www.census.gov/acs/www/Downloads/survey_methodology/acs_design_methodology.pdf
-    weighting:
-        title: Weighting and estimation.
-        description: Chapter 11 of Design and Methodology, covering weighing and estimation 
-        url: http://www.census.gov/acs/www/Downloads/survey_methodology/acs_design_methodology_ch11.pdf
     variance:
+        description: Chapter 12 of Design and Methodology, sampling error and variance
+            estimation
+        source: null
         title: Variance Estimation.
-        description: Chapter 12 of Design and Methodology, sampling error and variance estimation
         url: http://www.census.gov/acs/www/Downloads/survey_methodology/acs_design_methodology_ch12.pdf
-        
+    weighting:
+        description: Chapter 11 of Design and Methodology, covering weighing and estimation
+        source: null
+        title: Weighting and estimation.
+        url: http://www.census.gov/acs/www/Downloads/survey_methodology/acs_design_methodology_ch11.pdf
 identity:
     bspace: null
     btime: p5ye2012
@@ -69,19 +79,25 @@ names:
     name: census.gov-acs-p5ye2012
     vid: d024005
     vname: census.gov-acs-p5ye2012-0.0.5
+process: {}
 versions:
     1:
+        date: null
         description: null
         version: null
     2:
+        date: null
         description: null
         version: null
     3:
+        date: null
         description: null
         version: 0.0.3
     4:
+        date: null
         description: Updating to new bundle structure.
         version: 0.0.4
     5:
+        date: null
         description: null
         version: 0.0.5

@@ -1,12 +1,16 @@
 about:
+    access: census
+    grain: null
     groups:
     - null
-    license: other-open
-    rights: null
+    license: ckdbl
+    rights: public
+    space: US
     subject: null
     summary: !include 'meta/about.description.md'
     tags:
     - null
+    time: null
     title: Bundle title
 contact_bundle:
     creator:
@@ -28,9 +32,10 @@ contact_source:
         url: null
 external_documentation:
     geography:
-        description: The Geographic Areas Reference Manual (GARM) describes in great detail the basic geographic 
-            entities the Census Bureau used in its various data tabulations for the 1990 Census and documents 
-            the purposes, definitions, standards, criteria, and procedures used to select, define, delineate, 
+        description: The Geographic Areas Reference Manual (GARM) describes in great
+            detail the basic geographic entities the Census Bureau used in its various
+            data tabulations for the 1990 Census and documents the purposes, definitions,
+            standards, criteria, and procedures used to select, define, delineate,
             and revise those geographic entities.
         source: null
         title: Geographic Areas Reference Manual
@@ -56,7 +61,9 @@ names:
     name: census.gov-2010_population-sf1-geo
     vid: d00f001
     vname: census.gov-2010_population-sf1-geo-0.1.1
+process: {}
 versions:
     1:
+        date: null
         description: null
         version: 0.1.1

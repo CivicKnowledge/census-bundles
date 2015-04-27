@@ -1,13 +1,17 @@
 about:
+    access: census
+    grain: null
     groups:
     - census
     - geography
-    license: public
+    license: ckdbl
     rights: public
+    space: US
     subject: geographic boundaries
     summary: Geographic area boundary shapes for 2012, for blockgroups, places, tracts,
         counties and states.
     tags: []
+    time: null
     title: Tigerline ACS Area Boundaries, 2012
 contact_bundle:
     creator:

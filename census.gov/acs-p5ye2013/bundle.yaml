@@ -1,10 +1,14 @@
 about:
+    access: census
+    grain: null
     groups: []
-    license: other-open
-    rights: null
+    license: ckdbl
+    rights: public
+    space: US
     subject: null
     summary: null
     tags: []
+    time: null
     title: American Community Survey, 2009 - 2013
 contact_bundle:
     creator:

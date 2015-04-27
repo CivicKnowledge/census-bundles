@@ -1,10 +1,10 @@
 about:
-    access: null
+    access: census
     grain: null
     groups: []
-    license: null
-    rights: null
-    space: us
+    license: ckdbl
+    rights: public
+    space: US
     subject: null
     summary: Index partitions for States, Counties, Tracts and other significant Census
         Grographies

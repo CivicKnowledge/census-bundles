@@ -1,10 +1,10 @@
 about:
-    access: public
+    access: census
     grain: null
     groups: []
-    license: null
-    rights: null
-    space: null
+    license: ckdbl
+    rights: public
+    space: US
     subject: null
     summary: Geographic information to match the 2013 ACS
     tags: []

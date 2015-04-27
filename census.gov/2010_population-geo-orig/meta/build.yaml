@@ -10,3 +10,4 @@ build:
     urlsFile: meta/urls.yaml
 dependencies: {}
 extract: {}
+views: {}

@@ -1,11 +1,15 @@
 about:
+    access: census
+    grain: null
     groups: []
-    license: null
-    rights: null
+    license: ckdbl
+    rights: public
+    space: US
     subject: demographics
     summary: Based on census.gov-acs-p5ye2012, but replaces the state and logrecno
         link values with a geoid
     tags: []
+    time: null
     title: American Community Survey, 2008 - 2012, Geoid Linked
 contact_bundle:
     creator:
@@ -38,8 +42,10 @@ names:
 process: {}
 versions:
     1:
+        date: null
         description: Initial Version
         version: 0.0.1
     2:
+        date: null
         description: Adding proto_vid to gvid column
         version: 0.0.2

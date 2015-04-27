@@ -1,10 +1,10 @@
 about:
-    access: null
+    access: census
     grain: null
     groups: []
-    license: null
-    rights: null
-    space: null
+    license: ckdbl
+    rights: public
+    space: US
     subject: null
     summary: The American Community Survey (ACS) is a mandatory, ongoing statistical
         survey that samples a small percentage of the population every year -- giving

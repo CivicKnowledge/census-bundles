@@ -1,10 +1,14 @@
 about:
+    access: census
+    grain: null
     groups: []
-    license: null
-    rights: null
+    license: ckdbl
+    rights: public
+    space: US
     subject: null
     summary: null
     tags: []
+    time: null
     title: Geofile for ACS 2008 - 2012
 contact_bundle:
     creator:
