@@ -42,6 +42,13 @@ class Bundle(BuildBundle):
 
     def build(self):
 
+        self.build_non_years()
+        
+        self.build_county_years()
+        
+        return True
+        
+    def build_non_years(self):
         year = self.metadata.build.year
 
         geofile = self.library.dep('geofile').partition
@@ -63,4 +70,31 @@ class Bundle(BuildBundle):
             
         
         return True
+        
+    def build_county_years(self):
+        """For each state, all of the counties, over trailing 25 years."""
+        import datetime
+        states = self.partitions.find(table = 'states')
+        counties = self.partitions.find(table = 'counties', space=None, time=None)
+        
+        current_year = datetime.datetime.now().year
+        years =  [None] +range(current_year - 25, current_year+1)
+        
 
+        lr = self.init_log_rate(10000)
+
+        for state in states.rows:
+            p = self.partitions.find_or_new(table = 'counties', space=state.stusab, time='p25ye'+str(current_year))
+            p.clean()
+            with p.inserter() as ins:
+                for county in counties.query("SELECT * FROM counties WHERE state = ?", state.state):
+                    d = dict(county)
+                    del d['id']
+                    for year in years:
+                        lr(str(p.identity.name))
+
+                        d['year'] = year
+
+                        ins.insert(d)
+                    
+                

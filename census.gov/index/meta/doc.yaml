@@ -1,4 +1,5 @@
 documentation:
+    footnote: null
     main: '
 
         # Indexes for Census Geographies
@@ -8,8 +9,13 @@ documentation:
         Grographies
 
         '
+    processed: ''
     readme: '# Indexes for Census Geographies
 
 
         Index partitions for States, Counties, Tracts and other significant Census
         Grographies'
+    source: ''
+    summary: Index partitions for States, Counties, Tracts and other significant Census
+        Grographies
+    title: Indexes for Census Geographies

@@ -1,13 +1,16 @@
 about:
     access: census
+    footnote: null
     grain: null
     groups: []
     license: ckdbl
+    processed: null
     rights: public
+    source: null
     space: US
     subject: null
     summary: Index partitions for States, Counties, Tracts and other significant Census
-        Grographies
+        Geographies
     tags: []
     time: p5ye2013
     title: Indexes for Census Geographies
@@ -21,7 +24,9 @@ contact_bundle:
         name: Eric Busboom
         url: http://www.sandiegodata.org
 contact_source:
-    creator: {}
+    creator:
+        org: United States Census Bureau
+        url: http://census.gov
     maintainer: {}
 external_documentation:
     download:
