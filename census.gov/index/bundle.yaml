@@ -39,17 +39,17 @@ identity:
     btime: null
     dataset: index
     id: d03x
-    revision: 4
+    revision: 5
     source: census.gov
     subset: null
     type: null
     variation: null
-    version: 0.0.4
+    version: 0.0.5
 names:
-    fqname: census.gov-index-0.0.4~d03x004
+    fqname: census.gov-index-0.0.5~d03x005
     name: census.gov-index
-    vid: d03x004
-    vname: census.gov-index-0.0.4
+    vid: d03x005
+    vname: census.gov-index-0.0.5
 process: {}
 versions:
     2:
@@ -64,3 +64,7 @@ versions:
         date: '2015-04-14T21:05:41.588340'
         description: Adding coverage
         version: 0.0.4
+    5:
+        date: '2015-05-13T12:30:40.936264'
+        description: Removed version numbers from foreign keys
+        version: 0.0.5
