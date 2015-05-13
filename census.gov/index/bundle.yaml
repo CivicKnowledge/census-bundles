@@ -39,17 +39,17 @@ identity:
     btime: null
     dataset: index
     id: d03x
-    revision: 5
+    revision: 6
     source: census.gov
     subset: null
     type: null
     variation: null
-    version: 0.0.5
+    version: 0.0.6
 names:
-    fqname: census.gov-index-0.0.5~d03x005
+    fqname: census.gov-index-0.0.6~d03x006
     name: census.gov-index
-    vid: d03x005
-    vname: census.gov-index-0.0.5
+    vid: d03x006
+    vname: census.gov-index-0.0.6
 process: {}
 versions:
     2:
@@ -68,3 +68,7 @@ versions:
         date: '2015-05-13T12:30:40.936264'
         description: Removed version numbers from foreign keys
         version: 0.0.5
+    6:
+        date: '2015-05-13T13:11:43.587726'
+        description: Reset protovids
+        version: 0.0.6
