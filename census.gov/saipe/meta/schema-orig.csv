@@ -1,0 +1,22 @@
+"table","seq","column","is_pk","is_fk","type","size","description","d_has_codes","d_caster"
+"saipe",1,"id",1,,"INTEGER",,"State and County Estimates for 2009",,
+"saipe",2,"state_fips",,,"INTEGER",,"State FIPS",1,
+"saipe",3,"county_fips",,,"INTEGER",,"County FIPS",,
+"saipe",4,"year",,,"INTEGER",,"Year",,
+"saipe",5,"stusab",,,"VARCHAR",2,"Postal abbreviation for US state",,
+"saipe",6,"state_fips_code",,,"INTEGER",,"State FIPS Code",,"int_caster"
+"saipe",7,"county_fips_code",,,"INTEGER",,"County FIPS Code",,"int_caster"
+"saipe",8,"name",,,"VARCHAR",33,"Name",,
+"saipe",9,"median_household_income",,,"INTEGER",,"Median Household Income",1,"int_caster"
+"saipe",10,"poverty_estimate_all_ages",,,"INTEGER",,"Poverty Estimate All Ages",1,"int_caster"
+"saipe",11,"90_ci_lower_bound",,,"REAL",,"90% CI Lower Bound",1,"real_caster"
+"saipe",12,"90_ci_upper_bound",,,"REAL",,"90% CI Upper Bound",1,"real_caster"
+"saipe",13,"poverty_percent_all_ages",,,"REAL",,"Poverty Percent All Ages",1,"real_caster"
+"saipe",14,"poverty_estimate_ages_0_4",,,"VARCHAR",9,"Poverty Estimate Ages 0-4",,"int_caster"
+"saipe",15,"poverty_percent_ages_0_4",,,"VARCHAR",4,"Poverty Percent Ages 0-4",,"int_caster"
+"saipe",16,"poverty_estimate_ages_5_17_in_families",,,"INTEGER",,"Poverty Estimate, Ages 5-17 in Families",1,"int_caster"
+"saipe",17,"poverty_percent_ages_5_17_in_families",,,"REAL",,"Poverty Percent, Ages 5-17 in Families",1,"real_caster"
+"saipe",18,"poverty_estimate_ages_5_17",,,"INTEGER",,"Poverty Estimate Ages 5-17",1,"int_caster"
+"saipe",19,"poverty_percent_ages_5_17",,,"REAL",,"Poverty Percent Ages 5-17",1,"real_caster"
+"saipe",20,"poverty_estimate_age_0_17",,,"INTEGER",,"Poverty Estimate, Age 0-17",1,"int_caster"
+"saipe",21,"poverty_percent_age_0_17",,,"REAL",,"Poverty Percent, Age 0-17",1,"real_caster"

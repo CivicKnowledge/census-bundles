@@ -1,0 +1,66 @@
+about:
+    access: census
+    footnote: null
+    grain: null
+    groups: []
+    license: null
+    processed: null
+    rights: null
+    source: null
+    space: US
+    subject: null
+    summary: Model-based Small Area Income & Poverty Estimates (SAIPE) for School
+        Districts, Counties, and States. These estimates combine data from administrative
+        records, postcensal population estimates, and the decennial census with direct
+        estimates from the American Community Survey to provide consistent and reliable
+        single-year estimates. These model-based single-year estimates are more reflective
+        of current conditions than multi-year survey estimates.
+    tags: []
+    time: null
+    title: Small Area Income and Poverty Estimates
+contact_bundle:
+    creator:
+        email: eric@civicknowledge.com
+        name: Eric Busboom
+        org: Civic Knowledge
+        url: http://civicknowledge.com
+    maintainer: {}
+contact_source:
+    creator:
+        org: United States Census Bureau
+        url: http://census.gov
+    maintainer: {}
+external_documentation:
+    dataset:
+        description: Main webpage for the dataset.
+        source: null
+        title: Dataset Page
+        url: http://www.census.gov/did/www/saipe/
+    documentation:
+        description: Links to documents detailing the estimation process and how to
+            may comparisons
+        source: null
+        title: SAIPE Methodology
+        url: http://www.census.gov/did/www/saipe/methods/index.html
+    download:
+        description: Web page that links to the source files.
+        source: null
+        title: Download Page
+        url: http://www.census.gov/did/www/saipe/data/statecounty/data/index.html
+identity:
+    bspace: null
+    btime: null
+    dataset: saipe
+    id: d046
+    revision: 1
+    source: census.gov
+    subset: county
+    type: null
+    variation: null
+    version: 0.0.1
+names:
+    fqname: census.gov-saipe-county-0.0.1~d046001
+    name: census.gov-saipe-county
+    vid: d046001
+    vname: census.gov-saipe-county-0.0.1
+process: {}

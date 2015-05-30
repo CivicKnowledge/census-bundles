@@ -1,0 +1,69 @@
+build: {}
+dependencies:
+    counties: census.gov-index-counties
+sources:
+    sc09:
+        description: State and County Estimates for 2009
+        row_spec:
+            data_end_line: 564
+            data_start_line: 3
+            header_comment_lines:
+            - 0
+            - 1
+            header_lines:
+            - 2
+        table: saipe
+        time: 2009
+        url: http://www.census.gov/did/www/saipe/downloads/estmod09/est09ALL.xls
+    sc10:
+        description: State and County Estimates for 2010
+        row_spec:
+            data_end_line: 3198
+            data_start_line: 3
+            header_comment_lines:
+            - 0
+            - 1
+            header_lines:
+            - 2
+        table: saipe
+        time: 2010
+        url: http://www.census.gov/did/www/saipe/downloads/estmod10/est10ALL.xls
+    sc11:
+        description: State and County Estimates for 2011
+        row_spec:
+            data_end_line: 3198
+            data_start_line: 3
+            header_comment_lines:
+            - 0
+            - 1
+            header_lines:
+            - 2
+        table: saipe
+        time: 2011
+        url: http://www.census.gov/did/www/saipe/downloads/estmod11/est11ALL.xls
+    sc12:
+        description: State and County Estimates for 2012
+        row_spec:
+            data_start_line: 3
+            header_comment_lines:
+            - 0
+            - 1
+            header_lines:
+            - 2
+        table: saipe
+        time: 2012
+        url: http://www.census.gov/did/www/saipe/downloads/estmod12/est12ALL.xls
+    sc13:
+        description: State and County Estimates for 2013
+        row_spec:
+            data_start_line: 4
+            header_comment_lines:
+            - 0
+            - 1
+            - 2
+            header_lines:
+            - 3
+        table: saipe
+        time: 2013
+        url: http://www.census.gov/did/www/saipe/downloads/estmod13/est13ALL.xls
+views: {}

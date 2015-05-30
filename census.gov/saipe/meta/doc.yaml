@@ -1,0 +1,15 @@
+documentation:
+    footnote: null
+    main: '
+
+        '
+    processed: ''
+    readme: null
+    source: ''
+    summary: Model-based Small Area Income  Poverty Estimates (SAIPE) for School Districts,
+        Counties, and States. These estimates combine data from administrative records,
+        postcensal population estimates, and the decennial census with direct estimates
+        from the American Community Survey to provide consistent and reliable single-year
+        estimates. These model-based single-year estimates are more reflective of
+        current conditions than multi-year survey estimates.
+    title: Small Area Income and Poverty Estimates

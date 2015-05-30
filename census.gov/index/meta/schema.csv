@@ -21,7 +21,7 @@
 "states",9,"name",,"c03x03009","VARCHAR",,,,,,,20,"Name of area",,,,
 ,,,,,,,,,,,,,,,,,
 "counties",1,"id",1,"t03x04","INTEGER",,,,,,,6,"Counties",,,,50
-"counties",2,"year",,"c03x04002","INTEGER",1,,,,,,4,"Year boundaries were established","c00109002","census.gov-index-counties-0.0.5:year","counties.year",
+"counties",2,"year",,"c03x04002","INTEGER",1,1,,,,,4,"Year boundaries were established","c00109002","census.gov-index-counties-0.0.5:year","counties.year",
 "counties",3,"gvid",,"c03x04003","VARCHAR",,1,,,,,6,"Geo version id, Civic Knowledge defined","c00109003","census.gov-index-counties-0.0.5:gvid","counties.gvid",
 "counties",4,"state",,"c03x04004","INTEGER",,,1,1,,1,2,"State (FIPS)","c00109004",,"counties.state",
 "counties",5,"county",,"c03x04005","INTEGER",,,1,,,1,3,"County (FIPS)","c00109005",,"counties.county",
