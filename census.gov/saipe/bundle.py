@@ -1,7 +1,7 @@
 """"""
 
 from ambry.bundle.loader import ExcelBuildBundle
-
+from ambry.util import memoize
 
 class Bundle(ExcelBuildBundle):
 
@@ -38,8 +38,8 @@ class Bundle(ExcelBuildBundle):
     @property
     @memoize
     def county_map(self):
-        return { r['name'].replace(" County, California",'').lower(): r['gvid'] 
-                     for r in  self.library.dep('counties').partition.rows  if int(r['state'] == 6)}
+
+        return { (int(r['state']), int(r['county'])) : r['gvid'] for r in  self.library.dep('counties').partition.rows }
             
     def build_modify_row(self, row_gen, p, source, row):
    
@@ -53,6 +53,9 @@ class Bundle(ExcelBuildBundle):
              
         if 'postal_code' in row:
             pass 
+            
+        row['county_gvid'] =  self.county_map.get((int(row['state_fips']), int(row['county_fips'])), None)
+            
             
     def mangle_header(self, header):
         """Transform the header as it comes from the raw row generator into a column name"""
