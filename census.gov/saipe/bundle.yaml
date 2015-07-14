@@ -52,15 +52,20 @@ identity:
     btime: null
     dataset: saipe
     id: d046
-    revision: 1
+    revision: 2
     source: census.gov
     subset: county
     type: null
     variation: null
-    version: 0.0.1
+    version: 0.0.2
 names:
-    fqname: census.gov-saipe-county-0.0.1~d046001
+    fqname: census.gov-saipe-county-0.0.2~d046002
     name: census.gov-saipe-county
-    vid: d046001
-    vname: census.gov-saipe-county-0.0.1
+    vid: d046002
+    vname: census.gov-saipe-county-0.0.2
 process: {}
+versions:
+    2:
+        date: '2015-06-04T20:02:12.858727'
+        description: Under 18 col incorrectly mapped to 5_17
+        version: 0.0.2

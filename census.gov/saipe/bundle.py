@@ -58,8 +58,20 @@ class Bundle(ExcelBuildBundle):
             
             
     def mangle_header(self, header):
-        """Transform the header as it comes from the raw row generator into a column name"""
+        """Transform the header as it comes from the raw row generator into a column name. 
         
+        All of the columns for the upper and lower limits of the confidence interval have the same names, 
+        so this function appends to the confidence interface columns the name of the closest leftward
+        column that is not for a confidence interval. So:
+        
+            all_ages, 90%_ci_lower_bound, 90%_ci_upper_bound,
+            
+        becomes:
+        
+            all_ages, 90%_ci_lower_bound_all_ages, 90%_ci_upper_bound_all_ages,
+            
+        
+        """  
         lh = None
         new_header = []
         for i,n in enumerate(header):

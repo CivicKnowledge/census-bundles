@@ -49,6 +49,7 @@ class Bundle(BuildBundle):
         return True
         
     def build_non_years(self):
+        """Build indexes that don't have year values"""
         year = self.metadata.build.year
 
         geofile = self.library.dep('geofile').partition
@@ -80,7 +81,6 @@ class Bundle(BuildBundle):
         current_year = datetime.datetime.now().year
         years =  [None] +range(current_year - 25, current_year+1)
         
-
         lr = self.init_log_rate(10000)
 
         for state in states.rows:

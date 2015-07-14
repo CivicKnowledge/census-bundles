@@ -1,0 +1,9 @@
+build:
+    requirements:
+        threadpool: threadpool
+dependencies: {}
+sources:
+    example:
+        description: description
+        url: http://example.com
+views: {}
