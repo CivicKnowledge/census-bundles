@@ -1,0 +1,49 @@
+about:
+    access: example
+    footnote: null
+    grain: null
+    groups: []
+    license: public
+    processed: null
+    rights: null
+    source: null
+    space: US
+    subject: null
+    summary: SAHIE Estimates using the American Community Survey (ACS) Data
+    tags: []
+    time: 2008/2012
+    title: Small Area Health Insurance Estimates (SAHIE)
+contact_bundle:
+    creator:
+        email: roman.suprotkin@developex.org
+        name: Roman Suprotkin
+    maintainer: {}
+contact_source:
+    creator:
+        org: United States Census Bureau
+        url: http://census.gov
+    maintainer: {}
+external_documentation:
+    dataset:
+        description: Main webpage for the dataset.
+        source: null
+        title: "2008 \u2013 2012 SAHIE Estimates using the American Community Survey\
+            \ (ACS) Data"
+        url: http://www.census.gov/did/www/sahie/data/20082012/index.html
+identity:
+    bspace: null
+    btime: null
+    dataset: sahie
+    id: d04q
+    revision: 1
+    source: census.gov
+    subset: null
+    type: null
+    variation: null
+    version: 0.0.1
+names:
+    fqname: census.gov-sahie-0.0.1~d04q001
+    name: census.gov-sahie
+    vid: d04q001
+    vname: census.gov-sahie-0.0.1
+process: {}

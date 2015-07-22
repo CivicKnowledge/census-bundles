@@ -1,0 +1,6 @@
+name,title,table,segment,time,space,grain,start_line,end_line,comment_lines,header_lines,description,url,ref,filetype
+sahie08,,sahie,,2008,,,4,,"0,1,2",3,"Model-based Small Area Health Insurance Estimates (SAHIE) for Counties and States, 2008",http://www.census.gov/did/www/sahie/data/files/sahie2008.csv,,csv
+sahie09,,sahie,,2009,,,4,,"0,1,2",3,"Model-based Small Area Health Insurance Estimates (SAHIE) for Counties and States, 2009",http://www.census.gov/did/www/sahie/data/files/sahie2009.csv,,csv
+sahie10,,sahie,,2010,,,4,,"0,1,2",3,"Model-based Small Area Health Insurance Estimates (SAHIE) for Counties and States, 2010",http://www.census.gov/did/www/sahie/data/files/sahie2010.csv,,csv
+sahie12,,sahie,,2012,,,4,,"0,1,2",3,"Model-based Small Area Health Insurance Estimates (SAHIE) for Counties and States, 2012",http://www.census.gov/did/www/sahie/data/files/sahie2012.csv,,csv
+sahie11,,sahie,,2011,,,4,,"0,1,2",3,"Model-based Small Area Health Insurance Estimates (SAHIE) for Counties and States, 2011",http://www.census.gov/did/www/sahie/data/files/sahie_2011.csv,,csv

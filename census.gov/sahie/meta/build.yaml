@@ -1,0 +1,80 @@
+build:
+    requirements: {}
+dependencies: {}
+sources:
+    sahie08:
+        description: Model-based Small Area Health Insurance Estimates (SAHIE) for
+            Counties and States, 2008
+        filetype: csv
+        row_spec:
+            data_start_line: 4
+            header_comment_lines:
+            - 0
+            - 1
+            - 2
+            header_lines:
+            - 3
+        table: sahie
+        time: 2008
+        url: http://www.census.gov/did/www/sahie/data/files/sahie2008.csv
+    sahie09:
+        description: Model-based Small Area Health Insurance Estimates (SAHIE) for
+            Counties and States, 2009
+        filetype: csv
+        row_spec:
+            data_start_line: 4
+            header_comment_lines:
+            - 0
+            - 1
+            - 2
+            header_lines:
+            - 3
+        table: sahie
+        time: 2009
+        url: http://www.census.gov/did/www/sahie/data/files/sahie2009.csv
+    sahie10:
+        description: Model-based Small Area Health Insurance Estimates (SAHIE) for
+            Counties and States, 2010
+        filetype: csv
+        row_spec:
+            data_start_line: 4
+            header_comment_lines:
+            - 0
+            - 1
+            - 2
+            header_lines:
+            - 3
+        table: sahie
+        time: 2010
+        url: http://www.census.gov/did/www/sahie/data/files/sahie2010.csv
+    sahie11:
+        description: Model-based Small Area Health Insurance Estimates (SAHIE) for
+            Counties and States, 2011
+        filetype: csv
+        row_spec:
+            data_start_line: 4
+            header_comment_lines:
+            - 0
+            - 1
+            - 2
+            header_lines:
+            - 3
+        table: sahie
+        time: 2011
+        url: http://www.census.gov/did/www/sahie/data/files/sahie_2011.csv
+    sahie12:
+        description: Model-based Small Area Health Insurance Estimates (SAHIE) for
+            Counties and States, 2012
+        filetype: csv
+        row_spec:
+            data_start_line: 4
+            header_comment_lines:
+            - 0
+            - 1
+            - 2
+            header_lines:
+            - 3
+        table: sahie
+        time: 2012
+        url: http://www.census.gov/did/www/sahie/data/files/sahie2012.csv
+views: {}
