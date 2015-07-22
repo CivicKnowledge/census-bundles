@@ -3,13 +3,26 @@
 from ambry.bundle import BuildBundle
 from Queue import Queue, Full, Empty
 import threading
+import os
+
+from ckcache.s3 import S3Cache
 
 class Bundle(BuildBundle):
 
     span = 2013
     year = 5
 
-    
+    def __init__(self, bundle_dir=None):
+
+        super(Bundle, self).__init__(bundle_dir)
+
+        account = dict(
+            access = os.getenv('AWS_ACCESS_KEY_ID'),
+            secret = os.getenv('AWS_SECRET_ACCESS_KEY')
+        )
+
+        self.fs = S3Cache('census.public.civicknowledge.com', prefix='test', account = account )
+
     def write_partitions(self):
         """Because accessing the parittions database is a bit slow. """
         l = self.library
@@ -19,6 +32,7 @@ class Bundle(BuildBundle):
         partitions = []
 
         for i,p in enumerate(b.partitions.all):
+        
             
             if self.run_args.test:
                 if i > 10: 
@@ -30,8 +44,6 @@ class Bundle(BuildBundle):
                 })
                 
         self.filesystem.write_yaml(partitions, 'meta','partitions.yaml')
-        
-
                 
     def test_build(self):
 
@@ -47,7 +59,6 @@ class Bundle(BuildBundle):
 
          print "Building table:",  year, span, table
 
-     
          l = self.library
 
          geo = l.get('census.gov-acs-geo-p5ye2013-geofile').partition
@@ -63,29 +74,35 @@ class Bundle(BuildBundle):
              SELECT * FROM geo.geofile AS geo LEFT JOIN {table} ON geo.id = {table}.geofile_id
          """.format(table=table)
 
+         header = None
          for i, row in enumerate(p.query(q)):
+
+             if not header:
+                 header = row.keys()
 
              sumlevs[row.sumlevel].append(row)
 
          p.detach('geo')
 
-
          for sumlevel, rows in sumlevs.items():
          
              path = path_t.format(sumlev=row.sumlevel, span=span, year = year, table = table)
+             
+             self.log('{} {} {}'.format(sumlevel, table, path))
 
-             root = '/Volumes/DataLibrary/census'
+             if False: # Using a lof test dir
+                 root = '/Volumes/DataLibrary/census'
 
-             fn = os.path.join(root, path)
-         
-             dir_name = os.path.dirname(fn)
-             if not os.path.exists(dir_name):
-                 os.makedirs(dir_name)
-         
-             with open(fn, 'w') as f:
+                 fn = os.path.join(root, path)
+             
+                 dir_name = os.path.dirname(fn)
+                 if not os.path.exists(dir_name):
+                     os.makedirs(dir_name)
+
+             with self.fs.put_stream(path) as f: # #open(fn, 'w') as f:
                  writer = csv.writer(f)
              
-                 writer.writerow( c.name for c in p.table.columns )
+                 writer.writerow( header )
              
                  for row in rows:
              
@@ -93,6 +110,4 @@ class Bundle(BuildBundle):
                          continue
                      
                      writer.writerow(list(row))      
-        
-        
-        
+           
