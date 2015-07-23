@@ -83,6 +83,7 @@ class Bundle(BuildBundle):
              sumlevs[row.sumlevel].append(row)
 
          p.detach('geo')
+         p.close()
 
          for sumlevel, rows in sumlevs.items():
          
@@ -90,14 +91,6 @@ class Bundle(BuildBundle):
              
              self.log('{} {} {}'.format(sumlevel, table, path))
 
-             if False: # Using a lof test dir
-                 root = '/Volumes/DataLibrary/census'
-
-                 fn = os.path.join(root, path)
-             
-                 dir_name = os.path.dirname(fn)
-                 if not os.path.exists(dir_name):
-                     os.makedirs(dir_name)
 
              with self.fs.put_stream(path) as f: # #open(fn, 'w') as f:
                  writer = csv.writer(f)
