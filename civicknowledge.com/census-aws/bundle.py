@@ -91,7 +91,7 @@ class Bundle(BuildBundle):
              
              self.log('{} {} {}'.format(sumlevel, table, path))
 
-            if self.fs.has(path):
+             if self.fs.has(path):
                 self.log("Exists: {}".format(path))
                 continue
 
