@@ -91,6 +91,10 @@ class Bundle(BuildBundle):
              
              self.log('{} {} {}'.format(sumlevel, table, path))
 
+            if self.fs.has(path):
+                self.log("Exists: {}".format(path))
+                continue
+
 
              with self.fs.put_stream(path) as f: # #open(fn, 'w') as f:
                  writer = csv.writer(f)
