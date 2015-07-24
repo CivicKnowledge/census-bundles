@@ -49,8 +49,11 @@ class Bundle(BuildBundle):
 
         for e in self.filesystem.read_yaml('meta','partitions.yaml'):
             table = e['table']
-            self.write_partition(self.year, self.span, table)
-  
+            try:
+                self.write_partition(self.year, self.span, table)
+            except Exception as e:
+                self.error(str(e))
+                
     def write_partition(self, year, span, table):
          from ambry import library
          import unicodecsv as csv
