@@ -1,0 +1,60 @@
+about:
+    access: census
+    footnote: null
+    grain: null
+    groups: []
+    license: null
+    processed: null
+    rights: null
+    source: null
+    space: null
+    subject: null
+    summary: Schemas and geofile conversion for all ACS years from 2009 on.
+    tags: []
+    time: null
+    title: Geofiles for all ACS from 2009 on
+contact_bundle:
+    creator:
+        email: eric@civicknowledge.com
+        name: Eric Busboom
+        org: Civic Knowledge
+        url: http://civicknowledge.com
+    maintainer: {}
+contact_source:
+    creator:
+        org: United States Census Bureau
+        url: http://census.gov
+    maintainer: {}
+external_documentation:
+    dataset:
+        description: Main webpage for the dataset.
+        source: null
+        title: Dataset Page
+        url: http://example.com
+    documentation:
+        description: The primary documentation file
+        source: null
+        title: Main Documentation
+        url: http://example.com
+    download:
+        description: Web page that links to the source files.
+        source: null
+        title: Download Page
+        url: http://example.com
+identity:
+    bspace: null
+    btime: 2009e
+    dataset: acs
+    id: d04b
+    revision: 1
+    source: census.gov
+    subset: geo
+    type: null
+    variation: null
+    version: 0.0.1
+names:
+    fqname: census.gov-acs-geo-2009e-0.0.1~d04b001
+    name: census.gov-acs-geo-2009e
+    vid: d04b001
+    vname: census.gov-acs-geo-2009e-0.0.1
+process: {}

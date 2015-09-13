@@ -1,0 +1,6 @@
+name,title,table,segment,time,space,grain,start_line,end_line,comment_lines,header_lines,description,url,ref,filetype
+geofile_2011,,geofile_schema,,2011,,,,,,,2011 Geofile descriptions,http://public.source.civicknowledge.com.s3.amazonaws.com/census.gov/acs-geo-2009e/geo_schema_2009e.zip,,
+geofile_2010,,geofile_schema,,2010,,,,,,,2010 Geofile descriptions,http://public.source.civicknowledge.com.s3.amazonaws.com/census.gov/acs-geo-2009e/geo_schema_2009e.zip,,
+geofile_2013,,geofile_schema,,2013,,,,,,,2013 Geofile descriptions,http://public.source.civicknowledge.com.s3.amazonaws.com/census.gov/acs-geo-2009e/geo_schema_2009e.zip,,
+geofile_2012,,geofile_schema,,2012,,,,,,,2012 Geofile descriptions,http://public.source.civicknowledge.com.s3.amazonaws.com/census.gov/acs-geo-2009e/geo_schema_2009e.zip,,
+geofile_2009,,geofile_schema,,2009,,,,,,,2009 Geofile descriptions,http://public.source.civicknowledge.com.s3.amazonaws.com/census.gov/acs-geo-2009e/geo_schema_2009e.zip,,

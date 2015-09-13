@@ -1,0 +1,35 @@
+build:
+    requirements: {}
+dependencies: {}
+sources:
+    geofile_schema_2009:
+        description: 2009 Geofile descriptions
+        file: '2009'
+        table: geofile_schema
+        time: 2009
+        url: http://public.source.civicknowledge.com.s3.amazonaws.com/census.gov/acs-geo-2009e/geo_schema_2009e.zip
+    geofile_schema_2010:
+        description: 2010 Geofile descriptions
+        file: '2010'
+        table: geofile_schema
+        time: 2010
+        url: http://public.source.civicknowledge.com.s3.amazonaws.com/census.gov/acs-geo-2009e/geo_schema_2009e.zip
+    geofile_schema_2011:
+        description: 2011 Geofile descriptions
+        file: '2011'
+        table: geofile_schema
+        time: 2011
+        url: http://public.source.civicknowledge.com.s3.amazonaws.com/census.gov/acs-geo-2009e/geo_schema_2009e.zip
+    geofile_schema_2012:
+        description: 2012 Geofile descriptions
+        file: '2012'
+        table: geofile_schema
+        time: 2012
+        url: http://public.source.civicknowledge.com.s3.amazonaws.com/census.gov/acs-geo-2009e/geo_schema_2009e.zip
+    geofile_schema_2013:
+        description: 2013 Geofile descriptions
+        file: '2013'
+        table: geofile_schema
+        time: 2013
+        url: http://public.source.civicknowledge.com.s3.amazonaws.com/census.gov/acs-geo-2009e/geo_schema_2009e.zip
+views: {}

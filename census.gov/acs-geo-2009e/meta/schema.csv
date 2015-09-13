@@ -1,0 +1,9 @@
+table,seq,column,is_pk,is_fk,id,type,size,description
+geofile_schema,1,id,1,,t04b01,INTEGER,,2009 Geofile descriptions
+geofile_schema,2,year,,,c04b01002,INTEGER,4,Year
+geofile_schema,3,seq,,,c04b01003,INTEGER,2,seq
+geofile_schema,4,name,,,c04b01004,VARCHAR,10,name
+geofile_schema,5,width,,,c04b01005,INTEGER,4,width
+geofile_schema,6,start,,,c04b01006,INTEGER,4,start
+geofile_schema,7,description,,,c04b01007,VARCHAR,69,description
+geofile_schema,8,geo_levels,,,c04b01008,VARCHAR,323,geolevels
