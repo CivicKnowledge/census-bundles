@@ -1,0 +1,65 @@
+table,column,datatype,transform,description
+,,,,
+column_meta,id,int,,Column Metadata
+column_meta,table_id,str,,
+column_meta,line_number,float,,
+column_meta,column_id,str,,
+column_meta,column_title,str,,
+column_meta,indent,int,,
+column_meta,parent_column_id,str,,
+column_meta,year,int,^source.time,Release year
+column_meta,release,str,^set_grain,Release span
+,,,,
+table_meta,id,int,,
+table_meta,table_id,str,,
+table_meta,table_title,str,,
+table_meta,simple_table_title,str,,
+table_meta,subject_area,str,,
+table_meta,universe,str,,
+table_meta,denominator_column_id,str,,
+table_meta,topics,str,,
+table_meta,slice,str,,Slice notation to select columns from segment file
+table_meta,segment,int,,Segment number
+table_meta,year,int,^source.time,Release year
+table_meta,release,str,^set_grain,Release span
+,,,,
+table_shells,id,int,,ACS Table Shells
+table_shells,table_id,str,,
+table_shells,line,float,,
+table_shells,type,str,,
+table_shells,indent,int,,
+table_shells,unique_id,str,,
+table_shells,stub,str,,
+table_shells,year,int,^source.time,Release year
+table_shells,release,str,^set_grain,Release span
+,,,,
+table_sequence,id,int,,Table sequence and segment numbers
+table_sequence,fileid,str,,
+table_sequence,table_id,str,,
+table_sequence,sequence_number,int,,
+table_sequence,line,float,fix_group_headings,
+table_sequence,is_column,str,^set_is_column,"'Y' if this entry is a real column, 'N' if it is a heading"
+table_sequence,start,int,^save_start,
+table_sequence,table_cells,int,^tc_caster,
+table_sequence,sequence_cells,int,^tc_caster,
+table_sequence,segment_column,int,||segment_column,Column position in the segment file.
+table_sequence,title,str,,
+table_sequence,subject,str,,
+table_sequence,year,int,^source.time,Release year
+table_sequence,release,str,^set_grain,Release span
+,,,,
+geofile_schema,id,int,,Geofile schemas
+geofile_schema,seq,int,,
+geofile_schema,name,str,,
+geofile_schema,description,str,,
+geofile_schema,width,int,,
+geofile_schema,start,int,,
+geofile_schema,geolevels,str,,
+geofile_schema,year,int,^source.time,Release year
+geofile_schema,release,str,^set_grain,Release span
+,,,,
+sumlevels,id,int,,Summary level descriptions
+sumlevels,sumlevel,int,,
+sumlevels,description,str,,
+sumlevels,year,int,^source.time,Release year
+sumlevels,release,str,^set_grain,Release span

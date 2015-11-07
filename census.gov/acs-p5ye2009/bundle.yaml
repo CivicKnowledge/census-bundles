@@ -1,0 +1,53 @@
+about:
+  access: restricted
+  footnote: nll
+  grain: null
+  groups: null
+  license: ckdbl
+  processed: null
+  rights: public
+  source: null
+  space: null
+  subject: null
+  summary: Dataset Summary
+  tags: []
+  time: '{{identity.btime}}'
+  title: 2009 5 Year ACS
+contacts:
+  creator:
+    email: bob@example.com
+    name: Bob Bobson
+    url: http://example.com
+dependencies: {}
+external_documentation:
+  dataset:
+    description: Web page the links to the dataset description
+    source: null
+    title: Dataset Page
+    url: https://www.census.gov/programs-surveys/acs/data.html
+  download:
+    description: Download directory for the 2009 5 year ACS.
+    source: null
+    title: Download Page
+    url: http://www2.census.gov/acs2009_5yr/
+  summary_levels:
+    description: List of all summary levels
+    url: http://www2.census.gov/acs2009_5yr/prod/Geography_Summary_Levels_and_Components.pdf
+identity:
+  btime: p5ye2009
+  dataset: acs
+  id: d04G
+  revision: 1
+  source: census.gov
+  version: 0.0.1
+names:
+  fqname: census.gov-acs-p5ye2009-0.0.1~d04G001
+  name: census.gov-acs-p5ye2009
+  vid: d04G001
+  vname: census.gov-acs-p5ye2009-0.0.1
+pipelines:
+  build:
+    map:
+    - NoOp
+requirements: {}
+versions: {}

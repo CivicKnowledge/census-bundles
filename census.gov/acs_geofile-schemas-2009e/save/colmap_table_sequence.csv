@@ -1,0 +1,14 @@
+"table_sequence","2009-3-sequence","2009-5-sequence","2010-1-sequence","2010-3-sequence","2010-5-sequence","2011-1-sequence","2011-3-sequence","2011-5-sequence","2012-1-sequence","2012-3-sequence","2012-5-sequence","2013-1-sequence","2013-3-sequence","2013-5-sequence"
+"id",,,,,,,,,,,,,,
+"fileid","file_id","file_id","file_id","file_id","file_id","fileid","fileid","fileid","file_id","file_id","file_id","file_id","file_id","file_id"
+"table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id"
+"sequence_number","sequence_number","sequence_number","sequence_number","sequence_number","sequence_number","seq","seq","seq","sequence_number","sequence_number","sequence_number","sequence_number","sequence_number","sequence_number"
+"line",,,,,,,,,,,,,,
+"start_position","start_position","start_position","start_position","start_position","start_position","position","position","position","start_position","start_position","start_position","start_position","start_position","start_position"
+"total_cells_in_table","total_cells_in_table","total_cells_in_table","total_cells_in_table","total_cells_in_table","total_cells_in_table","cells","cells","cells","total_cells_in_table","total_cells_in_table","total_cells_in_table","total_cells_in_table","total_cells_in_table","total_cells_in_table"
+"total_cells_in_sequence","total_cells_in_sequence","total_cells_in_sequence","total_cells_in_sequence","total_cells_in_sequence","total_cells_in_sequence","total","total","total","total_cells_in_sequence","total_cells_in_sequence","total_cells_in_sequence","total_cells_in_sequence","total_cells_in_sequence","total_cells_in_sequence"
+"table_title","table_title","table_title","table_title","table_title","table_title","long_table_title","long_table_title","long_table_title","table_title","table_title","table_title","table_title","table_title","table_title"
+"subject_area","subject_area","subject_area","subject_area","subject_area","subject_area","subject_area","subject_area","subject_area","subject_area","subject_area","subject_area","subject_area","subject_area","subject_area"
+"release",,,,,,,,,,,,,,
+"year",,,,,,,,,,,,,,
+"line_number","line_number","line_number","line_number","line_number","line_number","line_number_decimal_m_lines","line_number_decimal_m_lines","line_number_decimal_m_lines","line_number","line_number","line_number","line_number","line_number","line_number"

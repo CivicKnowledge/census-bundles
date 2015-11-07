@@ -1,0 +1,55 @@
+about:
+  access: public
+  footnote: null
+  grain: null
+  groups: null
+  license: ckdbl
+  processed: null
+  remote: census
+  rights: public
+  source: null
+  space: US
+  subject: null
+  summary: Column names and positions for the fixed-width geofiles
+  tags: []
+  time: 2009/2013
+  title: ACS Geofile Schema Definitions
+contacts:
+  creator:
+    email: eric@sandiegodata.org
+    name: Eric Busboom
+    url: http://www.sandiegodata.org
+dependencies: {}
+external_documentation: {}
+identity:
+  btime: 2009e
+  dataset: acs_geofile
+  id: d04s
+  revision: 1
+  source: census.gov
+  subset: schemas
+  version: 0.0.1
+names:
+  fqname: census.gov-acs_geofile-schemas-2009e-0.0.1~d04s001
+  name: census.gov-acs_geofile-schemas-2009e
+  vid: d04s001
+  vname: census.gov-acs_geofile-schemas-2009e-0.0.1
+pipelines:
+  build:
+    first:
+    - RemoveBlankColumns
+    - Delete(['releases'])
+    - Nullify
+  build-table_shells:
+    first:
+    - Delete(['year', 'releases'])
+    - RemoveBlankColumns
+    - Nullify
+    last:
+    - ambry.etl.Skip('skip_empty_table_id')
+requirements:
+  OpenSSL: PyOpenSSL
+  gdata: gdata
+  gspread: gspread
+  oauth2client: oauth2client
+versions: {}

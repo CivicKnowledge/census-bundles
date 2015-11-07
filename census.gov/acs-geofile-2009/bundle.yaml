@@ -1,0 +1,60 @@
+about:
+  access: restricted
+  footnote: null
+  grain: null
+  groups: null
+  license: ckdbl
+  processed: null
+  remote: census
+  rights: public
+  source: null
+  space: null
+  subject: null
+  summary: Geofiles for the 2009 1, 3 and 5 year ACS releases. Each partition has
+    a table tailored to the non-null columns of the geofile for a specific summary
+    level and release.
+  tags: []
+  time: 2009
+  title: American Community Survey Geofile 2009
+contacts:
+  creator:
+    email: eric@civicknowledge.com
+    name: Eric Busboom
+dependencies: {}
+external_documentation:
+  dataset:
+    description: Web page the links to the dataset description
+    source: null
+    title: Dataset Page
+    url: https://www.census.gov/programs-surveys/acs
+  download:
+    description: Web page that links to the source files.
+    source: null
+    title: Download Page
+    url: http://www2.census.gov/
+  jamvalues:
+    description: Guidelines for Jam Values
+    title: Jam Values
+    url: ftp://ftp.census.gov/acs2009_5yr/prod/JAM_VALUES.pdf
+identity:
+  btime: '2009'
+  dataset: acs
+  id: d04w
+  revision: 2
+  source: census.gov
+  subset: geofile
+  version: 0.0.2
+names:
+  fqname: census.gov-acs-geofile-2009-0.0.2~d04w002
+  name: census.gov-acs-geofile-2009
+  vid: d04w002
+  vname: census.gov-acs-geofile-2009-0.0.2
+pipelines:
+  build:
+    select_partition:
+    - SelectPartitionFromSource
+  split:
+    select_partition:
+    - SelectPartition("dict(time=str(source.time), grain=row.sumlevel, table='geofile'+str(row.sumlevel))")
+requirements: {}
+versions: {}

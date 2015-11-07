@@ -1,0 +1,11 @@
+"table_shells","2009-1-shell","2009-3-shell","2009-5-shell","2010-1-shell","2010-3-shell","2010-5-shell","2011-1-shell","2011-3-shell","2011-5-shell","2012-1-shell","2012-3-shell","2012-5-shell","2013-1-shell","2013-3-shell","2013-5-shell"
+"id",,,,,,,,,,,,,,,
+"table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id","table_id"
+"line","line","line","line","line","line",,"line","line",,"line","line","line","line_number","line_number","line_number"
+"unique_id","unique_id","unique_id","unique_id","unique_id","unique_id","unique_id","unique_id","unique_id","unique_id","unique_id","unique_id","unique_id",,,
+"stub","stub","stub","stub","stub","stub","stub","stub","stub","stub","stub","stub","stub","stub","stub","stub"
+"release",,,,,,,,,,,,,,,
+"year",,,,,,,,,,,,,"year","year","year"
+"order",,,,,,"order",,,"order",,,,,,
+"type",,,,,,,,,,,,,"type","type","type"
+"indent",,,,,,,,,,,,,"indent","indent","indent"
