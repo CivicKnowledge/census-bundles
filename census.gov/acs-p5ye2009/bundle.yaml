@@ -1,5 +1,6 @@
 about:
   access: restricted
+  remote: census
   footnote: nll
   grain: null
   groups: null
@@ -9,7 +10,7 @@ about:
   source: null
   space: null
   subject: null
-  summary: Dataset Summary
+  summary: American community release for 2009, 5 year release
   tags: []
   time: '{{identity.btime}}'
   title: 2009 5 Year ACS
