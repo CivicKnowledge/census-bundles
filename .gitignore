@@ -38,4 +38,6 @@ nosetests.xml
 bundle.yaml.old
 schema-old.csv
 schema-revised.csv
+.idea
+
 
