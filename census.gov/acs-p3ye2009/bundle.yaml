@@ -48,5 +48,6 @@ names:
   name: census.gov-acs-p3ye2009
   vid: d04K001
   vname: census.gov-acs-p3ye2009-0.0.1
-requirements: {}
+requirements:
+  censuslib: 'git+https://github.com/CivicKnowledge/censuslib.git#v3'
 versions: {}

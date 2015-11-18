@@ -50,5 +50,6 @@ pipelines:
   build:
     map:
     - NoOp
-requirements: {}
+requirements:
+  censuslib: 'git+https://github.com/CivicKnowledge/censuslib.git#v3'
 versions: {}

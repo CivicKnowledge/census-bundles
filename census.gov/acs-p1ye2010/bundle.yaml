@@ -46,5 +46,5 @@ names:
   vid: d04L001
   vname: census.gov-acs-p1ye2010-0.0.1
 requirements:
-  censuslib: git+https://github.com/CivicKnowledge/censuslib.git
+  censuslib: 'git+https://github.com/CivicKnowledge/censuslib.git#v3'
 versions: {}
