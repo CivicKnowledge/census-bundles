@@ -21,6 +21,7 @@ contacts:
     org: Civic Knowledge
     url: http://civicknowledge.com
 dependencies: {}
+    
 external_documentation:
   dataset:
     description: Web page the links to the dataset description
@@ -44,5 +45,6 @@ names:
   name: census.gov-acs-p1ye2010
   vid: d04L001
   vname: census.gov-acs-p1ye2010-0.0.1
-requirements: {}
+requirements:
+  censuslib: git+https://github.com/CivicKnowledge/censuslib.git
 versions: {}
