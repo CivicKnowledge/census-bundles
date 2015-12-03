@@ -6,3 +6,8 @@ from censuslib import ACS09TableRowGenerator as TableRowGenerator
 
 class Bundle(ACS2009Bundle):
     pass
+    
+    def testfoo(self):
+        
+        print self.dep('geofiles')
+        
