@@ -1,0 +1,47 @@
+about:
+  access: restricted
+  footnote: nll
+  grain: null
+  groups: null
+  license: ckdbl
+  processed: null
+  rights: public
+  source: null
+  space: null
+  subject: null
+  summary: Dataset Summary
+  tags: []
+  time: null
+  title: Dataset Title
+contacts:
+  creator:
+    email: eric@civicknowledge.com
+    name: Eric Busboom
+    org: Civic Knowledge
+    url: http://civicknowledge.com
+dependencies: {}
+external_documentation:
+  dataset:
+    description: Web page the links to the dataset description
+    source: null
+    title: Dataset Page
+    url: http://example.com
+  download:
+    description: Web page that links to the source files.
+    source: null
+    title: Download Page
+    url: http://example.com
+identity:
+  dataset: tiger
+  id: d04N
+  revision: 1
+  source: census.gov
+  subset: links
+  version: 0.0.1
+names:
+  fqname: census.gov-tiger-links-0.0.1~d04N001
+  name: census.gov-tiger-links
+  vid: d04N001
+  vname: census.gov-tiger-links-0.0.1
+requirements: {}
+versions: {}
