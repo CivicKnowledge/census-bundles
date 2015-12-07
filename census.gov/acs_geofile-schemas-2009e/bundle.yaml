@@ -20,7 +20,61 @@ contacts:
     name: Eric Busboom
     url: http://www.sandiegodata.org
 dependencies: {}
-external_documentation: {}
+external_documentation:
+    d20095td:
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2009/documentation/5_year/ACS_2005-2009_SF_Tech_Doc.pdf
+        title: '2009: The 2005-2009 ACS 5-Year Summary File Technical Documentation'
+    d20093td:
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2009/documentation/3_year/ACS_2007-2009_SF_Tech_Doc.pdf
+        title: '2009: The 2007-2009 ACS 3-Year Summary File Technical Documentation'
+    d20091td:
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2009/documentation/1_year/ACS_2009_SF_Tech_Doc.pdf
+        title: '2009: The 2008-2009 ACS 1-Year Summary File Technical Documentation ' 
+        
+    d20105td:
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2010/documentation/5_year/ACS_2006-2010_SF_Tech_Doc.pdf
+        title: '2010: The 2006-2010 ACS 5-Year Summary File Technical Documentation'
+    d20103td:
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2010/documentation/3_year/ACS_2008-2010_SF_Tech_Doc.pdf
+        title: '2010: The 2008-2010  ACS 3-Year Summary File Technical Documentation'
+    d20101td:
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2010/documentation/1_year/ACS_2010_SF_Tech_Doc.pdf
+        title: '2010: The 2010-2010  ACS 1-Year Summary File Technical Documentation '
+
+    d20115td:
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2011/documentation/5_year/ACS_2007-2011_SF_Tech_Doc.pdf
+        title: '2011: The 2007-2011 ACS 5-Year Summary File Technical Documentation'
+    d20113td:
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2011/documentation/3_year/ACS_2009-2011_SF_Tech_Doc.pdf
+        title: '2011: The 2007-2011 ACS 3-Year Summary File Technical Documentation'
+    d20111td:
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2011/documentation/1_year/ACS_2011_SF_Tech_Doc.pdf
+        title: '2011: The 2007-2011 ACS 1-Year Summary File Technical Documentation '
+
+    d20125td:
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2012/documentation/5_year/ACS_2008-2012_SF_Tech_Doc.pdf
+        title: '2012: The 2008-2012 ACS 5-Year Summary File Technical Documentation'
+    d20123td:
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2012/documentation/3_year/ACS_2010-2012_SF_Tech_Doc.pdf
+        title: '2012: The 2010-2012 ACS 3-Year Summary File Technical Documentation'
+    d20121td:
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2012/documentation/1_year/ACS_2012_SF_Tech_Doc.pdf
+        title: '2012: The 2011-2012 ACS 1-Year Summary File Technical Documentation '
+
+    d2013main:
+        url: https://www.census.gov/programs-surveys/acs/technical-documentation/summary-file-documentation.2013.html
+        title: '2013 Documentation Page'
+    d2013td:
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2013/documentation/tech_docs/2013_SummaryFile_Tech_Doc.pdf
+        title: '2013 ACS Summary File Technical Documentation'
+       
+    d2014main:
+        url: https://www.census.gov/programs-surveys/acs/technical-documentation/summary-file-documentation.2014.html
+        title: '2014 Documentation Page '
+    d2014td:
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2014/documentation/tech_docs/2014_SummaryFile_Tech_Doc.pdf
+        title: '2014 ACS Summary File Technical Documentation'
+ 
 identity:
   btime: 2009e
   dataset: acs_geofile
