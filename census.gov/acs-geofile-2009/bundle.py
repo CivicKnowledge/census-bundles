@@ -3,6 +3,8 @@ import ambry.bundle
 
 class Bundle(ambry.bundle.Bundle):
     
+    year = 2009
+    
     def init(self):
         self._sl_map = None
     
@@ -64,7 +66,7 @@ class Bundle(ambry.bundle.Bundle):
         p = self.library.partition(s.ref)
         for row in p.stream(as_dict = True):
 
-            if  row['year'] != 2009:
+            if  row['year'] != self.year:
                 continue
                 
             if row['name'].lower().strip() == 'blank':
@@ -92,7 +94,7 @@ class Bundle(ambry.bundle.Bundle):
         from ambry.orm import DataSource, File
         from ambry.util import scrape_urls_from_web_page
         
-        year = 2009
+        year = self.year
 
         for span in [1,3]:
             source_name = 'dnlpage{}{}'.format(year,span)
@@ -107,7 +109,7 @@ class Bundle(ambry.bundle.Bundle):
                     'source_table_name': 'geoschema',
                     'dest_table_name': 'geoschema',
                     'filetype': 'fixed',
-                    'file': 'g2009.*\.txt',
+                    'file': 'g{}.*\.txt'.format(self.year),
                     'encoding': 'latin1',
                     'time': year, 
                     'grain': span, 
@@ -133,7 +135,7 @@ class Bundle(ambry.bundle.Bundle):
         from ambry.util import scrape_urls_from_web_page
         import os
         
-        year = 2009
+        year = self.year
         span = 5
 
         source_name = 'dnlpage{}{}'.format(year,span)
@@ -153,14 +155,14 @@ class Bundle(ambry.bundle.Bundle):
                     gurl = os.path.join(url, suffix)
                     table_urls = scrape_urls_from_web_page(gurl)['sources']
                     for k, v in table_urls.items():
-                        if k.startswith('g20095'):
+                        if k.startswith('g{}{}'.format(year, span)):
                             self.log('Found: {}{}'.format(k, size))
                             d = {
                                 'name': k+size,
                                 'source_table_name': 'geoschema',
                                 'dest_table_name': 'geoschema',
                                 'filetype': 'fixed',
-                                'file': 'g2009.*\.txt',
+                                'file': 'g{}.*\.txt'.format(year),
                                 'encoding': 'latin1',
                                 'time': year, 
                                 'grain': span, 

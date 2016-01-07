@@ -10,12 +10,12 @@ about:
     source: null
     space: null
     subject: null
-    summary: Geofiles for the 2009 1, 3 and 5 year ACS releases. Each partition has
+    summary: Geofiles for the 2014 1, 3 and 5 year ACS releases. Each partition has
         a table tailored to the non-null columns of the geofile for a specific summary
         level and release.
     tags: []
-    time: 2009
-    title: American Community Survey Geofile 2009
+    time: 2014
+    title: American Community Survey Geofile 2014
 contacts:
     wrangler:
         email: eric@civicknowledge.com
@@ -32,23 +32,20 @@ external_documentation:
         source: null
         title: Download Page
         url: http://www2.census.gov/
-    jamvalues:
-        description: Guidelines for Jam Values
-        title: Jam Values
-        url: ftp://ftp.census.gov/acs2009_5yr/prod/JAM_VALUES.pdf
+
 identity:
-    btime: '2009'
+    btime: 2014
     dataset: acs
-    id: d04w
-    revision: 2
+    id: d04S
+    revision: 1
     source: census.gov
     subset: geofile
-    version: 0.0.2
+    version: 0.0.1
 names:
-    fqname: census.gov-acs-geofile-2009-0.0.2~d04w002
-    name: census.gov-acs-geofile-2009
-    vid: d04w002
-    vname: census.gov-acs-geofile-2009-0.0.2
+    fqname: census.gov-acs-geofile-2014-0.0.1~d04S001
+    name: census.gov-acs-geofile-2014
+    vid: d04S001
+    vname: census.gov-acs-geofile-2014-0.0.1
 pipelines:
     build:
         select_partition:

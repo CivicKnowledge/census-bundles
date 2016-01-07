@@ -1,0 +1,56 @@
+table,sequence_id,column,datatype,description
+,,,,
+geoschema,1,id,int,
+geoschema,2,fileid,str,Always equal to ACS Summary File identification
+geoschema,3,stusab,str,State Postal Abbreviation
+geoschema,4,sumlevel,int,Summary Level
+geoschema,5,component,int,Geographic Component
+geoschema,6,logrecno,int,Logical Record Number
+geoschema,7,us,str,US
+geoschema,8,region,str,Census Region
+geoschema,9,division,str,Census Division
+geoschema,10,statece,str,State (Census Code)
+geoschema,11,state,int,State (FIPS Code)
+geoschema,12,county,int,County of current residence
+geoschema,13,cousub,int,County Subdivision (FIPS)
+geoschema,14,place,int,Place (FIPS Code)
+geoschema,15,tract,int,Census Tract
+geoschema,16,blkgrp,int,Block Group
+geoschema,17,concit,str,Consolidated City
+geoschema,18,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geoschema,19,aianhhfp,str,American Indian Area/Alaska Native Area/ Hawaiian Home Land (FIPS)
+geoschema,20,aihhtli,str,American Indian Trust Land/ Hawaiian Home Land Indicator
+geoschema,21,aitsce,str,American Indian Tribal Subdivision (Census)
+geoschema,22,aits,str,American Indian Tribal Subdivision (FIPS)
+geoschema,23,anrc,str,Alaska Native Regional Corporation (FIPS)
+geoschema,24,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geoschema,25,csa,int,Combined Statistical Area
+geoschema,26,metdiv,int,Metropolitan Statistical Area-Metropolitan Division
+geoschema,27,macc,str,Metropolitan Area Central City
+geoschema,28,memi,int,Metropolitan/Micropolitan Indicator Flag
+geoschema,29,necta,str,New England City and Town Area
+geoschema,30,cnecta,str,New England City and Town Combined Statistical Area
+geoschema,31,nectadiv,str,New England City and Town Area Division
+geoschema,32,ua,int,Urban Area
+geoschema,33,blank33,str,Reserved Future Use
+geoschema,34,cdcurr,int,Current Congressional District ***
+geoschema,35,sldu,int,State Legislative District Upper
+geoschema,36,sldl,int,State Legislative District Lower
+geoschema,37,blank37,str,Reserved Future Use
+geoschema,38,blank38,str,Reserved Future Use
+geoschema,39,zcta5,str,ZIP Code Tabulation Area (5-digit)
+geoschema,40,submcd,str,Subminor Civil Division (FIPS)
+geoschema,41,sdelm,int,State-School District (Elementary)
+geoschema,42,sdsec,int,State-School District (Secondary)
+geoschema,43,sduni,int,State-School District (Unified)
+geoschema,44,ur,str,Urban/Rural
+geoschema,45,pci,str,Principal City Indicator
+geoschema,46,blank46,str,Reserved Future Use
+geoschema,47,blank47,str,Reserved Future Use
+geoschema,48,puma5,int,Public Use Microdata Area – 5% File
+geoschema,49,blank49,str,Reserved Future Use
+geoschema,50,geoid,str,Geographic Identifier
+geoschema,51,name,str,Area Name
+geoschema,52,bttr,str,Tribal Tract
+geoschema,53,btbg,str,Tribal Block Group
+geoschema,54,blank54,str,Reserved Future Use

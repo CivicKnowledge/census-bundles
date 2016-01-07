@@ -129,8 +129,6 @@ class Bundle(ambry.bundle.Bundle):
             return 'N'
 
 
-    
-
     @property
     @memoize
     def table_spans(self):

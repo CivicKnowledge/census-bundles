@@ -10,22 +10,6 @@ geofile_schema,7,geolevels,str,,
 geofile_schema,8,year,int,^source.time,Release year
 geofile_schema,9,release,str,^set_grain,Release span
 ,,,,,
-sumlevels,1,id,int,,Summary level descriptions
-sumlevels,2,sumlevel,int,,
-sumlevels,3,description,str,,
-sumlevels,4,year,int,^source.time,Release year
-sumlevels,5,release,str,^set_grain,Release span
-,,,,,
-column_meta,1,id,int,,Column Metadata
-column_meta,2,table_id,str,,
-column_meta,3,line_number,float,,
-column_meta,4,column_id,str,,
-column_meta,5,column_title,str,,
-column_meta,6,indent,int,,
-column_meta,7,parent_column_id,str,,
-column_meta,8,year,int,^source.time,Release year
-column_meta,9,release,str,^set_grain,Release span
-,,,,,
 table_shells,1,id,int,,ACS Table Shells
 table_shells,2,table_id,str,,
 table_shells,3,line,float,,
@@ -35,6 +19,19 @@ table_shells,6,unique_id,str,,
 table_shells,7,stub,str,,
 table_shells,8,year,int,^source.time,Release year
 table_shells,9,release,str,^set_grain,Release span
+,,,,,
+table_meta,1,id,int,,
+table_meta,2,table_id,str,,
+table_meta,3,table_title,str,,
+table_meta,4,simple_table_title,str,,
+table_meta,5,subject_area,str,,
+table_meta,6,universe,str,,
+table_meta,7,denominator_column_id,str,,
+table_meta,8,topics,str,,
+table_meta,9,slice,str,,Slice notation to select columns from segment file
+table_meta,10,segment,int,,Segment number
+table_meta,11,year,int,^source.time,Release year
+table_meta,12,release,str,^set_grain,Release span
 ,,,,,
 table_sequence,1,id,int,,Table sequence and segment numbers
 table_sequence,2,fileid,str,,
@@ -51,15 +48,18 @@ table_sequence,12,subject,str,,
 table_sequence,13,year,int,^source.time,Release year
 table_sequence,14,release,str,^set_grain,Release span
 ,,,,,
-table_meta,1,id,int,,
-table_meta,2,table_id,str,,
-table_meta,3,table_title,str,,
-table_meta,4,simple_table_title,str,,
-table_meta,5,subject_area,str,,
-table_meta,6,universe,str,,
-table_meta,7,denominator_column_id,str,,
-table_meta,8,topics,str,,
-table_meta,9,slice,str,,Slice notation to select columns from segment file
-table_meta,10,segment,int,,Segment number
-table_meta,11,year,int,^source.time,Release year
-table_meta,12,release,str,^set_grain,Release span
+sumlevels,1,id,int,,Summary level descriptions
+sumlevels,2,sumlevel,int,,
+sumlevels,3,description,str,,
+sumlevels,4,year,int,^source.time,Release year
+sumlevels,5,release,str,^set_grain,Release span
+,,,,,
+column_meta,1,id,int,,Column Metadata
+column_meta,2,table_id,str,,
+column_meta,3,line_number,float,,
+column_meta,4,column_id,str,,
+column_meta,5,column_title,str,,
+column_meta,6,indent,int,,
+column_meta,7,parent_column_id,str,,
+column_meta,8,year,int,^source.time,Release year
+column_meta,9,release,str,^set_grain,Release span

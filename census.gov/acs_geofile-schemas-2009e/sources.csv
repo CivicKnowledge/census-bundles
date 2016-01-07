@@ -69,4 +69,9 @@ name,dest_table_name,stage,time,grain,segment,start_line,end_line,header_lines,r
 2013_3_table_meta,table_meta,1,2013,3,,1,1352,0,s3://public.source.civicknowledge.com/censusreporter/acs2013_3yr/census_table_metadata.csv,ingest_done
 2013_5_column_meta,column_meta,1,2013,5,,1,22848,0,s3://public.source.civicknowledge.com/censusreporter/acs2013_5yr/census_column_metadata.csv,ingest_done
 2013_5_table_meta,table_meta,1,2013,5,,1,1044,0,s3://public.source.civicknowledge.com/censusreporter/acs2013_5yr/census_table_metadata.csv,ingest_done
+2014-gs,geofile_schema,1,2014,,2014,1,54,0,gs://1lKkKVBu0sHSwyuyuGRPMfmNqG8FIjVw2RYMLYgr2GX4,ingest_done
+2014_1_column_meta,column_meta,1,2014,1,,1,32903,0,s3://public.source.civicknowledge.com/censusreporter/acs2014_1yr/census_column_metadata.csv,ingest_done
+2014_1_table_meta,table_meta,1,2014,1,,1,1372,0,s3://public.source.civicknowledge.com/censusreporter/acs2014_1yr/census_table_metadata.csv,ingest_done
+2014_5_column_meta,column_meta,1,2014,5,,1,22848,0,s3://public.source.civicknowledge.com/censusreporter/acs2014_5yr/census_column_metadata.csv,ingest_done
+2014_5_table_meta,table_meta,1,2014,5,,1,1044,0,s3://public.source.civicknowledge.com/censusreporter/acs2014_5yr/census_table_metadata.csv,ingest
 sumlevels,sumlevels,1,,,main,1,211,0,gs://1gdaIim_V-zcBqQa8aaKaft-DMzdewb5FDF1-jztZvw4,ingest_done
