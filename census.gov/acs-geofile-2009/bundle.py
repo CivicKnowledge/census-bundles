@@ -180,7 +180,7 @@ class Bundle(ambry.bundle.Bundle):
                             
                           
     def fix_schema(self):
-        """The schema process is overwritting some goefile datatypes with 
+        """The schema process is overwritting some geofile datatypes with 
         'unknown'"""
         t = self.table('geofile')
         

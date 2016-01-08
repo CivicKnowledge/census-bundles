@@ -25,8 +25,8 @@ class Bundle(ambry.bundle.Bundle):
            upstream bundle. """
         from ambry.orm.file import File
    
-        t = self.dataset.new_table('geoschema')
-        st = self.dataset.new_source_table('geoschema')
+        t = self.dataset.new_table('geofile')
+        st = self.dataset.new_source_table('geofile')
 
         p = self.dep('geofile_schema')
         i = 1
@@ -77,13 +77,12 @@ class Bundle(ambry.bundle.Bundle):
         
             d = {
                 'name': k.lower()+"_{}{}".format(self.year,span),
-                'source_table_name': 'geoschema',
-                'dest_table_name': 'geoschema',
+                'source_table_name': 'geofile',
+                'dest_table_name': 'geofile',
                 'filetype': 'csv',
                 'file': 'g{}.*\.csv'.format(self.year),
                 'encoding': 'latin1',
-                'time': self.year, 
-                'grain': span, 
+                'time': str(self.year)+str(span), 
                 'start_line': 0,
                 'url': v['url']
             }
@@ -137,13 +136,12 @@ class Bundle(ambry.bundle.Bundle):
                     
             d = {
                 'name': "{}{}_{}{}".format(state_name,size_code,self.year, span),
-                'source_table_name': 'geoschema',
-                'dest_table_name': 'geoschema',
+                'source_table_name': 'geofile',
+                'dest_table_name': 'geofile',
                 'filetype': 'csv',
                 'file': 'g{}.*\.csv'.format(self.year),
                 'encoding': 'latin1',
-                'time': self.year, 
-                'grain': span, 
+                'time': str(self.year)+str(span), 
                 'start_line': 0,
                 'url':url
             }
@@ -163,6 +161,9 @@ class Bundle(ambry.bundle.Bundle):
   
         self.commit()
       
+    ##
+    ## Meta Step 3: Update the datatype based on a single ingestion
+    ##
     def meta_update_source_types(self):
         from ambry_sources.intuit import TypeIntuiter
         
@@ -174,8 +175,8 @@ class Bundle(ambry.bundle.Bundle):
         #self.ingest(sources=['CaliforniaS_20145'], force=True)
         
         s = self.source('CaliforniaS_20145')
-        st = self.source_table('geoschema')
-        dt = self.table('geoschema')
+        st = self.source_table('geofile')
+        dt = self.table('geofile')
         
         def col_by_pos(pos):
             for c in st.columns:
@@ -211,34 +212,39 @@ class Bundle(ambry.bundle.Bundle):
         
         
         """
-        
+        from collections import defaultdict
         from itertools import islice, izip
+      
+        table_titles = { int(r['sumlevel']): r['description'] if r['description'] else r['sumlevel'] 
+                         for r in self.dep('sumlevels')}
         
-        source_table = self.dataset.table('geofile')
+        p = self.partition(table='geofile', time='20145')
         
-        st_map = { c.name:c for c in source_table.columns }
         
-        table_titles = { int(r['sumlevel']): r['description'] for r in 
-                         self.dep('sumlevels').stream(as_dict=True)}
-        
-        for p in self.partitions:
+        # Create a dict of sets, where each set holds the non-empty columns for rows of
+        # a summary level
+        gf = defaultdict(set)
+        for r in p:
+            gf[r.sumlevel] |= set(k for k,v in r.items() if v)
             
-            grain = p.grain
+        for sumlevel, fields in gf.items():
 
-            non_empty_rows = zip(*[ row for row 
-                                    in zip(*islice(p.stream(), 1000)) 
-                                    if bool(filter(bool,row[1:])) ])
+            t = self.dataset.new_table('geofile'+str(sumlevel))
+            t.columns = []
+            self.commit()
+            
+            t.description = 'Geofile for: ' + str(table_titles.get(int(sumlevel), sumlevel))
 
-            t = self.dataset.new_table('geofile'+str(grain))
-            t.description = 'Geofile for: ' + table_titles[int(grain)]
+            self.log('New table {}: {}'.format(t.name, t.description))
 
-            print t.name, t.description
+            for c in self.table('geofile').columns:
+                if c.name in fields:
+                    t.add_column(name=c.name, datatype=c.datatype, description=c.description, transform=c.transform)
 
-            for col in non_empty_rows[0]:
-                sc = st_map[col]
-                t.add_column(name=sc.name, datatype = sc.datatype, 
-                description = sc.description, caster = sc.caster )
-
+        self.commit()
+        
+        self.build_source_files.schema.objects_to_record()
+        
         self.commit()
                 
                 

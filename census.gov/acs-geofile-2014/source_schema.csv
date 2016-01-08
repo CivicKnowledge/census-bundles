@@ -1,54 +1,54 @@
-table,position,source_header,dest_header,datatype,valuetype,has_codes,start,width,size,summary,description
-geoschema,1,fileid,,str,,False,,,,,Always equal to ACS Summary File identification
-geoschema,2,stusab,,str,,False,,,,,State Postal Abbreviation
-geoschema,3,sumlevel,,int,,False,,,,,Summary Level
-geoschema,4,component,,int,,False,,,,,Geographic Component
-geoschema,5,logrecno,,int,,False,,,,,Logical Record Number
-geoschema,6,us,,str,,False,,,,,US
-geoschema,7,region,,str,,False,,,,,Census Region
-geoschema,8,division,,str,,False,,,,,Census Division
-geoschema,9,statece,,str,,False,,,,,State (Census Code)
-geoschema,10,state,,int,,False,,,,,State (FIPS Code)
-geoschema,11,county,,int,,False,,,,,County of current residence
-geoschema,12,cousub,,int,,False,,,,,County Subdivision (FIPS)
-geoschema,13,place,,int,,False,,,,,Place (FIPS Code)
-geoschema,14,tract,,int,,False,,,,,Census Tract
-geoschema,15,blkgrp,,int,,False,,,,,Block Group
-geoschema,16,concit,,str,,False,,,,,Consolidated City
-geoschema,17,aianhh,,int,,False,,,,,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
-geoschema,18,aianhhfp,,str,,False,,,,,American Indian Area/Alaska Native Area/ Hawaiian Home Land (FIPS)
-geoschema,19,aihhtli,,str,,False,,,,,American Indian Trust Land/ Hawaiian Home Land Indicator
-geoschema,20,aitsce,,str,,False,,,,,American Indian Tribal Subdivision (Census)
-geoschema,21,aits,,str,,False,,,,,American Indian Tribal Subdivision (FIPS)
-geoschema,22,anrc,,str,,False,,,,,Alaska Native Regional Corporation (FIPS)
-geoschema,23,cbsa,,int,,False,,,,,Metropolitan and Micropolitan Statistical Area
-geoschema,24,csa,,int,,False,,,,,Combined Statistical Area
-geoschema,25,metdiv,,int,,False,,,,,Metropolitan Statistical Area-Metropolitan Division
-geoschema,26,macc,,str,,False,,,,,Metropolitan Area Central City
-geoschema,27,memi,,int,,False,,,,,Metropolitan/Micropolitan Indicator Flag
-geoschema,28,necta,,str,,False,,,,,New England City and Town Area
-geoschema,29,cnecta,,str,,False,,,,,New England City and Town Combined Statistical Area
-geoschema,30,nectadiv,,str,,False,,,,,New England City and Town Area Division
-geoschema,31,ua,,int,,False,,,,,Urban Area
-geoschema,32,blank33,,str,,False,,,,,Reserved Future Use
-geoschema,33,cdcurr,,int,,False,,,,,Current Congressional District ***
-geoschema,34,sldu,,int,,False,,,,,State Legislative District Upper
-geoschema,35,sldl,,int,,False,,,,,State Legislative District Lower
-geoschema,36,blank37,,str,,False,,,,,Reserved Future Use
-geoschema,37,blank38,,str,,False,,,,,Reserved Future Use
-geoschema,38,zcta5,,str,,False,,,,,ZIP Code Tabulation Area (5-digit)
-geoschema,39,submcd,,str,,False,,,,,Subminor Civil Division (FIPS)
-geoschema,40,sdelm,,int,,False,,,,,State-School District (Elementary)
-geoschema,41,sdsec,,int,,False,,,,,State-School District (Secondary)
-geoschema,42,sduni,,int,,False,,,,,State-School District (Unified)
-geoschema,43,ur,,str,,False,,,,,Urban/Rural
-geoschema,44,pci,,str,,False,,,,,Principal City Indicator
-geoschema,45,blank46,,str,,False,,,,,Reserved Future Use
-geoschema,46,blank47,,str,,False,,,,,Reserved Future Use
-geoschema,47,puma5,,int,,False,,,,,Public Use Microdata Area – 5% File
-geoschema,48,blank49,,str,,False,,,,,Reserved Future Use
-geoschema,49,geoid,,str,,False,,,,,Geographic Identifier
-geoschema,50,name,,str,,False,,,,,Area Name
-geoschema,51,bttr,,str,,False,,,,,Tribal Tract
-geoschema,52,btbg,,str,,False,,,,,Tribal Block Group
-geoschema,53,blank54,,str,,False,,,,,Reserved Future Use
+"table","position","source_header","dest_header","datatype","valuetype","has_codes","start","width","size","summary","description"
+"geofile",1,"fileid",,"str",,"False",,,,,"Always equal to ACS Summary File identification"
+"geofile",2,"stusab",,"str",,"False",,,,,"State Postal Abbreviation"
+"geofile",3,"sumlevel",,"int",,"False",,,,,"Summary Level"
+"geofile",4,"component",,"int",,"False",,,,,"Geographic Component"
+"geofile",5,"logrecno",,"int",,"False",,,,,"Logical Record Number"
+"geofile",6,"us",,"str",,"False",,,,,"US"
+"geofile",7,"region",,"str",,"False",,,,,"Census Region"
+"geofile",8,"division",,"str",,"False",,,,,"Census Division"
+"geofile",9,"statece",,"str",,"False",,,,,"State (Census Code)"
+"geofile",10,"state",,"int",,"False",,,,,"State (FIPS Code)"
+"geofile",11,"county",,"int",,"False",,,,,"County of current residence"
+"geofile",12,"cousub",,"int",,"False",,,,,"County Subdivision (FIPS)"
+"geofile",13,"place",,"int",,"False",,,,,"Place (FIPS Code)"
+"geofile",14,"tract",,"int",,"False",,,,,"Census Tract"
+"geofile",15,"blkgrp",,"int",,"False",,,,,"Block Group"
+"geofile",16,"concit",,"str",,"False",,,,,"Consolidated City"
+"geofile",17,"aianhh",,"int",,"False",,,,,"American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)"
+"geofile",18,"aianhhfp",,"str",,"False",,,,,"American Indian Area/Alaska Native Area/ Hawaiian Home Land (FIPS)"
+"geofile",19,"aihhtli",,"str",,"False",,,,,"American Indian Trust Land/ Hawaiian Home Land Indicator"
+"geofile",20,"aitsce",,"str",,"False",,,,,"American Indian Tribal Subdivision (Census)"
+"geofile",21,"aits",,"str",,"False",,,,,"American Indian Tribal Subdivision (FIPS)"
+"geofile",22,"anrc",,"str",,"False",,,,,"Alaska Native Regional Corporation (FIPS)"
+"geofile",23,"cbsa",,"int",,"False",,,,,"Metropolitan and Micropolitan Statistical Area"
+"geofile",24,"csa",,"int",,"False",,,,,"Combined Statistical Area"
+"geofile",25,"metdiv",,"int",,"False",,,,,"Metropolitan Statistical Area-Metropolitan Division"
+"geofile",26,"macc",,"str",,"False",,,,,"Metropolitan Area Central City"
+"geofile",27,"memi",,"int",,"False",,,,,"Metropolitan/Micropolitan Indicator Flag"
+"geofile",28,"necta",,"str",,"False",,,,,"New England City and Town Area"
+"geofile",29,"cnecta",,"str",,"False",,,,,"New England City and Town Combined Statistical Area"
+"geofile",30,"nectadiv",,"str",,"False",,,,,"New England City and Town Area Division"
+"geofile",31,"ua",,"int",,"False",,,,,"Urban Area"
+"geofile",32,"blank33",,"str",,"False",,,,,"Reserved Future Use"
+"geofile",33,"cdcurr",,"int",,"False",,,,,"Current Congressional District ***"
+"geofile",34,"sldu",,"int",,"False",,,,,"State Legislative District Upper"
+"geofile",35,"sldl",,"int",,"False",,,,,"State Legislative District Lower"
+"geofile",36,"blank37",,"str",,"False",,,,,"Reserved Future Use"
+"geofile",37,"blank38",,"str",,"False",,,,,"Reserved Future Use"
+"geofile",38,"zcta5",,"str",,"False",,,,,"ZIP Code Tabulation Area (5-digit)"
+"geofile",39,"submcd",,"str",,"False",,,,,"Subminor Civil Division (FIPS)"
+"geofile",40,"sdelm",,"int",,"False",,,,,"State-School District (Elementary)"
+"geofile",41,"sdsec",,"int",,"False",,,,,"State-School District (Secondary)"
+"geofile",42,"sduni",,"int",,"False",,,,,"State-School District (Unified)"
+"geofile",43,"ur",,"str",,"False",,,,,"Urban/Rural"
+"geofile",44,"pci",,"str",,"False",,,,,"Principal City Indicator"
+"geofile",45,"blank46",,"str",,"False",,,,,"Reserved Future Use"
+"geofile",46,"blank47",,"str",,"False",,,,,"Reserved Future Use"
+"geofile",47,"puma5",,"int",,"False",,,,,"Public Use Microdata Area – 5% File"
+"geofile",48,"blank49",,"str",,"False",,,,,"Reserved Future Use"
+"geofile",49,"geoid",,"str",,"False",,,,,"Geographic Identifier"
+"geofile",50,"name",,"str",,"False",,,,,"Area Name"
+"geofile",51,"bttr",,"str",,"False",,,,,"Tribal Tract"
+"geofile",52,"btbg",,"str",,"False",,,,,"Tribal Block Group"
+"geofile",53,"blank54",,"str",,"False",,,,,"Reserved Future Use"
