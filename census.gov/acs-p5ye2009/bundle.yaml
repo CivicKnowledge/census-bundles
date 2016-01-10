@@ -15,22 +15,22 @@ about:
   time: '{{identity.btime}}'
   title: 2009 5 Year ACS
 contacts:
-  creator:
-    email: bob@example.com
-    name: Bob Bobson
-    url: http://example.com
+  wrangler:
+    email: eric@civicknowledge.com
+    name: Eric Busboom
+    url: http://civicknowledge.com
 dependencies: {}
 external_documentation:
   dataset:
     description: Web page the links to the dataset description
     source: null
-    title: Dataset Page
-    url: https://www.census.gov/programs-surveys/acs/data.html
+    title: 2009 ACS Home Page
+    url: https://www.census.gov/programs-surveys/acs/data/summary-file.2009.html
   download:
     description: Download directory for the 2009 5 year ACS.
     source: null
     title: Download Page
-    url: http://www2.census.gov/acs2009_5yr/
+    url: http://www2.census.gov/programs-surveys/acs/summary_file/2009/
   summary_levels:
     description: List of all summary levels
     url: http://www2.census.gov/acs2009_5yr/prod/Geography_Summary_Levels_and_Components.pdf

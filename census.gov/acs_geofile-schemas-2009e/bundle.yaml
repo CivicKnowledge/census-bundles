@@ -88,11 +88,15 @@ pipelines:
         - RemoveBlankColumns
         - Delete(['releases'])
         - Nullify
+        select_partition:
+        - SelectPartition("dict(time=str(source.time), grain=source.grain, table=source.dest_table_name)")
     build-table_shells:
         first:
         - Delete(['year', 'releases'])
         - RemoveBlankColumns
         - Nullify
+        select_partition:
+        - SelectPartition("dict(time=str(source.time), grain=source.grain, table=source.dest_table_name)")
         last:
         - ambry.etl.Skip('skip_empty_table_id')
 requirements:

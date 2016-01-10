@@ -10,7 +10,7 @@ about:
     source: null
     space: null
     subject: null
-    summary: Geofiles for the 2014 1 and 5 year ACS releases. Each partition has
+    summary: Geofiles for the 2014 1, 3 and 5 year ACS releases. Each partition has
         a table tailored to the non-null columns of the geofile for a specific summary
         level and release.
     tags: []
@@ -32,28 +32,27 @@ external_documentation:
         source: null
         title: Download Page
         url: http://www2.census.gov/
-
 identity:
-    btime: 2014
+    btime: '2014'
     dataset: acs
     id: d04S
-    revision: 1
+    revision: 2
     source: census.gov
     subset: geofile
-    version: 0.0.1
+    version: 0.0.2
 names:
-    fqname: census.gov-acs-geofile-2014-0.0.1~d04S001
+    fqname: census.gov-acs-geofile-2014-0.0.2~d04S002
     name: census.gov-acs-geofile-2014
-    vid: d04S001
-    vname: census.gov-acs-geofile-2014-0.0.1
+    vid: d04S002
+    vname: census.gov-acs-geofile-2014-0.0.2
 pipelines:
     build:
-        source_map: []
         select_partition:
         - SelectPartitionFromSource
-    split:
         source_map: []
+    split:
         select_partition:
         - SelectPartition("dict(time=str(source.time), grain=row.sumlevel, table='geofile'+str(row.sumlevel))")
+        source_map: []
 requirements: {}
 versions: {}
