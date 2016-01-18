@@ -1,0 +1,7 @@
+"name","dest_table_name","time","reftype","ref","state"
+"base_url",,20135,"template","http://www2.census.gov/programs-surveys/acs/summary_file/2014/data/5_year_by_state/","synced"
+"large_area_url",,20135,"template","{root}/{state_name}_All_Geographies_Not_Tracts_Block_Groups.zip","synced"
+"small_area_url",,20135,"template","{root}/{state_name}_Tracts_Block_Groups_Only.zip","synced"
+"geofile",,20135,"ref","census.gov-acs-geofile-2013-geofile-20135","synced"
+"table_sequence",,20135,"ref","census.gov-acs_geofile-schemas-2009e-table_sequence-2013-5","synced"
+"states",,20135,"ref","census.gov-acs-geofile-2013-geofile40-20135-40","synced"

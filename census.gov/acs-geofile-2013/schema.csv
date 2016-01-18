@@ -1,0 +1,56 @@
+table,sequence_id,column,datatype,description
+,,,,
+geofile,1,id,int,
+geofile,2,fileid,str,Always equal to ACS Summary File identification
+geofile,3,stusab,str,State Postal Abbreviation
+geofile,4,sumlevel,int,Summary Level
+geofile,5,component,int,Geographic Component
+geofile,6,logrecno,int,Logical Record Number
+geofile,7,us,str,US
+geofile,8,region,str,Census Region
+geofile,9,division,str,Census Division
+geofile,10,statece,str,State (Census Code)
+geofile,11,state,int,State (FIPS Code)
+geofile,12,county,int,County of current residence
+geofile,13,cousub,int,County Subdivision (FIPS)
+geofile,14,place,int,Place (FIPS Code)
+geofile,15,tract,int,Census Tract
+geofile,16,blkgrp,int,Block Group
+geofile,17,concit,str,Consolidated City
+geofile,18,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile,19,aianhhfp,str,American Indian Area/Alaska Native Area/ Hawaiian Home Land (FIPS)
+geofile,20,aihhtli,str,American Indian Trust Land/Hawaiian Home Land Indicator
+geofile,21,aitsce,str,American Indian Tribal Subdivision (Census)
+geofile,22,aits,str,American Indian Tribal Subdivision (FIPS)
+geofile,23,anrc,str,Alaska Native Regional Corporation (FIPS)
+geofile,24,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile,25,csa,int,Combined Statistical Area
+geofile,26,metdiv,int,Metropolitan Statistical Area-Metropolitan Division
+geofile,27,macc,str,Metropolitan Area Central City
+geofile,28,memi,int,Metropolitan/Micropolitan Indicator Flag
+geofile,29,necta,str,New England City and Town Area
+geofile,30,cnecta,str,New England City and Town Combined Statistical Area
+geofile,31,nectadiv,str,New England City and Town Area Division
+geofile,32,ua,int,Urban Area
+geofile,33,blank33,str,
+geofile,34,cdcurr,int,Current Congressional District ***
+geofile,35,sldu,int,State Legislative District Upper
+geofile,36,sldl,int,State Legislative District Lower
+geofile,37,blank37,str,
+geofile,38,blank38,str,
+geofile,39,zcta5,str,5-digit ZIP Code Tabulation Area
+geofile,40,submcd,str,Subminor Civil Division (FIPS)
+geofile,41,sdelm,int,State-School District (Elementary)
+geofile,42,sdsec,int,State-School District (Secondary)
+geofile,43,sduni,int,State-School District (Unified)
+geofile,44,ur,str,Urban/Rural
+geofile,45,pci,str,Principal City Indicator
+geofile,46,blank46,str,
+geofile,47,blank47,str,
+geofile,48,puma5,int,Public Use Microdata Area – 5% File
+geofile,49,blank49,str,
+geofile,50,geoid,str,Geographic Identifier
+geofile,51,name,str,Area Name
+geofile,52,bttr,str,Tribal Tract
+geofile,53,btbg,str,Tribal Block Group
+geofile,54,blank54,str,

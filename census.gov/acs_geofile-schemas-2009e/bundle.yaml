@@ -15,7 +15,7 @@ about:
     time: 2009/2014
     title: ACS Geofile Schema Definitions
 contacts:
-    creator:
+    wrangler:
         email: eric@sandiegodata.org
         name: Eric Busboom
         url: http://www.sandiegodata.org
@@ -73,15 +73,15 @@ identity:
     btime: 2009e
     dataset: acs_geofile
     id: d04s
-    revision: 3
+    revision: 4
     source: census.gov
     subset: schemas
-    version: 0.0.3
+    version: 0.0.4
 names:
-    fqname: census.gov-acs_geofile-schemas-2009e-0.0.3~d04s003
+    fqname: census.gov-acs_geofile-schemas-2009e-0.0.4~d04s004
     name: census.gov-acs_geofile-schemas-2009e
-    vid: d04s003
-    vname: census.gov-acs_geofile-schemas-2009e-0.0.3
+    vid: d04s004
+    vname: census.gov-acs_geofile-schemas-2009e-0.0.4
 pipelines:
     build:
         first:
@@ -95,10 +95,10 @@ pipelines:
         - Delete(['year', 'releases'])
         - RemoveBlankColumns
         - Nullify
-        select_partition:
-        - SelectPartition("dict(time=str(source.time), grain=source.grain, table=source.dest_table_name)")
         last:
         - ambry.etl.Skip('skip_empty_table_id')
+        select_partition:
+        - SelectPartition("dict(time=str(source.time), grain=source.grain, table=source.dest_table_name)")
 requirements:
     OpenSSL: PyOpenSSL
     gdata: gdata
