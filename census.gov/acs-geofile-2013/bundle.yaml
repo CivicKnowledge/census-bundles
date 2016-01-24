@@ -44,5 +44,14 @@ names:
     name: census.gov-acs-geofile-2013
     vid: d057001
     vname: census.gov-acs-geofile-2013-0.0.1
+pipelines:
+    build:
+        select_partition:
+        - SelectPartitionFromSource
+        source_map: []
+    split:
+        select_partition:
+        - SelectPartition("dict(time=str(source.time), grain=row.sumlevel, table='geofile'+str(row.sumlevel))")
+        source_map: []
 requirements: {}
 versions: {}

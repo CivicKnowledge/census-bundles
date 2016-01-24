@@ -1,10 +1,272 @@
 table,sequence_id,column,datatype,description
 ,,,,
+geofile324,1,id,int,Geofile for: State- Metropolitan Statistical Area/Metropolitan Division-County
+geofile324,2,fileid,str,Always equal to ACS Summary File identification
+geofile324,3,stusab,str,State Postal Abbreviation
+geofile324,4,sumlevel,int,Summary Level
+geofile324,5,component,str,Geographic Component
+geofile324,6,logrecno,int,Logical Record Number
+geofile324,7,state,int,State (FIPS Code)
+geofile324,8,county,int,County of current residence
+geofile324,9,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile324,10,metdiv,int,Metropolitan Statistical Area-Metropolitan Division
+geofile324,11,memi,int,Metropolitan/Micropolitan Indicator Flag
+geofile324,12,geoid,str,Geographic Identifier
+geofile324,13,name,str,Area Name
+,,,,
+geofile860,1,id,int,Geofile for: 5-digit ZIP Code Tabulation Area
+geofile860,2,fileid,str,Always equal to ACS Summary File identification
+geofile860,3,stusab,str,State Postal Abbreviation
+geofile860,4,sumlevel,int,Summary Level
+geofile860,5,component,str,Geographic Component
+geofile860,6,logrecno,int,Logical Record Number
+geofile860,7,zcta5,str,5-digit ZIP Code Tabulation Area
+geofile860,8,geoid,str,Geographic Identifier
+geofile860,9,name,str,Area Name
+,,,,
+geofile311,1,id,int,Geofile for: CBSA-State-County
+geofile311,2,fileid,str,Always equal to ACS Summary File identification
+geofile311,3,stusab,str,State Postal Abbreviation
+geofile311,4,sumlevel,int,Summary Level
+geofile311,5,component,str,Geographic Component
+geofile311,6,logrecno,int,Logical Record Number
+geofile311,7,state,int,State (FIPS Code)
+geofile311,8,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile311,9,geoid,str,Geographic Identifier
+geofile311,10,name,str,Area Name
+,,,,
+geofile252,1,id,int,Geofile for: American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only)4
+geofile252,2,fileid,str,Always equal to ACS Summary File identification
+geofile252,3,stusab,str,State Postal Abbreviation
+geofile252,4,sumlevel,int,Summary Level
+geofile252,5,component,str,Geographic Component
+geofile252,6,logrecno,int,Logical Record Number
+geofile252,7,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile252,8,aihhtli,str,American Indian Trust Land/Hawaiian Home Land Indicator
+geofile252,9,geoid,str,Geographic Identifier
+geofile252,10,name,str,Area Name
+,,,,
+geofile283,1,id,int,Geofile for: State-American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only)
+geofile283,2,fileid,str,Always equal to ACS Summary File identification
+geofile283,3,stusab,str,State Postal Abbreviation
+geofile283,4,sumlevel,int,Summary Level
+geofile283,5,component,str,Geographic Component
+geofile283,6,logrecno,int,Logical Record Number
+geofile283,7,state,int,State (FIPS Code)
+geofile283,8,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile283,9,aihhtli,str,American Indian Trust Land/Hawaiian Home Land Indicator
+geofile283,10,geoid,str,Geographic Identifier
+geofile283,11,name,str,Area Name
+,,,,
+geofile366,1,id,int,Geofile for: State-New England City and Town Area (NECTA)-NECTA Division-County-County Subdivision
+geofile366,2,fileid,str,Always equal to ACS Summary File identification
+geofile366,3,stusab,str,State Postal Abbreviation
+geofile366,4,sumlevel,int,Summary Level
+geofile366,5,component,str,Geographic Component
+geofile366,6,logrecno,int,Logical Record Number
+geofile366,7,state,int,State (FIPS Code)
+geofile366,8,county,int,County of current residence
+geofile366,9,cousub,int,County Subdivision (FIPS)
+geofile366,10,necta,str,New England City and Town Area
+geofile366,11,nectadiv,str,New England City and Town Area Division
+geofile366,12,geoid,str,Geographic Identifier
+geofile366,13,name,str,Area Name
+,,,,
+geofile620,1,id,int,Geofile for: State House District
+geofile620,2,fileid,str,Always equal to ACS Summary File identification
+geofile620,3,stusab,str,State Postal Abbreviation
+geofile620,4,sumlevel,int,Summary Level
+geofile620,5,component,str,Geographic Component
+geofile620,6,logrecno,int,Logical Record Number
+geofile620,7,state,int,State (FIPS Code)
+geofile620,8,sldl,str,State Legislative District Lower
+geofile620,9,geoid,str,Geographic Identifier
+geofile620,10,name,str,Area Name
+,,,,
+geofile30,1,id,int,Geofile for: Division
+geofile30,2,fileid,str,Always equal to ACS Summary File identification
+geofile30,3,stusab,str,State Postal Abbreviation
+geofile30,4,sumlevel,int,Summary Level
+geofile30,5,component,str,Geographic Component
+geofile30,6,logrecno,int,Logical Record Number
+geofile30,7,division,str,Census Division
+geofile30,8,memi,int,Metropolitan/Micropolitan Indicator Flag
+geofile30,9,ur,str,Urban/Rural
+geofile30,10,pci,str,Principal City Indicator
+geofile30,11,geoid,str,Geographic Identifier
+geofile30,12,name,str,Area Name
+,,,,
+geofile358,1,id,int,Geofile for: New England City and Town Area (NECTA)-NECTA Division-State-County-County Subdivision
+geofile358,2,fileid,str,Always equal to ACS Summary File identification
+geofile358,3,stusab,str,State Postal Abbreviation
+geofile358,4,sumlevel,int,Summary Level
+geofile358,5,component,str,Geographic Component
+geofile358,6,logrecno,int,Logical Record Number
+geofile358,7,state,int,State (FIPS Code)
+geofile358,8,county,int,County of current residence
+geofile358,9,cousub,int,County Subdivision (FIPS)
+geofile358,10,necta,str,New England City and Town Area
+geofile358,11,nectadiv,str,New England City and Town Area Division
+geofile358,12,geoid,str,Geographic Identifier
+geofile358,13,name,str,Area Name
+,,,,
+geofile353,1,id,int,Geofile for: New England City and Town Area-State-County
+geofile353,2,fileid,str,Always equal to ACS Summary File identification
+geofile353,3,stusab,str,State Postal Abbreviation
+geofile353,4,sumlevel,int,Summary Level
+geofile353,5,component,str,Geographic Component
+geofile353,6,logrecno,int,Logical Record Number
+geofile353,7,state,int,State (FIPS Code)
+geofile353,8,county,int,County of current residence
+geofile353,9,necta,str,New England City and Town Area
+geofile353,10,geoid,str,Geographic Identifier
+geofile353,11,name,str,Area Name
+,,,,
+geofile622,1,id,int,Geofile for: State House District-County
+geofile622,2,fileid,str,Always equal to ACS Summary File identification
+geofile622,3,stusab,str,State Postal Abbreviation
+geofile622,4,sumlevel,int,Summary Level
+geofile622,5,component,str,Geographic Component
+geofile622,6,logrecno,int,Logical Record Number
+geofile622,7,state,int,State (FIPS Code)
+geofile622,8,county,int,County of current residence
+geofile622,9,sldl,str,State Legislative District Lower
+geofile622,10,geoid,str,Geographic Identifier
+geofile622,11,name,str,Area Name
+,,,,
+geofile290,1,id,int,Geofile for: American Indian Area/Alaska Native Area/Hawaiian Home Land-Tribal Subdivision/Remainder-State
+geofile290,2,fileid,str,Always equal to ACS Summary File identification
+geofile290,3,stusab,str,State Postal Abbreviation
+geofile290,4,sumlevel,int,Summary Level
+geofile290,5,component,str,Geographic Component
+geofile290,6,logrecno,int,Logical Record Number
+geofile290,7,state,int,State (FIPS Code)
+geofile290,8,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile290,9,aitsce,str,American Indian Tribal Subdivision (Census)
+geofile290,10,geoid,str,Geographic Identifier
+geofile290,11,name,str,Area Name
+,,,,
+geofile251,1,id,int,Geofile for: American Indian Area/Alaska NativeArea/HawaiianHomeLand-Tribal Subdivision/Remainder
+geofile251,2,fileid,str,Always equal to ACS Summary File identification
+geofile251,3,stusab,str,State Postal Abbreviation
+geofile251,4,sumlevel,int,Summary Level
+geofile251,5,component,str,Geographic Component
+geofile251,6,logrecno,int,Logical Record Number
+geofile251,7,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile251,8,aitsce,str,American Indian Tribal Subdivision (Census)
+geofile251,9,geoid,str,Geographic Identifier
+geofile251,10,name,str,Area Name
+,,,,
+geofile510,1,id,int,Geofile for: 510
+geofile510,2,fileid,str,Always equal to ACS Summary File identification
+geofile510,3,stusab,str,State Postal Abbreviation
+geofile510,4,sumlevel,int,Summary Level
+geofile510,5,component,str,Geographic Component
+geofile510,6,logrecno,int,Logical Record Number
+geofile510,7,state,int,State (FIPS Code)
+geofile510,8,county,int,County of current residence
+geofile510,9,cdcurr,int,Current Congressional District ***
+geofile510,10,geoid,str,Geographic Identifier
+geofile510,11,name,str,Area Name
+,,,,
+geofile250,1,id,int,Geofile for: American Indian Area/Alaska Native Area/Hawaiian Home Land
+geofile250,2,fileid,str,Always equal to ACS Summary File identification
+geofile250,3,stusab,str,State Postal Abbreviation
+geofile250,4,sumlevel,int,Summary Level
+geofile250,5,component,str,Geographic Component
+geofile250,6,logrecno,int,Logical Record Number
+geofile250,7,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile250,8,geoid,str,Geographic Identifier
+geofile250,9,name,str,Area Name
+,,,,
+geofile40,1,id,int,Geofile for: State
+geofile40,2,fileid,str,Always equal to ACS Summary File identification
+geofile40,3,stusab,str,State Postal Abbreviation
+geofile40,4,sumlevel,int,Summary Level
+geofile40,5,component,str,Geographic Component
+geofile40,6,logrecno,int,Logical Record Number
+geofile40,7,state,int,State (FIPS Code)
+geofile40,8,memi,int,Metropolitan/Micropolitan Indicator Flag
+geofile40,9,ur,str,Urban/Rural
+geofile40,10,pci,str,Principal City Indicator
+geofile40,11,geoid,str,Geographic Identifier
+geofile40,12,name,str,Area Name
+,,,,
+geofile341,1,id,int,Geofile for: State-Combined Statistical Area-CBSA
+geofile341,2,fileid,str,Always equal to ACS Summary File identification
+geofile341,3,stusab,str,State Postal Abbreviation
+geofile341,4,sumlevel,int,Summary Level
+geofile341,5,component,str,Geographic Component
+geofile341,6,logrecno,int,Logical Record Number
+geofile341,7,state,int,State (FIPS Code)
+geofile341,8,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile341,9,csa,int,Combined Statistical Area
+geofile341,10,geoid,str,Geographic Identifier
+geofile341,11,name,str,Area Name
+,,,,
+geofile365,1,id,int,Geofile for: State-New England City and Town Area (NECTA)-NECTA Division-County
+geofile365,2,fileid,str,Always equal to ACS Summary File identification
+geofile365,3,stusab,str,State Postal Abbreviation
+geofile365,4,sumlevel,int,Summary Level
+geofile365,5,component,str,Geographic Component
+geofile365,6,logrecno,int,Logical Record Number
+geofile365,7,state,int,State (FIPS Code)
+geofile365,8,county,int,County of current residence
+geofile365,9,necta,str,New England City and Town Area
+geofile365,10,nectadiv,str,New England City and Town Area Division
+geofile365,11,geoid,str,Geographic Identifier
+geofile365,12,name,str,Area Name
+,,,,
+geofile360,1,id,int,Geofile for: State-New England City and Town Area
+geofile360,2,fileid,str,Always equal to ACS Summary File identification
+geofile360,3,stusab,str,State Postal Abbreviation
+geofile360,4,sumlevel,int,Summary Level
+geofile360,5,component,str,Geographic Component
+geofile360,6,logrecno,int,Logical Record Number
+geofile360,7,state,int,State (FIPS Code)
+geofile360,8,necta,str,New England City and Town Area
+geofile360,9,geoid,str,Geographic Identifier
+geofile360,10,name,str,Area Name
+,,,,
+geofile140,1,id,int,Geofile for: Census Tract
+geofile140,2,fileid,str,Always equal to ACS Summary File identification
+geofile140,3,stusab,str,State Postal Abbreviation
+geofile140,4,sumlevel,int,Summary Level
+geofile140,5,component,str,Geographic Component
+geofile140,6,logrecno,int,Logical Record Number
+geofile140,7,state,int,State (FIPS Code)
+geofile140,8,county,int,County of current residence
+geofile140,9,tract,int,Census Tract
+geofile140,10,geoid,str,Geographic Identifier
+geofile140,11,name,str,Area Name
+,,,,
+geofile351,1,id,int,Geofile for: New England City and Town Area-State
+geofile351,2,fileid,str,Always equal to ACS Summary File identification
+geofile351,3,stusab,str,State Postal Abbreviation
+geofile351,4,sumlevel,int,Summary Level
+geofile351,5,component,str,Geographic Component
+geofile351,6,logrecno,int,Logical Record Number
+geofile351,7,state,int,State (FIPS Code)
+geofile351,8,necta,str,New England City and Town Area
+geofile351,9,geoid,str,Geographic Identifier
+geofile351,10,name,str,Area Name
+,,,,
+geofile960,1,id,int,Geofile for: State-High School District
+geofile960,2,fileid,str,Always equal to ACS Summary File identification
+geofile960,3,stusab,str,State Postal Abbreviation
+geofile960,4,sumlevel,int,Summary Level
+geofile960,5,component,str,Geographic Component
+geofile960,6,logrecno,int,Logical Record Number
+geofile960,7,state,int,State (FIPS Code)
+geofile960,8,sdsec,int,State-School District (Secondary)
+geofile960,9,geoid,str,Geographic Identifier
+geofile960,10,name,str,Area Name
+,,,,
 geofile,1,id,int,
 geofile,2,fileid,str,Always equal to ACS Summary File identification
 geofile,3,stusab,str,State Postal Abbreviation
 geofile,4,sumlevel,int,Summary Level
-geofile,5,component,int,Geographic Component
+geofile,5,component,str,Geographic Component
 geofile,6,logrecno,int,Logical Record Number
 geofile,7,us,str,US
 geofile,8,region,str,Census Region
@@ -34,8 +296,8 @@ geofile,31,nectadiv,str,New England City and Town Area Division
 geofile,32,ua,int,Urban Area
 geofile,33,blank33,str,
 geofile,34,cdcurr,int,Current Congressional District ***
-geofile,35,sldu,int,State Legislative District Upper
-geofile,36,sldl,int,State Legislative District Lower
+geofile,35,sldu,str,State Legislative District Upper
+geofile,36,sldl,str,State Legislative District Lower
 geofile,37,blank37,str,
 geofile,38,blank38,str,
 geofile,39,zcta5,str,5-digit ZIP Code Tabulation Area
@@ -54,3 +316,767 @@ geofile,51,name,str,Area Name
 geofile,52,bttr,str,Tribal Tract
 geofile,53,btbg,str,Tribal Block Group
 geofile,54,blank54,str,
+,,,,
+geofile150,1,id,int,Geofile for: Census Tract-Block Group
+geofile150,2,fileid,str,Always equal to ACS Summary File identification
+geofile150,3,stusab,str,State Postal Abbreviation
+geofile150,4,sumlevel,int,Summary Level
+geofile150,5,component,str,Geographic Component
+geofile150,6,logrecno,int,Logical Record Number
+geofile150,7,state,int,State (FIPS Code)
+geofile150,8,county,int,County of current residence
+geofile150,9,tract,int,Census Tract
+geofile150,10,blkgrp,int,Block Group
+geofile150,11,geoid,str,Geographic Identifier
+geofile150,12,name,str,Area Name
+,,,,
+geofile500,1,id,int,Geofile for: Congressional District
+geofile500,2,fileid,str,Always equal to ACS Summary File identification
+geofile500,3,stusab,str,State Postal Abbreviation
+geofile500,4,sumlevel,int,Summary Level
+geofile500,5,component,str,Geographic Component
+geofile500,6,logrecno,int,Logical Record Number
+geofile500,7,state,int,State (FIPS Code)
+geofile500,8,cdcurr,int,Current Congressional District ***
+geofile500,9,geoid,str,Geographic Identifier
+geofile500,10,name,str,Area Name
+,,,,
+geofile331,1,id,int,Geofile for: Combined Statistical Area-State
+geofile331,2,fileid,str,Always equal to ACS Summary File identification
+geofile331,3,stusab,str,State Postal Abbreviation
+geofile331,4,sumlevel,int,Summary Level
+geofile331,5,component,str,Geographic Component
+geofile331,6,logrecno,int,Logical Record Number
+geofile331,7,state,int,State (FIPS Code)
+geofile331,8,csa,int,Combined Statistical Area
+geofile331,9,geoid,str,Geographic Identifier
+geofile331,10,name,str,Area Name
+,,,,
+geofile20,1,id,int,Geofile for: Region
+geofile20,2,fileid,str,Always equal to ACS Summary File identification
+geofile20,3,stusab,str,State Postal Abbreviation
+geofile20,4,sumlevel,int,Summary Level
+geofile20,5,component,str,Geographic Component
+geofile20,6,logrecno,int,Logical Record Number
+geofile20,7,region,str,Census Region
+geofile20,8,memi,int,Metropolitan/Micropolitan Indicator Flag
+geofile20,9,ur,str,Urban/Rural
+geofile20,10,pci,str,Principal City Indicator
+geofile20,11,geoid,str,Geographic Identifier
+geofile20,12,name,str,Area Name
+,,,,
+geofile312,1,id,int,Geofile for: CBSA-State-Principal City
+geofile312,2,fileid,str,Always equal to ACS Summary File identification
+geofile312,3,stusab,str,State Postal Abbreviation
+geofile312,4,sumlevel,int,Summary Level
+geofile312,5,component,str,Geographic Component
+geofile312,6,logrecno,int,Logical Record Number
+geofile312,7,state,int,State (FIPS Code)
+geofile312,8,place,int,Place (FIPS Code)
+geofile312,9,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile312,10,pci,str,Principal City Indicator
+geofile312,11,geoid,str,Geographic Identifier
+geofile312,12,name,str,Area Name
+,,,,
+geofile364,1,id,int,Geofile for: State-New England City and Town Area (NECTA)-NECTA Division
+geofile364,2,fileid,str,Always equal to ACS Summary File identification
+geofile364,3,stusab,str,State Postal Abbreviation
+geofile364,4,sumlevel,int,Summary Level
+geofile364,5,component,str,Geographic Component
+geofile364,6,logrecno,int,Logical Record Number
+geofile364,7,state,int,State (FIPS Code)
+geofile364,8,necta,str,New England City and Town Area
+geofile364,9,nectadiv,str,New England City and Town Area Division
+geofile364,10,geoid,str,Geographic Identifier
+geofile364,11,name,str,Area Name
+,,,,
+geofile292,1,id,int,Geofile for: Specified American Indian Area (Off-Reservation Trust Land Only)-Tribal Census Tract
+geofile292,2,fileid,str,Always equal to ACS Summary File identification
+geofile292,3,stusab,str,State Postal Abbreviation
+geofile292,4,sumlevel,int,Summary Level
+geofile292,5,component,str,Geographic Component
+geofile292,6,logrecno,int,Logical Record Number
+geofile292,7,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile292,8,aihhtli,str,American Indian Trust Land/Hawaiian Home Land Indicator
+geofile292,9,geoid,str,Geographic Identifier
+geofile292,10,name,str,Area Name
+geofile292,11,bttr,str,Tribal Tract
+,,,,
+geofile230,1,id,int,Geofile for: State-Alaska Native Regional Corporation
+geofile230,2,fileid,str,Always equal to ACS Summary File identification
+geofile230,3,stusab,str,State Postal Abbreviation
+geofile230,4,sumlevel,int,Summary Level
+geofile230,5,component,str,Geographic Component
+geofile230,6,logrecno,int,Logical Record Number
+geofile230,7,state,int,State (FIPS Code)
+geofile230,8,anrc,str,Alaska Native Regional Corporation (FIPS)
+geofile230,9,geoid,str,Geographic Identifier
+geofile230,10,name,str,Area Name
+,,,,
+geofile361,1,id,int,Geofile for: State-New England City and Town Area-Principal City
+geofile361,2,fileid,str,Always equal to ACS Summary File identification
+geofile361,3,stusab,str,State Postal Abbreviation
+geofile361,4,sumlevel,int,Summary Level
+geofile361,5,component,str,Geographic Component
+geofile361,6,logrecno,int,Logical Record Number
+geofile361,7,state,int,State (FIPS Code)
+geofile361,8,place,int,Place (FIPS Code)
+geofile361,9,necta,str,New England City and Town Area
+geofile361,10,geoid,str,Geographic Identifier
+geofile361,11,name,str,Area Name
+,,,,
+geofile155,1,id,int,Geofile for: Place-County
+geofile155,2,fileid,str,Always equal to ACS Summary File identification
+geofile155,3,stusab,str,State Postal Abbreviation
+geofile155,4,sumlevel,int,Summary Level
+geofile155,5,component,str,Geographic Component
+geofile155,6,logrecno,int,Logical Record Number
+geofile155,7,state,int,State (FIPS Code)
+geofile155,8,county,int,County of current residence
+geofile155,9,place,int,Place (FIPS Code)
+geofile155,10,geoid,str,Geographic Identifier
+geofile155,11,name,str,Area Name
+,,,,
+geofile280,1,id,int,Geofile for: State-American Indian Area/Alaska Native Area/Hawaiian Home Land
+geofile280,2,fileid,str,Always equal to ACS Summary File identification
+geofile280,3,stusab,str,State Postal Abbreviation
+geofile280,4,sumlevel,int,Summary Level
+geofile280,5,component,str,Geographic Component
+geofile280,6,logrecno,int,Logical Record Number
+geofile280,7,state,int,State (FIPS Code)
+geofile280,8,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile280,9,geoid,str,Geographic Identifier
+geofile280,10,name,str,Area Name
+,,,,
+geofile172,1,id,int,Geofile for: Consolidated City-Place Within Consolidated City
+geofile172,2,fileid,str,Always equal to ACS Summary File identification
+geofile172,3,stusab,str,State Postal Abbreviation
+geofile172,4,sumlevel,int,Summary Level
+geofile172,5,component,str,Geographic Component
+geofile172,6,logrecno,int,Logical Record Number
+geofile172,7,state,int,State (FIPS Code)
+geofile172,8,place,int,Place (FIPS Code)
+geofile172,9,concit,str,Consolidated City
+geofile172,10,geoid,str,Geographic Identifier
+geofile172,11,name,str,Area Name
+,,,,
+geofile270,1,id,int,Geofile for: American Indian Area/Alaska Native Area/Hawaiian Home Land-State-County
+geofile270,2,fileid,str,Always equal to ACS Summary File identification
+geofile270,3,stusab,str,State Postal Abbreviation
+geofile270,4,sumlevel,int,Summary Level
+geofile270,5,component,str,Geographic Component
+geofile270,6,logrecno,int,Logical Record Number
+geofile270,7,state,int,State (FIPS Code)
+geofile270,8,county,int,County of current residence
+geofile270,9,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile270,10,geoid,str,Geographic Identifier
+geofile270,11,name,str,Area Name
+,,,,
+geofile160,1,id,int,Geofile for: Place
+geofile160,2,fileid,str,Always equal to ACS Summary File identification
+geofile160,3,stusab,str,State Postal Abbreviation
+geofile160,4,sumlevel,int,Summary Level
+geofile160,5,component,str,Geographic Component
+geofile160,6,logrecno,int,Logical Record Number
+geofile160,7,state,int,State (FIPS Code)
+geofile160,8,place,int,Place (FIPS Code)
+geofile160,9,geoid,str,Geographic Identifier
+geofile160,10,name,str,Area Name
+,,,,
+geofile330,1,id,int,Geofile for: Combined Statistical Area
+geofile330,2,fileid,str,Always equal to ACS Summary File identification
+geofile330,3,stusab,str,State Postal Abbreviation
+geofile330,4,sumlevel,int,Summary Level
+geofile330,5,component,str,Geographic Component
+geofile330,6,logrecno,int,Logical Record Number
+geofile330,7,csa,int,Combined Statistical Area
+geofile330,8,geoid,str,Geographic Identifier
+geofile330,9,name,str,Area Name
+,,,,
+geofile170,1,id,int,Geofile for: Consolidated City
+geofile170,2,fileid,str,Always equal to ACS Summary File identification
+geofile170,3,stusab,str,State Postal Abbreviation
+geofile170,4,sumlevel,int,Summary Level
+geofile170,5,component,str,Geographic Component
+geofile170,6,logrecno,int,Logical Record Number
+geofile170,7,state,int,State (FIPS Code)
+geofile170,8,concit,str,Consolidated City
+geofile170,9,geoid,str,Geographic Identifier
+geofile170,10,name,str,Area Name
+,,,,
+geofile354,1,id,int,Geofile for: New England City and Town Area-State-County-County Subdivision
+geofile354,2,fileid,str,Always equal to ACS Summary File identification
+geofile354,3,stusab,str,State Postal Abbreviation
+geofile354,4,sumlevel,int,Summary Level
+geofile354,5,component,str,Geographic Component
+geofile354,6,logrecno,int,Logical Record Number
+geofile354,7,state,int,State (FIPS Code)
+geofile354,8,county,int,County of current residence
+geofile354,9,cousub,int,County Subdivision (FIPS)
+geofile354,10,necta,str,New England City and Town Area
+geofile354,11,geoid,str,Geographic Identifier
+geofile354,12,name,str,Area Name
+,,,,
+geofile363,1,id,int,Geofile for: State-New England City and Town Area-County-County Subdivision
+geofile363,2,fileid,str,Always equal to ACS Summary File identification
+geofile363,3,stusab,str,State Postal Abbreviation
+geofile363,4,sumlevel,int,Summary Level
+geofile363,5,component,str,Geographic Component
+geofile363,6,logrecno,int,Logical Record Number
+geofile363,7,state,int,State (FIPS Code)
+geofile363,8,county,int,County of current residence
+geofile363,9,cousub,int,County Subdivision (FIPS)
+geofile363,10,necta,str,New England City and Town Area
+geofile363,11,geoid,str,Geographic Identifier
+geofile363,12,name,str,Area Name
+,,,,
+geofile346,1,id,int,Geofile for: State-Combined New England City and Town Area-New England City and Town Area
+geofile346,2,fileid,str,Always equal to ACS Summary File identification
+geofile346,3,stusab,str,State Postal Abbreviation
+geofile346,4,sumlevel,int,Summary Level
+geofile346,5,component,str,Geographic Component
+geofile346,6,logrecno,int,Logical Record Number
+geofile346,7,state,int,State (FIPS Code)
+geofile346,8,necta,str,New England City and Town Area
+geofile346,9,cnecta,str,New England City and Town Combined Statistical Area
+geofile346,10,geoid,str,Geographic Identifier
+geofile346,11,name,str,Area Name
+,,,,
+geofile322,1,id,int,Geofile for: State- CBSA -County
+geofile322,2,fileid,str,Always equal to ACS Summary File identification
+geofile322,3,stusab,str,State Postal Abbreviation
+geofile322,4,sumlevel,int,Summary Level
+geofile322,5,component,str,Geographic Component
+geofile322,6,logrecno,int,Logical Record Number
+geofile322,7,state,int,State (FIPS Code)
+geofile322,8,county,int,County of current residence
+geofile322,9,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile322,10,geoid,str,Geographic Identifier
+geofile322,11,name,str,Area Name
+,,,,
+geofile340,1,id,int,Geofile for: State-Combined Statistical Area
+geofile340,2,fileid,str,Always equal to ACS Summary File identification
+geofile340,3,stusab,str,State Postal Abbreviation
+geofile340,4,sumlevel,int,Summary Level
+geofile340,5,component,str,Geographic Component
+geofile340,6,logrecno,int,Logical Record Number
+geofile340,7,state,int,State (FIPS Code)
+geofile340,8,csa,int,Combined Statistical Area
+geofile340,9,geoid,str,Geographic Identifier
+geofile340,10,name,str,Area Name
+,,,,
+geofile795,1,id,int,Geofile for: State-Public Use MicroSample Area 5%
+geofile795,2,fileid,str,Always equal to ACS Summary File identification
+geofile795,3,stusab,str,State Postal Abbreviation
+geofile795,4,sumlevel,int,Summary Level
+geofile795,5,component,str,Geographic Component
+geofile795,6,logrecno,int,Logical Record Number
+geofile795,7,state,int,State (FIPS Code)
+geofile795,8,puma5,int,Public Use Microdata Area – 5% File
+geofile795,9,geoid,str,Geographic Identifier
+geofile795,10,name,str,Area Name
+,,,,
+geofile60,1,id,int,Geofile for: County Subdivision
+geofile60,2,fileid,str,Always equal to ACS Summary File identification
+geofile60,3,stusab,str,State Postal Abbreviation
+geofile60,4,sumlevel,int,Summary Level
+geofile60,5,component,str,Geographic Component
+geofile60,6,logrecno,int,Logical Record Number
+geofile60,7,state,int,State (FIPS Code)
+geofile60,8,county,int,County of current residence
+geofile60,9,cousub,int,County Subdivision (FIPS)
+geofile60,10,geoid,str,Geographic Identifier
+geofile60,11,name,str,Area Name
+,,,,
+geofile362,1,id,int,Geofile for: State-New England City and Town Area-County
+geofile362,2,fileid,str,Always equal to ACS Summary File identification
+geofile362,3,stusab,str,State Postal Abbreviation
+geofile362,4,sumlevel,int,Summary Level
+geofile362,5,component,str,Geographic Component
+geofile362,6,logrecno,int,Logical Record Number
+geofile362,7,state,int,State (FIPS Code)
+geofile362,8,county,int,County of current residence
+geofile362,9,necta,str,New England City and Town Area
+geofile362,10,geoid,str,Geographic Identifier
+geofile362,11,name,str,Area Name
+,,,,
+geofile333,1,id,int,Geofile for: Combined Statistical Area-CBSA-State
+geofile333,2,fileid,str,Always equal to ACS Summary File identification
+geofile333,3,stusab,str,State Postal Abbreviation
+geofile333,4,sumlevel,int,Summary Level
+geofile333,5,component,str,Geographic Component
+geofile333,6,logrecno,int,Logical Record Number
+geofile333,7,state,int,State (FIPS Code)
+geofile333,8,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile333,9,csa,int,Combined Statistical Area
+geofile333,10,geoid,str,Geographic Identifier
+geofile333,11,name,str,Area Name
+,,,,
+geofile269,1,id,int,Geofile for: American Indian Area/Alaska Native Area/Hawaiian Home Land-Place-Remainder
+geofile269,2,fileid,str,Always equal to ACS Summary File identification
+geofile269,3,stusab,str,State Postal Abbreviation
+geofile269,4,sumlevel,int,Summary Level
+geofile269,5,component,str,Geographic Component
+geofile269,6,logrecno,int,Logical Record Number
+geofile269,7,state,int,State (FIPS Code)
+geofile269,8,place,int,Place (FIPS Code)
+geofile269,9,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile269,10,geoid,str,Geographic Identifier
+geofile269,11,name,str,Area Name
+,,,,
+geofile313,1,id,int,Geofile for: CBSA-State-County
+geofile313,2,fileid,str,Always equal to ACS Summary File identification
+geofile313,3,stusab,str,State Postal Abbreviation
+geofile313,4,sumlevel,int,Summary Level
+geofile313,5,component,str,Geographic Component
+geofile313,6,logrecno,int,Logical Record Number
+geofile313,7,state,int,State (FIPS Code)
+geofile313,8,county,int,County of current residence
+geofile313,9,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile313,10,geoid,str,Geographic Identifier
+geofile313,11,name,str,Area Name
+,,,,
+geofile67,1,id,int,Geofile for: State (Puerto Rico Only)-County-County Subdivision-Subbarrio
+geofile67,2,fileid,str,Always equal to ACS Summary File identification
+geofile67,3,stusab,str,State Postal Abbreviation
+geofile67,4,sumlevel,int,Summary Level
+geofile67,5,component,str,Geographic Component
+geofile67,6,logrecno,int,Logical Record Number
+geofile67,7,state,int,State (FIPS Code)
+geofile67,8,county,int,County of current residence
+geofile67,9,cousub,int,County Subdivision (FIPS)
+geofile67,10,submcd,str,Subminor Civil Division (FIPS)
+geofile67,11,geoid,str,Geographic Identifier
+geofile67,12,name,str,Area Name
+,,,,
+geofile323,1,id,int,Geofile for: State- Metropolitan Statistical Area/Metropolitan Division
+geofile323,2,fileid,str,Always equal to ACS Summary File identification
+geofile323,3,stusab,str,State Postal Abbreviation
+geofile323,4,sumlevel,int,Summary Level
+geofile323,5,component,str,Geographic Component
+geofile323,6,logrecno,int,Logical Record Number
+geofile323,7,state,int,State (FIPS Code)
+geofile323,8,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile323,9,metdiv,int,Metropolitan Statistical Area-Metropolitan Division
+geofile323,10,memi,int,Metropolitan/Micropolitan Indicator Flag
+geofile323,11,geoid,str,Geographic Identifier
+geofile323,12,name,str,Area Name
+,,,,
+geofile291,1,id,int,Geofile for: Specified American Indian Area (Reservation or Statistical Entity Only)-Tribal Census Tract
+geofile291,2,fileid,str,Always equal to ACS Summary File identification
+geofile291,3,stusab,str,State Postal Abbreviation
+geofile291,4,sumlevel,int,Summary Level
+geofile291,5,component,str,Geographic Component
+geofile291,6,logrecno,int,Logical Record Number
+geofile291,7,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile291,8,aihhtli,str,American Indian Trust Land/Hawaiian Home Land Indicator
+geofile291,9,geoid,str,Geographic Identifier
+geofile291,10,name,str,Area Name
+geofile291,11,bttr,str,Tribal Tract
+,,,,
+geofile294,1,id,int,Geofile for: Specified American Indian Area (Off-Reservation Trust Land Only)-Tribal Census Tract-Tribal Block Group
+geofile294,2,fileid,str,Always equal to ACS Summary File identification
+geofile294,3,stusab,str,State Postal Abbreviation
+geofile294,4,sumlevel,int,Summary Level
+geofile294,5,component,str,Geographic Component
+geofile294,6,logrecno,int,Logical Record Number
+geofile294,7,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile294,8,aihhtli,str,American Indian Trust Land/Hawaiian Home Land Indicator
+geofile294,9,geoid,str,Geographic Identifier
+geofile294,10,name,str,Area Name
+geofile294,11,bttr,str,Tribal Tract
+geofile294,12,btbg,str,Tribal Block Group
+,,,,
+geofile400,1,id,int,Geofile for: Urban Area
+geofile400,2,fileid,str,Always equal to ACS Summary File identification
+geofile400,3,stusab,str,State Postal Abbreviation
+geofile400,4,sumlevel,int,Summary Level
+geofile400,5,component,str,Geographic Component
+geofile400,6,logrecno,int,Logical Record Number
+geofile400,7,ua,int,Urban Area
+geofile400,8,geoid,str,Geographic Identifier
+geofile400,9,name,str,Area Name
+,,,,
+geofile260,1,id,int,Geofile for: American Indian Area/Alaska Native Area/Hawaiian Home Land-State
+geofile260,2,fileid,str,Always equal to ACS Summary File identification
+geofile260,3,stusab,str,State Postal Abbreviation
+geofile260,4,sumlevel,int,Summary Level
+geofile260,5,component,str,Geographic Component
+geofile260,6,logrecno,int,Logical Record Number
+geofile260,7,state,int,State (FIPS Code)
+geofile260,8,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile260,9,geoid,str,Geographic Identifier
+geofile260,10,name,str,Area Name
+,,,,
+geofile350,1,id,int,Geofile for: New England City and Town Area
+geofile350,2,fileid,str,Always equal to ACS Summary File identification
+geofile350,3,stusab,str,State Postal Abbreviation
+geofile350,4,sumlevel,int,Summary Level
+geofile350,5,component,str,Geographic Component
+geofile350,6,logrecno,int,Logical Record Number
+geofile350,7,necta,str,New England City and Town Area
+geofile350,8,geoid,str,Geographic Identifier
+geofile350,9,name,str,Area Name
+,,,,
+geofile338,1,id,int,Geofile for: Combined New England City and Town Area -New England City and Town Area-State
+geofile338,2,fileid,str,Always equal to ACS Summary File identification
+geofile338,3,stusab,str,State Postal Abbreviation
+geofile338,4,sumlevel,int,Summary Level
+geofile338,5,component,str,Geographic Component
+geofile338,6,logrecno,int,Logical Record Number
+geofile338,7,state,int,State (FIPS Code)
+geofile338,8,necta,str,New England City and Town Area
+geofile338,9,cnecta,str,New England City and Town Combined Statistical Area
+geofile338,10,geoid,str,Geographic Identifier
+geofile338,11,name,str,Area Name
+,,,,
+geofile314,1,id,int,Geofile for: Metropolitan Statistical Area/Metropolitan Division
+geofile314,2,fileid,str,Always equal to ACS Summary File identification
+geofile314,3,stusab,str,State Postal Abbreviation
+geofile314,4,sumlevel,int,Summary Level
+geofile314,5,component,str,Geographic Component
+geofile314,6,logrecno,int,Logical Record Number
+geofile314,7,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile314,8,metdiv,int,Metropolitan Statistical Area-Metropolitan Division
+geofile314,9,memi,int,Metropolitan/Micropolitan Indicator Flag
+geofile314,10,geoid,str,Geographic Identifier
+geofile314,11,name,str,Area Name
+,,,,
+geofile321,1,id,int,Geofile for: State- CBSA -Principal City
+geofile321,2,fileid,str,Always equal to ACS Summary File identification
+geofile321,3,stusab,str,State Postal Abbreviation
+geofile321,4,sumlevel,int,Summary Level
+geofile321,5,component,str,Geographic Component
+geofile321,6,logrecno,int,Logical Record Number
+geofile321,7,state,int,State (FIPS Code)
+geofile321,8,place,int,Place (FIPS Code)
+geofile321,9,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile321,10,pci,str,Principal City Indicator
+geofile321,11,geoid,str,Geographic Identifier
+geofile321,12,name,str,Area Name
+,,,,
+geofile355,1,id,int,Geofile for: New England City and Town Area (NECTA)-NECTA Division
+geofile355,2,fileid,str,Always equal to ACS Summary File identification
+geofile355,3,stusab,str,State Postal Abbreviation
+geofile355,4,sumlevel,int,Summary Level
+geofile355,5,component,str,Geographic Component
+geofile355,6,logrecno,int,Logical Record Number
+geofile355,7,necta,str,New England City and Town Area
+geofile355,8,nectadiv,str,New England City and Town Area Division
+geofile355,9,geoid,str,Geographic Identifier
+geofile355,10,name,str,Area Name
+,,,,
+geofile610,1,id,int,Geofile for: State Senate District
+geofile610,2,fileid,str,Always equal to ACS Summary File identification
+geofile610,3,stusab,str,State Postal Abbreviation
+geofile610,4,sumlevel,int,Summary Level
+geofile610,5,component,str,Geographic Component
+geofile610,6,logrecno,int,Logical Record Number
+geofile610,7,state,int,State (FIPS Code)
+geofile610,8,sldu,str,State Legislative District Upper
+geofile610,9,geoid,str,Geographic Identifier
+geofile610,10,name,str,Area Name
+,,,,
+geofile315,1,id,int,Geofile for: Metropolitan Statistical Area/Metropolitan Division-State
+geofile315,2,fileid,str,Always equal to ACS Summary File identification
+geofile315,3,stusab,str,State Postal Abbreviation
+geofile315,4,sumlevel,int,Summary Level
+geofile315,5,component,str,Geographic Component
+geofile315,6,logrecno,int,Logical Record Number
+geofile315,7,state,int,State (FIPS Code)
+geofile315,8,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile315,9,metdiv,int,Metropolitan Statistical Area-Metropolitan Division
+geofile315,10,memi,int,Metropolitan/Micropolitan Indicator Flag
+geofile315,11,geoid,str,Geographic Identifier
+geofile315,12,name,str,Area Name
+,,,,
+geofile970,1,id,int,Geofile for: State-Unified School District
+geofile970,2,fileid,str,Always equal to ACS Summary File identification
+geofile970,3,stusab,str,State Postal Abbreviation
+geofile970,4,sumlevel,int,Summary Level
+geofile970,5,component,str,Geographic Component
+geofile970,6,logrecno,int,Logical Record Number
+geofile970,7,state,int,State (FIPS Code)
+geofile970,8,sduni,int,State-School District (Unified)
+geofile970,9,geoid,str,Geographic Identifier
+geofile970,10,name,str,Area Name
+,,,,
+geofile430,1,id,int,Geofile for: Urban Area-State-County
+geofile430,2,fileid,str,Always equal to ACS Summary File identification
+geofile430,3,stusab,str,State Postal Abbreviation
+geofile430,4,sumlevel,int,Summary Level
+geofile430,5,component,str,Geographic Component
+geofile430,6,logrecno,int,Logical Record Number
+geofile430,7,state,int,State (FIPS Code)
+geofile430,8,county,int,County of current residence
+geofile430,9,ua,int,Urban Area
+geofile430,10,geoid,str,Geographic Identifier
+geofile430,11,name,str,Area Name
+,,,,
+geofile258,1,id,int,Geofile for: Specified American Indian Area-Tribal Census Tract-Tribal Block Group
+geofile258,2,fileid,str,Always equal to ACS Summary File identification
+geofile258,3,stusab,str,State Postal Abbreviation
+geofile258,4,sumlevel,int,Summary Level
+geofile258,5,component,str,Geographic Component
+geofile258,6,logrecno,int,Logical Record Number
+geofile258,7,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile258,8,geoid,str,Geographic Identifier
+geofile258,9,name,str,Area Name
+geofile258,10,bttr,str,Tribal Tract
+geofile258,11,btbg,str,Tribal Block Group
+,,,,
+geofile410,1,id,int,Geofile for: Urban Area-State
+geofile410,2,fileid,str,Always equal to ACS Summary File identification
+geofile410,3,stusab,str,State Postal Abbreviation
+geofile410,4,sumlevel,int,Summary Level
+geofile410,5,component,str,Geographic Component
+geofile410,6,logrecno,int,Logical Record Number
+geofile410,7,state,int,State (FIPS Code)
+geofile410,8,ua,int,Urban Area
+geofile410,9,geoid,str,Geographic Identifier
+geofile410,10,name,str,Area Name
+,,,,
+geofile337,1,id,int,Geofile for: Combined New England City and Town Area -New England City and Town Area
+geofile337,2,fileid,str,Always equal to ACS Summary File identification
+geofile337,3,stusab,str,State Postal Abbreviation
+geofile337,4,sumlevel,int,Summary Level
+geofile337,5,component,str,Geographic Component
+geofile337,6,logrecno,int,Logical Record Number
+geofile337,7,necta,str,New England City and Town Area
+geofile337,8,cnecta,str,New England City and Town Combined Statistical Area
+geofile337,9,geoid,str,Geographic Identifier
+geofile337,10,name,str,Area Name
+,,,,
+geofile286,1,id,int,Geofile for: State-American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land
+geofile286,2,fileid,str,Always equal to ACS Summary File identification
+geofile286,3,stusab,str,State Postal Abbreviation
+geofile286,4,sumlevel,int,Summary Level
+geofile286,5,component,str,Geographic Component
+geofile286,6,logrecno,int,Logical Record Number
+geofile286,7,state,int,State (FIPS Code)
+geofile286,8,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile286,9,aihhtli,str,American Indian Trust Land/Hawaiian Home Land Indicator
+geofile286,10,geoid,str,Geographic Identifier
+geofile286,11,name,str,Area Name
+,,,,
+geofile950,1,id,int,Geofile for: State-Elementary School District
+geofile950,2,fileid,str,Always equal to ACS Summary File identification
+geofile950,3,stusab,str,State Postal Abbreviation
+geofile950,4,sumlevel,int,Summary Level
+geofile950,5,component,str,Geographic Component
+geofile950,6,logrecno,int,Logical Record Number
+geofile950,7,state,int,State (FIPS Code)
+geofile950,8,sdelm,int,State-School District (Elementary)
+geofile950,9,geoid,str,Geographic Identifier
+geofile950,10,name,str,Area Name
+,,,,
+geofile356,1,id,int,Geofile for: New England City and Town Area (NECTA)-NECTA Division-State
+geofile356,2,fileid,str,Always equal to ACS Summary File identification
+geofile356,3,stusab,str,State Postal Abbreviation
+geofile356,4,sumlevel,int,Summary Level
+geofile356,5,component,str,Geographic Component
+geofile356,6,logrecno,int,Logical Record Number
+geofile356,7,state,int,State (FIPS Code)
+geofile356,8,necta,str,New England City and Town Area
+geofile356,9,nectadiv,str,New England City and Town Area Division
+geofile356,10,geoid,str,Geographic Identifier
+geofile356,11,name,str,Area Name
+,,,,
+geofile316,1,id,int,Geofile for: Metropolitan Statistical Area/Metropolitan Division-State-County
+geofile316,2,fileid,str,Always equal to ACS Summary File identification
+geofile316,3,stusab,str,State Postal Abbreviation
+geofile316,4,sumlevel,int,Summary Level
+geofile316,5,component,str,Geographic Component
+geofile316,6,logrecno,int,Logical Record Number
+geofile316,7,state,int,State (FIPS Code)
+geofile316,8,county,int,County of current residence
+geofile316,9,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile316,10,metdiv,int,Metropolitan Statistical Area-Metropolitan Division
+geofile316,11,memi,int,Metropolitan/Micropolitan Indicator Flag
+geofile316,12,geoid,str,Geographic Identifier
+geofile316,13,name,str,Area Name
+,,,,
+geofile332,1,id,int,Geofile for: Combined Statistical Area-CBSA
+geofile332,2,fileid,str,Always equal to ACS Summary File identification
+geofile332,3,stusab,str,State Postal Abbreviation
+geofile332,4,sumlevel,int,Summary Level
+geofile332,5,component,str,Geographic Component
+geofile332,6,logrecno,int,Logical Record Number
+geofile332,7,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile332,8,csa,int,Combined Statistical Area
+geofile332,9,geoid,str,Geographic Identifier
+geofile332,10,name,str,Area Name
+,,,,
+geofile345,1,id,int,Geofile for: State-Combined New England City and Town Area
+geofile345,2,fileid,str,Always equal to ACS Summary File identification
+geofile345,3,stusab,str,State Postal Abbreviation
+geofile345,4,sumlevel,int,Summary Level
+geofile345,5,component,str,Geographic Component
+geofile345,6,logrecno,int,Logical Record Number
+geofile345,7,state,int,State (FIPS Code)
+geofile345,8,cnecta,str,New England City and Town Combined Statistical Area
+geofile345,9,geoid,str,Geographic Identifier
+geofile345,10,name,str,Area Name
+,,,,
+geofile612,1,id,int,Geofile for: State Senate District-County
+geofile612,2,fileid,str,Always equal to ACS Summary File identification
+geofile612,3,stusab,str,State Postal Abbreviation
+geofile612,4,sumlevel,int,Summary Level
+geofile612,5,component,str,Geographic Component
+geofile612,6,logrecno,int,Logical Record Number
+geofile612,7,state,int,State (FIPS Code)
+geofile612,8,county,int,County of current residence
+geofile612,9,sldu,str,State Legislative District Upper
+geofile612,10,geoid,str,Geographic Identifier
+geofile612,11,name,str,Area Name
+,,,,
+geofile256,1,id,int,Geofile for: Specified American Indian Area5-Tribal Census Tract6
+geofile256,2,fileid,str,Always equal to ACS Summary File identification
+geofile256,3,stusab,str,State Postal Abbreviation
+geofile256,4,sumlevel,int,Summary Level
+geofile256,5,component,str,Geographic Component
+geofile256,6,logrecno,int,Logical Record Number
+geofile256,7,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile256,8,geoid,str,Geographic Identifier
+geofile256,9,name,str,Area Name
+geofile256,10,bttr,str,Tribal Tract
+,,,,
+geofile70,1,id,int,Geofile for: County Subdivision-Place/Remainder
+geofile70,2,fileid,str,Always equal to ACS Summary File identification
+geofile70,3,stusab,str,State Postal Abbreviation
+geofile70,4,sumlevel,int,Summary Level
+geofile70,5,component,str,Geographic Component
+geofile70,6,logrecno,int,Logical Record Number
+geofile70,7,state,int,State (FIPS Code)
+geofile70,8,county,int,County of current residence
+geofile70,9,cousub,int,County Subdivision (FIPS)
+geofile70,10,place,int,Place (FIPS Code)
+geofile70,11,geoid,str,Geographic Identifier
+geofile70,12,name,str,Area Name
+,,,,
+geofile336,1,id,int,Geofile for: Combined New England City and Town Area -State
+geofile336,2,fileid,str,Always equal to ACS Summary File identification
+geofile336,3,stusab,str,State Postal Abbreviation
+geofile336,4,sumlevel,int,Summary Level
+geofile336,5,component,str,Geographic Component
+geofile336,6,logrecno,int,Logical Record Number
+geofile336,7,state,int,State (FIPS Code)
+geofile336,8,cnecta,str,New England City and Town Combined Statistical Area
+geofile336,9,geoid,str,Geographic Identifier
+geofile336,10,name,str,Area Name
+,,,,
+geofile357,1,id,int,Geofile for: New England City and Town Area (NECTA)-NECTA Division-State-County
+geofile357,2,fileid,str,Always equal to ACS Summary File identification
+geofile357,3,stusab,str,State Postal Abbreviation
+geofile357,4,sumlevel,int,Summary Level
+geofile357,5,component,str,Geographic Component
+geofile357,6,logrecno,int,Logical Record Number
+geofile357,7,state,int,State (FIPS Code)
+geofile357,8,county,int,County of current residence
+geofile357,9,necta,str,New England City and Town Area
+geofile357,10,nectadiv,str,New England City and Town Area Division
+geofile357,11,geoid,str,Geographic Identifier
+geofile357,12,name,str,Area Name
+,,,,
+geofile310,1,id,int,Geofile for: CBSA
+geofile310,2,fileid,str,Always equal to ACS Summary File identification
+geofile310,3,stusab,str,State Postal Abbreviation
+geofile310,4,sumlevel,int,Summary Level
+geofile310,5,component,str,Geographic Component
+geofile310,6,logrecno,int,Logical Record Number
+geofile310,7,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile310,8,geoid,str,Geographic Identifier
+geofile310,9,name,str,Area Name
+,,,,
+geofile320,1,id,int,Geofile for: State- CBSA
+geofile320,2,fileid,str,Always equal to ACS Summary File identification
+geofile320,3,stusab,str,State Postal Abbreviation
+geofile320,4,sumlevel,int,Summary Level
+geofile320,5,component,str,Geographic Component
+geofile320,6,logrecno,int,Logical Record Number
+geofile320,7,state,int,State (FIPS Code)
+geofile320,8,cbsa,int,Metropolitan and Micropolitan Statistical Area
+geofile320,9,geoid,str,Geographic Identifier
+geofile320,10,name,str,Area Name
+,,,,
+geofile293,1,id,int,Geofile for: Specified American Indian Area (Reservation or Statistical Entity Only)-Tribal Census Tract-Tribal Block Group
+geofile293,2,fileid,str,Always equal to ACS Summary File identification
+geofile293,3,stusab,str,State Postal Abbreviation
+geofile293,4,sumlevel,int,Summary Level
+geofile293,5,component,str,Geographic Component
+geofile293,6,logrecno,int,Logical Record Number
+geofile293,7,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile293,8,aihhtli,str,American Indian Trust Land/Hawaiian Home Land Indicator
+geofile293,9,geoid,str,Geographic Identifier
+geofile293,10,name,str,Area Name
+geofile293,11,bttr,str,Tribal Tract
+geofile293,12,btbg,str,Tribal Block Group
+,,,,
+geofile550,1,id,int,Geofile for: Congressional District-American IndianArea/Alaska NativeArea/Hawaiian Home Land
+geofile550,2,fileid,str,Always equal to ACS Summary File identification
+geofile550,3,stusab,str,State Postal Abbreviation
+geofile550,4,sumlevel,int,Summary Level
+geofile550,5,component,str,Geographic Component
+geofile550,6,logrecno,int,Logical Record Number
+geofile550,7,state,int,State (FIPS Code)
+geofile550,8,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile550,9,cdcurr,int,Current Congressional District ***
+geofile550,10,geoid,str,Geographic Identifier
+geofile550,11,name,str,Area Name
+,,,,
+geofile10,1,id,int,Geofile for: United States
+geofile10,2,fileid,str,Always equal to ACS Summary File identification
+geofile10,3,stusab,str,State Postal Abbreviation
+geofile10,4,sumlevel,int,Summary Level
+geofile10,5,component,str,Geographic Component
+geofile10,6,logrecno,int,Logical Record Number
+geofile10,7,us,str,US
+geofile10,8,memi,int,Metropolitan/Micropolitan Indicator Flag
+geofile10,9,ur,str,Urban/Rural
+geofile10,10,pci,str,Principal City Indicator
+geofile10,11,geoid,str,Geographic Identifier
+geofile10,12,name,str,Area Name
+,,,,
+geofile254,1,id,int,Geofile for: American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land
+geofile254,2,fileid,str,Always equal to ACS Summary File identification
+geofile254,3,stusab,str,State Postal Abbreviation
+geofile254,4,sumlevel,int,Summary Level
+geofile254,5,component,str,Geographic Component
+geofile254,6,logrecno,int,Logical Record Number
+geofile254,7,aianhh,int,American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+geofile254,8,aihhtli,str,American Indian Trust Land/Hawaiian Home Land Indicator
+geofile254,9,geoid,str,Geographic Identifier
+geofile254,10,name,str,Area Name
+,,,,
+geofile352,1,id,int,Geofile for: New England City and Town Area-State-Principal City
+geofile352,2,fileid,str,Always equal to ACS Summary File identification
+geofile352,3,stusab,str,State Postal Abbreviation
+geofile352,4,sumlevel,int,Summary Level
+geofile352,5,component,str,Geographic Component
+geofile352,6,logrecno,int,Logical Record Number
+geofile352,7,state,int,State (FIPS Code)
+geofile352,8,place,int,Place (FIPS Code)
+geofile352,9,necta,str,New England City and Town Area
+geofile352,10,geoid,str,Geographic Identifier
+geofile352,11,name,str,Area Name
+,,,,
+geofile335,1,id,int,Geofile for: Combined New England City and Town Area
+geofile335,2,fileid,str,Always equal to ACS Summary File identification
+geofile335,3,stusab,str,State Postal Abbreviation
+geofile335,4,sumlevel,int,Summary Level
+geofile335,5,component,str,Geographic Component
+geofile335,6,logrecno,int,Logical Record Number
+geofile335,7,cnecta,str,New England City and Town Combined Statistical Area
+geofile335,8,geoid,str,Geographic Identifier
+geofile335,9,name,str,Area Name
+,,,,
+geofile50,1,id,int,Geofile for: County
+geofile50,2,fileid,str,Always equal to ACS Summary File identification
+geofile50,3,stusab,str,State Postal Abbreviation
+geofile50,4,sumlevel,int,Summary Level
+geofile50,5,component,str,Geographic Component
+geofile50,6,logrecno,int,Logical Record Number
+geofile50,7,state,int,State (FIPS Code)
+geofile50,8,county,int,County of current residence
+geofile50,9,geoid,str,Geographic Identifier
+geofile50,10,name,str,Area Name

@@ -1,19 +1,19 @@
 about:
-  access: restricted
-  remote: census
-  footnote: nll
-  grain: null
-  groups: null
-  license: ckdbl
-  processed: null
-  rights: public
-  source: null
-  space: null
-  subject: null
-  summary: American Community Survey for 2014, 5 year release
-  tags: []
-  time: '{{identity.btime}}'
-  title: 2014 5 Year ACS
+    access: restricted
+    footnote: nll
+    grain: null
+    groups: null
+    license: ckdbl
+    processed: null
+    remote: census
+    rights: public
+    source: null
+    space: null
+    subject: null
+    summary: American community release for 2014, 5 year release
+    tags: []
+    time: '{{identity.btime}}'
+    title: 2014 5 Year ACS
 contacts:
     wrangler:
         email: eric@civicknowledge.com
@@ -21,32 +21,33 @@ contacts:
         url: http://civicknowledge.com
 dependencies: {}
 external_documentation:
-  dataset:
-    description: Web page the links to the dataset description
-    source: null
-    title: 2014 ACS Home Page
-    url: https://www.census.gov/programs-surveys/acs/data/summary-file.2014.html
-  download:
-    description: Download directory for the 2014 5 year ACS.
-    source: null
-    title: Download Page
-    url: http://www2.census.gov/programs-surveys/acs/summary_file/2014/
-  technical_doc:
-    title: Technical Documentation
-    description: Primary technical documentation
-    url: http://www2.census.gov/programs-surveys/acs/summary_file/2014/documentation/tech_docs/2014_SummaryFile_Tech_Doc.pdf
-
+    dataset:
+        description: Web page the links to the dataset description
+        source: null
+        title: 2009 ACS Home Page
+        url: https://www.census.gov/programs-surveys/acs/data/summary-file.2014.html
+    download:
+        description: Download directory for the 2014 5 year ACS.
+        source: null
+        title: Download Page
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2014/
+    summary_levels:
+        description: List of all summary levels
+        url: http://www2.census.gov/acs2009_5yr/prod/Geography_Summary_Levels_and_Components.pdf
+    technical_doc:
+        title: Technical Documentation
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2014/documentation/tech_docs/2014_SummaryFile_Tech_Doc.pdf
 identity:
     btime: p5ye2014
     dataset: acs
     id: d04T
-    revision: 1
+    revision: 2
     source: census.gov
-    version: 0.0.1
+    version: 0.0.2
 names:
-    fqname: census.gov-acs-p5ye2014-0.0.1~d04T001
+    fqname: census.gov-acs-p5ye2014-0.0.2~d04T002
     name: census.gov-acs-p5ye2014
-    vid: d04T001
-    vname: census.gov-acs-p5ye2014-0.0.1
+    vid: d04T002
+    vname: census.gov-acs-p5ye2014-0.0.2
 requirements: {}
 versions: {}
