@@ -1,49 +1,53 @@
 about:
-  access: restricted
-  footnote: nll
-  grain: null
-  groups: null
-  license: ckdbl
-  processed: null
-  remote: census
-  rights: public
-  source: null
-  space: null
-  subject: null
-  summary: Tiger county and state boundaries, vintage 2015.
-  tags: []
-  time: null
-  title: Tiger County and State Boundaries
+    access: restricted
+    footnote: nll
+    grain: null
+    groups: null
+    license: ckdbl
+    processed: null
+    remote: census
+    rights: public
+    source: null
+    space: null
+    subject: null
+    summary: Tiger county and state boundaries, vintage 2015.
+    tags: []
+    time: null
+    title: Tiger County and State Boundaries
 contacts:
-  creator:
-    email: eric@civicknowledge.com
-    name: Eric Busboom
-    org: Civic Knowledge
-    url: http://civicknowledge.com
+    wrangler:
+        email: eric@civicknowledge.com
+        name: Eric Busboom
+        org: Civic Knowledge
+        url: http://civicknowledge.com
 dependencies: {}
 external_documentation:
-  dataset:
-    description: Web page that links to the dataset description
-    source: null
-    title: Dataset Page
-    url: https://www.census.gov/geo/maps-data/data/tiger-line.html
-  documentation:
-    description: Primary technical documentation
-    source: null
-    title: Technical Documentation
-    url: http://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2015/TGRSHP2015_TechDoc.pdf
+    dataset:
+        description: Web page that links to the dataset description
+        source: null
+        title: Dataset Page
+        url: https://www.census.gov/geo/maps-data/data/tiger-line.html
+    documentation:
+        description: Primary technical documentation
+        source: null
+        title: Technical Documentation
+        url: http://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2015/TGRSHP2015_TechDoc.pdf
 identity:
-  btime: '2015'
-  dataset: tiger
-  subset: statecounty
-  id: d04M
-  revision: 1
-  source: census.gov
-  version: 0.0.1
+    btime: '2015'
+    dataset: tiger
+    id: d04M
+    revision: 1
+    source: census.gov
+    subset: statecounty
+    version: 0.0.1
 names:
-  fqname: census.gov-tiger-2015-0.0.1~d04M001
-  name: census.gov-tiger-2015
-  vid: d04M001
-  vname: census.gov-tiger-2015-0.0.1
+    fqname: census.gov-tiger-statecounty-2015-0.0.1~d04M001
+    name: census.gov-tiger-statecounty-2015
+    vid: d04M001
+    vname: census.gov-tiger-statecounty-2015-0.0.1
+pipelines:
+    build:
+        last:
+        - PrintRows
 requirements: {}
 versions: {}
