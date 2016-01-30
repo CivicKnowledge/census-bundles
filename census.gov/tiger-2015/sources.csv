@@ -1,6 +1,6 @@
-name,description,filetype,reftype,ref
-counties,US County boundaries,shape,,ftp://ftp2.census.gov/geo/tiger/TIGER2015/COUNTY/tl_2015_us_county.zip
-states,US State boundaries,shape,,ftp://ftp2.census.gov/geo/tiger/TIGER2015/STATE/tl_2015_us_state.zip
-tracts,Census Tracts,,ref,ftp://ftp2.census.gov/geo/tiger/TIGER2015/TRACT/tl_2015_{state}_tract.zip
-blockgroups,Census blockgroups,,ref,ftp://ftp2.census.gov/geo/tiger/TIGER2015/BG/tl_2015_{state}_bg.zip
-places,Places,,ref,ftp://ftp2.census.gov/geo/tiger/TIGER2015/PLACE/tl_2015_{state}_place.zip
+"name","description","filetype","reftype","epsg","ref"
+"counties","US County boundaries","shape",,4239,"ftp://ftp2.census.gov/geo/tiger/TIGER2015/COUNTY/tl_2015_us_county.zip"
+"states","US State boundaries","shape",,4239,"ftp://ftp2.census.gov/geo/tiger/TIGER2015/STATE/tl_2015_us_state.zip"
+"tracts","Census Tracts",,"ref",4239,"ftp://ftp2.census.gov/geo/tiger/TIGER2015/TRACT/tl_2015_{state}_tract.zip"
+"blockgroups","Census blockgroups",,"ref",4239,"ftp://ftp2.census.gov/geo/tiger/TIGER2015/BG/tl_2015_{state}_bg.zip"
+"places","Places",,"ref",4239,"ftp://ftp2.census.gov/geo/tiger/TIGER2015/PLACE/tl_2015_{state}_place.zip"
