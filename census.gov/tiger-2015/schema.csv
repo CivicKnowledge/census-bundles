@@ -6,7 +6,7 @@
 "states","statefp","int",
 "states","statens","int",
 "states","geoid","census.CensusStateGeoid",
-"states","gvid","census.GVid","|row.geoid.gvid"
+"states","gvid","census.GVid","||row.geoid.gvid"
 "states","stusps","str",
 "states","name","str",
 "states","lsad","int",
@@ -24,7 +24,7 @@
 "counties","countyfp","int",
 "counties","countyns","int",
 "counties","geoid","census.CensusCountyGeoid",
-"counties","gvid","census.GVid","|row.geoid.gvid"
+"counties","gvid","census.GVid","||row.geoid.gvid"
 "counties","name","str",
 "counties","namelsad","str",
 "counties","lsad","int",
