@@ -1,41 +1,92 @@
-"table","column","datatype","transform"
-"places","id","int",
-"states","id","int",
-"states","region","int",
-"states","division","int",
-"states","statefp","int",
-"states","statens","int",
-"states","geoid","census.CensusStateGeoid",
-"states","gvid","census.GVid","||row.geoid.gvid"
-"states","stusps","str",
-"states","name","str",
-"states","lsad","int",
-"states","mtfcc","str",
-"states","funcstat","str",
-"states","aland","int",
-"states","awater","int",
-"states","intptlat","float",
-"states","intptlon","float",
-"states","geometry","str",
-"blockgroups","id","int",
-"tracts","id","int",
-"counties","id","int",
-"counties","statefp","int",
-"counties","countyfp","int",
-"counties","countyns","int",
-"counties","geoid","census.CensusCountyGeoid",
-"counties","gvid","census.GVid","||row.geoid.gvid"
-"counties","name","str",
-"counties","namelsad","str",
-"counties","lsad","int",
-"counties","classfp","str",
-"counties","mtfcc","str",
-"counties","csafp","int",
-"counties","cbsafp","int",
-"counties","metdivfp","int",
-"counties","funcstat","str",
-"counties","aland","int",
-"counties","awater","int",
-"counties","intptlat","float",
-"counties","intptlon","float",
-"counties","geometry","str",
+1,"table","column","datatype","transform","Description"
+2,,,,,
+3,"states","id","int",,"US States geographic shapes"
+4,"states","region","int",,"Region code"
+5,"states","division","int",,"Division code. "
+6,"states","statefp","int",,"State FIPS code"
+7,"states","statens","int",,"State GNIS code"
+8,"states","geoid","census.CensusStateGeoid",,"Geographic identifier"
+9,"states","gvid","census.GVid","||row.geoid.gvid","Civic Knowledge geographic identifier"
+10,"states","stusps","str",,"United States Postal Service state abbreviation"
+11,"states","name","str",,"State name"
+12,"states","lsad","str",,"Legal/statistical area description code"
+13,"states","mtfcc","str",,"MAF/TIGER feature class code "
+14,"states","funcstat","str",,"Functional status"
+15,"states","aland","int",,"Land area"
+16,"states","awater","int",,"Water area"
+17,"states","intptlat","float",,"Internal point, Latitude"
+18,"states","intptlon","float",,"Internal point, Longitude"
+19,"states","geometry","str",,"Geometry in WKT Format"
+20,,,,,
+21,"tracts","id","int",,"Census tracts geographic shapes"
+22,"tracts","statefp","int",,"State FIPS code"
+23,"tracts","countyfp","int",,"County FIPS code"
+24,"tracts","tractce","int",,"Tract code"
+25,"tracts","geoid","census.CensusTractGeoid",,"Geographic identifier"
+26,"tracts","gvid","census.GVid","||row.geoid.gvid","Civic Knowledge geographic identifier"
+27,"tracts","name","float",,"Tract name"
+28,"tracts","namelsad","str",,
+29,"tracts","mtfcc","str",,"MAF/TIGER feature class code "
+30,"tracts","funcstat","str",,"Functional status"
+31,"tracts","aland","int",,"Land area"
+32,"tracts","awater","int",,"Water area"
+33,"tracts","intptlat","float",,"Internal point, Latitude"
+34,"tracts","intptlon","float",,"Internal point, Longitude"
+35,"tracts","geometry","str",,"Geometry in WKT Format"
+36,,,,,
+37,"counties","id","int",,"US Counties geographic shapes"
+38,"counties","statefp","int",,"State FIPS code"
+39,"counties","countyfp","int",,"County FIPS code"
+40,"counties","countyns","int",,"County FIPS code"
+41,"counties","geoid","census.CensusCountyGeoid",,"Geographic identifier"
+42,"counties","gvid","census.GVid","||row.geoid.gvid","Civic Knowledge geographic identifier"
+43,"counties","name","str",,"County name"
+44,"counties","namelsad","str",,
+45,"counties","lsad","str",,"Legal/statistical area description code"
+46,"counties","classfp","str",,"FIPS class code"
+47,"counties","mtfcc","str",,"MAF/TIGER feature class code "
+48,"counties","csafp","int",,"Combined statistical area code"
+49,"counties","cbsafp","int",,"Metropolitan statistical area/micropolitan statistical area code"
+50,"counties","metdivfp","int",,"Metropolitan division "
+51,"counties","funcstat","str",,"Functional status"
+52,"counties","aland","int",,"Land area"
+53,"counties","awater","int",,"Water area"
+54,"counties","intptlat","float",,"Internal point, Latitude"
+55,"counties","intptlon","float",,"Internal point, Longitude"
+56,"counties","geometry","str",,"Geometry in WKT Format"
+57,,,,,
+58,"places","id","int",,"Census defined places geographic shapes"
+59,"places","statefp","int",,"State FIPS code"
+60,"places","placefp","int",,"Place FIPS code"
+61,"places","placens","int",,"Place GNIS code"
+62,"places","geoid","census.CensusPlaceGeoid",,"Geographic identifier"
+63,"places","gvid","census.GVid","||row.geoid.gvid","Civic Knowledge geographic identifier"
+64,"places","name","str",,"Place name"
+65,"places","namelsad","str",,
+66,"places","lsad","str",,"Legal/statistical area description code"
+67,"places","classfp","str",,"FIPS class code"
+68,"places","pcicbsa","str",,"Metropolitan or micropolitan statistical area principal city indicator"
+69,"places","pcinecta","str",,"New England city and town area principal city indicator"
+70,"places","mtfcc","str",,"MAF/TIGER feature class code "
+71,"places","funcstat","str",,"Functional status"
+72,"places","aland","int",,"Land area"
+73,"places","awater","int",,"Water area"
+74,"places","intptlat","float",,"Internal point, Latitude"
+75,"places","intptlon","float",,"Internal point, Longitude"
+76,"places","geometry","str",,"Geometry in WKT Format"
+77,,,,,
+78,"blockgroups","id","int",,"Census block groups geographic shapes"
+79,"blockgroups","statefp","int",,"State FIPS code"
+80,"blockgroups","countyfp","int",,"County FIPS code"
+81,"blockgroups","tractce","int",,"Tract code"
+82,"blockgroups","blkgrpce","int",,"Block group code"
+83,"blockgroups","geoid","census.CensusBlockgroupGeoid",,"Geographic identifier"
+84,"blockgroups","gvid","census.GVid","||row.geoid.gvid","Civic Knowledge geographic identifier"
+85,"blockgroups","namelsad","str",,
+86,"blockgroups","mtfcc","str",,"MAF/TIGER feature class code "
+87,"blockgroups","funcstat","str",,"Functional status"
+88,"blockgroups","aland","int",,"Land area"
+89,"blockgroups","awater","int",,"Water area"
+90,"blockgroups","intptlat","float",,"Internal point, Latitude"
+91,"blockgroups","intptlon","float",,"Internal point, Longitude"
+92,"blockgroups","geometry","str",,"Geometry in WKT Format"
