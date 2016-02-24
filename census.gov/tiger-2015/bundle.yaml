@@ -38,7 +38,7 @@ identity:
     id: d04M
     revision: 2
     source: census.gov
-    subset: statecounty
+    subset: 
     version: 0.0.2
 names:
     fqname: census.gov-tiger-statecounty-2015-0.0.2~d04M002
