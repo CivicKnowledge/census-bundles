@@ -5,42 +5,50 @@ about:
     groups: null
     license: ckdbl
     processed: null
+    remote: census
     rights: public
     source: null
     space: null
     subject: null
-    summary: Dataset Summary
+    summary: American community release for 2014, 1 year release
     tags: []
-    time: null
-    title: Dataset Title
+    time: '{{identity.btime}}'
+    title: 2014 1 Year ACS
 contacts:
     wrangler:
-        email: bob@example.com
-        name: Bob Bobson
-        url: http://example.com
-dependencies: {}
+        email: eric@civicknowledge.com
+        name: Eric Busboom
+        url: http://civicknowledge.com
+dependencies:
+    censuslib: git+https://github.com/CivicKnowledge/censuslib.git
 external_documentation:
     dataset:
         description: Web page the links to the dataset description
         source: null
-        title: Dataset Page
-        url: http://example.com
+        title: 2009 ACS Home Page
+        url: https://www.census.gov/programs-surveys/acs/data/summary-file.2014.html
     download:
-        description: Web page that links to the source files.
+        description: Download directory for the 2014 1 year ACS.
         source: null
         title: Download Page
-        url: http://example.com
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2014/
+    summary_levels:
+        description: List of all summary levels
+        url: http://www2.census.gov/acs2009_5yr/prod/Geography_Summary_Levels_and_Components.pdf
+    technical_doc:
+        title: Technical Documentation
+        url: http://www2.census.gov/programs-surveys/acs/summary_file/2014/documentation/tech_docs/2014_SummaryFile_Tech_Doc.pdf
 identity:
     btime: p1ye2014
     dataset: acs
     id: d052
-    revision: 1
+    revision: 2
     source: census.gov
-    version: 0.0.1
+    version: 0.0.2
 names:
-    fqname: census.gov-acs-p1ye2014-0.0.1~d052001
+    fqname: census.gov-acs-p1ye2014-0.0.2~d052002
     name: census.gov-acs-p1ye2014
-    vid: d052001
-    vname: census.gov-acs-p1ye2014-0.0.1
+    vid: d052002
+    vname: census.gov-acs-p1ye2014-0.0.2
 requirements: {}
 versions: {}
