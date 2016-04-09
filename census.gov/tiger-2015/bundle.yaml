@@ -38,13 +38,12 @@ identity:
     id: d04M
     revision: 2
     source: census.gov
-    subset: 
+    subset: null
     version: 0.0.2
 names:
     fqname: census.gov-tiger-statecounty-2015-0.0.2~d04M002
     name: census.gov-tiger-statecounty-2015
     vid: d04M002
     vname: census.gov-tiger-statecounty-2015-0.0.2
-
 requirements: {}
 versions: {}

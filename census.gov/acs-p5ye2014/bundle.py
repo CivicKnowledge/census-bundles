@@ -22,12 +22,11 @@ class Bundle(ACS2009Bundle):
     
         for p in self.partitions:
             
-
             rows = defaultdict(list)
             
             table_name = p.table.name
 
-            print 'Loading: ', year, release, table_name
+            self.log('Loading: {} {} {}'.format(year, release, table_name))
             p.localize()
             
             for i, row in enumerate(p):
@@ -40,11 +39,11 @@ class Bundle(ACS2009Bundle):
                 sl_rows = rows[sumlevel]
 
                 file_name = "{}/{}/{}/{}.csv".format(year, release, table_name, sumlevel)
-                print 'Writing ', i, file_name, len(sl_rows)
+                self.log('Writing {} {} {}'.format(i, file_name, len(sl_rows)))
                 
                 with s3.open(file_name, 'wb') as f:
                     w = csv.writer(f)
-                    print [ unicode(c.name) for c in p.table.columns]
+                   
                     w.writerow([ unicode(c.name) for c in p.table.columns])
                     for row in sl_rows:
                         w.writerow(row)
